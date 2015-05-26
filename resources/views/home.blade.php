@@ -13,7 +13,23 @@
 			<h1 id="page-header">
 				<strong></strong>
 			</h1>
-			<div id="chart">
+
+			<div role="tabpanel" id="tabpanel">
+
+			  <ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active">
+					<a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a>
+				</li>
+			  </ul>
+
+			  <div class="tab-content">
+				<div role="tabpanel" class="tab-pane" id="all">
+					<div id="chart">
+					</div>
+				</div>
+
+			  </div>
+
 			</div>
 		</div>
 	</div>

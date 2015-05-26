@@ -143,6 +143,7 @@ class SurveyDataSeed extends Seeder
 		OptionGroup::create( [ "option_group_name" => "By Gender" ]);
 		OptionGroup::create( [ "option_group_name" => "By City Corporation" ]);
 		OptionGroup::create( [ "option_group_name" => "By Division" ]);
+		OptionGroup::create( [ "option_group_name" => "By Area" ]);
 
 		return
 		$f2f = SurveyType::where("survey_type_name", "Face to Face")->firstOrFail();
