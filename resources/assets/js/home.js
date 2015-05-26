@@ -39,9 +39,32 @@ Home.prototype.onQuestionsListClick = function() {
 };
 
 Home.prototype.drawChart = function(response) {
+	var me = this;
 	$('#chart').empty();
-	graphcore.drawChart(response);
+	if (response.length > 0) {
+		graphcore.drawChart(response[0]);
+		$('#chart').prepend('<a href="#">' + response[0].linktext  + '</a>');
+		for (var row in response[1]) {
+			var gp = response[1][row];
+			me.makeTabPanel(gp);
+		}
+	} else {
+		graphcore.drawChart(response);
+	}
 };
+
+Home.prototype.makeTabPanel = function(row) {
+	var li =  {
+			prop: {
+				role: 'presentation',
+				elmlist: {
+					a: { role: 'tab', 'data-toggle': 'tab', text: row.linktext }
+				}
+			}
+		};
+	$('#tabpanel').append(createElement(li));
+};
+
 
 var home = new Home();
 $(function(){
