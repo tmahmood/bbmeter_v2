@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: BBMeter
+        psr4_prefix: BBMeter
+        src_path: app

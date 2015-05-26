@@ -1,0 +1,1859 @@
+{
+    "meta": {
+        "date": "Dec 2014",
+        "info": "DPR Survey Dec 21, 2014",
+        "moe": "2.2%",
+        "participants": "2000",
+		"write_path": "dec_14",
+        "scope": "Political Party & Governance Opinion Survey conducted at Dec 2014",
+		"survey_type": "CATSS"
+    },
+	"data": [{
+		"key": "Attitude toward institute - Bangladesh Military",
+		"filename": "attitude_bangladesh_military",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Governance",
+		"values": [
+			{
+				"label": "Highly satisfied",
+				"value": "73.2"
+			},
+			{
+				"label": "Somewhat satisfied",
+				"value": "19.7"
+			},
+			{
+				"label": "Neither satisfied nor dissatisfied",
+				"value": "3.2"
+			},
+			{
+				"label": "Somewhat dissatisfied",
+				"value": "1.8"
+			},
+			{
+				"label": "Highly dissatisfied",
+				"value": "1.5"
+			},
+			{
+				"label": "Never heard",
+				"value": ".1"
+			},
+			{
+				"label": "Refused",
+				"value": ".2"
+			},
+			{
+				"label": "Can't say/ Don't know",
+				"value": ".5"
+			}
+		]
+	},{
+		"key": "Attitude toward institute - Rapid Action Battalion (RAB)",
+		"filename": "attitude_rab",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Governance",
+		"values": [
+			{
+				"label": "Highly satisfied",
+				"value": "49.3"
+			},
+			{
+				"label": "Somewhat satisfied",
+				"value": "25.5"
+			},
+			{
+				"label": "Neither satisfied nor dissatisfied",
+				"value": "6.6"
+			},
+			{
+				"label": "Somewhat dissatisfied",
+				"value": "9.8"
+			},
+			{
+				"label": "Highly dissatisfied",
+				"value": "7.6"
+			},
+			{
+				"label": "Never heard",
+				"value": ".5"
+			},
+			{
+				"label": "Refused",
+				"value": ".2"
+			},
+			{
+				"label": "Can't say/ Don't know",
+				"value": ".7"
+			}
+		]
+	},{
+		"key": "Attitude toward institute - National Parliament",
+		"filename": "attitude_national_parliament",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Governance",
+		"values": [
+			{
+				"label": "Highly satisfied",
+				"value": "47.5"
+			},
+			{
+				"label": "Somewhat satisfied",
+				"value": "25.3"
+			},
+			{
+				"label": "Neither satisfied nor dissatisfied",
+				"value": "8.2"
+			},
+			{
+				"label": "Somewhat dissatisfied",
+				"value": "4.8"
+			},
+			{
+				"label": "Highly dissatisfied",
+				"value": "7.1"
+			},
+			{
+				"label": "Never heard",
+				"value": "3.2"
+			},
+			{
+				"label": "Refused",
+				"value": ".2"
+			},
+			{
+				"label": "Can't say/ Don't know",
+				"value": "3.8"
+			}
+		]
+	},{
+		"key": "Attitude toward institute - Supreme Court of Bangladesh",
+		"filename": "attitude_supreme_court",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Governance",
+		"values": [
+			{
+				"label": "Highly satisfied",
+				"value": "43.9"
+			},
+			{
+				"label": "Somewhat satisfied",
+				"value": "27.5"
+			},
+			{
+				"label": "Neither satisfied nor dissatisfied",
+				"value": "10.9"
+			},
+			{
+				"label": "Somewhat dissatisfied",
+				"value": "4.6"
+			},
+			{
+				"label": "Highly dissatisfied",
+				"value": "6.1"
+			},
+			{
+				"label": "Never heard",
+				"value": "4.1"
+			},
+			{
+				"label": "Refused",
+				"value": ".4"
+			},
+			{
+				"label": "Can't say/ Don't know",
+				"value": "2.7"
+			}
+		]
+	},{
+		"key": "Attitude toward institute - Anti Corruption Commission",
+		"filename": "attitude_anti_cc",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Governance",
+		"values": [
+			{
+				"label": "Highly satisfied",
+				"value": "37.0"
+			},
+			{
+				"label": "Somewhat satisfied",
+				"value": "27.2"
+			},
+			{
+				"label": "Neither satisfied nor dissatisfied",
+				"value": "10.5"
+			},
+			{
+				"label": "Somewhat dissatisfied",
+				"value": "7.8"
+			},
+			{
+				"label": "Highly dissatisfied",
+				"value": "10.2"
+			},
+			{
+				"label": "Never heard",
+				"value": "5.0"
+			},
+			{
+				"label": "Refused",
+				"value": ".3"
+			},
+			{
+				"label": "Can't say/ Don't know",
+				"value": "2.2"
+			}
+		]
+	},{
+		"key": "Attitude toward institute - Bangladesh Election Commission",
+		"filename": "attitude_bangladesh_ec",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Governance",
+		"values": [
+			{
+				"label": "Highly satisfied",
+				"value": "36.4"
+			},
+			{
+				"label": "Somewhat satisfied",
+				"value": "25.6"
+			},
+			{
+				"label": "Neither satisfied nor dissatisfied",
+				"value": "12.3"
+			},
+			{
+				"label": "Somewhat dissatisfied",
+				"value": "8.0"
+			},
+			{
+				"label": "Highly dissatisfied",
+				"value": "11.7"
+			},
+			{
+				"label": "Never heard",
+				"value": "3.7"
+			},
+			{
+				"label": "Refused",
+				"value": ".3"
+			},
+			{
+				"label": "Can't say/ Don't know",
+				"value": "2.2"
+			}
+		]
+	},{
+		"key": "Attitude toward institute - Police",
+		"filename": "attitude_police",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Governance",
+		"values": [
+			{
+				"label": "Highly satisfied",
+				"value": "27.3"
+			},
+			{
+				"label": "Somewhat satisfied",
+				"value": "26.9"
+			},
+			{
+				"label": "Neither satisfied nor dissatisfied",
+				"value": "7.5"
+			},
+			{
+				"label": "Somewhat dissatisfied",
+				"value": "17.1"
+			},
+			{
+				"label": "Highly dissatisfied",
+				"value": "20.7"
+			},
+			{
+				"label": "Never heard",
+				"value": ".1"
+			},
+			{
+				"label": "Refused",
+				"value": ".3"
+			},
+			{
+				"label": "Can't say/ Don't know",
+				"value": ".3"
+			}
+		]
+	},{
+		"key": "Economic situation compared to the same five years back",
+		"filename": "economic_situation_past",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Economy",
+		"values": [
+			{
+				"label": "Better off",
+				"value": "50.2"
+			},
+			{
+				"label": "Worse off",
+				"value": "31.9"
+			},
+			{
+				"label": "Stayed the same",
+				"value": "17.8"
+			},
+			{
+				"label": "Refused",
+				"value": ".1"
+			},
+			{
+				"label": "Don't Know/Can't Say",
+				"value": ".1"
+			}
+		]
+	},{
+		"key": "Economy under current government",
+		"filename": "economic_situation_current",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Economy",
+		"values": [
+			{
+				"label": "Better off",
+				"value": "56.3"
+			},
+			{
+				"label": "Worse off",
+				"value": "27.4"
+			},
+			{
+				"label": "Stayed the same",
+				"value": "14.6"
+			},
+			{
+				"label": "Refused",
+				"value": ".6"
+			},
+			{
+				"label": "Don't Know/Can't Say",
+				"value": "1.2"
+			}
+		]
+	},{
+		"key": "Attitude towards - Sheikh Hasina",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Leadership",
+		"values": [
+			{
+				"label": "Like a lot",
+				"value": "45.8"
+			},
+			{
+				"label": "Like a little",
+				"value": "20.1"
+			},
+			{
+				"label": "Neither like nor dislike",
+				"value": "7.6"
+			},
+			{
+				"label": "Dislike a little",
+				"value": "7.6"
+			},
+			{
+				"label": "Dislike   a lot",
+				"value": "17.6"
+			},
+			{
+				"label": "Never heard",
+				"value": ".2"
+			},
+			{
+				"label": "Refused",
+				"value": "1.1"
+			},
+			{
+				"label": "Can't say/Don't know",
+				"value": ".4"
+			}
+		]
+	},{
+		"key": "Attitude towards - Begum Khaleda Zia",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Leadership",
+		"values": [
+			{
+				"label": "Like a lot",
+				"value": "38.7"
+			},
+			{
+				"label": "Like a little",
+				"value": "24.4"
+			},
+			{
+				"label": "Neither like nor dislike",
+				"value": "11.5"
+			},
+			{
+				"label": "Dislike a little",
+				"value": "10.0"
+			},
+			{
+				"label": "Dislike   a lot",
+				"value": "13.7"
+			},
+			{
+				"label": "Refused",
+				"value": "1.3"
+			},
+			{
+				"label": "Can't say/Don't know",
+				"value": ".6"
+			}
+		]
+	},{
+		"key": "Attitude towards - Sajeeb Wazed Joy",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Leadership",
+		"values": [
+			{
+				"label": "Like a lot",
+				"value": "19.9"
+			},
+			{
+				"label": "Like a little",
+				"value": "21.2"
+			},
+			{
+				"label": "Neither like nor dislike",
+				"value": "15.3"
+			},
+			{
+				"label": "Dislike a little",
+				"value": "9.4"
+			},
+			{
+				"label": "Dislike   a lot",
+				"value": "11.4"
+			},
+			{
+				"label": "Never heard",
+				"value": "20.9"
+			},
+			{
+				"label": "Refused",
+				"value": ".5"
+			},
+			{
+				"label": "Can't say/Don't know",
+				"value": "1.7"
+			}
+		]
+	},{
+		"key": "Attitude towards - Begum Rowshan Ershad",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Leadership",
+		"values": [
+			{
+				"label": "Like a lot",
+				"value": "7.5"
+			},
+			{
+				"label": "Like a little",
+				"value": "23.6"
+			},
+			{
+				"label": "Neither like nor dislike",
+				"value": "22.8"
+			},
+			{
+				"label": "Dislike a little",
+				"value": "14.8"
+			},
+			{
+				"label": "Dislike   a lot",
+				"value": "16.6"
+			},
+			{
+				"label": "Never heard",
+				"value": "12.6"
+			},
+			{
+				"label": "Refused",
+				"value": ".8"
+			},
+			{
+				"label": "Can't say/Don't know",
+				"value": "1.6"
+			}
+		]
+	},{
+		"key": "Attitude towards - Syed Ashraful Islam",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Leadership",
+		"values": [
+			{
+				"label": "Like a lot",
+				"value": "11.6"
+			},
+			{
+				"label": "Like a little",
+				"value": "17.4"
+			},
+			{
+				"label": "Neither like nor dislike",
+				"value": "15.7"
+			},
+			{
+				"label": "Dislike a little",
+				"value": "10.2"
+			},
+			{
+				"label": "Dislike   a lot",
+				"value": "10.0"
+			},
+			{
+				"label": "Never heard",
+				"value": "31.6"
+			},
+			{
+				"label": "Refused",
+				"value": ".6"
+			},
+			{
+				"label": "Can't say/Don't know",
+				"value": "3.1"
+			}
+		]
+	},{
+		"key": "Attitude towards - HM Ershad",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Leadership",
+		"values": [
+			{
+				"label": "Like a lot",
+				"value": "18.1"
+			},
+			{
+				"label": "Like a little",
+				"value": "30.5"
+			},
+			{
+				"label": "Neither like nor dislike",
+				"value": "14.9"
+			},
+			{
+				"label": "Dislike a little",
+				"value": "12.8"
+			},
+			{
+				"label": "Dislike   a lot",
+				"value": "18.6"
+			},
+			{
+				"label": "Never heard",
+				"value": "4.0"
+			},
+			{
+				"label": "Refused",
+				"value": ".3"
+			},
+			{
+				"label": "Can't say/Don't know",
+				"value": "1.0"
+			}
+		]
+	},{
+		"key": " Attitude towards - Mirza Fakhrul Islam Alamgir",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Leadership",
+		"values": [
+			{
+				"label": "Like a lot",
+				"value": "21.4"
+			},
+			{
+				"label": "Like a little",
+				"value": "25.0"
+			},
+			{
+				"label": "Neither like nor dislike",
+				"value": "12.8"
+			},
+			{
+				"label": "Dislike a little",
+				"value": "9.2"
+			},
+			{
+				"label": "Dislike   a lot",
+				"value": "10.3"
+			},
+			{
+				"label": "Never heard",
+				"value": "19.3"
+			},
+			{
+				"label": "Refused",
+				"value": ".7"
+			},
+			{
+				"label": "Can't say/Don't know",
+				"value": "1.6"
+			}
+		]
+	},{
+		"key": "Attitude towards - Tareque Zia",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Leadership",
+		"values": [
+			{
+				"label": "Like a lot",
+				"value": "24.9"
+			},
+			{
+				"label": "Like a little",
+				"value": "25.6"
+			},
+			{
+				"label": "Neither like nor dislike",
+				"value": "15.8"
+			},
+			{
+				"label": "Dislike a little",
+				"value": "11.9"
+			},
+			{
+				"label": "Dislike   a lot",
+				"value": "17.3"
+			},
+			{
+				"label": "Never heard",
+				"value": "3.0"
+			},
+			{
+				"label": "Refused",
+				"value": ".6"
+			},
+			{
+				"label": "Can't say/Don't know",
+				"value": "1.1"
+			}
+		]
+	},{
+		"key": "Attitude towards - Ziauddin Ahmed Bablu",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Leadership",
+		"values": [
+			{
+				"label": "Like a lot",
+				"value": "3.7"
+			},
+			{
+				"label": "Like a little",
+				"value": "12.7"
+			},
+			{
+				"label": "Neither like nor dislike",
+				"value": "15.5"
+			},
+			{
+				"label": "Dislike a little",
+				"value": "7.8"
+			},
+			{
+				"label": "Dislike   a lot",
+				"value": "8.9"
+			},
+			{
+				"label": "Never heard",
+				"value": "46.2"
+			},
+			{
+				"label": "Refused",
+				"value": ".8"
+			},
+			{
+				"label": "Can't say/Don't know",
+				"value": "4.7"
+			}
+		]
+	},{
+		"key": "Performance - Shekikh Hasina as Prime Minister",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Leadership",
+		"values": [
+			{
+				"label": "Very good",
+				"value": "41.1"
+			},
+			{
+				"label": "Somewhat good",
+				"value": "23.9"
+			},
+			{
+				"label": "Neither good nor poor",
+				"value": "8.4"
+			},
+			{
+				"label": "Somewhat poor",
+				"value": "9.3"
+			},
+			{
+				"label": "Very poor",
+				"value": "16.1"
+			},
+			{
+				"label": "Never heard",
+				"value": ".2"
+			},
+			{
+				"label": "Refused",
+				"value": ".8"
+			},
+			{
+				"label": "Can't say/ Don't Know",
+				"value": ".5"
+			}
+		]
+	},{
+		"key": "Performance - Begum Khaleda Zia as BNP Chairperson",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Leadership",
+		"values": [
+			{
+				"label": "Very good",
+				"value": "34.2"
+			},
+			{
+				"label": "Somewhat good",
+				"value": "28.4"
+			},
+			{
+				"label": "Neither good nor poor",
+				"value": "12.8"
+			},
+			{
+				"label": "Somewhat poor",
+				"value": "12.6"
+			},
+			{
+				"label": "Very poor",
+				"value": "9.9"
+			},
+			{
+				"label": "Never heard",
+				"value": ".2"
+			},
+			{
+				"label": "Refused",
+				"value": ".7"
+			},
+			{
+				"label": "Can't say/ Don't Know",
+				"value": "1.3"
+			}
+		]
+	},{
+		"key": "Performance - Mirza Fakhrul Alamgir as BNP Secretary General",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Leadership",
+		"values": [
+			{
+				"label": "Very good",
+				"value": "21.4"
+			},
+			{
+				"label": "Somewhat good",
+				"value": "27.9"
+			},
+			{
+				"label": "Neither good nor poor",
+				"value": "15.2"
+			},
+			{
+				"label": "Somewhat poor",
+				"value": "11.4"
+			},
+			{
+				"label": "Very poor",
+				"value": "6.8"
+			},
+			{
+				"label": "Never heard",
+				"value": "15.1"
+			},
+			{
+				"label": "Refused",
+				"value": ".4"
+			},
+			{
+				"label": "Can't say/ Don't Know",
+				"value": "2.0"
+			}
+		]
+	},{
+		"key": "Performance - HM Ershad as JP President",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Leadership",
+		"values": [
+			{
+				"label": "Very good",
+				"value": "13.7"
+			},
+			{
+				"label": "Somewhat good",
+				"value": "30.0"
+			},
+			{
+				"label": "Neither good nor poor",
+				"value": "20.8"
+			},
+			{
+				"label": "Somewhat poor",
+				"value": "16.1"
+			},
+			{
+				"label": "Very poor",
+				"value": "13.6"
+			},
+			{
+				"label": "Never heard",
+				"value": "3.7"
+			},
+			{
+				"label": "Refused",
+				"value": ".4"
+			},
+			{
+				"label": "Can't say/ Don't Know",
+				"value": "1.8"
+			}
+		]
+	},{
+		"key": "Performance - Syed Asraful Islam as AL General Secretary",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Leadership",
+		"values": [
+			{
+				"label": "Very good",
+				"value": "14.7"
+			},
+			{
+				"label": "Somewhat good",
+				"value": "19.3"
+			},
+			{
+				"label": "Neither good nor poor",
+				"value": "16.6"
+			},
+			{
+				"label": "Somewhat poor",
+				"value": "12.3"
+			},
+			{
+				"label": "Very poor",
+				"value": "9.7"
+			},
+			{
+				"label": "Never heard",
+				"value": "23.2"
+			},
+			{
+				"label": "Refused",
+				"value": "1.0"
+			},
+			{
+				"label": "Can't say/ Don't Know",
+				"value": "3.4"
+			}
+		]
+	},{
+		"key": "Performance - Begum Rowshan Ershad as Leader of Opposition party",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Leadership",
+		"values": [
+			{
+				"label": "Very good",
+				"value": "7.0"
+			},
+			{
+				"label": "Somewhat good",
+				"value": "23.2"
+			},
+			{
+				"label": "Neither good nor poor",
+				"value": "25.3"
+			},
+			{
+				"label": "Somewhat poor",
+				"value": "15.5"
+			},
+			{
+				"label": "Very poor",
+				"value": "14.1"
+			},
+			{
+				"label": "Never heard",
+				"value": "11.2"
+			},
+			{
+				"label": "Refused",
+				"value": "1.1"
+			},
+			{
+				"label": "Can't say/ Don't Know",
+				"value": "2.8"
+			}
+		]
+	},{
+		"key": "Performance - Ziauddin Ahmed Bablu as JP Secretary General",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Leadership",
+		"values": [
+			{
+				"label": "Very good",
+				"value": "4.2"
+			},
+			{
+				"label": "Somewhat good",
+				"value": "14.2"
+			},
+			{
+				"label": "Neither good nor poor",
+				"value": "20.5"
+			},
+			{
+				"label": "Somewhat poor",
+				"value": "10.9"
+			},
+			{
+				"label": "Very poor",
+				"value": "7.7"
+			},
+			{
+				"label": "Never heard",
+				"value": "36.9"
+			},
+			{
+				"label": "Refused",
+				"value": ".7"
+			},
+			{
+				"label": "Can't say/ Don't Know",
+				"value": "5.1"
+			}
+		]
+	},{
+		"key": "Performance - AL as ruling party",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Parties",
+		"values": [
+			{
+				"label": "Very good",
+				"value": "33.2"
+			},
+			{
+				"label": "Somewhat good",
+				"value": "27.4"
+			},
+			{
+				"label": "Neither good nor poor",
+				"value": "12.1"
+			},
+			{
+				"label": "Somewhat poor",
+				"value": "12.4"
+			},
+			{
+				"label": "Very poor",
+				"value": "13.5"
+			},
+			{
+				"label": "Never heard",
+				"value": ".1"
+			},
+			{
+				"label": "Refused",
+				"value": ".8"
+			},
+			{
+				"label": "Can't say/ Don't Know",
+				"value": ".6"
+			}
+		]
+	},{
+		"key": "Performance - BNP as political party",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Parties",
+		"values": [
+			{
+				"label": "Very good",
+				"value": "30.3"
+			},
+			{
+				"label": "Somewhat good",
+				"value": "30.6"
+			},
+			{
+				"label": "Neither good nor poor",
+				"value": "14.6"
+			},
+			{
+				"label": "Somewhat poor",
+				"value": "12.6"
+			},
+			{
+				"label": "Very poor",
+				"value": "9.4"
+			},
+			{
+				"label": "Never heard",
+				"value": ".4"
+			},
+			{
+				"label": "Refused",
+				"value": ".7"
+			},
+			{
+				"label": "Can't say/ Don't Know",
+				"value": "1.6"
+			}
+		]
+	},{
+		"key": "Performance - JP as opposition in Parliament",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Parties",
+		"values": [
+			{
+				"label": "Very good",
+				"value": "9.9"
+			},
+			{
+				"label": "Somewhat good",
+				"value": "25.1"
+			},
+			{
+				"label": "Neither good nor poor",
+				"value": "27.6"
+			},
+			{
+				"label": "Somewhat poor",
+				"value": "17.8"
+			},
+			{
+				"label": "Very poor",
+				"value": "13.6"
+			},
+			{
+				"label": "Never heard",
+				"value": "2.7"
+			},
+			{
+				"label": "Refused",
+				"value": ".7"
+			},
+			{
+				"label": "Can't say/ Don't Know",
+				"value": "2.8"
+			}
+		]
+	},{
+		"key": "If the election were held today, which party would you likely vote for?",
+		"filename": "today_vote_for",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Participation",
+		"values": [
+			{
+				"label": "Awami League",
+				"value": "37.6"
+			},
+			{
+				"label": "BNP",
+				"value": "34.5"
+			},
+			{
+				"label": "Jatiyo Party",
+				"value": "3.8"
+			},
+			{
+				"label": "Jamaat-e-Islami",
+				"value": "2.9"
+			},
+			{
+				"label": "Mohajote",
+				"value": ".1"
+			},
+			{
+				"label": "21 party alliance",
+				"value": ".5"
+			},
+			{
+				"label": "Yet to take any decision",
+				"value": "12.3"
+			},
+			{
+				"label": "None",
+				"value": ".1"
+			},
+			{
+				"label": "Will cast No Vote",
+				"value": "2.2"
+			},
+			{
+				"label": "will not vote",
+				"value": ".4"
+			},
+			{
+				"label": "Khelafath Majlish",
+				"value": ".2"
+			},
+			{
+				"label": "Do not want to reveal",
+				"value": "5.0"
+			},
+			{
+				"label": "Can not say",
+				"value": ".7"
+			}
+		]
+	},{
+		"key": "The most important issue that political parties and leaders should focus on",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Participation",
+		"values": [
+			{
+				"label": "Rule of justice",
+				"value": "4.3"
+			},
+			{
+				"label": "Giving importance to common people",
+				"value": "7.6"
+			},
+			{
+				"label": "Corruption",
+				"value": "5.0"
+			},
+			{
+				"label": "Controlling terrorism/establish law and order",
+				"value": "7.1"
+			},
+			{
+				"label": "Controlling price hike",
+				"value": "4.0"
+			},
+			{
+				"label": "Infrastructure development",
+				"value": "5.1"
+			},
+			{
+				"label": "Strengthening administration",
+				"value": ".5"
+			},
+			{
+				"label": "Development of education system",
+				"value": "6.6"
+			},
+			{
+				"label": "Control road accident",
+				"value": ".2"
+			},
+			{
+				"label": "Reduce unemployment",
+				"value": "10.0"
+			},
+			{
+				"label": "Developing sustainable election process",
+				"value": "2.7"
+			},
+			{
+				"label": "Consensus among political parties",
+				"value": "7.7"
+			},
+			{
+				"label": "Economic development",
+				"value": "5.9"
+			},
+			{
+				"label": "Giving importance to agri sector",
+				"value": "3.1"
+			},
+			{
+				"label": "Developing export sector",
+				"value": ".1"
+			},
+			{
+				"label": "Keeping promises",
+				"value": ".2"
+			},
+			{
+				"label": "Stop Hortal",
+				"value": "1.6"
+			},
+			{
+				"label": "Fare recruitment",
+				"value": ".1"
+			},
+			{
+				"label": "Investment on business",
+				"value": ".6"
+			},
+			{
+				"label": "Empowerment of women",
+				"value": ".5"
+			},
+			{
+				"label": "Control drug",
+				"value": ".7"
+			},
+			{
+				"label": "Controlling bribe",
+				"value": ".1"
+			},
+			{
+				"label": "Reduce poverty",
+				"value": "2.3"
+			},
+			{
+				"label": "Gas sector",
+				"value": ".4"
+			},
+			{
+				"label": "Controlling population growth rate",
+				"value": ".4"
+			},
+			{
+				"label": "Construction of Padma bridge",
+				"value": ".2"
+			},
+			{
+				"label": "Controlling traffic jam",
+				"value": ".2"
+			},
+			{
+				"label": "Controlling militant",
+				"value": ".3"
+			},
+			{
+				"label": "Strong foreign policy",
+				"value": ".1"
+			},
+			{
+				"label": "Electricity",
+				"value": "2.3"
+			},
+			{
+				"label": "Garments sector",
+				"value": ".1"
+			},
+			{
+				"label": "Trial of war criminals",
+				"value": ".1"
+			},
+			{
+				"label": "Old age pension",
+				"value": ".1"
+			},
+			{
+				"label": "Giving importance to health sector",
+				"value": ".6"
+			},
+			{
+				"label": "ICT",
+				"value": ".1"
+			},
+			{
+				"label": "Financing/ credit at rural level",
+				"value": ".1"
+			},
+			{
+				"label": "Controlling flood",
+				"value": ".1"
+			},
+			{
+				"label": "Maintain forest",
+				"value": ".1"
+			},
+			{
+				"label": "Restrict child marriage",
+				"value": ".2"
+			},
+			{
+				"label": "Refused",
+				"value": "2.9"
+			},
+			{
+				"label": "Don't know/can?t say",
+				"value": "16.9"
+			}
+		]
+	},{
+		"key": "Political party that can accomplish - Improvement of electricity supply",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Participation",
+		"values": [
+			{
+				"label": "Awami League",
+				"value": "64.2"
+			},
+			{
+				"label": "BNP",
+				"value": "26.0"
+			},
+			{
+				"label": "Jatiyo Party",
+				"value": "3.2"
+			},
+			{
+				"label": "Other",
+				"value": "2.2"
+			},
+			{
+				"label": "None",
+				"value": "2.2"
+			},
+			{
+				"label": "Refused",
+				"value": ".4"
+			},
+			{
+				"label": "Don't Know/ Can't Say",
+				"value": "2.0"
+			}
+		]
+	},{
+		"key": "Political party that can accomplish - Improving roads and transportation",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR/Political Participation",
+		"values": [
+			{
+				"label": "Awami League",
+				"value": "59.8"
+			},
+			{
+				"label": "BNP",
+				"value": "27.1"
+			},
+			{
+				"label": "Jatiyo Party",
+				"value": "7.5"
+			},
+			{
+				"label": "Other",
+				"value": "1.7"
+			},
+			{
+				"label": "None",
+				"value": "2.2"
+			},
+			{
+				"label": "Refused",
+				"value": ".4"
+			},
+			{
+				"label": "Don't Know/ Can't Say",
+				"value": "1.5"
+			}
+		]
+	},{
+		"key": "Political party that can accomplish - Education system improvement",
+		"type": "DiscretBar",
+		"values": [
+			{
+				"label": "Awami League",
+				"value": "61.3"
+			},
+			{
+				"label": "BNP",
+				"value": "29.5"
+			},
+			{
+				"label": "Jatiyo Party",
+				"value": "3.4"
+			},
+			{
+				"label": "Other",
+				"value": "2.0"
+			},
+			{
+				"label": "None",
+				"value": "1.6"
+			},
+			{
+				"label": "Refused",
+				"value": ".6"
+			},
+			{
+				"label": "Don't Know/ Can't Say",
+				"value": "1.7"
+			}
+		]
+	},{
+		"key": "Political party that can accomplish - Health sector improvement",
+		"type": "DiscretBar",
+		"values": [
+			{
+				"label": "Awami League",
+				"value": "52.5"
+			},
+			{
+				"label": "BNP",
+				"value": "31.7"
+			},
+			{
+				"label": "Jatiyo Party",
+				"value": "5.6"
+			},
+			{
+				"label": "Other",
+				"value": "2.4"
+			},
+			{
+				"label": "None",
+				"value": "3.7"
+			},
+			{
+				"label": "Refused",
+				"value": ".7"
+			},
+			{
+				"label": "Don't Know/ Can't Say",
+				"value": "3.5"
+			}
+		]
+	},{
+		"key": "Political party that can accomplish - Poverty reduction",
+		"type": "DiscretBar",
+		"values": [
+			{
+				"label": "Awami League",
+				"value": "49.9"
+			},
+			{
+				"label": "BNP",
+				"value": "31.5"
+			},
+			{
+				"label": "Jatiyo Party",
+				"value": "8.0"
+			},
+			{
+				"label": "Other",
+				"value": "2.5"
+			},
+			{
+				"label": "None",
+				"value": "5.6"
+			},
+			{
+				"label": "Refused",
+				"value": ".4"
+			},
+			{
+				"label": "Don't Know/ Can't Say",
+				"value": "2.4"
+			}
+		]
+	},{
+		"key": "Political party that can accomplish - Curb terrorism",
+		"type": "DiscretBar",
+		"values": [
+			{
+				"label": "Awami League",
+				"value": "48.8"
+			},
+			{
+				"label": "BNP",
+				"value": "32.5"
+			},
+			{
+				"label": "Jatiyo Party",
+				"value": "4.9"
+			},
+			{
+				"label": "Other",
+				"value": "2.2"
+			},
+			{
+				"label": "None",
+				"value": "5.6"
+			},
+			{
+				"label": "Refused",
+				"value": ".9"
+			},
+			{
+				"label": "Don't Know/ Can't Say",
+				"value": "5.3"
+			}
+		]
+	},{
+		"key": "Political party that can accomplish - Rural development",
+		"type": "DiscretBar",
+		"values": [
+			{
+				"label": "Awami League",
+				"value": "47.0"
+			},
+			{
+				"label": "BNP",
+				"value": "31.8"
+			},
+			{
+				"label": "Jatiyo Party",
+				"value": "13.0"
+			},
+			{
+				"label": "Other",
+				"value": "2.2"
+			},
+			{
+				"label": "None",
+				"value": "2.8"
+			},
+			{
+				"label": "Refused",
+				"value": ".9"
+			},
+			{
+				"label": "Don't Know/ Can't Say",
+				"value": "2.5"
+			}
+		]
+	},{
+		"key": "Political party that can accomplish - Local job creation",
+		"type": "DiscretBar",
+		"values": [
+			{
+				"label": "Awami League",
+				"value": "48.2"
+			},
+			{
+				"label": "BNP",
+				"value": "37.5"
+			},
+			{
+				"label": "Jatiyo Party",
+				"value": "4.9"
+			},
+			{
+				"label": "Other",
+				"value": "2.1"
+			},
+			{
+				"label": "None",
+				"value": "3.9"
+			},
+			{
+				"label": "Refused",
+				"value": ".7"
+			},
+			{
+				"label": "Don't Know/ Can't Say",
+				"value": "2.8"
+			}
+		]
+	},{
+		"key": "Political party that can accomplish - Increase overseas job",
+		"type": "DiscretBar",
+		"values": [
+			{
+				"label": "Awami League",
+				"value": "42.3"
+			},
+			{
+				"label": "BNP",
+				"value": "43.5"
+			},
+			{
+				"label": "Jatiyo Party",
+				"value": "3.9"
+			},
+			{
+				"label": "Other",
+				"value": "2.3"
+			},
+			{
+				"label": "None",
+				"value": "2.9"
+			},
+			{
+				"label": "Refused",
+				"value": ".9"
+			},
+			{
+				"label": "Don't Know/ Can't Say",
+				"value": "4.3"
+			}
+		]
+	},{
+		"key": "Political party that can accomplish - Price controlling of essential commodities",
+		"type": "DiscretBar",
+		"values": [
+			{
+				"label": "Awami League",
+				"value": "37.0"
+			},
+			{
+				"label": "BNP",
+				"value": "38.7"
+			},
+			{
+				"label": "Jatiyo Party",
+				"value": "10.8"
+			},
+			{
+				"label": "Other",
+				"value": "2.8"
+			},
+			{
+				"label": "None",
+				"value": "7.7"
+			},
+			{
+				"label": "Refused",
+				"value": ".8"
+			},
+			{
+				"label": "Don't Know/ Can't Say",
+				"value": "2.4"
+			}
+		]
+	},{
+		"key": "Political party that can accomplish - Improvement of law and order situation",
+		"type": "DiscretBar",
+		"values": [
+			{
+				"label": "Awami League",
+				"value": "41.4"
+			},
+			{
+				"label": "BNP",
+				"value": "38.6"
+			},
+			{
+				"label": "Jatiyo Party",
+				"value": "5.6"
+			},
+			{
+				"label": "Other",
+				"value": "2.9"
+			},
+			{
+				"label": "None",
+				"value": "8.5"
+			},
+			{
+				"label": "Refused",
+				"value": ".5"
+			},
+			{
+				"label": "Don't Know/ Can't Say",
+				"value": "2.7"
+			}
+		]
+	},{
+		"key": "Credibility of current government",
+		"type": "DiscretBar",
+		"values": [
+			{
+				"label": "Highly credible",
+				"value": "37.6"
+			},
+			{
+				"label": "Credible",
+				"value": "23.5"
+			},
+			{
+				"label": "Less credible",
+				"value": "16.3"
+			},
+			{
+				"label": "Not credible",
+				"value": "20.1"
+			},
+			{
+				"label": "Refused",
+				"value": "1.6"
+			},
+			{
+				"label": "Don't know/can?t say",
+				"value": "1.0"
+			}
+		]
+	},{
+		"key": "Statement closer to your own opinion",
+		"filename": "statement_on_jan5_election",
+		"type": "DiscretBar",
+		"values": [
+			{
+				"label": "The January 5 election was not credible",
+				"value": "57.0"
+			},
+			{
+				"label": "The January 5 election was credible because it was conducted in line with Bangladesh?s constitution",
+				"value": "39.7"
+			},
+			{
+				"label": "Neither",
+				"value": ".8"
+			},
+			{
+				"label": "Refused",
+				"value": "1.1"
+			},
+			{
+				"label": "Don't Know/Can't Say",
+				"value": "1.5"
+			}
+		]
+	},{
+		"key": "Statement closer to your own opinion",
+		"filename": "statement_on_bnp_election_boycott",
+		"type": "DiscretBar",
+		"values": [
+			{
+				"label": "BNP was right to boycott the election",
+				"value": "42.6"
+			},
+			{
+				"label": "BNP was wrong to boycott the election",
+				"value": "52.7"
+			},
+			{
+				"label": "Neither",
+				"value": "1.0"
+			},
+			{
+				"label": "Refused",
+				"value": "1.1"
+			},
+			{
+				"label": "Don't Know/Can't Say",
+				"value": "2.8"
+			}
+		]
+	},{
+		"key": "Importance of women's involvement in politics",
+		"filename": "women_involvement_politics",
+		"type": "DiscretBar",
+		"values": [
+			{
+				"label": "Very Important",
+				"value": "39.1"
+			},
+			{
+				"label": "Important",
+				"value": "29.0"
+			},
+			{
+				"label": "Not too important",
+				"value": "11.8"
+			},
+			{
+				"label": "Not important at all",
+				"value": "19.1"
+			},
+			{
+				"label": "Refused",
+				"value": ".4"
+			},
+			{
+				"label": "Don't Know/Can't Say",
+				"value": ".7"
+			}
+		]
+	},{
+		"key": "Importance women in party leadership position",
+		"filename": "women_leadership",
+		"type": "DiscretBar",
+		"values": [
+			{
+				"label": "Very Important",
+				"value": "37.1"
+			},
+			{
+				"label": "Important",
+				"value": "31.4"
+			},
+			{
+				"label": "Not too important",
+				"value": "11.7"
+			},
+			{
+				"label": "Not important at all",
+				"value": "18.7"
+			},
+			{
+				"label": "Refused",
+				"value": ".3"
+			},
+			{
+				"label": "Don't Know/Can't Say",
+				"value": ".9"
+			}
+		]
+	},{
+		"key": "Which political party is doing the best in involving women in party leadership position?",
+		"filename": "which_party_better_woman_leadership",
+		"type": "DiscretBar",
+		"values": [
+			{
+				"label": "Awami League",
+				"value": "61.0"
+			},
+			{
+				"label": "BNP",
+				"value": "26.6"
+			},
+			{
+				"label": "Jatiyo Party",
+				"value": "2.1"
+			},
+			{
+				"label": "Jamaat-e-Islami",
+				"value": ".9"
+			},
+			{
+				"label": "Others",
+				"value": ".3"
+			},
+			{
+				"label": "None",
+				"value": "1.6"
+			},
+			{
+				"label": "Refused",
+				"value": ".7"
+			},
+			{
+				"label": "Don't know/can?t say",
+				"value": "6.9"
+			}
+		]
+	},{
+		"key": "Importance of youth involvement in politics",
+		"type": "DiscretBar",
+		"values": [
+			{
+				"label": "Very Important",
+				"value": "71.0"
+			},
+			{
+				"label": "Important",
+				"value": "18.6"
+			},
+			{
+				"label": "Not too important",
+				"value": "5.4"
+			},
+			{
+				"label": "Not important at all",
+				"value": "4.7"
+			},
+			{
+				"label": "Refused",
+				"value": ".1"
+			},
+			{
+				"label": "Don't Know/Can't Say",
+				"value": ".4"
+			}
+		]
+	}]
+}

@@ -1,0 +1,80 @@
+{
+    "meta": {
+        "date": "Dec 2014",
+        "info": "DPR Survey Dec 21, 2014",
+        "moe": "2.2%",
+        "participants": "2000",
+		"write_path": "dec_14",
+        "scope": "Political Party & Governance Opinion Survey conducted at Dec 2014",
+		"survey_type": "CATSS"
+    },
+	"data": [ {
+		"key": "Economic situation compared to the same five years back",
+		"filename": "economic_situation_past",
+		"type": "DiscretBar",
+		"group": "Poll 2014/DPR DEC 2014/Economy",
+		"values": [
+			{
+				"label": "Better off",
+				"value": "50.2"
+			},
+			{
+				"label": "Worse off",
+				"value": "31.9"
+			},
+			{
+				"label": "Stayed the same",
+				"value": "17.8"
+			},
+			{
+				"label": "Refused",
+				"value": ".1"
+			},
+			{
+				"label": "Don't Know/Can't Say",
+				"value": ".1"
+			}
+		]
+	}, {
+            "related_to": "economic_situation_past",
+			"option_group": "By Division",
+            "filename": "economic_situation_past_ct",
+            "key": "Economic situation compared to the same five years back",
+            "type": "GroupedMultiBar",
+			"group": "Poll 2014/DPR DEC 2014/Economy",
+            "values": {
+                "categories": [
+                    "Dhaka",
+                    "Chittagong",
+                    "Rajshahi",
+                    "Khulna",
+                    "Barisal",
+                    "Sylhet",
+                    "Rangpur"
+                ],
+                "data": [
+                    {
+                        "data": [ 54.5, 47.9, 48.8, 53.2, 60.9, 49.3, 34.5 ],
+                        "name": "Better off"
+                    },
+                    {
+                        "data": [ 29.7, 34.1, 29.2, 27.7, 17.3, 42.1, 42.7 ],
+                        "name": "Worse off"
+                    },
+                    {
+                        "data": [ 15.6, 17.7, 21.5, 18.6, 21.8, 8.6, 22.7 ],
+                        "name": "Stayed the same"
+                    },
+                    {
+                        "data": [ 0.2, 0.0, 0.4, 0, 0, 0, 0 ],
+                        "name": "Refused"
+                    },
+                    {
+                        "data": [ 0.0, 0.3, 0.0, 0.5, 0, 0, 0 ],
+                        "name": "Don't Know/Can't Say"
+                    }
+                ]
+            }
+        }
+	]
+}
