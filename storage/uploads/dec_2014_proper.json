@@ -43,7 +43,7 @@
 		"key": "Economy under current government",
 		"type": "GroupedMultiBar",
 		"values": {
-			"categories": [ "Dhaka", "Chittagong", "Rajshahi", "Khulna", "Barisal", "Sylhet", "Rangpur" ],
+			"categories": [ "Dhaka", "Chittagong", "Rajshahi", "Khulna", "Barisal", "Sylhet", "Rangpur"],
 			"data": [
 				{
 					"data": [ 64.4, 52.1, 48.5, 56.4, 68.2, 72.1, 32.3 ],
