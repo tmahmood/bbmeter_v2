@@ -98,6 +98,7 @@ Pie.prototype.draw = function() {
             plotBorderWidth: null,
             plotShadow: false
         },
+        title: { text: me.info },
 		credits: {
 			enabled: false,
 		},

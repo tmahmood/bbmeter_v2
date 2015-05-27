@@ -55,7 +55,7 @@ class HomeController extends Controller {
 
 		$response_data = [];
 
-		foreach ($q->options as $option){
+		foreach ($q->options as $i=>$option){
 
 			foreach ($option->responses as $response){
 
@@ -67,20 +67,25 @@ class HomeController extends Controller {
 					$response_data[$response->option_group->option_group_name]['categories'][] = $response->label;
 				}
 
-				$response_data[$response->option_group->option_group_name][$option->id]['name'] = $option->label;
-				$response_data[$response->option_group->option_group_name][$option->id]['data'][] = $response->value;
+				$response_data[$response->option_group->option_group_name]['data'][$i]['name'] = $option->label;
+				$response_data[$response->option_group->option_group_name]['data'][$i]['data'][] = (float) $response->value;
 			}
 		}
 
 		$final_response_data = [];
+		$option_groups = [];
+
 		foreach ($response_data as $ky=>$response){
 			$gd = $this->get_graph_data($q);
+			$gd['type'] = 'GroupedMultiBar';
 			$gd['values'] = $response;
 			$gd['linktext'] = $ky;
+			$gd['key'] .= " - $ky";
 			$final_response_data[] = $gd;
+			$option_groups[] = $ky;
 		}
 
-		return [ $gdata, $final_response_data ];
+		return [ $gdata, $final_response_data, $option_groups ];
 	}
 
  	function get_graph_data($q)

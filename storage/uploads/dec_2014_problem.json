@@ -1,0 +1,76 @@
+{
+    "meta": {
+        "date": "Dec 2014",
+        "info": "DPR Survey Dec 21, 2014",
+        "moe": "2.2%",
+        "participants": "2000",
+		"write_path": "dec_14",
+        "scope": "Political Party & Governance Opinion Survey conducted at Dec 2014",
+		"survey_type": "CATSS"
+    },
+	"data" : [ {
+			"group": "Poll 2014/DPR DEC 2014/Governance",
+            "filename": "main_problem",
+            "key": "Problems Bangladeshis are concerned about",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Political", "value": 22 },
+                { "label": "Unemployment", "value": 13 },
+                { "label": "Population Growth", "value": 8 },
+                { "label": "High price of commodity product", "value": 8 },
+                { "label": "Electricity", "value": 6 },
+                { "label": "Corruption", "value": 5 },
+                { "label": "No problem", "value": 5 },
+                { "label": "Don't Know/ Not Sure", "value": 4 }
+            ]
+        }, {
+            "filename": "main_problem_division_wise",
+            "key": "Politics is the main problem seen by Divisions",
+			"group": "Poll 2014/DPR DEC 2014/Governance",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Barisal", "value": 37 },
+                { "label": "Rangpur", "value": 30 },
+                { "label": "Khulna", "value": 25 },
+                { "label": "Dhaka", "value": 24 },
+                { "label": "Sylhet", "value": 21 },
+                { "label": "Rajshahi", "value": 20 },
+                { "label": "Chittagong", "value": 17 }
+            ]
+        }, {
+			"related_to": "main_problem",
+			"option_group": "By Area",
+			"group": "Poll 2014/DPR DEC 2014/Governance",
+            "filename": "main_problem_area_wise",
+            "key": "Problems Bangladeshis are concerned about Areawise",
+            "type": "GroupedMultiBar",
+            "values": {
+                "categories": [ "Urban", "Rural" ],
+                "data": [
+                    {
+                        "data": [ 32.0, 20.0 ],
+                        "name": "Political"
+                    }, {
+                        "data": [ 13.0, 13.0 ],
+                        "name": "Unemployment"
+                    }, {
+                        "data": [ 7.0, 5.0 ],
+                        "name": "Corruption"
+                    }, {
+                        "data": [ 6.0, 9.0 ],
+                        "name": "Population Growth"
+                    }, {
+                        "data": [ 5.0, 8.0 ],
+                        "name": "High price of commodity product"
+                    }, {
+                        "data": [ 2.0, 7.0 ],
+                        "name": "Electricity"
+                    }, {
+                        "data": [ 1.0, 6.0 ],
+                        "name": "No problem"
+                    }
+                ]
+            }
+        }
+	]
+}

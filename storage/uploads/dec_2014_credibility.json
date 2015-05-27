@@ -1,0 +1,62 @@
+{
+    "meta": {
+        "date": "Dec 2014",
+        "info": "DPR Survey Dec 21, 2014",
+        "moe": "2.2%",
+        "participants": "2000",
+		"write_path": "dec_14",
+        "scope": "Political Party & Governance Opinion Survey conducted at Dec 2014",
+		"survey_type": "CATSS"
+    },
+	"data": [{
+			"key": "Credibility of current government",
+			"filename": "credibility_of_current_government",
+			"group": "Poll 2014/DPR DEC 2014/Governance",
+			"type": "DiscretBar",
+			"values": [
+				{ "label": "Highly credible", "value": "37.6" },
+				{ "label": "Credible", "value": "23.5" },
+				{ "label": "Less credible", "value": "16.3" },
+				{ "label": "Not credible", "value": "20.1" },
+				{ "label": "Refused", "value": "1.6" },
+				{ "label": "Don't know/can?t say", "value": "1.0" }
+			]
+		}, {
+			"related_to": "credibility_of_current_government",
+			"option_group": "By Division",
+			"group": "Poll 2014/DPR DEC 2014/Governance",
+            "filename": "credibility_divisionwise",
+            "key": "Credibility of current government",
+            "type": "GroupedMultiBar",
+            "values": {
+                "categories": [ "Dhaka", "Chittagong", "Rajshahi", "Khulna", "Barisal", "Sylhet", "Rangpur" ],
+                "data": [
+                    {
+                        "data": [ 40.6, 42.3, 43.1, 43.2, 32.7, 29.3, 15.9 ],
+                        "name": "Highly credible"
+                    },
+                    {
+                        "data": [ 25.8, 19.7, 15.4, 26.8, 31.8, 35.0, 18.2 ],
+                        "name": "Credible"
+                    },
+                    {
+                        "data": [ 13.6, 15.1, 13.8, 10.9, 26.4, 15.7, 30.0 ],
+                        "name": "Less credible"
+                    },
+                    {
+                        "data": [ 16.5, 21.8, 26.2, 15.5, 9.1, 17.9, 32.3 ],
+                        "name": "Not credible"
+                    },
+                    {
+                        "data": [ 2.0, 0.8, 1.2, 2.7, 0.0, 1.4, 1.8 ],
+                        "name": "Refused"
+                    },
+                    {
+                        "data": [ 1.5, 0.3, 0.4, 0.9, 0.0, 0.7, 1.8 ],
+                        "name": "Don't know/can?t say"
+                    }
+                ]
+            }
+        }
+	]
+}

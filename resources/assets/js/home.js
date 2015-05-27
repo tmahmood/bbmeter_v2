@@ -1,5 +1,6 @@
 function Home(opts) {
 	this.opts = opts == null ?  opts : {};
+	this.current_response = null;
 }
 
 Home.prototype.onQuestionLinkClick = function() {
@@ -9,6 +10,26 @@ Home.prototype.onQuestionLinkClick = function() {
 		$.get(this.href, me.makeList);
 	});
 };
+
+Home.prototype.onChartDisplayClick = function() {
+	var me = this;
+	$(document).on('click', '.chartToDisplay', function(ev){
+		ev.preventDefault();
+
+		$('.btn-primary').addClass('btn-default').removeClass('btn-primary');
+		$(this).addClass('btn-primary');
+		$('#chart').empty();
+
+		var indx = this.href.split('#')[1];
+
+		if (indx == 'main') {
+			graphcore.drawChart(me.current_response[0]);
+		} else {
+			graphcore.drawChart(me.current_response[1][indx * 1]);
+		}
+	});
+};
+
 
 Home.prototype.makeList = function(response) {
 
@@ -34,35 +55,38 @@ Home.prototype.onQuestionsListClick = function() {
 	var me = this;
 	$(document).on('click', '.question_link', function(ev){
 		ev.preventDefault();
-		$.get(this.href, me.drawChart);
+		$.get(this.href, function(response) {
+			me.current_response = response;
+			me.drawChart(response, me);
+		});
 	});
 };
 
-Home.prototype.drawChart = function(response) {
-	var me = this;
+Home.prototype.drawChart = function(response, me) {
 	$('#chart').empty();
-	if (response.length > 0) {
+	if (response.length != undefined) {
 		graphcore.drawChart(response[0]);
-		$('#chart').prepend('<a href="#">' + response[0].linktext  + '</a>');
-		for (var row in response[1]) {
-			var gp = response[1][row];
-			me.makeTabPanel(gp);
-		}
+		var nav = me.makeDropDownList(response[2]);
+		$('#optionGroups').empty().append(createElement(nav));
 	} else {
 		graphcore.drawChart(response);
+		$('#optionGroups').empty();
 	}
 };
 
-Home.prototype.makeTabPanel = function(row) {
-	var li =  {
-			prop: {
-				role: 'presentation',
-				elmlist: {
-					a: { role: 'tab', 'data-toggle': 'tab', text: row.linktext }
-				}
+Home.prototype.makeDropDownList = function(option_groups) {
+	var ul = {
+				el: 'div', cl: "btn-group", attr: { role: "group", "aria-label": "..." },
+				elmlist: [
+					{ el: 'a', cl:"btn btn-primary chartToDisplay", text: 'National', attr: { href: "#main" } }
+				]
 			}
-		};
-	$('#tabpanel').append(createElement(li));
+
+	for (var r in option_groups) {
+		var option_group = option_groups[r];
+		ul.elmlist.push( { el: 'a', cl:"btn btn-default chartToDisplay", text: option_group, attr: { href: "#" + r } } );
+	}
+	return ul;
 };
 
 
@@ -70,5 +94,6 @@ var home = new Home();
 $(function(){
 	home.onQuestionLinkClick();
 	home.onQuestionsListClick();
+	home.onChartDisplayClick();
 });
 

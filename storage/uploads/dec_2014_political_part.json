@@ -1,0 +1,96 @@
+{
+    "meta": {
+        "date": "Dec 2014",
+        "info": "DPR Survey Dec 21, 2014",
+        "moe": "2.2%",
+        "participants": "2000",
+		"write_path": "dec_14",
+        "scope": "Political Party & Governance Opinion Survey conducted at Dec 2014",
+		"survey_type": "CATSS"
+    },
+	"data" : [ {
+			"group": "Poll 2014/DPR DEC 2014/Political Participation",
+            "filename": "democracy_meaning",
+            "key": "Ability to provide a definition of democracy",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Able", "value": 67 },
+                { "label": "Unable", "value": 33 }
+            ]
+        }, {
+            "filename": "understanding_democracy",
+            "key": "People's understanding of democracy",
+			"group": "Poll 2014/DPR DEC 2014/Political Participation",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Giving importance to the opinion of common people", "value": 27 },
+                { "label": "Freedom of speech", "value": 14 },
+                { "label": "Fair voting/election", "value": 12 },
+                { "label": "Establish rights of common people", "value": 11 },
+                { "label": "Rule of law", "value": 5 }
+            ]
+        }, {
+			"group": "Poll 2014/DPR DEC 2014/Political Participation",
+			"key": "Importance of women's involvement in politics",
+			"filename": "women_involvement_politics",
+			"type": "DiscretBar",
+			"values": [
+				{ "label": "Very Important", "value": "39.1" },
+				{ "label": "Important", "value": "29.0" },
+				{ "label": "Not too important", "value": "11.8" },
+				{ "label": "Not important at all", "value": "19.1" },
+				{ "label": "Refused", "value": ".4" },
+				{ "label": "Don't Know/Can't Say", "value": ".7" }
+			]
+		}, {
+			"related_to": "women_involvement_politics",
+			"option_group": "By Gender",
+			"group": "Poll 2014/DPR DEC 2014/Political Participation",
+            "filename": "importance_of_women_in_politics",
+            "key": "Importance of women's involvement in politics",
+            "type": "GroupedMultiBar",
+            "values": {
+                "categories": [ "Male", "Female" ],
+                "data": [
+                    { "data": [ 40.0, 38.2 ], "name": "Very Important" },
+                    { "data": [ 22.5, 35.5 ], "name": "Important" },
+                    { "data": [ 9.9, 13.7 ], "name": "Not too important" },
+                    { "data": [ 26.5, 11.7 ], "name": "Not important at all" },
+                    { "data": [ 0.5, 0.2 ], "name": "Refused" }
+                ]
+            }
+        }, {
+			"group": "Poll 2014/DPR DEC 2014/Political Participation",
+            "filename": "women_leadership",
+            "key": "Women in party leadership",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Important", "value": 69 },
+                { "label": "Not Important", "value": 30 },
+                { "label": "Don't know/Can't say/Refused", "value": 1 }
+            ]
+        }, {
+			"group": "Poll 2014/DPR DEC 2014/Political Participation",
+            "filename": "involving_women_in_leadership",
+            "key": "Work to involve women in party leadership position",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "AL", "value": 61 },
+                { "label": "BNP", "value": 27 },
+                { "label": "Don't know/Cant't say/Refused", "value": 8 },
+                { "label": "JP", "value": 2 },
+                { "label": "Jammat-e-Islami", "value": 1 }
+            ]
+        },  {
+			"group": "Poll 2014/DPR DEC 2014/Political Participation",
+            "filename": "youth_paricipantion",
+            "key": "Youth participation in politics",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Net Important", "value": 90 },
+                { "label": "Net Not Important", "value": 10 }
+            ]
+        }
+	]
+}
+

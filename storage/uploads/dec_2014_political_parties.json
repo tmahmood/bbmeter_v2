@@ -1,0 +1,128 @@
+{
+    "meta": {
+        "date": "Dec 2014",
+        "info": "DPR Survey Dec 21, 2014",
+        "moe": "2.2%",
+        "participants": "2000",
+		"write_path": "dec_14",
+        "scope": "Political Party & Governance Opinion Survey conducted at Dec 2014",
+		"survey_type": "CATSS"
+    },
+	"data" : [ {
+		"group": "Poll 2014/DPR DEC 2014/Political Parties",
+		"filename": "voting_preference",
+		"key": "Voting Preference",
+		"type": "DiscretBar",
+		"values": [
+				{ "label": "Awami League", "value": "37.6" },
+				{ "label": "BNP", "value": "34.5" },
+				{ "label": "Jatiyo Party", "value": "3.8" },
+				{ "label": "Jamaat-e-Islami", "value": "2.9" },
+				{ "label": "Mohajote", "value": ".1" },
+				{ "label": "21 party alliance", "value": ".5" },
+				{ "label": "Yet to take any decision", "value": "12.3" },
+				{ "label": "None", "value": ".1" },
+				{ "label": "Will cast No Vote", "value": "2.2" },
+				{ "label": "will not vote", "value": ".4" },
+				{ "label": "Khelafath Majlish", "value": ".2" },
+				{ "label": "Do not want to reveal", "value": "5.0" },
+				{ "label": "Can not say", "value": ".7" }
+			]
+		}, {
+			"related_to": "voting_preference",
+            "filename": "voting_preference_area_wise",
+			"option_group": "By Area",
+            "key": "Voting Preference",
+			"group": "Poll 2014/DPR DEC 2014/Political Parties",
+            "type": "GroupedMultiBar",
+            "values": {
+                "categories": [ "Urban", "Rural" ],
+                "data": [
+                    { "data": [ 32.8, 39.1 ], "name": "Awami League" },
+                    { "data": [ 35.1, 34.2 ], "name": "BNP" },
+                    { "data": [ 4.3, 3.7 ], "name": "Jatiyo Party" },
+                    { "data": [ 0.9, 3.5 ], "name": "Jamaat-e-Islami" },
+                    { "data": [ 0.2, 0.1 ], "name": "Mohajote" },
+                    { "data": [ 0.6, 0.4 ], "name": "21 party alliance" },
+                    { "data": [ 14.0, 11.8 ], "name": "Yet to take any decision" },
+                    { "data": [ 0.2, 0.1 ], "name": "None" },
+                    { "data": [ 3.6, 1.7 ], "name": "Will cast No Vote" },
+                    { "data": [ 1.3, 0.1 ], "name": "will not vote" },
+                    { "data": [ 0.2, 0.2 ], "name": "Khelafath Majlish" },
+                    { "data": [ 6.6, 4.4 ], "name": "Do not want to reveal" },
+                    { "data": [ 0.2, 0.8 ], "name": "Can not say" }
+                ]
+            }
+        }, {
+			"related_to": "voting_preference",
+            "filename": "voting_preference_gender_wise",
+			"option_group": "By Gender",
+            "key": "Voting Preference",
+			"group": "Poll 2014/DPR DEC 2014/Political Parties",
+            "type": "GroupedMultiBar",
+            "values": {
+				"categories": [ "Male", "Female" ],
+                "data": [
+                    { "data": [ 40.9, 34.3 ], "name": "Awami League" },
+                    { "data": [ 33.1, 35.8 ], "name": "BNP" },
+                    { "data": [ 4.9, 2.7 ], "name": "Jatiyo Party" },
+                    { "data": [ 3.3, 2.4 ], "name": "Jamaat-e-Islami" },
+                    { "data": [ 0.1, 0.1 ], "name": "Mohajote" },
+                    { "data": [ 0.6, 0.3 ], "name": "21 party alliance" },
+                    { "data": [ 9.8, 14.8 ], "name": "Yet to take any decision" },
+                    { "data": [ 0.0, 0.2 ], "name": "None" },
+                    { "data": [ 1.8, 2.5 ], "name": "Will cast No Vote" },
+                    { "data": [ 0.3, 0.5 ], "name": "will not vote" },
+                    { "data": [ 0.3, 0.1 ], "name": "Khelafath Majlish" },
+                    { "data": [ 4.6, 5.3 ], "name": "Do not want to reveal" },
+                    { "data": [ 0.3, 1.0 ], "name": "Can not say" }
+                ]
+            }
+        }, {
+			"related_to": "voting_preference",
+			"option_group": "By Age Group",
+            "filename": "voting_preference_age_wise",
+            "key": "Voting Preference",
+			"group": "Poll 2014/DPR DEC 2014/Political Parties",
+            "type": "GroupedMultiBar",
+            "values": {
+                "categories": [
+                    "18-25 Age",
+                    "26-35 Age",
+                    "36-45 Age",
+                    "46-55 Age",
+                    "56-65 Age",
+                    "66+ Age"
+                ],
+                "data": [
+                    { "data": [ 34.0, 37.3, 37.9, 37.5, 45.7, 47.3 ], "name": "Awami League" },
+                    { "data": [ 40.2, 35.0, 33.3, 30.1, 26.4, 28.4 ], "name": "BNP" },
+                    { "data": [ 3.1, 3.2, 4.8, 3.5, 5.0, 6.8 ], "name": "Jatiyo Party" },
+                    { "data": [ 2.7, 3.2, 2.9, 2.7, 2.9, 1.4 ], "name": "Jamaat-e-Islami" },
+                    { "data": [ 0.0, 0.0, 0.2, 0.4, 0.0, 0.0 ], "name": "Mohajote" },
+                    { "data": [ 0.2, 0.3, 0.7, 0.8, 0.7, 0.0 ], "name": "21 party alliance" },
+                    { "data": [ 10.8, 13.9, 11.3, 12.7, 12.9, 12.2 ], "name": "Yet to take any decision" },
+                    { "data": [ 0.0, 0.0, 0.5, 0.0, 0.0, 0.0 ], "name": "None" },
+                    { "data": [ 4.8, 1.8, 1.2, 1.5, 0.0, 0.0 ], "name": "Will cast No Vote" },
+                    { "data": [ 0.8, 0.0, 0.2, 1.2, 0.0, 0.0 ], "name": "will not vote" },
+                    { "data": [ 0.2, 0.3, 0.0, 0.4, 0.0, 0.0 ], "name": "Khelafath Majlish" },
+                    { "data": [ 2.7, 4.8, 5.5, 8.1, 6.4, 4.1 ], "name": "Do not want to reveal" },
+                    { "data": [ 0.4, 0.3, 1.4, 1.2, 0.0, 0.0 ], "name": "Can not say" }
+                ]
+            }
+        }, {
+			"key": "Political Issues on which parties and leaders should focus",
+			"type": "DiscretBar",
+			"group": "Poll 2014/DPR DEC 2014/Political Parties",
+            "filename": "most_important_issue",
+			"values": [
+				{ "label": "Reduce unemployment", "value": "20.0" },
+				{ "label": "Don't know/can't say", "value": "17" },
+				{ "label": "Controlling terrorism/establish law and order", "value": "16" },
+				{ "label": "Giving importance to common people", "value": "10" },
+				{ "label": "Consensus among political parties", "value": "8" },
+				{ "label": "Development of education system", "value": "7" }
+			]
+		}
+	]
+}

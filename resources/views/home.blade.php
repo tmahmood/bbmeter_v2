@@ -8,29 +8,19 @@
 <div class="container-fluid">
 	<div class="row">
 		<div>@include('partials.sidebar', [ 'groups' => $groups ])</div>
+
 		<div id="questions_list"></div>
+
 		<div id="graph_content">
+
 			<h1 id="page-header">
-				<strong></strong>
+				<strong>Please select question from the side bar</strong>
 			</h1>
 
-			<div role="tabpanel" id="tabpanel">
+			<div id="chart"></div>
 
-			  <ul class="nav nav-tabs" role="tablist">
-				<li role="presentation" class="active">
-					<a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a>
-				</li>
-			  </ul>
+			<div id="optionGroups"></div>
 
-			  <div class="tab-content">
-				<div role="tabpanel" class="tab-pane" id="all">
-					<div id="chart">
-					</div>
-				</div>
-
-			  </div>
-
-			</div>
 		</div>
 	</div>
 </div>

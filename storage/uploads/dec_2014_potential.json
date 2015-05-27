@@ -1,0 +1,59 @@
+{
+    "meta": {
+        "date": "Dec 2014",
+        "info": "DPR Survey Dec 21, 2014",
+        "moe": "2.2%",
+        "participants": "2000",
+		"write_path": "dec_14",
+        "scope": "Political Party & Governance Opinion Survey conducted at Dec 2014",
+		"survey_type": "CATSS"
+    },
+	"data" : [
+        {
+            "filename": "highest_potential",
+            "key": "Views on econoic area that have the greatest potential",
+			"group": "Poll 2014/DPR DEC 2014/Economy",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Agriculture", "value": 24 },
+                { "label": "Education", "value": 21 },
+                { "label": "Don't Know/Not Sure", "value": 15 },
+                { "label": "Ready Made Garments (RMG)", "value": 9 },
+                { "label": "Infrastructure", "value": 5 },
+                { "label": "Manufacturing Industry", "value": 4 }
+            ]
+        }, {
+			"related_to": "highest_potential",
+            "filename": "highest_potential",
+			"group": "Poll 2014/DPR DEC 2014/Economy",
+			"option_group": "By Area",
+            "key": "Views on highest potential by area",
+            "type": "GroupedMultiBar",
+            "values": {
+                "categories": [ "Urban", "Rural" ],
+                "data": [
+                    { "data": [ 23.0, 20.0 ], "name": "Education" },
+                    { "data": [ 13.0, 27.0 ], "name": "Agriculture" },
+                    { "data": [ 12.0, 8.0 ], "name": "Ready Made Garments (RMG)" },
+                    { "data": [ 7.0, 5.0 ], "name": "Infrastructure" },
+                    { "data": [ 6.0, 4.0 ], "name": "Manufacturing Industry" },
+                    { "data": [ 0, 0 ], "name": "Don't Know/Not Sure" }
+                ]
+            }
+        }, {
+            "filename": "highest_potential_division_wise",
+            "key": "Agriculture viewed as the highest potential by divisions",
+            "type": "DiscretBar",
+			"group": "Poll 2014/DPR DEC 2014/Economy",
+            "values": [
+                { "label": "Sylhet", "value": 41 },
+                { "label": "Rangpur", "value": 40 },
+                { "label": "Rajshahi", "value": 34 },
+                { "label": "Dhaka", "value": 21 },
+                { "label": "Barisal", "value": 20 },
+                { "label": "Khulna", "value": 14 },
+                { "label": "Chittagong", "value": 13 }
+            ]
+        }
+	]
+}
