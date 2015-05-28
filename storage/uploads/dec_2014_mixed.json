@@ -1,7 +1,96 @@
+{
+    "meta": {
+        "date": "Dec 2014",
+        "info": "DPR Survey Dec 21, 2014",
+        "moe": "2.2%",
+        "participants": "2000",
+		"write_path": "dec_14",
+        "scope": "Political Party & Governance Opinion Survey conducted at Dec 2014",
+		"survey_type": "CATSS"
+    },
+	"data": [
 		{
 			"key": "Perception on parties ability to solve issues Bangladesh faceing",
-			"type": "DiscretBar",
+			"type": "GroupedMultiBar",
 			"group": "Poll 2014/DPR DEC 2014/Political Parties",
-            "filename": "most_important_issue",
-			"values": [ ]
+			"filename": "parties_ability_solving_most_important_issue",
+			"option_group": "Political Parties",
+			"values": {
+				"categories": [ "Awami League", "BNP", "Jatiya Party" ],
+				"data": [
+				{
+					"name":"Improvement of electricity supply",
+					"data": [64, 26,3]
+				},
+				{
+					"name": "Improving roads and transportation",
+					"data": [ 60, 27, 7 ]
+				},
+				{
+					"name": "Education system improvement",
+					"data": [ 61, 29, 3]
+				},
+				{
+					"name": "Health sector improvement",
+					"data": [ 53, 32, 6]
+				},
+				{
+					"name": "Poverty reduction",
+					"data": [ 50, 31, 8 ]
+				},
+				{
+					"name": "Curb terrorism",
+					"data": [ 49, 33, 5]
+				}
+				]
+			}
+		}, {
+			"key": "Parties solving other minor problems",
+			"type": "GroupedMultiBar",
+			"group": "Poll 2014/DPR DEC 2014/Political Parties",
+			"filename": "parties_ability_solving_minor_problems",
+			"option_group": "Political Parties",
+			"values": { "categories": [ "Awami League", "BNP", "Jatiya Party" ],
+				"data": [
+				{ "name":"Rural development", "data": [47, 32, 13] },
+				{ "name": "Local job creation", "data": [48, 38, 5] },
+				{ "name": "Increase overseas job", "data": [42, 44, 4] },
+				{ "name": "Price controlling of essential commodities", "data": [37, 39, 11] },
+				{ "name": "Improvement of law and order situation", "data": [41, 39, 6] }
+				]
+			}
+		}, {
+			"key": "Likability of major party leaders",
+			"type": "GroupedMultiBar",
+			"group": "Poll 2014/DPR DEC 2014/Political Leadership",
+			"filename": "leaders_likability",
+			"option_group": "Political Leaders",
+			"values": { "categories": [ "Sheikh Hasina", "Begum Khaleda Zia",
+				"Tareque Zia", "HM Ershad", "Mirza Fakhrul Islam Alamgir",
+				"Sajeeb Wazed Joy", "Begum Rowshan Ershad", "Syed Ashraful Islam",
+				"Ziauddin Ahmed Bablu" ],
+				"data": [
+					{ "name": "Net Like", 	 "data": [66, 63, 51, 49, 46, 41, 31, 29, 16] },
+					{ "name": "Net Dislike", "data": [25, 24, 29, 31, 20, 21, 20, 17,  0] },
+					{ "name": "Never Heard", "data": [ 0,  0,  3,  4, 19, 21, 13, 32, 47] }
+				]
+			}
+		}, {
+			"key": "Satisfaction with key institutions",
+			"type": "GroupedMultiBar",
+			"group": "Poll 2014/DPR DEC 2014/Governance",
+			"filename": "satisfied_with_key_institute",
+			"option_group": "Institute",
+			"values": { "categories": [ "Bangladesh Military", "Rapid Action Battalion (RAB)",
+				"National Parliament", "Supreme Court of Bangladesh",
+				"Anti Corruption Commission", "Bangladesh Election Commission",
+				"Police" ],
+				"data": [
+					{ "name": "Net Satisfied", "data": 		[93, 75, 73, 71, 64, 62, 54] },
+					{ "name": "Net Dissatisfied", "data":  	[ 3, 17, 12, 11, 18, 20, 38] },
+					{ "name": "Never Heard", "data": 		[ 0,  1,  3,  4,  5,  4,  0] }
+				]
+			}
 		}
+	]
+}

@@ -11,7 +11,7 @@
 	"data": [{
 		"key": "Economy under current government",
 		"filename": "economic_situation_now",
-		"group": "Poll 2014/DPR DEC 2014/Economy",
+		"group": "Poll 2014/DPR DEC/Economy",
 		"type": "DiscretBar",
 		"values": [
 			{
@@ -70,7 +70,7 @@
 	}, {
 		"related_to": "economic_situation_now",
 		"option_group": "By Area",
-		"group": "Poll 2014/DPR DEC 2014/Economy",
+		"group": "Poll 2014/DPR DEC/Economy",
 		"filename": "economic_situation_now_areawise",
 		"key": "By Area - Economy under current government",
 		"type": "GroupedMultiBar",
@@ -102,7 +102,7 @@
 	}, {
 		"related_to": "economic_situation_now",
 		"option_group": "By Gender",
-		"group": "Poll 2014/DPR DEC 2014/Economy",
+		"group": "Poll 2014/DPR DEC/Economy",
 		"filename": "economic_situation_now_genderwise",
 		"key": "By Area - Economy under current government",
 		"type": "GroupedMultiBar",
@@ -135,7 +135,7 @@
 		"key": "Economic situation compared to the same five years back",
 		"filename": "economic_situation_past",
 		"type": "DiscretBar",
-		"group": "Poll 2014/DPR DEC 2014/Economy",
+		"group": "Poll 2014/DPR DEC/Economy",
 		"values": [
 			{
 				"label": "Better off",
@@ -161,7 +161,7 @@
 	}, {
             "related_to": "economic_situation_past",
 			"option_group": "By Division",
-			"group": "Poll 2014/DPR DEC 2014/Economy",
+			"group": "Poll 2014/DPR DEC/Economy",
             "filename": "economic_situation_past_ct",
             "key": "Economic situation compared to the same five years back",
             "type": "GroupedMultiBar",

@@ -45,38 +45,53 @@ class SurveyGroupCreator extends Seeder
 		SurveyType::create([ "survey_type_name" => "Face to Face" ]);
 		SurveyType::create([ "survey_type_name" => "CATSS" ]);
 
-		// [ 'group_name' => 'Poll 2015', 'children' => [
-		// 		[ "group_name" => "City Corporation", "children"  => [
-		// 				[ "group_name" => "Governance" ],
-		// 				[ "group_name" => "Service Delivery" ],
-		// 				[ "group_name" => "Election", "children"  => [
-		// 							[ "group_name" => "General" ],
-		// 							[ "group_name" => "Campaign" ],
-		// 							[ "group_name" => "Candidates" ],
-		// 							[ "group_name" => "Voting Behavior" ],
-		// 							[ "group_name" => "Election Commision" ]
-		// 						],
-		// 					],
-		// 				[ "group_name" => "Media Habit" ] ,
-		// 				[ "group_name" => "Party Survey" ] ,
-		// 				[ "group_name" => "Political Party and Violence" ] ,
-		// 				[ "group_name" => "Political Participation" ]
-		// 			],
-		// 		],
-		// 	]
-		// ]
+		$cceg = [
+					[ "group_name" => "Governance" ],
+					[ "group_name" => "Service Delivery" ],
+					[ "group_name" => "Election", "children"  => [
+								[ "group_name" => "General" ],
+								[ "group_name" => "Campaign" ],
+								[ "group_name" => "Candidates" ],
+								[ "group_name" => "Voting Behavior" ],
+								[ "group_name" => "Election Commision" ]
+							]
+						]
+					];
 
 		$groups = [
-					[
-						'group_name'=> 'Poll 2014',
+					[ 'group_name' => 'Poll 2015',
+						'children' => [
+										[ "group_name" => "Face to face",
+											"children" => [
+															[ "group_name" => "City Corporation", "children"  =>
+																[
+																	[ 'group_name' => 'Dhaka North', "children" => $cceg ],
+																	[ 'group_name' => 'Dhaka South', "children" => $cceg ],
+																	[ 'group_name' => 'Chittagong', "children" => $cceg ],
+																]
+															]
+														]
+													],
+										[ "group_name" => "CATSS",
+											"children"=> [
+															[ "group_name" => "Media Habit" ] ,
+															[ "group_name" => "Party Survey March 2015" ] ,
+															[ "group_name" => "Party Survey February 2015" ] ,
+															[ "group_name" => "Political Party and Violence" ] ,
+															[ "group_name" => "Political Participation" ]
+														]
+													]
+												]
+											],
+					[ 'group_name'=> 'Poll 2014',
 						'children' => [
 										[
-											"group_name" => "DPR DEC 2014", "children"  => [
+											"group_name" => "DPR DEC", "children"  => [
 												[ "group_name" => "Economy" ],
 												[ "group_name" => "Governance" ],
 												[ "group_name" => "Political Leadership" ],
 												[ "group_name" => "Political Participation" ],
-												[ "group_name" => "Jan 15 Election"],
+												[ "group_name" => "Jan 5 Election"],
 												[ "group_name" => "Political Parties" ],
 											],
 										]
@@ -85,6 +100,7 @@ class SurveyGroupCreator extends Seeder
 							];
 
 		Group::buildTree($groups);
+
 	}
 }
 
@@ -138,12 +154,17 @@ class SurveyDataSeed extends Seeder
 		DB::statement('truncate questions');
 		DB::statement('truncate responses');
 		DB::statement('truncate option_groups');
+		DB::statement('truncate options');
 		DB::statement("set foreign_key_checks=1");
 
 		OptionGroup::create( [ "option_group_name" => "By Gender" ]);
 		OptionGroup::create( [ "option_group_name" => "By City Corporation" ]);
 		OptionGroup::create( [ "option_group_name" => "By Division" ]);
 		OptionGroup::create( [ "option_group_name" => "By Area" ]);
+		OptionGroup::create( [ "option_group_name" => "By Age Group" ]);
+		OptionGroup::create( [ "option_group_name" => "Political Parties" ]);
+		OptionGroup::create( [ "option_group_name" => "Political Leaders" ]);
+		OptionGroup::create( [ "option_group_name" => "Institute" ]);
 
 		return
 		$f2f = SurveyType::where("survey_type_name", "Face to Face")->firstOrFail();

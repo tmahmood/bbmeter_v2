@@ -1,0 +1,72 @@
+{
+	"meta": {
+		"date": "Feb 2015",
+		"info": "DPR Survey Feb 20, 2015",
+		"moe": "3.1%",
+		"participants": "1000",
+		"write_path": "feb_15",
+		"scope": "Political Party & Governance Opinion Survey conducted at Feb 2014",
+		"survey_type": "CATSS"
+
+	},
+	"data": [{
+		"key": "I'm going to read you two statements. After I read each one, please tell me which one is closer to your own opinion",
+		"filename" : "statement_bnp_demand",
+		"type": "DiscretBar",
+		"group": "Poll 2015/CATSS/Political Parties",
+		"values": [
+			{ "label": "BNP calling blockades and hartals will force AL to agree to BNPs demands", "value": "17.3" },
+			{ "label": "BNP calling blockades and hartals will not force AL to agree to BNP?s demands", "value": "67.8" },
+			{ "label": "Don't Know/Can't Say", "value": "9" },
+			{ "label": "Neither", "value": "4.8" },
+			{ "label": "Refused", "value": "1.1" }
+		]
+	},{
+		"key": "What do you think BNP can do to have their demands met?",
+		"filename" : "statement_bnp_demand_met",
+		"type": "DiscretBar",
+		"values": [
+			{ "label": "Continue hartals and blockade", "value": "11.7" },
+			{ "label": "Don't know /Unsure", "value": "1.6" },
+			{ "label": "Neither", "value": "2" },
+			{ "label": "Refused", "value": "0.3" },
+			{ "label": "Take non violent activities to fulfill the demand", "value": "84.5" }
+		]
+	},{
+		"key": "What do you think the government should do to stop violence?",
+		"filename" : "govt_stop_violence",
+		"type": "DiscretBar",
+		"values": [
+			{ "label": "Begin dialogue with BNP", "value": "69.4" },
+			{ "label": "Don't know /Unsure", "value": "1.9" },
+			{ "label": "For ensuring peoples?safety take severe action to control the violent situation", "value": "26.7" },
+			{ "label": "Neither", "value": "1.1" },
+			{ "label": "Refused", "value": "0.8" }
+		]
+	},{
+		"key": "Do you support or oppose the use of violence in political protests?",
+		"filename" : "violence_in_protests",
+		"type": "DiscretBar",
+		"values": [
+			{ "label": "Don't know /Unsure", "value": "1" },
+			{ "label": "Refused", "value": "0.4" },
+			{ "label": "Somewhat oppose", "value": "7.4" },
+			{ "label": "Somewhat support", "value": "2" },
+			{ "label": "Strongly oppose", "value": "86.5" },
+			{ "label": "Strongly support", "value": "2.9" }
+		]
+	},{
+		"key": "Please tell me if you strongly agree, somewhat agree, somewhat disagree or strongly disagree with the following statement: ?Law should be enacted to restrict hartal?",
+		"type": "DiscretBar",
+		"filename" : "law_for_hartal",
+		"values": [
+			{ "label": "Don't know/Unsure", "value": "2" },
+			{ "label": "Neither agree nor disagree", "value": "1.8" },
+			{ "label": "Refused", "value": "0.4" },
+			{ "label": "Somewhat agree", "value": "9.6" },
+			{ "label": "Somewhat disagree", "value": "5.1" },
+			{ "label": "Strongly agree", "value": "71.8" },
+			{ "label": "Strongly Disagree", "value": "9.3" }
+		]
+	}]
+}

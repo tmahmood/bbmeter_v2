@@ -11,7 +11,7 @@
 	"data": [{
 			"key": "Credibility of current government",
 			"filename": "credibility_of_current_government",
-			"group": "Poll 2014/DPR DEC 2014/Governance",
+			"group": "Poll 2014/DPR DEC/Governance",
 			"type": "DiscretBar",
 			"values": [
 				{ "label": "Highly credible", "value": "37.6" },
@@ -24,7 +24,7 @@
 		}, {
 			"related_to": "credibility_of_current_government",
 			"option_group": "By Division",
-			"group": "Poll 2014/DPR DEC 2014/Governance",
+			"group": "Poll 2014/DPR DEC/Governance",
             "filename": "credibility_divisionwise",
             "key": "Credibility of current government",
             "type": "GroupedMultiBar",

@@ -19,10 +19,7 @@ class SurveyImportController extends Controller {
 
 	public function importSurveyFromCSV($filename)
 	{
-		$logfp = fopen(storage_path() . "/uploads/$filename.log", 'w');
 		$fpath = storage_path() . "/uploads/$filename.csv";
-
-		fwrite($logfp, $fpath);
 
 		$fp = fopen($fpath, 'r');
 		$survey_data = fgetcsv($fp);
@@ -39,10 +36,11 @@ class SurveyImportController extends Controller {
 
 	function importSurveyFromJSON($filename)
 	{
-		$logfp = fopen(storage_path() . "/uploads/$filename.log", 'w');
 		$fpath = storage_path() . "/uploads/$filename.json";
-		fwrite($logfp, $fpath);
 		$jobj = json_decode(file_get_contents($fpath));
+		if (json_last_error() != JSON_ERROR_NONE) {
+			dd(json_last_error_msg());
+		}
 		$survey_data = $jobj->meta;
 		$survey = $this->save_survey([
 			$survey_data->scope,
@@ -59,29 +57,47 @@ class SurveyImportController extends Controller {
 		}
 	}
 
-	function save_question_and_options($survey, $question)
+	function save_question($survey, $question)
 	{
-		if (!array_key_exists('related_to', $question)) {
-			$group = $this->find_question_group($question->group);
-			$q = Question::create([
+		$group = $this->find_question_group($question->group);
+		$q = Question::create([
 				'key' => $question->key,
 				'survey_id' => $survey->id,
 				'group_id' => $group->id,
 				'graph_type' => $question->type,
 				'guid' => $survey->survey_guid . '_' . $question->filename,
-			]);
+		]);
+		return $q;
+	}
 
+
+	function save_question_and_options($survey, $question)
+	{
+		if ($question->type != 'GroupedMultiBar') {
+			$q = $this->save_question($survey, $question);
 			$vals = [];
 			foreach ($question->values as $value){
 				$vals[] = new Option((array)$value);
 			}
 			return $q->options()->saveMany($vals);
+
+		} else {
+			if(!array_key_exists('related_to', $question)) {
+				$q = $this->save_question($survey, $question);
+				$vals = [];
+				foreach ($question->values->data as $value){
+					$vals[] = new Option([ "label"=> $value->name ]);
+				}
+				$q->options()->saveMany($vals);
+			}
 		}
 
-		$q = Question::where('guid', $survey->survey_guid . "_" . $question->related_to)
-							->firstOrFail();
-		$option_group = OptionGroup::where("option_group_name", $question->option_group)
-							->firstOrFail();
+		if (!isset($q) or $q == null) {
+			$q = Question::where('guid', $survey->survey_guid . "_" . $question->related_to)->firstOrFail();
+		}
+
+		$option_group = OptionGroup::where("option_group_name", $question->option_group)->firstOrFail();
+
 		foreach ($question->values->data as $data){
 			$option = Option::where('question_id', $q->id)
 								->where('label', $data->name)
@@ -95,7 +111,6 @@ class SurveyImportController extends Controller {
 									]);
 			}
 			$option->responses()->saveMany($responses);
-
 			$q->has_crosstabs = 1;
 			$q->save();
 		}
