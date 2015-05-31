@@ -165,6 +165,7 @@ class SurveyDataSeed extends Seeder
 		OptionGroup::create( [ "option_group_name" => "Political Parties" ]);
 		OptionGroup::create( [ "option_group_name" => "Political Leaders" ]);
 		OptionGroup::create( [ "option_group_name" => "Institute" ]);
+		OptionGroup::create( [ "option_group_name" => "Name Recognition" ]);
 
 		return
 		$f2f = SurveyType::where("survey_type_name", "Face to Face")->firstOrFail();

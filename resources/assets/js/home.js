@@ -65,9 +65,14 @@ Home.prototype.onQuestionsListClick = function() {
 Home.prototype.drawChart = function(response, me) {
 	$('#chart').empty();
 	if (response.length != undefined) {
-		graphcore.drawChart(response[0]);
-		var nav = me.makeDropDownList(response[2]);
-		$('#optionGroups').empty().append(createElement(nav));
+		if (response[0].type == 'GroupedMultiBar') {
+			graphcore.drawChart(response[1][0]);
+			$('#optionGroups').empty();
+		} else {
+			graphcore.drawChart(response[0]);
+			var nav = me.makeDropDownList(response[2]);
+			$('#optionGroups').empty().append(createElement(nav));
+		}
 	} else {
 		graphcore.drawChart(response);
 		$('#optionGroups').empty();
