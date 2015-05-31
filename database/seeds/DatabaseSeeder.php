@@ -53,7 +53,7 @@ class SurveyGroupCreator extends Seeder
 								[ "group_name" => "Campaign" ],
 								[ "group_name" => "Candidates" ],
 								[ "group_name" => "Voting Behavior" ],
-								[ "group_name" => "Election Commision" ]
+								[ "group_name" => "Election Commission" ]
 							]
 						]
 					];
