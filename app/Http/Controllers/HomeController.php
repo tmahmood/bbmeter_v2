@@ -29,6 +29,17 @@ class HomeController extends Controller {
 		return view('home')->withGroups($groups);
 	}
 
+	public function aboutpage()
+	{
+		return view('aboutdi');
+	}
+
+	public function methodology()
+	{
+		return view('methodology');
+	}
+
+
 	function returnQuestionsAsJSON($group_id)
 	{
 		return Question::where('group_id', $group_id)->get();

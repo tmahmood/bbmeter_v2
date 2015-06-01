@@ -10,5 +10,16 @@ class Surveycontroller extends Controller {
 		$this->middleware('auth');
 	}
 
+	function create()
+	{
+		return view('surveys.form');
+	}
+
+	function save()
+	{
+		if (Survey::create(Input::except('_token'))) {
+			redirect_to(url('/home'))->withMessage("New Survey Created");
+		}
+	}
 }
 

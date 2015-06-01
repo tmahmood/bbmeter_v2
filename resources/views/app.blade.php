@@ -35,13 +35,17 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Bangladesh Barometer</a>
+				<a class="navbar-brand" href="{{ url('/') }}">
+					<img src="{{ asset('assets/imgs/logo.svg')}}">
+				</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 				<ul class="nav navbar-nav">
-					<li><a href="{{ url('/') }}">Home</a></li>
+					<li><a href="{{ url('/home') }}">Home</a></li>
+					<li><a href="{{ url('/aboutdi') }}">About DI</a></li>
+					<li><a href="{{ url('/methodology') }}">Methodologies</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">

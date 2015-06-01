@@ -9,6 +9,8 @@ var jsDir = './resources/assets/js';
 var staticDirSrc = './resources/assets/libs';
 var staticDirDest = './public/assets/libs';
 var targetJSDir = './public/assets/js';
+var imgDirSrc = './resources/assets/imgs';
+var imgDirDest = './public/assets/imgs';
 
 gulp.task('js', function () {
     return gulp.src(jsDir + '/**/*.js')
@@ -27,6 +29,11 @@ gulp.task('static', function () {
         .pipe(gulp.dest(staticDirDest + "/"));
 });
 
+gulp.task('img', function () {
+    return gulp.src(imgDirSrc + "/**/**")
+        .pipe(gulp.dest(imgDirDest + "/"));
+});
+
 // Keep an eye on Sass, JS files for changes...
 gulp.task('watch', function () {
     gulp.watch(sassDir + '/*.scss', ['css']);
@@ -35,4 +42,4 @@ gulp.task('watch', function () {
 });
 
 // What tasks does running gulp trigger?
-gulp.task('default', ['css', 'js', 'static', 'watch']);
+gulp.task('default', ['css', 'js', 'static', 'img', 'watch']);

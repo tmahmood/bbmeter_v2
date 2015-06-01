@@ -9,17 +9,23 @@
 	<div class="row">
 		<div>@include('partials.sidebar', [ 'groups' => $groups ])</div>
 
-		<div id="questions_list"></div>
+		<div id="questions_list">
+ 			<strong>◀ Please select question from the side bar</strong>
+		</div>
 
 		<div id="graph_content">
 
 			<h1 id="page-header">
-				<strong>Please select question from the side bar</strong>
 			</h1>
 
-			<div id="chart"></div>
+			<div id="chart">
+				<h4 class="pushdown">Opinion expressed in this portal do not necessarily reflect the views of the United States Agency for International Development or the United States Government.</h4>
+				<hr>
 
-			<div id="optionGroups"></div>
+			</div>
+
+			<div id="optionGroups">
+			</div>
 
 		</div>
 	</div>
