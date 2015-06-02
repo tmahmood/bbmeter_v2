@@ -1,0 +1,161 @@
+{
+    "data": [
+        {
+            "filename": "bangladesh_direction",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "key": "Direction in which Bangladesh is moving",
+            "type": "GroupedMultiBar",
+			"option_group": "Political Parties",
+			"values": {
+				"categories": [ "Party", "Nationwide" ],
+				"data": [
+					{ "name": "Right direction", "data": [  3.0, 26.0 ]  },
+					{ "name": "Wrong direction", "data": [ 94.0, 67.0 ]  },
+					{ "name": "Neither", 		 "data": [  2.0,  5.0 ]  },
+					{ "name": "Don't know", 	 "data": [  1.0,  1.0 ]  },
+					{ "name": "Refused", 	  	 "data": [  1.0,  1.0 ]  }
+				]
+			}
+        },
+        {
+            "related_to": "bangladesh_direction",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "key": "Direction in which Bangladesh is moving",
+            "type": "GroupedMultiBar",
+			"option_group": "By Division",
+            "values": {
+                "categories": [ "Barisal", "Chittagong", "Dhaka", "Khulna", "Rajshahi", "Rangpur", "Sylhet" ],
+                "data": [
+                    { "data": [ 4.0, 5.0, 2.0, 1.0, 3.0, 5.0, 0.0 ], "name": "Right direction" },
+                    { "data": [ 96.0, 91.0, 94.0, 95.0, 96.0, 94.0, 100.0 ], "name": "Wrong direction" },
+                    { "data": [ 0.0, 5.0, 2.0, 3.0, 1.0, 2.0, 0.0 ], "name": "Neither " },
+                    { "data": [ 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0 ], "name": "Don't know" },
+                    { "data": [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ], "name": "Refused" }
+                ]
+            }
+        },
+        {
+            "filename": "use_of_violence",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "key": "Use of violence in political protests",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Strongly oppose", "value": 84.0 },
+                { "label": "Somewhat oppose", "value": 9.0 },
+                { "label": "Somewhat support", "value": 4.0 },
+                { "label": "Strongly support", "value": 2.0 }
+            ]
+        },
+        {
+            "filename": "responsibity_for_violence",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "key": "Responsibity for violence in Bangladesh",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "BNP", "value": 67.0 },
+                { "label": "BNP & BNP", "value": 18.0 },
+                { "label": "All parties", "value": 2.0 },
+                { "label": "BNP & BNP & Jamaat", "value": 1.0 },
+                { "label": "Jamaat", "value": 1.0 }
+            ]
+        },
+        {
+            "filename": "multi_party_dialogues",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "key": "Multiparty dialogue on the current crisis",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Favour", "value": 100.0 },
+                { "label": "Oppose", "value": 0.0 }
+            ]
+        },
+        {
+            "filename": "di_organized_multi_party_dialogues",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "key": "Interest in DI-organized multi-party dialogues",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Very likely", "value": 82.0 },
+                { "label": "Likely", "value": 12.0 },
+                { "label": "Not too likely", "value": 3.0 },
+                { "label": "Not at all", "value": 1.0 }
+            ]
+        },
+        {
+            "filename": "role_leaders_resolving_current_crisis",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "key": "Role of party leaders in resolving the current crisis",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "A great role", "value": 35.0 },
+                { "label": "Moderate role", "value": 26.0 },
+                { "label": "Not too much role", "value": 23.0 },
+                { "label": "No role at all", "value": 13.0 },
+                { "label": "Don't know /Unsure/Refused", "value": 4.0 }
+            ]
+        },
+        {
+            "filename": "leaders_participation_in_dcc_ccc",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "key": "BNP leaders participation in the DCC and CCC elections",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Should not participate", "value": 64.0 },
+                { "label": "Should participate", "value": 28.0 },
+                { "label": "Don't know /unsure", "value": 6.0 },
+                { "label": "Refused", "value": 2.0 }
+            ]
+        },
+        {
+            "filename": "leaders_participation_in_dcc_cc",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "key": "BNP leaders participation in the DCC and CCC elections",
+            "type": "GroupedMultiBar",
+			"option_group": "By Division",
+            "values": {
+                "categories": [ "Barisal", "Chittagong", "Dhaka", "Khulna", "Rajshahi", "Rangpur", "Sylhet" ],
+                "data": [
+                    { "data": [ 68.0, 61.0, 73.0, 59.0, 68.0, 57.0, 75.0 ], "name": "Should not participate" },
+                    { "data": [ 28.0, 29.0, 22.0, 33.0, 24.0, 31.0, 25.0 ], "name": "Should participate" },
+                    { "data": [ 4.0, 6.0, 4.0, 5.0, 6.0, 10.0, 0 ], "name": "Don't know /Unsure" },
+                    { "data": [ 0.0, 5.0, 1.0, 3.0, 1.0, 2.0, 0 ], "name": "Refused" }
+                ]
+            }
+        },
+        {
+            "filename": "women_role_responsibility_in_bnp",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "key": "Women's role and responsibility in BNP",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Has increased", "value": 77.0 },
+                { "label": "Has not increased", "value": 14.0 },
+                { "label": "Don't know /unsure", "value": 9.0 }
+            ]
+        },
+        {
+            "related_to": "women_role_responsibility_in_bnp",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "key": "Women's role and responsibility in BNP",
+            "type": "GroupedMultiBar",
+			"option_group": "By Gender",
+            "values": {
+                "categories": [ "Male", "Female" ],
+                "data": [
+                    { "data": [ 79.0, 68.0 ], "name": "Has increased" },
+                    { "data": [ 12.0, 27.0 ], "name": "Has not increased" },
+                    { "data": [ 9.0, 5.0 ], "name": "Don't know /unsure" }
+                ]
+            }
+        }
+    ],
+    "meta": {
+        "date": "March 2015",
+        "info": "BNP Party Survey March 2015",
+        "moe": "4.3",
+        "participants": "500",
+        "scope": "BNP Party Survey March 2015",
+        "write_path": "party_member_mar_15_survey_bnp",
+		"survey_type": "CATSS"
+    }
+}

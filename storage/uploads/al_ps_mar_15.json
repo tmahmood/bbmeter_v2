@@ -1,0 +1,121 @@
+{
+    "data": [
+        {
+            "filename": "bangladesh_direction",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/AL",
+            "key": "Direction in which Bangladesh is moving",
+            "type": "GroupedMultiBar",
+			"option_group": "Political Parties",
+			"values": {
+				"categories": [ "Party", "Nationwide" ],
+				"data" : [
+					{ "name": "Right direction", "data": [ 82.0, 26.0 ] },
+					{ "name": "Wrong direction", "data": [ 16.0, 67.0 ] },
+					{ "name": "Neither", 		 "data": [  1.0,  5.0 ] },
+					{ "name": "Don't Know",		 "data": [  1.0,  1.0 ] },
+					{ "name": "Refused", 		 "data": [  0.0,  1.0 ] }
+				]
+			}
+        }, {
+            "group": "Poll 2015/CATSS/Party Survey March 2015/AL",
+            "key": "Direction in which Bangladesh is moving",
+            "type": "GroupedMultiBar",
+			"option_group": "By Division",
+            "related_to": "bangladesh_direction",
+            "values": {
+                "categories": [ "Barisal", "Chittagong", "Dhaka", "Khulna", "Rajshahi", "Rangpur", "Sylhet" ],
+                "data": [
+                    { "data": [ 69.0, 79.0, 85.0, 85.0, 75.0, 84.0, 86.0 ], "name": "Right direction" },
+                    { "data": [ 28.0, 15.0, 15.0, 15.0, 22.0, 15.0, 13.0 ], "name": "Wrong direction" },
+                    { "data": [ 3.0, 5.0, 0.0, 0.0, 3.0, 1.0, 2.0 ], "name": "Neither" },
+                    { "data": [ 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0 ], "name": "Don't know" },
+                    { "data": [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ], "name": "Refused" }
+                ]
+            }
+        },
+        {
+            "filename": "use_of_violence",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/AL",
+            "key": "Use of violence in political protests",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Strongly oppose", "value": 96.0 },
+                { "label": "Somewhat oppose", "value": 2.0 },
+                { "label": "Somewhat support", "value": 0.0 },
+                { "label": "Strongly support", "value": 2.0 }
+            ]
+        },
+        {
+            "filename": "responsibity_for_violence",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/AL",
+            "key": "Responsibity for violence in Bangladesh",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "BNP & Jamaat", "value": 74.0 },
+                { "label": "BNP", "value": 13.0 },
+                { "label": "Jamaat", "value": 6.0 },
+                { "label": "AL & BNP", "value": 4.0 },
+                { "label": "All parties", "value": 1.0 }
+            ]
+        },
+        {
+            "filename": "di_organized_multi_party_dialogues",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/AL",
+            "key": "Interest in DI-organized multi-party dialogues",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Very likely", "value": 60.0 },
+                { "label": "Likely", "value": 22.0 },
+                { "label": "Not too likely", "value": 5.0 },
+                { "label": "Not at all", "value": 9.0 }
+            ]
+        },
+        {
+            "filename": "role_leaders_resolving_current_crisis",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/AL",
+            "key": "Role of party leaders in resolving the current crisis",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "A great role", "value": 57.0 },
+                { "label": "Moderate role", "value": 32.0 },
+                { "label": "Not too much role", "value": 9.0 },
+                { "label": "No role at all", "value": 2.0 }
+            ]
+        },
+        {
+            "filename": "women_role_responsibility_in_al",
+            "group": "Poll 2015/CATSS/Party Survey March 2015/AL",
+            "key": "Women's role and responsibility in AL",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Has increased", "value": 88.0 },
+                { "label": "Has not increased", "value": 11.0 },
+                { "label": "Don't know /unsure", "value": 1.0 }
+            ]
+        },
+        {
+            "group": "Poll 2015/CATSS/Party Survey March 2015/AL",
+            "key": "Women's role and responsibility in AL",
+            "type": "GroupedMultiBar",
+            "related_to": "women_role_responsibility_in_al",
+			"option_group": "By Gender",
+            "values": {
+                "categories": [ "Male", "Female" ],
+                "data": [
+                    { "data": [ 91.0, 80.0 ], "name": "Has increased" },
+                    { "data": [ 9.0, 19.0 ], "name": "Has not increased" },
+                    { "data": [ 0.0, 1.0 ], "name": "Don't know /unsure" }
+                ]
+            }
+        }
+    ],
+    "meta": {
+        "date": "March 2015",
+        "info": "AL Party Survey March 2015",
+        "moe": "4.3",
+        "participants": "500",
+        "scope": "AL Party Survey March 2015",
+        "write_path": "party_member_mar_15_survey_al",
+		"survey_type": "CATSS"
+    }
+}

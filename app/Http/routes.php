@@ -26,6 +26,8 @@ Route::get('question/{question_id}', 'HomeController@questionData');
 
 
 Route::get('surveys/create', 'SurveyController@create');
+Route::get('groups/create', 'GroupController@create');
+Route::post('groups/save', 'GroupController@save');
 
 Route::get('aboutdi', 'HomeController@aboutpage');
 Route::get('methodology', 'HomeController@methodology');

@@ -45,7 +45,7 @@
 				<ul class="nav navbar-nav">
 					<li><a href="{{ url('/home') }}">Home</a></li>
 					<li><a href="{{ url('/aboutdi') }}">About DI</a></li>
-					<li><a href="{{ url('/methodology') }}">Methodologies</a></li>
+					<li><a href="{{ url('/methodology') }}">Methodology</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">

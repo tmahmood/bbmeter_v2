@@ -23,9 +23,49 @@ class DatabaseSeeder extends Seeder {
 	public function run()
 	{
 		Model::unguard();
-		$this->call('UserTableSeeder');
-		$this->call('SurveyGroupCreator');
-		$this->call('SurveyDataSeed');
+		// $this->call('UserTableSeeder');
+		// $this->call('SurveyGroupCreator');
+		// $this->call('SurveyDataSeed');
+		$this->call('GroupSeeder');
+	}
+}
+
+class GroupSeeder extends Seeder
+{
+	public function run()
+	{
+		$newgroups = [
+						"Poll 2015/CATSS/Party Survey March 2015/AL",
+						"Poll 2015/CATSS/Party Survey March 2015/BNP",
+						"Poll 2015/CATSS/Party Survey March 2015/JP"
+					];
+
+		foreach ($newgroups as $group){
+			$this->add_group($group);
+		}
+
+	}
+
+
+	function add_group($group)
+	{
+		$groups = explode('/', $group);
+		$group_root = array_shift($groups);
+
+		$root = Group::roots()->where('group_name', $group_root)->first();
+		if ($root == null) {
+			$root = Group::create(['group_name'=> $group_root]);
+		}
+
+		foreach ($groups as $group){
+			$node = $root->getDescendants()->where('group_name', $group)->first();
+			if ($node == null) {
+				$root = $root->children()->create(['group_name' => $group]);
+			} else {
+				$root = $node;
+			}
+		}
+		return $root;
 	}
 }
 
@@ -75,9 +115,14 @@ class SurveyGroupCreator extends Seeder
 										[ "group_name" => "CATSS",
 											"children"=> [
 															[ "group_name" => "Media Habit" ] ,
-															[ "group_name" => "Party Survey March 2015" ] ,
+															[ "group_name" => "Party Survey March 2015", "children" => [
+																		[ "group_name" => "AL" ],
+																		[ "group_name" => "BNP" ],
+																		[ "group_name" => "JP" ],
+																	]
+															] ,
 															[ "group_name" => "Party Survey February 2015" ] ,
-															[ "group_name" => "Political Party and Violence" ] ,
+															[ "group_name" => "Political Party and Violence March 2015" ] ,
 															[ "group_name" => "Political Participation" ]
 														]
 													]

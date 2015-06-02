@@ -21,5 +21,6 @@ class Surveycontroller extends Controller {
 			redirect_to(url('/home'))->withMessage("New Survey Created");
 		}
 	}
+
 }
 
