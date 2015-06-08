@@ -1,60 +1,39 @@
-<html>
-	<head>
-		<title>Bangladesh Barometer</title>
-		<link href='{{ asset('/css/app.css')}}' rel='stylesheet' type='text/css'>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bangladesh Barometer</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link href='{{ asset('/assets/css/landing.css')}}' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
 
-		<style>
-			body {
-				margin: 0;
-				padding: 0;
-				width: 100%;
-				height: 100%;
-				color: #555;
-				display: table;
-				font-weight: bold;
-				font-family: 'Lato';
-				background: url({{ asset('assets/imgs/bg.jpg') }}) no-repeat;
-				background-size: cover;
-			}
+			<div class="col-md-5">
+				<div class="title">Bangladesh Barometer</div>
+			</div>
 
-			.container {
-				text-align: center;
-				display: table-cell;
-				vertical-align: middle;
-			}
-
-			.content {
-				text-align: center;
-				display: inline-block;
-			}
-
-			.title {
-				font-size: 96px;
-				margin-bottom: 40px;
-			}
-
-			.quote {
-				font-size: 24px;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="container">
-			<div class="content">
-
+			<div class="col-md-7">
 				<div class="logobar">
 					<img src="{{ asset('assets/imgs/logo_bar.png') }}">
 				</div>
-
-				<div class="title">Bangladesh Barometer</div>
-
-
-				<div>
-					<a href="{{url('/home')}}" class="btn btn-lg btn-primary">
-						<b>Enter main site</b>
-					</a>
-				</div>
 			</div>
 		</div>
-	</body>
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="content">
+					@include ('aboutdishort')
+				</div>
+				<a href="{{url('/home')}}" class="btn btn-lg btn-primary">
+					<b>Enter main site</b>
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
 </html>

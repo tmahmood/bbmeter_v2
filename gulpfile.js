@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-ruby-sass');
 
+var dev = 1;
 // Where do you store your Sass files?
 var sassDir = './resources/assets/sass';
 var targetCSSDir = './public/assets/css';
@@ -12,34 +13,46 @@ var targetJSDir = './public/assets/js';
 var imgDirSrc = './resources/assets/imgs';
 var imgDirDest = './public/assets/imgs';
 
-gulp.task('js', function () {
-    return gulp.src(jsDir + '/**/*.js')
-        .pipe(gulp.dest(targetJSDir))
+gulp.task('sass', function() {
+    return sass('resources/assets/sass/')
+		.on('error', function (err) {
+            console.error('Error!', err.message);
+        })
+        .pipe(gulp.dest('public/assets/css/'));
 });
 
-// Compile Sass, autoprefix CSS3,
-// and save to target CSS directory
-gulp.task('css', function () {
-    return sass(sassDir + '/master.scss',{ style: 'compressed' })
-        .pipe(gulp.dest(targetCSSDir));
+// Concatenate & Minify JS
+gulp.task('scripts', function() {
+	if (dev == 1) {
+		return gulp.src('resources/assets/js/*.js')
+			.pipe(gulp.dest('public/assets/js/'));
+	} else {
+		return gulp.src('resources/assets/js/*.js')
+		 .pipe(concat('all.js'))
+		 .pipe(gulp.dest('public/assets/js/'))
+		 .pipe(rename('all.min.js'))
+		 .pipe(uglify())
+		 .pipe(gulp.dest('public/assets/js/'));
+	}
 });
-//
+
 gulp.task('static', function () {
-    return gulp.src(staticDirSrc + "/**/**")
-        .pipe(gulp.dest(staticDirDest + "/"));
+    return gulp.src("resources/assets/libs/**/**")
+        .pipe(gulp.dest('public/assets/libs'));
 });
 
 gulp.task('img', function () {
-    return gulp.src(imgDirSrc + "/**/**")
-        .pipe(gulp.dest(imgDirDest + "/"));
+    return gulp.src("resources/assets/imgs/**/**")
+        .pipe(gulp.dest('public/assets/imgs/'));
 });
 
 // Keep an eye on Sass, JS files for changes...
 gulp.task('watch', function () {
-    gulp.watch(sassDir + '/*.scss', ['css']);
-    gulp.watch(jsDir + '/**/*.js', ['js']);
-    gulp.watch(staticDirSrc + '/**/**', ['static']);
+    gulp.watch('resources/assets/sass/*.scss', ['sass']);
+    gulp.watch('resources/assets/js/**/*.js', ['scripts']);
+    gulp.watch('resources/assets/libs/**/**', ['static']);
+    gulp.watch('resources/assets/imgs/**/**', ['img']);
 });
 
 // What tasks does running gulp trigger?
-gulp.task('default', ['css', 'js', 'static', 'img', 'watch']);
+gulp.task('default', ['sass', 'scripts', 'static', 'img', 'watch']);
