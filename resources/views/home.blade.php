@@ -19,9 +19,12 @@
 			</h1>
 
 			<div id="chart">
-				<h4 class="pushdown">Opinion expressed in this portal do not necessarily reflect the views of the United States Agency for International Development or the United States Government.</h4>
-				<hr>
-
+				<div class="pushdown">
+					<h4>Opinion expressed in this portal do not necessarily
+					reflect the views of the United States Agency for International Development
+					or the United States Government.
+					</h4>
+				</div>
 			</div>
 
 			<div id="optionGroups">
