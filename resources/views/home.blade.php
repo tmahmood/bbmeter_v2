@@ -10,7 +10,7 @@
 		<div>@include('partials.sidebar', [ 'groups' => $groups ])</div>
 
 		<div id="questions_list">
- 			<strong>◀ Please select question from the side bar</strong>
+ 			<strong>◀ Please select a question from the side bar</strong>
 		</div>
 
 		<div id="graph_content">
