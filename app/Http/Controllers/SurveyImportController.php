@@ -80,6 +80,7 @@ class SurveyImportController extends Controller {
 				$vals[] = new Option((array)$value);
 			}
 			return $q->options()->saveMany($vals);
+		} elseif ($question->type == 'SimpleLine') {
 
 		} else {
 			if(!array_key_exists('related_to', $question)) {

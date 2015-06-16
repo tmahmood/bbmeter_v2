@@ -22,6 +22,7 @@ Route::controllers([
 
 Route::get('admin/import/json/{filename}', 'SurveyImportController@importSurveyFromJSON');
 Route::get('questions/{group_id}', 'HomeController@returnQuestionsAsJSON');
+Route::get('question/create', 'QuestionController@create');
 Route::get('question/{question_id}', 'HomeController@questionData');
 
 
