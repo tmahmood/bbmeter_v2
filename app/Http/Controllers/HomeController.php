@@ -1,28 +1,10 @@
 <?php namespace BBMeter\Http\Controllers;
 
 use BBMeter\Group;
-use BBMeter\Question;
-use BBMeter\Response;
+use BBMeter\Repositories\QuestionRepository;
 
 class HomeController extends Controller {
 
-	/*
-	   |--------------------------------------------------------------------------
-	   | Home Controller
-	   |--------------------------------------------------------------------------
-	   |
-	   | This controller renders your application's "dashboard" for users that
-	   | are authenticated. Of course, you are free to change or remove the
-	   | controller as you wish. It is just here to get your app started!
-	   |
-	 */
-
-
-	/**
-	 * Show the application dashboard to the user.
-	 *
-	 * @return Response
-	 */
 	public function index()
 	{
 		$groups = Group::all()->toHierarchy();
@@ -39,73 +21,14 @@ class HomeController extends Controller {
 		return view('methodology');
 	}
 
-
-	function returnQuestionsAsJSON($group_id)
+	function returnQuestionsAsJSON(QuestionRepository $qr, $group_id)
 	{
-		return Question::where('group_id', $group_id)->get();
+		return $qr->get_by_group($group_id);
 	}
 
-	function questionData($question_id)
+	function questionData(QuestionRepository $qr, $question_id)
 	{
-		$q = Question::find($question_id);
-
-		$gdata = $this->get_graph_data($q);;
-
-		if ($q->has_crosstabs == 0) {
-			return $gdata;
-		}
-
-		$response_data = [];
-
-		foreach ($q->options as $i=>$option){
-
-			foreach ($option->responses as $response){
-
-				if(!array_key_exists($response->option_group->option_group_name, $response_data)) {
-					$response_data[$response->option_group->option_group_name]=['categories'=>[]];
-				}
-
-				if (!in_array($response->label, $response_data[$response->option_group->option_group_name]['categories'])) {
-					$response_data[$response->option_group->option_group_name]['categories'][] = $response->label;
-				}
-
-				$response_data[$response->option_group->option_group_name]['data'][$i]['name'] = $option->label;
-				$response_data[$response->option_group->option_group_name]['data'][$i]['data'][] = (float) $response->value;
-			}
-		}
-
-		$final_response_data = [];
-		$option_groups = [];
-
-		foreach ($response_data as $ky=>$response){
-			$gd = $this->get_graph_data($q);
-			$gd['type'] = 'GroupedMultiBar';
-			$gd['values'] = $response;
-			$gd['linktext'] = $ky;
-			$gd['key'] .= " - $ky";
-			$final_response_data[] = $gd;
-			$option_groups[] = $ky;
-		}
-
-		return [ $gdata, $final_response_data, $option_groups ];
+		return $qr->get_question_data($question_id);
 	}
 
- 	function get_graph_data($q)
-	{
-		$timestamp = strtotime($q->survey->survey_date);
-		return [
-			'type'=> $q->graph_type,
-			'linktext' => 'Main',
-			'info'=> "Survey Date: " . strftime("%b %Y", $timestamp).
-				" / Margin of Error: " . $q->survey->margin_or_error .
-				"% / No of Participants: ". $q->survey->participants,
-			'key'=> $q->key,
-			'container' => '#chart',
-			'values' => $q->options,
-			'explanation' => [
-				'heading' => 'Explain the graph',
-			'text' => 'We explain the graph for your understanding',
-			]
-		];
-	}
 }

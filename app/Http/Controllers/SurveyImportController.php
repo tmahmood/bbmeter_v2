@@ -38,9 +38,11 @@ class SurveyImportController extends Controller {
 	{
 		$fpath = storage_path() . "/uploads/$filename.json";
 		$jobj = json_decode(file_get_contents($fpath));
+
 		if (json_last_error() != JSON_ERROR_NONE) {
 			dd(json_last_error_msg());
 		}
+
 		$survey_data = $jobj->meta;
 		$survey = $this->save_survey([
 			$survey_data->scope,
@@ -73,16 +75,18 @@ class SurveyImportController extends Controller {
 
 	function save_question_and_options($survey, $question)
 	{
-		if ($question->type != 'GroupedMultiBar') {
+		if (!in_array($question->type, [ 'GroupedMultiBar', 'SimpleLine' ])) {
+
 			$q = $this->save_question($survey, $question);
 			$vals = [];
+
 			foreach ($question->values as $value){
 				$vals[] = new Option((array)$value);
 			}
 			return $q->options()->saveMany($vals);
-		} elseif ($question->type == 'SimpleLine') {
 
 		} else {
+
 			if(!array_key_exists('related_to', $question)) {
 				$q = $this->save_question($survey, $question);
 				$vals = [];
@@ -91,6 +95,7 @@ class SurveyImportController extends Controller {
 				}
 				$q->options()->saveMany($vals);
 			}
+
 		}
 
 		if (!isset($q) or $q == null) {
@@ -100,6 +105,7 @@ class SurveyImportController extends Controller {
 		$option_group = OptionGroup::where("option_group_name", $question->option_group)->firstOrFail();
 
 		foreach ($question->values->data as $data){
+
 			$option = Option::where('question_id', $q->id)
 								->where('label', $data->name)
 								->firstOrFail();
@@ -111,6 +117,7 @@ class SurveyImportController extends Controller {
 										"option_group_id" => $option_group->id
 									]);
 			}
+
 			$option->responses()->saveMany($responses);
 			$q->has_crosstabs = 1;
 			$q->save();

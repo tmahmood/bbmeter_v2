@@ -1,0 +1,73 @@
+{
+    "data": [
+        {
+            "filename": "media_habit_most_watched_bd_channel",
+			"group": "Time series/Media Habits",
+            "key": "Which Bangladeshi channel you watch the most?",
+            "type": "GroupedMultiBar",
+			"option_group": "By Months",
+            "values": {
+                "categories": [ "Jul 14", "May 15" ],
+                "data": [
+					{ "name": "BTV" , "data": [ 31,21 ] },
+					{ "name": "Somoy Television", "data": [ 5,11 ] },
+					{ "name": "nTV", "data": [ 9,11 ] },
+					{ "name": "Channel i", "data": [ 10,9 ] },
+					{ "name": "ATN Bangla", "data": [ 10,9 ] },
+					{ "name": "RTV", "data": [ 8,8 ] },
+					{ "name": "Banglavision", "data": [ 4,7 ] },
+					{ "name": "ATN News", "data": [ 3,3 ] },
+					{ "name": "Ekushey Television", "data": [ 4,2 ] }
+                ]
+            }
+        }, {
+            "filename": "media_habit_kind_of_program",
+			"group": "Time series/Media Habits",
+            "key": "What kind of program do you watch most on TV",
+            "type": "GroupedMultiBar",
+			"option_group": "By Months",
+            "values": {
+                "categories": [ "Jul 14", "May 15" ],
+                "data": [
+					{ "name": "News", "data": [ 37,37 ] },
+					{ "name": "Drama serials", "data": [ 33,34 ] },
+					{ "name": "Movie", "data": [ 10,8 ] },
+					{ "name": "Sports", "data": [ 6,5 ] },
+					{ "name": "Music", "data": [ 6,4 ] },
+					{ "name": "Talk show on politics", "data": [ 2,3 ] },
+					{ "name": "Issue based Programs", "data": [ 3,4 ] },
+					{ "name": "Magazine program", "data": [ 1,2 ] }
+                ]
+            }
+        }, {
+            "filename": "media_habit_most_read_daily_news_paper",
+			"group": "Time series/Media Habits",
+            "key": "Which daily newspaper do you read most?",
+            "type": "GroupedMultiBar",
+			"option_group": "By Months",
+            "values": {
+                "categories": [ "Jul 14", "May 15" ],
+                "data": [
+						{ "name": "Prothom Alo", "data": [ 26,16 ] },
+						{ "name": "Bangladesh Protidin", "data": [ 15,8 ] },
+						{ "name": "Jugantor", "data": [ 7,5 ] },
+						{ "name": "No fixed newspaper/as available", "data": [ 7,4 ] },
+						{ "name": "Ittefaq", "data": [ 5,3 ] },
+						{ "name": "Naya Diganta", "data": [ 3,2 ] },
+						{ "name": "Janakantha", "data": [ 5,2 ] },
+						{ "name": "Samakal", "data": [ 3,2 ] },
+						{ "name": "Amar Desh", "data": [ 4,2 ] }
+                ]
+            }
+        }
+	],
+    "meta": {
+        "date": "Dec 2014",
+        "info": "Time Series",
+        "moe": "0.0",
+        "participants": "0.0",
+        "scope": "Time Series Graphs",
+		"write_path": "time_series",
+		"survey_type": "Time series"
+    }
+}
