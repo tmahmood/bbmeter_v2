@@ -69,9 +69,13 @@ Home.prototype.onQuestionsListClick = function() {
 Home.prototype.drawChart = function(response, me) {
 	$('#chart').empty();
 	if (response.length != undefined) {
-		if (response[0].type == 'GroupedMultiBar') {
+		if (response[0].type == 'GroupedMultiBar' || response[0].type == 'SimpleLine') {
 			graphcore.drawChart(response[1][0]);
-			$('#page-header').empty().append(response[1]['key']);
+			if(response[1]['key'] != '') {
+				$('#page-header').empty().append(response[1][0]['key']);
+			} else {
+				$('#page-header').empty().append(response[0]['key']);
+			}
 			$('#optionGroups').empty();
 			if (response[1].length > 1) {
 				var nav = me.makeDropDownList(response[2], true);
@@ -101,14 +105,21 @@ Home.prototype.makeDropDownList = function(option_groups, nomain) {
 		var ul = {
 				el: 'div', cl: "btn-group", attr: { role: "group", "aria-label": "..." },
 				elmlist: [
-					{ el: 'a', cl:"btn btn-primary chartToDisplay", text: 'National', attr: { href: "#main" } }
+					{
+						el: 'a', cl:"btn btn-primary chartToDisplay",
+						text: 'National',
+						attr: { href: "#main" }
+					}
 				]
 			}
 	}
 
 	for (var r in option_groups) {
 		var option_group = option_groups[r];
-		ul.elmlist.push( { el: 'a', cl:"btn btn-default chartToDisplay", text: option_group, attr: { href: "#" + r } } );
+		ul.elmlist.push({
+							el: 'a', cl:"btn btn-default chartToDisplay",
+							text: option_group, attr: { href: "#" + r }
+						});
 	}
 
 	return ul;

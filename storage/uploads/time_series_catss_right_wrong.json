@@ -1,0 +1,60 @@
+{
+    "data": [
+        {
+            "filename": "catss_direction_direction_moving",
+			"group": "Time series/Governance",
+            "key": "Direction in which Bangladesh is moving",
+            "type": "SimpleLine",
+			"option_group": "By Months",
+            "values": {
+                "categories": [
+					"May 2014",
+					"June 2014",
+					"August 2014",
+					"September 2014",
+					"February 3, 2015",
+					"February 20, 2015",
+					"March 6, 2015",
+					"May 2015"
+				],
+                "data": [
+					{ "name": "Right" , "data": [ 33,41,48,55,25,19,26,48 ] },
+					{ "name": "Wrong", "data": [  49,52,49,39,70,77,67,30 ] },
+					{ "name": "Don't Know", "data": [ 18,7,3,6,1,1,1,7 ] }
+                ]
+            }
+        }, {
+            "filename": "catss_direction_likely_vote_for",
+			"group": "Time series/Governance",
+            "key": "If the election were held today which party would you likely vote for?",
+            "type": "SimpleLine",
+			"option_group": "By Months",
+            "values": {
+                "categories": [
+					"May 2014",
+					"June 2014",
+					"August 2014",
+					"September 2014",
+					"March 2015",
+					"April 2015",
+					"May 2015"
+				],
+                "data": [
+					{ "name": "AL", "data": [ 24,32,38,43,27,34,44 ] },
+					{ "name": "BNP", "data": [ 22,34,32,31,14,18,15 ] },
+					{ "name": "JP", "data": [ 1,2,1,2,3,4,2 ] },
+					{ "name": "Jamaat-e-Islami", "data": [ 2,5,3,2,3,3,3 ] }
+                ]
+            }
+        }
+	],
+    "meta": {
+        "date": "May 2015",
+        "info": "Political Views",
+        "moe": "0.0",
+        "participants": "0.0",
+        "scope": "Time Series Graphs",
+		"write_path": "time_series_political_views",
+		"survey_type": "Time series"
+    }
+}

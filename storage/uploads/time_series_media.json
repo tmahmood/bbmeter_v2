@@ -39,30 +39,10 @@
 					{ "name": "Magazine program", "data": [ 1,2 ] }
                 ]
             }
-        }, {
-            "filename": "media_habit_most_read_daily_news_paper",
-			"group": "Time series/Media Habits",
-            "key": "Which daily newspaper do you read most?",
-            "type": "GroupedMultiBar",
-			"option_group": "By Months",
-            "values": {
-                "categories": [ "Jul 14", "May 15" ],
-                "data": [
-						{ "name": "Prothom Alo", "data": [ 26,16 ] },
-						{ "name": "Bangladesh Protidin", "data": [ 15,8 ] },
-						{ "name": "Jugantor", "data": [ 7,5 ] },
-						{ "name": "No fixed newspaper/as available", "data": [ 7,4 ] },
-						{ "name": "Ittefaq", "data": [ 5,3 ] },
-						{ "name": "Naya Diganta", "data": [ 3,2 ] },
-						{ "name": "Janakantha", "data": [ 5,2 ] },
-						{ "name": "Samakal", "data": [ 3,2 ] },
-						{ "name": "Amar Desh", "data": [ 4,2 ] }
-                ]
-            }
         }
 	],
     "meta": {
-        "date": "Dec 2014",
+        "date": "May 2015",
         "info": "Time Series",
         "moe": "0.0",
         "participants": "0.0",
