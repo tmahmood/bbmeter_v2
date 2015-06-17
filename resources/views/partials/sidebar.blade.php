@@ -1,7 +1,9 @@
 <div id="primary-navigation">
 	<ul>
 	@foreach($groups as $group)
-		@include ('partials.sidebar_menu', [ 'cgroup'=>  $group ])
+		@if($group->hide_group == 0)
+			@include ('partials.sidebar_menu', [ 'cgroup'=>  $group ])
+		@endif
 	@endforeach
 	</ul>
 </div>

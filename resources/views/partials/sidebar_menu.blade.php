@@ -1,11 +1,16 @@
 <li>
 	@if ($cgroup->isLeaf())
-	<a class="questions_link" href="questions/{{ $cgroup->id }}">{{ $cgroup->group_name }}</a>
+		@if ($cgroup->hide_group == 0)
+			<a class="questions_link" href="questions/{{ $cgroup->id }}">
+				{{ $cgroup->group_name }}</a>
+		@endif
 	@else
 	<a class="submenu" href="#">{{ $cgroup->group_name }}</a>
 	<ul>
 		@foreach($cgroup->children as $cg)
-			@include ('partials.sidebar_menu', [ 'cgroup'=>  $cg ])
+			@if($cg->hide_group == 0)
+				@include ('partials.sidebar_menu', [ 'cgroup'=>  $cg ])
+			@endif
 		@endforeach
 	</ul>
 	@endif

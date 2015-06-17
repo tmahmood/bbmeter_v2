@@ -60,7 +60,6 @@ class QuestionRepository implements BaseRepositoryInterface
 			$gd = $this->get_graph_data($q);
 			$gd['type'] = $gt;
 			$gd['values'] = $response;
-			$gd['key'] .= " - $ky";
 			$final_response_data[] = $gd;
 			$option_groups[] = $ky;
 		}
@@ -112,6 +111,10 @@ class QuestionRepository implements BaseRepositoryInterface
 						$moe != 0 ? "MoE: " . $moe : "",
 						$sample_size != 0 ? "Sample size: ". $sample_size : ""
 					];
+
+		if ($q->extra_info != '') {
+			$info_text[] = $q->extra_info;
+		}
 
 		return [
 			'type'=> $q->graph_type,

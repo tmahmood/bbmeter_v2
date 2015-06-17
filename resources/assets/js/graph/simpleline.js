@@ -44,12 +44,13 @@ SimpleLine.prototype.draw = function() {
             gridLineWidth: 1,
 		},
 		plotOptions: {
-			spline: {
-				marker: {
-					enabled: true
-				}
-			}
-		},
+            line: {
+                dataLabels: {
+                    enabled: true
+                },
+                enableMouseTracking: false
+            }
+        },
         tooltip: {
             headerFormat: '<b>{series.name}</b><br>',
             pointFormat: '{point.x:%e. %b, %Y}: {point.y:.2f}%'
