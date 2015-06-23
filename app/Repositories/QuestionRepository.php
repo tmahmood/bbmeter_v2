@@ -63,9 +63,7 @@ class QuestionRepository implements BaseRepositoryInterface
 			$final_response_data[] = $gd;
 			$option_groups[] = $ky;
 		}
-
 		return [ $gdata, $final_response_data, $option_groups ];
-
 	}
 
 	function get_simple_line_chart($q)
@@ -99,6 +97,7 @@ class QuestionRepository implements BaseRepositoryInterface
 		return $response_data;
 	}
 
+
  	private function get_graph_data($q)
 	{
 		$timestamp = strtotime($q->survey->survey_date);
@@ -128,8 +127,6 @@ class QuestionRepository implements BaseRepositoryInterface
 				]
 			];
 	}
-
-
 }
 
 

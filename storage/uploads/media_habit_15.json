@@ -1,0 +1,306 @@
+{
+    "data": [
+        {
+            "filename": "news_consumption_habits",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/News consumption habits",
+            "key": "News consumption habits",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "TV", "value": 64.0 },
+                { "label": "Newspaper", "value": 13.0 },
+                { "label": "Online news portal", "value": 9.0 },
+                { "label": "Friends, family or neighbors", "value": 8.0 },
+                { "label": "Radio", "value": 5.0 },
+                { "label": "Don't know/can't say", "value": 1.0 }
+            ]
+        },
+        {
+            "related_to": "news_consumption_habits",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/News consumption habits",
+            "key": "News consumption habits by gender",
+            "type": "GroupedMultiBar",
+            "option_group": "By Gender",
+            "values": {
+                "categories": [ "Male", "Female" ],
+                "data": [
+                    { "data": [ 57.0, 72.0 ], "name": "TV" },
+                    { "data": [ 16.0, 10.0 ], "name": "Newspaper" },
+                    { "data": [ 15.0, 2.0 ], "name": "Online news portal" },
+                    { "data": [ 5.0, 11.0 ], "name": "Friends, family or neighbors" },
+                    { "data": [ 5.0, 5.0 ], "name": "Radio" },
+                    { "data": [ 0.0, 1.0 ], "name": "Don't know/can't say" }
+                ]
+            }
+        },
+        {
+            "related_to": "news_consumption_habits",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/News consumption habits",
+            "key": "News consumption habits by age group",
+            "type": "GroupedMultiBar",
+            "option_group": "By Age Group",
+            "values": {
+                "categories": [ "15 to 24", "25 to 34", "35 to 44", "45 to 54", "55 to 64", "65 and above" ],
+                "data": [
+                    { "data": [ 62.0, 64.0, 76.0, 63.0, 59.0, 64.0 ], "name": "TV" },
+                    { "data": [ 14.0, 14.0, 8.0, 15.0, 17.0, 18.0 ], "name": "Newspaper" },
+                    { "data": [ 11.0, 10.0, 7.0, 2.0, 0.0, 0.0 ], "name": "Online news portal" },
+                    { "data": [ 8.0, 8.0, 6.0, 12.0, 15.0, 9.0 ], "name": "Friends, family or neighbors" },
+                    { "data": [ 6.0, 4.0, 3.0, 5.0, 7.0, 0.0 ], "name": "Radio" },
+                    { "data": [ 0.0, 0.0, 1.0, 3.0, 2.0, 9.0 ], "name": "Don't know/can't say" }
+                ]
+            }
+        },
+        {
+            "related_to": "news_consumption_habits",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/News consumption habits",
+            "key": "News consumption habits - By Years of schooling",
+            "type": "GroupedMultiBar",
+			"option_group": "By Education",
+            "values": {
+                "categories": [ "0 to 5 years of schooling", "6 to 10 years of schooling", "11 to 12 years of schooling", "13 to 16 years of schooling", "17 and above years  of schooling" ],
+                "data": [
+                    { "data": [ 67.0, 68.0, 60.0, 56.0, 57.0 ], "name": "TV" },
+                    { "data": [ 4.0, 13.0, 14.0, 22.0, 19.0 ], "name": "Newspaper" },
+                    { "data": [ 1.0, 6.0, 14.0, 17.0, 21.0 ], "name": "Online news portal" },
+                    { "data": [ 19.0, 7.0, 5.0, 3.0, 3.0 ], "name": "Friends, family or neighbors" },
+                    { "data": [ 7.0, 4.0, 7.0, 3.0, 0.0 ], "name": "Radio" },
+                    { "data": [ 2.0, 1.0, 0.0, 0.0, 0.0 ], "name": "Don't know/can't say" }
+                ]
+            }
+        },
+        {
+            "related_to": "news_consumption_habits",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/News consumption habits",
+            "key": "News consumption habits - By Party",
+            "type": "GroupedMultiBar",
+			"option_group": "By Party",
+            "values": {
+                "categories": [ "AL", "BNP", "JP", "Jamaat", "Don't support any party", "Don't know/can't say", "Refused" ],
+                "data": [
+                    { "data": [ 67.0, 72.0, 53.0, 63.0, 61.0, 53.0, 63.0 ], "name": "TV" },
+                    { "data": [ 11.0, 15.0, 18.0, 8.0, 16.0, 7.0, 14.0 ], "name": "Newspaper" },
+                    { "data": [ 7.0, 5.0, 18.0, 11.0, 11.0, 12.0, 9.0 ], "name": "Online news portal" },
+                    { "data": [ 8.0, 5.0, 0.0, 8.0, 9.0, 16.0, 9.0 ], "name": "Friends, family or neighbors" },
+                    { "data": [ 6.0, 3.0, 12.0, 11.0, 4.0, 3.0, 4.0 ], "name": "Radio" },
+                    { "data": [ 1.0, 0.0, 0.0, 0.0, 0.0, 9.0, 1.0 ], "name": "Don't know/can't say" }
+                ]
+            }
+        },
+        {
+            "filename": "viewership_of_bd_tv_channels",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/General",
+            "key": "Viewership of Bangladeshi TV channels",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Watch", "value": 87.0 },
+                { "label": "Don't watch", "value": 13.0 }
+            ]
+        },
+        {
+            "related_to": "viewership_of_bd_tv_channels",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/General",
+            "key": "Viewership of Bangladeshi TV channels - By Area",
+            "type": "GroupedMultiBar",
+			"option_group": "By area",
+            "values": {
+                "categories": [ "Urban", "Rural" ],
+                "data": [
+                    { "data": [ 92.0, 86.0 ], "name": "Watch" },
+                    { "data": [ 8.0, 14.0 ], "name": "Don't watch" }
+                ]
+            }
+        },
+        {
+            "filename": "viewership_of_bd_tv_channels_list",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/General",
+            "key": "Viewership of Bangladeshi TV channels - TV channels",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "BTV", "value": 21.0 },
+                { "label": "Somoy Television", "value": 11.0 },
+                { "label": "nTV", "value": 11.0 },
+                { "label": "Channel i", "value": 9.0 },
+                { "label": "ATN Bangla", "value": 9.0 },
+                { "label": "RTV", "value": 8.0 },
+                { "label": "Banglavision", "value": 7.0 },
+                { "label": "Don't know/can't say", "value": 5.0 },
+                { "label": "ATN News", "value": 3.0 },
+                { "label": "Ekushey Television", "value": 2.0 },
+                { "label": "Channel 24", "value": 2.0 },
+                { "label": "Independent TV", "value": 2.0 },
+                { "label": "Ekattor TV", "value": 2.0 }
+            ]
+        },
+        {
+            "filename": "use_of_tv_as_news_source",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/General",
+            "key": "Use of TV as a news source",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Daily/almost everyday", "value": 56.0 },
+                { "label": "3-4 times a week", "value": 21.0 },
+                { "label": "1-2 times a week", "value": 18.0 },
+                { "label": "Less than once a week", "value": 4.0 },
+                { "label": "Never", "value": 1.0 }
+            ]
+        },
+        {
+            "filename": "tv_genres",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/TV habits",
+            "key": "TV Genres",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "News", "value": 37.0 },
+                { "label": "Drama serials", "value": 34.0 },
+                { "label": "Movie", "value": 8.0 },
+                { "label": "Sports", "value": 5.0 },
+                { "label": "Music", "value": 4.0 },
+                { "label": "Talk show on politics", "value": 3.0 },
+                { "label": "Issue based Programs", "value": 4.0 },
+                { "label": "Magazine program", "value": 2.0 },
+                { "label": "Don't know/can't say", "value": 1.0 }
+            ]
+        },
+        {
+            "related_to": "tv_genres",
+			"option_group": "By Gender",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/TV habits",
+            "key": "TV Genres - by gender",
+            "type": "GroupedMultiBar",
+            "values": {
+                "categories": [ "Male", "Female" ],
+                "data": [
+                    { "data": [ 42.0, 22.0 ], "name": "News" },
+                    { "data": [ 19.0, 41.0 ], "name": "Drama serials" },
+                    { "data": [ 7.0, 8.0 ], "name": "Movie" },
+                    { "data": [ 7.0, 1.0 ], "name": "Sports" },
+                    { "data": [ 2.0, 5.0 ], "name": "Music" },
+                    { "data": [ 5.0, 1.0 ], "name": "Talk show on politics" },
+                    { "data": [ 4.0, 3.0 ], "name": "Issue based Programs" },
+                    { "data": [ 2.0, 3.0 ], "name": "Magazine program" },
+                    { "data": [ 1.0, 1.0 ], "name": "Don't know/can't say" }
+                ]
+            }
+        },
+        {
+            "related_to": "tv_genres",
+			"option_group": "By Education",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/TV habits",
+            "key": "TV Genres - by education",
+            "type": "GroupedMultiBar",
+            "values": {
+                "categories": [
+                    "0 to 5 years of schooling",
+                    "6 to 10 years of schooling",
+                    "11 to 12 years of schooling",
+                    "13 to 16 years of schooling",
+                    "17 or above years of schooling"
+                ],
+                "data": [
+                    { "data": [ 29.0, 33.0, 28.0, 35.0, 48.0 ], "name": "News" },
+                    { "data": [ 26.0, 33.0, 30.0, 26.0, 19.0 ], "name": "Drama serials" },
+                    { "data": [ 2.0, 2.0, 4.0, 6.0, 10.0 ], "name": "Talk show on politics" },
+                    { "data": [ 3.0, 5.0, 5.0, 4.0, 5.0 ], "name": "Sports" },
+                    { "data": [ 2.0, 2.0, 5.0, 7.0, 7.0 ], "name": "Issue based programs" }
+                ]
+            }
+        },
+        {
+            "filename": "talkshow_viewership",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/TV habits",
+            "key": "Talk show viewership",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Our Democracy", "value": 3.0 },
+                { "label": "Sompadokiyo", "value": 3.0 },
+                { "label": "Tritiyo Matra", "value": 2.0 },
+                { "label": "BBC Bangladesh Songlap", "value": 1.0 },
+                { "label": "News and Views", "value": 1.0 },
+                { "label": "Somvabonar Bangladesh", "value": 1.0 },
+                { "label": "Ekattor Songjogh", "value": 1.0 },
+                { "label": "Muktobaak", "value": 1.0 },
+                { "label": "Songbad Songlap", "value": 1.0 },
+                { "label": "Ajker Bangladesh", "value": 1.0 },
+                { "label": "Ekushey Raat", "value": 1.0 },
+                { "label": "Ekattor Mancho", "value": 1.0 },
+                { "label": "News Hour Extra", "value": 1.0 },
+                { "label": "Don't know/can't say", "value": 29.0 },
+                { "label": "Don't watch talk show", "value": 49.0 }
+            ]
+        },
+        {
+            "filename": "time_of_watching_tv",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/TV habits",
+            "key": "Time of watching TV",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Morning (6:00am to 11:59am)", "value": 5.0 },
+                { "label": "Afternoon (12:00pm to 5:59pm)", "value": 11.0 },
+                { "label": "Evening (6:00pm to 8:59pm)", "value": 31.0 },
+                { "label": "Late night (9:00pm to 11:59pm)", "value": 51.0 },
+                { "label": "Don't know/can't say", "value": 2.0 }
+            ]
+        },
+        {
+            "filename": "print_online_media_readership",
+            "key": "Print and online media readership",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/Print and online media",
+            "type": "GroupedMultiBar",
+			"option_group": "By Source",
+            "values": {
+                "categories": [ "Newspaper", "Online sources" ],
+                "data": [
+                    { "data": [ 22.0, 11.0 ], "name": "Daily/almost everyday" },
+                    { "data": [ 9.0, 4.0 ], "name": "3-4 times a week" },
+                    { "data": [ 17.0, 5.0 ], "name": "1-2 times a week" },
+                    { "data": [ 12.0, 3.0 ], "name": "Less than once a week" },
+                    { "data": [ 40.0, 74.0 ], "name": "Never" },
+                    { "data": [ 0.0, 3.0 ], "name": "Don't know/can't say" }
+                ]
+            }
+        },
+        {
+            "filename": "newspaper_readership",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/Print and online media",
+            "key": "Newspaper readership",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Prothom Alo", "value": 16.0 },
+                { "label": "Bangladesh Protidin", "value": 8.0 },
+                { "label": "Jugantor", "value": 5.0 },
+                { "label": "Don't know/can't say", "value": 4.0 },
+                { "label": "No fixed newspaper/as available", "value": 4.0 },
+                { "label": "Ittefaq", "value": 3.0 },
+                { "label": "Naya Diganta", "value": 2.0 },
+                { "label": "Janakantha", "value": 2.0 },
+                { "label": "Samakal", "value": 2.0 },
+                { "label": "Amar Desh", "value": 2.0 },
+                { "label": "Don't read newspaper", "value": 40.0 }
+            ]
+        },
+        {
+            "filename": "online_news_portal_readership",
+            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/Print and online media",
+            "key": "Online news portal readership",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Bdnews24.com", "value": 7.0 },
+                { "label": "Prothom Alo", "value": 2.0 },
+                { "label": "Banglanews24.com", "value": 2.0 },
+                { "label": "Bd24live.com", "value": 2.0 },
+                { "label": "Priyo.com", "value": 1.0 },
+                { "label": "Don't read online news", "value": 76.0 },
+                { "label": "Don't know/can't say", "value": 8.0 }
+            ]
+        }
+    ],
+    "meta": {
+        "date": "May 17 to 22 2015",
+        "info": "Media Habits Survey May 2015",
+        "moe": "2.6",
+        "participants": "1419",
+        "scope": "Media Habits Survey May 2015",
+        "write_path": "media_habit_may_2015",
+		"survey_type": "CATSS"
+    }
+}
