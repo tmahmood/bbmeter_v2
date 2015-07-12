@@ -1,6 +1,13 @@
 function Home(opts) {
 	this.opts = opts == null ?  opts : {};
 	this.current_response = null;
+	this.slide_stop = false;
+	if ($('#slideshow_items') != null) {
+		this.slideshow = setInterval(function() {
+			console.log("WAIT!");
+
+		}, 5000);
+	}
 }
 
 Home.prototype.onQuestionLinkClick = function() {
@@ -17,7 +24,7 @@ Home.prototype.onChartDisplayClick = function() {
 	var me = this;
 	$(document).on('click', '.chartToDisplay', function(ev){
 		ev.preventDefault();
-
+		me.slide_stop = true;
 		$('.btn-primary').addClass('btn-default').removeClass('btn-primary');
 		$(this).addClass('btn-primary');
 		$('#chart').empty();

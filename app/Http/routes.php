@@ -14,6 +14,7 @@
 Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
+Route::get('archieve', 'HomeController@archieve');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
@@ -21,7 +22,8 @@ Route::controllers([
 ]);
 
 Route::get('admin/import/json/{filename}', 'SurveyImportController@importSurveyFromJSON');
-Route::get('questions/{group_id}', 'HomeController@returnQuestionsAsJSON');
+Route::get('questions/group/{group_id}', 'HomeController@returnQuestionsAsJSON');
+Route::get('questions/survey/{survey_id}', 'HomeController@returnQuestionsAsJSON');
 Route::get('question/create', 'QuestionController@create');
 Route::get('question/{question_id}', 'HomeController@questionData');
 

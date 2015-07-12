@@ -13,6 +13,12 @@ class Group extends Node {
    */
   protected $table = 'groups';
 
+  function questions()
+  {
+  	return $this->hasMany('BBMeter\Question');
+  }
+
+
   //////////////////////////////////////////////////////////////////////////////
 
   //

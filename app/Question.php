@@ -15,4 +15,10 @@ class Question extends Model {
 		return $this->belongsTo('BBMeter\Survey');
 	}
 
+	function group()
+	{
+		return $this->belongsTo('BBMeter\Group');
+	}
+
+
 }

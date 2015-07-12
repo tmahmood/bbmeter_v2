@@ -29,6 +29,14 @@ class QuestionRepository implements BaseRepositoryInterface
 		return Question::where($by, $val)->firstOrFail();
 	}
 
+	function get_by_survey($survey_id, $with_group=false)
+	{
+		return Question::where('survey_id', $survey_id)
+			->with('survey', 'options', 'group')
+			->get();
+	}
+
+
 	public function get_by_group($group_id)
 	{
 		return Question::where('group_id', $group_id)
