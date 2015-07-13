@@ -4,6 +4,8 @@ function GroupedMultiBar() {
 	this.title = null;
 	this.subtitle = null;
 	this.series = [];
+	this.stacked = false;
+	this.direction = "";
 }
 
 GroupedMultiBar.prototype.set = function(field, val) {
@@ -15,7 +17,6 @@ GroupedMultiBar.prototype.addData = function(d) {
 
 	this.categories = d.categories;
 	this.series = d.data;
-	console.log(this.series);
 };
 
 GroupedMultiBar.prototype.draw = function() {
@@ -47,11 +48,34 @@ GroupedMultiBar.prototype.draw = function() {
         plotOptions: {
             column: {
                 pointPadding: 0.2,
-                borderWidth: 0
+                borderWidth: 0,
             }
         },
         series: me.series
 	};
+	if (this.stacked == true) {
+		if (this.direction == "V") {
+			d.plotOptions.column.stacking = 'percent';
+		} else {
+			d.plotOptions.series = {};
+			d.plotOptions.series.stacking = 'percent';
+			d.chart.type = 'bar';
+		}
+	}
+	console.log(d);
     $(me.container).highcharts(d);
 };
 
+function VStackedBar() {
+	var gp = new GroupedMultiBar();
+	gp.stacked = true;
+	gp.direction = "V";
+	return gp;
+}
+
+function HStackedBar() {
+	var gp = new GroupedMultiBar();
+	gp.stacked = true;
+	gp.direction = "H";
+	return gp;
+}

@@ -58,7 +58,11 @@ class QuestionRepository implements BaseRepositoryInterface
 			$gt = 'SimpleLine';
 		} else {
 		 	$response_data = $this->get_grouped_bar_chart($q, $gdata);
-			$gt = 'GroupedMultiBar';
+			if (in_array($q->graph_type , ['VStackedBar', 'HStackedBar'])) {
+				$gt = $q->graph_type;
+			} else {
+				$gt = 'GroupedMultiBar';
+			}
 		}
 
 		$final_response_data = [];

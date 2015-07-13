@@ -2,10 +2,18 @@ function Home(opts) {
 	this.opts = opts == null ?  opts : {};
 	this.current_response = null;
 	this.slide_stop = false;
-	if ($('#slideshow_items') != null) {
-		this.slideshow = setInterval(function() {
-			console.log("WAIT!");
 
+	this.current_slide = 1;
+	if ($('#slideshow_items') != null) {
+		var me = this;
+		this.slideshow = setInterval(function() {
+			$('#slideshow_items a').removeClass('active');
+			var cur = $('#slideshow_items a').get(me.current_slide);
+			$(cur).trigger('click').addClass('active');
+			me.current_slide++;
+			if (me.current_slide >= $('#slideshow_items a').length) {
+				me.current_slide = 1;
+			}
 		}, 5000);
 	}
 }
@@ -14,6 +22,9 @@ Home.prototype.onQuestionLinkClick = function() {
 	var me = this;
 	$(document).on('click', '.questions_link', function(ev){
 		ev.preventDefault();
+
+		clearInterval(me.slideshow);
+
 		$('.questions_link').removeClass('active');
 		$(this).addClass('active');
 		$.get(this.href, me.makeList);
@@ -76,7 +87,7 @@ Home.prototype.onQuestionsListClick = function() {
 Home.prototype.drawChart = function(response, me) {
 	$('#chart').empty();
 	if (response.length != undefined) {
-		if (response[0].type == 'GroupedMultiBar' || response[0].type == 'SimpleLine') {
+		if (['GroupedMultiBar', 'SimpleLine', 'VStackedBar', 'HStackedBar'].indexOf(response[0].type) >= 0 ) {
 			graphcore.drawChart(response[1][0]);
 			if(response[1]['key'] != '') {
 				$('#page-header').empty().append(response[1][0]['key']);
