@@ -2,6 +2,11 @@
 
 use BBMeter\Repositories\BaseRepositoryInterface;
 use BBMeter\Question;
+use BBMeter\Option;
+use BBMeter\Group;
+use BBMeter\OptionGroup;
+use BBMeter\Response;
+use BBMeter\Repositories\GroupRepository;
 
 /**
  * Class QuestionRepository
@@ -9,6 +14,11 @@ use BBMeter\Question;
  */
 class QuestionRepository implements BaseRepositoryInterface
 {
+	function __construct()
+	{
+		$this->gr = new GroupRepository;
+	}
+
 	public function all()
 	{
 		return Question::all();
@@ -84,7 +94,7 @@ class QuestionRepository implements BaseRepositoryInterface
 		foreach ($q->options as $i=>$option){
 			foreach ($option->responses as $response){
 				$response_data[$response->option_group->option_group_name][$i]['key'] = $option->label;
-				$response_data[$response->option_group->option_group_name][$i]['values'][] = [ strtotime($response->label) * 1000, (float) $response->value];
+				$response_data[$response->option_group->option_group_name][$i]['values'][] = [ strtotime($response->label) * 1000, (float) $response->value ];
 			}
 		}
 		return $response_data;
@@ -139,6 +149,77 @@ class QuestionRepository implements BaseRepositoryInterface
 				]
 			];
 	}
+
+	function save_question($survey, $question)
+	{
+		$group = $this->gr->get_group_by_path($question->group);
+		$q = Question::create([
+				'key' => $question->key,
+				'survey_id' => $survey->id,
+				'group_id' => $group->id,
+				'graph_type' => $question->type,
+				'guid' => $survey->survey_guid . '_' . $question->filename,
+		]);
+		return $q;
+	}
+
+	function is_grouped_types($type)
+	{
+		return in_array($type, [ 'GroupedMultiBar',
+				'SimpleLine', 'HStackedBar', 'VStackedBar' ]);
+	}
+
+	function save_question_and_options($survey, $question)
+	{
+		if (!$this->is_grouped_types($question->type)) {
+
+			$q = $this->save_question($survey, $question);
+			$vals = [];
+
+			foreach ($question->values as $value){
+				$vals[] = new Option((array)$value);
+			}
+			return $q->options()->saveMany($vals);
+
+		} else {
+
+			if(!array_key_exists('related_to', $question)) {
+				$q = $this->save_question($survey, $question);
+				$vals = [];
+				foreach ($question->values->data as $value){
+					$vals[] = new Option([ "label"=> $value->name ]);
+				}
+				$q->options()->saveMany($vals);
+			}
+
+		}
+
+		if (!isset($q) or $q == null) {
+			$q = Question::where('guid', $survey->survey_guid . "_" . $question->related_to)->firstOrFail();
+		}
+
+		$option_group = OptionGroup::where("option_group_name", $question->option_group)->firstOrFail();
+
+		foreach ($question->values->data as $data){
+
+			$option = Option::where('question_id', $q->id)
+								->where('label', $data->name)
+								->firstOrFail();
+			$responses = [];
+			foreach ($question->values->categories as $idx => $category){
+					$responses[] = new Response([
+										"label" => $category,
+										"value" => $data->data[$idx],
+										"option_group_id" => $option_group->id
+									]);
+			}
+
+			$option->responses()->saveMany($responses);
+			$q->has_crosstabs = 1;
+			$q->save();
+		}
+	}
+
 }
 
 

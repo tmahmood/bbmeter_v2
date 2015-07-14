@@ -3,14 +3,15 @@
 use BBMeter\Group;
 use BBMeter\Repositories\QuestionRepository;
 use BBMeter\Repositories\SurveyRepository;
+use BBMeter\Repositories\GroupRepository;
 
 class HomeController extends Controller {
 
-	function index(SurveyRepository $sr)
+	function index(SurveyRepository $sr, GroupRepository $gr)
 	{
 		$survey = $sr->latest();
 		$questions = $this->returnSurveyQuestionsAsJSON(new QuestionRepository, $survey->id, true);
-		$groups  = $sr->get_child_groups($questions);
+		$groups  = $gr->get_child_groups($questions);
 		return view('latest')->withGroups($groups)->withLatest(true);
 	}
 

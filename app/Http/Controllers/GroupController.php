@@ -3,6 +3,7 @@
 use Request;
 use Storage;
 use BBMeter\Group;
+use BBMeter\Repositories\GroupRepository;
 
 class Groupcontroller extends Controller {
 	public function __construct()
@@ -16,27 +17,10 @@ class Groupcontroller extends Controller {
 		return view('groups.form');
 	}
 
-	function save()
+	function save(GroupRepository $gr)
 	{
 		$group = Request::input('group');
-
-		$groups = explode('/', $group);
-		$group_root = array_shift($groups);
-
-		$root = Group::roots()->where('group_name', $group_root)->first();
-		if ($root == null) {
-			$root = Group::create(['group_name'=> $group_root]);
-		}
-
-		foreach ($groups as $group){
-			$node = $root->getDescendants()->where('group_name', $group)->first();
-			if ($node == null) {
-				$root = $root->children()->create(['group_name' => $group]);
-			} else {
-				$root = $node;
-			}
-		}
-		return $root;
+		$gr->get_group_by_path($group);
 	}
 }
 

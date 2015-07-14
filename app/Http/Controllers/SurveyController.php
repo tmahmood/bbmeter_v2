@@ -2,11 +2,12 @@
 
 use Request;
 use Storage;
+use BBMeter\Survey;
 
 class Surveycontroller extends Controller {
+
 	public function __construct()
 	{
-		// add authentication
 		$this->middleware('auth');
 	}
 
@@ -17,10 +18,10 @@ class Surveycontroller extends Controller {
 
 	function save()
 	{
-		if (Survey::create(Input::except('_token'))) {
-			redirect_to(url('/home'))->withMessage("New Survey Created");
+		if (Survey::create(Request::except('_token')) !== null) {
+			redirect(url('/admin/survey/create'))
+				->withMessage("New Survey Created");
 		}
 	}
-
 }
 

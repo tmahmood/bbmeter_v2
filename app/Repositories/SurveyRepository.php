@@ -2,6 +2,7 @@
 
 use BBMeter\Repositories\BaseRepositoryInterface;
 use BBMeter\Survey;
+use BBMeter\SurveyType;
 use BBMeter\Group;
 
 /**
@@ -13,29 +14,6 @@ class SurveyRepository implements BaseRepositoryInterface
 	public function all()
 	{
 		return Survey::all();
-	}
-
-	function get_child_groups($questions)
-	{
-		$groups = [];
-		$parent_group = null;
-		foreach ($questions as $question){
-			if (array_key_exists($question->group_id, $groups)) {
-				continue;
-			}
-
-			if ($parent_group == null) {
-				$parent_group = Group::find($question->group->parent_id);
-
-			} elseif ($question->group->parent_id < $parent_group->id) {
-				$parent_group = $question->group_id;
-
-			}
-
-			$groups[$question->group_id] = $question->group;
-		}
-
-		return $parent_group->getDescendantsAndSelf()->toHierarchy();
 	}
 
 
@@ -59,6 +37,25 @@ class SurveyRepository implements BaseRepositoryInterface
 		return Survey::where($by, $val)->firstOrFail();
 	}
 
+	function save_survey($survey_data)
+	{
+		$surveys = Survey::where('survey_guid', $survey_data[6])->get();
+
+		if (count($surveys) == 1) {
+			return $surveys->first();
+		}
+
+		$survey_type = SurveyType::where("survey_type_name", $survey_data[5])->firstOrFail();
+
+		return Survey::create([
+			'survey_name' => $survey_data[0],
+			'participants' => $survey_data[1],
+			'margin_or_error' => $survey_data[3],
+			'survey_date' => $survey_data[4],
+			'survey_type_id'=> $survey_type->id,
+			'survey_guid'=> $survey_data[6]
+		]);
+	}
 }
 
 

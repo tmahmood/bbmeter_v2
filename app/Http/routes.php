@@ -21,16 +21,19 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 
-Route::get('admin/import/json/{filename}', 'SurveyImportController@importSurveyFromJSON');
 Route::get('questions/group/{group_id}', 'HomeController@returnQuestionsAsJSON');
 Route::get('questions/survey/{survey_id}', 'HomeController@returnQuestionsAsJSON');
-Route::get('question/create', 'QuestionController@create');
 Route::get('question/{question_id}', 'HomeController@questionData');
 
+Route::get('admin/import/json/{filename}', 'SurveyImportController@importSurveyFromJSON');
+Route::get('admin/questions/create', 'QuestionController@create');
+Route::post('admin/questions/save', 'QuestionController@save');
 
-Route::get('surveys/create', 'SurveyController@create');
-Route::get('groups/create', 'GroupController@create');
-Route::post('groups/save', 'GroupController@save');
+Route::get('admin/surveys/create', 'SurveyController@create');
+Route::post('admin/surveys/save', 'SurveyController@save');
+
+Route::get('admin/groups/create', 'GroupController@create');
+Route::post('admin/groups/save', 'GroupController@save');
 
 Route::get('aboutdi', 'HomeController@aboutpage');
 Route::get('methodology', 'HomeController@methodology');

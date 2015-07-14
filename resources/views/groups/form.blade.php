@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
 	<div class="row">
-		<form class="form" method="POST" action="{{ url('groups/save') }}">
+		<form class="form" method="POST" action="{{ url('admin/groups/save') }}">
 
 			<div class="panel panel-default">
 				<div class="panel-heading">
