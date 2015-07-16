@@ -7,16 +7,10 @@
 @section('content')
 <div class="container-fluid">
 	<div class="row">
-		<div>@include('partials.sidebar', [ 'groups' => $groups ])</div>
+		<div>@include('partials.sidebar')</div>
+		<div id="graph_content" class="latest">
 
-		<div id="questions_list">
- 			<strong>◀ Please select an option from the side bar</strong>
-		</div>
-
-		<div id="graph_content">
-
-			<h1 id="page-header">
-			</h1>
+			<h1 id="page-header"></h1>
 
 			<div id="chart">
 				<div class="pushdown">

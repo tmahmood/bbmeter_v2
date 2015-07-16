@@ -7,12 +7,11 @@ use BBMeter\Repositories\GroupRepository;
 
 class HomeController extends Controller {
 
-	function index(SurveyRepository $sr, GroupRepository $gr)
+	function index(SurveyRepository $sr, GroupRepository $gr, QuestionRepository $qr)
 	{
 		$survey = $sr->latest();
-		$questions = $this->returnSurveyQuestionsAsJSON(new QuestionRepository, $survey->id, true);
-		$groups  = $gr->get_child_groups($questions);
-		return view('latest')->withGroups($groups)->withLatest(true);
+		$questions = $qr->get_by_survey($survey->id);
+		return view('latest')->withQuestions($questions)->withLatest(true);
 	}
 
 	public function archieve()

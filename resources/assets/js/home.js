@@ -9,23 +9,28 @@ function Home(opts) {
 		this.slideshow = setInterval(function() {
 			$('#slideshow_items a').removeClass('active');
 			var cur = $('#slideshow_items a').get(me.current_slide);
-			$(cur).trigger('click').addClass('active');
+			if (cur.hasAttribute('href') == false) {
+				console.log(cur);
+				console.log(me.current_slide);
+				me.current_slide++;
+				cur = $('#slideshow_items a').get(me.current_slide);
+			}
+			me.updateGraphView(cur);
 			me.current_slide++;
+
 			if (me.current_slide >= $('#slideshow_items a').length) {
 				me.current_slide = 1;
 			}
-		}, 5000);
+		}, 3000);
 	}
 }
 
-Home.prototype.onQuestionLinkClick = function() {
+Home.prototype.onGroupsLinkClick = function() {
 	var me = this;
-	$(document).on('click', '.questions_link', function(ev){
+	$(document).on('click', '.groups_link', function(ev){
 		ev.preventDefault();
-
 		clearInterval(me.slideshow);
-
-		$('.questions_link').removeClass('active');
+		$('.groups_link').removeClass('active');
 		$(this).addClass('active');
 		$.get(this.href, me.makeList);
 	});
@@ -50,6 +55,25 @@ Home.prototype.onChartDisplayClick = function() {
 	});
 };
 
+Home.prototype.onQuestionsLinkClick = function() {
+	var me = this;
+	$(document).on('click', '.question_link', function(ev){
+		ev.preventDefault();
+		clearInterval(me.slideshow);
+		me.updateGraphView(this);
+	});
+};
+
+
+Home.prototype.updateGraphView = function(elm) {
+	var me = this;
+	$('.question_link').removeClass('active');
+	$(elm).addClass('active');
+	$.get(elm.href, function(response) {
+		me.current_response = response;
+		me.drawChart(response, me);
+	});
+};
 
 Home.prototype.makeList = function(response) {
 
@@ -69,19 +93,6 @@ Home.prototype.makeList = function(response) {
 	}
 
 	$('#questions_list').empty().append(createElement(ul));
-};
-
-Home.prototype.onQuestionsListClick = function() {
-	var me = this;
-	$(document).on('click', '.question_link', function(ev){
-		ev.preventDefault();
-		$('.question_link').parent().parent().find('li').removeClass('active');
-		$(this).parent().addClass('active');
-		$.get(this.href, function(response) {
-			me.current_response = response;
-			me.drawChart(response, me);
-		});
-	});
 };
 
 Home.prototype.drawChart = function(response, me) {
@@ -146,8 +157,8 @@ Home.prototype.makeDropDownList = function(option_groups, nomain) {
 
 var home = new Home();
 $(function(){
-	home.onQuestionLinkClick();
-	home.onQuestionsListClick();
+	home.onGroupsLinkClick();
+	home.onQuestionsLinkClick();
 	home.onChartDisplayClick();
 });
 

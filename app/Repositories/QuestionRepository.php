@@ -46,7 +46,6 @@ class QuestionRepository implements BaseRepositoryInterface
 			->get();
 	}
 
-
 	public function get_by_group($group_id)
 	{
 		return Question::where('group_id', $group_id)

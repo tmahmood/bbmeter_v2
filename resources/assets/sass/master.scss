@@ -66,6 +66,16 @@ body {
 	}
 }
 
+#slideshow_items {
+	a {
+		&.active {
+			background: #7B7B7B;
+			color: #fff!important;
+		}
+	}
+
+}
+
 #graph_content {
 	position: fixed;
 }
@@ -85,7 +95,14 @@ body {
 	#graph_content {
 		left: 34%;
 		width: 100 - 35%;
+
+		&.latest {
+			left: 17%;
+			width: 100 - 17%;
+		}
 	}
+
+
 
 }
 

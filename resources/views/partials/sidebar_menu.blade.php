@@ -1,7 +1,7 @@
 <li>
 	@if ($cgroup->isLeaf())
 		@if ($cgroup->hide_group == 0)
-			<a class="questions_link" href="questions/group/{{ $cgroup->id }}">
+			<a class="groups_link" href="questions/group/{{ $cgroup->id }}">
 				{{ $cgroup->group_name }}</a>
 		@endif
 	@else
