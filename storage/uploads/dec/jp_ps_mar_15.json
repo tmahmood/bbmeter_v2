@@ -2,7 +2,7 @@
 	"data": [
 		{
 			"filename": "bangladesh_direction",
-			"group": "Poll 2015/CATSS/Party Survey March 2015/JP",
+			"group": "Opinion Polls 2015/March/Party Survey[CATSS]/JP",
 			"key": "Direction in which Bangladesh is moving",
 			"type": "GroupedMultiBar",
 			"option_group": "Political Parties",
@@ -18,7 +18,7 @@
 			}
 		}, {
             "related_to": "bangladesh_direction",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/JP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/JP",
             "key": "Direction in which Bangladesh is moving",
             "type": "GroupedMultiBar",
 			"option_group": "By Division",
@@ -35,7 +35,7 @@
         },
         {
             "filename": "use_of_violence",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/JP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/JP",
             "key": "Use of violence in political protests",
             "type": "DiscretBar",
             "values": [
@@ -60,7 +60,7 @@
         {
             "date": "",
             "filename": "responsibity_for_violence",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/JP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/JP",
             "key": "Responsibity for violence in Bangladesh",
             "type": "DiscretBar",
             "values": [
@@ -89,7 +89,7 @@
         {
             "date": "",
             "filename": "multi_party_dialogues",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/JP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/JP",
             "key": "Multiparty dialogue on the current crisis",
             "type": "DiscretBar",
             "values": [
@@ -106,7 +106,7 @@
         {
             "date": "",
             "filename": "di_organized_multi_party_dialogues",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/JP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/JP",
             "key": "Interest in DI-organized multi-party dialogues",
             "type": "DiscretBar",
             "values": [
@@ -131,7 +131,7 @@
         {
             "date": "",
             "filename": "role_leaders_resolving_current_crisis",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/JP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/JP",
             "key": "Role of party leaders in resolving the current crisis",
             "type": "DiscretBar",
             "values": [
@@ -160,7 +160,7 @@
         {
             "date": "",
             "filename": "women_role_responsibility_in_jp",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/JP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/JP",
             "key": "Women's role and responsibility in JP",
             "type": "DiscretBar",
             "values": [
@@ -180,7 +180,7 @@
         },
         {
             "related_to": "women_role_responsibility_in_jp",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/JP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/JP",
             "key": "Women's role and responsibility in JP",
             "type": "GroupedMultiBar",
 			"option_group": "By Gender",

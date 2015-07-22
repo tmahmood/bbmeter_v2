@@ -23,10 +23,10 @@ class DatabaseSeeder extends Seeder {
 	public function run()
 	{
 		Model::unguard();
-		// $this->call('UserTableSeeder');
+		$this->call('DefaultSeeds');
 		// $this->call('SurveyGroupCreator');
 		// $this->call('SurveyDataSeed');
-		$this->call('GroupSeeder');
+		// $this->call('GroupSeeder');
 	}
 }
 
@@ -78,12 +78,9 @@ class SurveyGroupCreator extends Seeder
 	public function run()
 	{
 		DB::statement("set foreign_key_checks=0");
-		DB::statement("truncate survey_types");
 		DB::statement("truncate groups");
 		DB::statement("set foreign_key_checks=1");
 
-		SurveyType::create([ "survey_type_name" => "Face to Face" ]);
-		SurveyType::create([ "survey_type_name" => "CATSS" ]);
 
 		$cceg = [
 					[ "group_name" => "Governance" ],
@@ -150,15 +147,18 @@ class SurveyGroupCreator extends Seeder
 }
 
 
-class UserTableSeeder extends Seeder {
+class DefaultSeeds extends Seeder {
 
 	public function run()
 	{
 		DB::statement("set foreign_key_checks=0");
 		DB::statement("truncate users");
 		DB::statement("truncate roles");
+		DB::statement("truncate survey_types");
 		DB::statement("set foreign_key_checks=1");
 
+		SurveyType::create([ "survey_type_name" => "face to face" ]);
+		SurveyType::create([ "survey_type_name" => "catss" ]);
 
 		$usr_admin = User::create([
 			'name' => 'admin',

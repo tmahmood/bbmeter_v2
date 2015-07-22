@@ -2,7 +2,7 @@
     "data": [
         {
             "filename": "news_consumption_habits",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/News consumption habits",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/News consumption habits",
             "key": "News consumption habits",
             "type": "DiscretBar",
             "values": [
@@ -16,7 +16,7 @@
         },
         {
             "related_to": "news_consumption_habits",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/News consumption habits",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/News consumption habits",
             "key": "News consumption habits by gender",
             "type": "GroupedMultiBar",
             "option_group": "By Gender",
@@ -34,7 +34,7 @@
         },
         {
             "related_to": "news_consumption_habits",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/News consumption habits",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/News consumption habits",
             "key": "News consumption habits by age group",
             "type": "GroupedMultiBar",
             "option_group": "By Age Group",
@@ -52,7 +52,7 @@
         },
         {
             "related_to": "news_consumption_habits",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/News consumption habits",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/News consumption habits",
             "key": "News consumption habits - By Years of schooling",
             "type": "GroupedMultiBar",
 			"option_group": "By Education",
@@ -70,7 +70,7 @@
         },
         {
             "related_to": "news_consumption_habits",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/News consumption habits",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/News consumption habits",
             "key": "News consumption habits - By Party",
             "type": "GroupedMultiBar",
 			"option_group": "By Party",
@@ -88,7 +88,7 @@
         },
         {
             "filename": "viewership_of_bd_tv_channels",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/General",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/TV/General",
             "key": "Viewership of Bangladeshi TV channels",
             "type": "DiscretBar",
             "values": [
@@ -98,7 +98,7 @@
         },
         {
             "related_to": "viewership_of_bd_tv_channels",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/General",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/TV/General",
             "key": "Viewership of Bangladeshi TV channels - By Area",
             "type": "GroupedMultiBar",
 			"option_group": "By area",
@@ -112,7 +112,7 @@
         },
         {
             "filename": "viewership_of_bd_tv_channels_list",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/General",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/TV/General",
             "key": "Viewership of Bangladeshi TV channels - TV channels",
             "type": "DiscretBar",
             "values": [
@@ -133,7 +133,7 @@
         },
         {
             "filename": "use_of_tv_as_news_source",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/General",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/TV/General",
             "key": "Use of TV as a news source",
             "type": "DiscretBar",
             "values": [
@@ -146,7 +146,7 @@
         },
         {
             "filename": "tv_genres",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/TV habits",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/TV/TV habits",
             "key": "TV Genres",
             "type": "DiscretBar",
             "values": [
@@ -164,7 +164,7 @@
         {
             "related_to": "tv_genres",
 			"option_group": "By Gender",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/TV habits",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/TV/TV habits",
             "key": "TV Genres - by gender",
             "type": "GroupedMultiBar",
             "values": {
@@ -185,7 +185,7 @@
         {
             "related_to": "tv_genres",
 			"option_group": "By Education",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/TV habits",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/TV/TV habits",
             "key": "TV Genres - by education",
             "type": "GroupedMultiBar",
             "values": {
@@ -207,7 +207,7 @@
         },
         {
             "filename": "talkshow_viewership",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/TV habits",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/TV/TV habits",
             "key": "Talk show viewership",
             "type": "DiscretBar",
             "values": [
@@ -230,7 +230,7 @@
         },
         {
             "filename": "time_of_watching_tv",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/TV/TV habits",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/TV/TV habits",
             "key": "Time of watching TV",
             "type": "DiscretBar",
             "values": [
@@ -244,7 +244,7 @@
         {
             "filename": "print_online_media_readership",
             "key": "Print and online media readership",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/Print and online media",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/Print and online media",
             "type": "GroupedMultiBar",
 			"option_group": "By Source",
             "values": {
@@ -261,7 +261,7 @@
         },
         {
             "filename": "newspaper_readership",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/Print and online media",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/Print and online media",
             "key": "Newspaper readership",
             "type": "DiscretBar",
             "values": [
@@ -280,7 +280,7 @@
         },
         {
             "filename": "online_news_portal_readership",
-            "group": "Opinion Poll 2015/CATSS (Telephone Survey)/Media Habits/Print and online media",
+            "group": "Opinion Polls 2015/May 2015/Media Habits [CATSS]/Print and online media",
             "key": "Online news portal readership",
             "type": "DiscretBar",
             "values": [

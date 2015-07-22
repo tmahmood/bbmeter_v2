@@ -2,7 +2,7 @@
     "data": [
         {
             "filename": "bangladesh_direction",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/AL",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/AL",
             "key": "Direction in which Bangladesh is moving",
             "type": "GroupedMultiBar",
 			"option_group": "Political Parties",
@@ -17,7 +17,7 @@
 				]
 			}
         }, {
-            "group": "Poll 2015/CATSS/Party Survey March 2015/AL",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/AL",
             "key": "Direction in which Bangladesh is moving",
             "type": "GroupedMultiBar",
 			"option_group": "By Division",
@@ -35,7 +35,7 @@
         },
         {
             "filename": "use_of_violence",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/AL",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/AL",
             "key": "Use of violence in political protests",
             "type": "DiscretBar",
             "values": [
@@ -47,7 +47,7 @@
         },
         {
             "filename": "responsibity_for_violence",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/AL",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/AL",
             "key": "Responsibity for violence in Bangladesh",
             "type": "DiscretBar",
             "values": [
@@ -60,7 +60,7 @@
         },
         {
             "filename": "di_organized_multi_party_dialogues",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/AL",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/AL",
             "key": "Interest in DI-organized multi-party dialogues",
             "type": "DiscretBar",
             "values": [
@@ -72,7 +72,7 @@
         },
         {
             "filename": "role_leaders_resolving_current_crisis",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/AL",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/AL",
             "key": "Role of party leaders in resolving the current crisis",
             "type": "DiscretBar",
             "values": [
@@ -84,7 +84,7 @@
         },
         {
             "filename": "women_role_responsibility_in_al",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/AL",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/AL",
             "key": "Women's role and responsibility in AL",
             "type": "DiscretBar",
             "values": [
@@ -94,7 +94,7 @@
             ]
         },
         {
-            "group": "Poll 2015/CATSS/Party Survey March 2015/AL",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/AL",
             "key": "Women's role and responsibility in AL",
             "type": "GroupedMultiBar",
             "related_to": "women_role_responsibility_in_al",

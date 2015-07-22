@@ -75,7 +75,6 @@ body {
 	padding: 8px 0px 6px 15px;
 	outline: medium none;
 	line-height: 1.5em;
-	border-bottom: .1em dashed #ccc;
 }
 
 .ma-infinitypush-wrapper .ma-infinitypush ul li ul, .ma-infinitypush-wrapper .ma-infinitypush ul li ol, .ma-infinitypush-wrapper .ma-infinitypush ol li ul, .ma-infinitypush-wrapper .ma-infinitypush ol li ol {

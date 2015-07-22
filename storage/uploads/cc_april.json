@@ -2,7 +2,7 @@
     "data": [
         {
             "filename": "bangladesh_direction_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Governance",
             "key": "Direction in which Bangladesh is moving",
             "type": "DiscretBar",
             "values": [
@@ -14,7 +14,7 @@
             ]
         },
         {
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Governance",
             "key": "Direction in which Bangladesh is moving",
             "type": "GroupedMultiBar",
             "related_to": "bangladesh_direction_chittagong",
@@ -32,7 +32,7 @@
         },
         {
             "filename": "city_corporation_direction_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Governance",
             "key": "Direction in which City Corporation is moving",
             "type": "DiscretBar",
             "values": [
@@ -45,7 +45,7 @@
         },
         {
             "related_to": "city_corporation_direction_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Governance",
             "key": "Direction in which City Corporation is moving",
             "type": "GroupedMultiBar",
 			"option_group": "By Gender",
@@ -62,7 +62,7 @@
         },
         {
             "filename": "why_right_direction_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Governance",
             "key": "Reasons for stating that Bangladesh is moving in the right direction",
             "type": "DiscretBar",
             "values": [
@@ -80,7 +80,7 @@
         },
         {
             "filename": "why_wrong_direction_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Governance",
             "key": "Reasons for stating that Bangladesh is moving in the wrong direction",
             "type": "DiscretBar",
             "values": [
@@ -100,7 +100,7 @@
         },
         {
             "filename": "political_situation_in_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Governance",
             "key": "Political situation in Chittagong CC",
             "type": "DiscretBar",
             "values": [
@@ -115,7 +115,7 @@
         },
         {
             "filename": "biggest_achievement_chitagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Governance",
             "key": "The biggest achievement of Chittagong CC in last 5 years",
             "type": "DiscretBar",
             "values": [
@@ -129,7 +129,7 @@
         },
         {
             "filename": "major_problem_chitagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Governance",
             "key": "The major problem faced by Chittagong CC in last 5 years",
             "type": "DiscretBar",
             "values": [
@@ -148,7 +148,7 @@
         },
         {
             "filename": "service_delivery_waste_management_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Service Delivery",
             "key": "satisfied or dissatisfied with the service - Waste management",
             "type": "DiscretBar",
             "values": [
@@ -162,7 +162,7 @@
         },
         {
             "filename": "service_quality_sewerage_management_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Service Delivery",
             "key": "Satisfied or dissatisfied with the service - Sewerage management",
             "type": "DiscretBar",
             "values": [
@@ -176,7 +176,7 @@
         },
         {
             "filename": "service_quality_birth_death_national_cert_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Service Delivery",
             "key": "Satisfied or dissatisfied with the service - Birth/Death/National certificate provision",
             "type": "DiscretBar",
             "values": [
@@ -190,7 +190,7 @@
         },
         {
             "filename": "service_quality_environment_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Service Delivery",
             "key": "Satisfied or dissatisfied with the service - Environmental management",
             "type": "DiscretBar",
             "values": [
@@ -204,7 +204,7 @@
         },
         {
             "filename": "work_quality_road_footpath_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Service Delivery",
             "key": "Satisfied or dissatisfied with the work - Road and footpath maintenance",
             "type": "DiscretBar",
             "values": [
@@ -218,7 +218,7 @@
         },
         {
             "filename": "work_quality_park_recreation_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Service Delivery",
             "key": "Satisfied or dissatisfied with the work - Park and recreation facilities",
             "type": "DiscretBar",
             "values": [
@@ -232,7 +232,7 @@
         },
         {
             "filename": "work_quality_street_lights_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Service Delivery",
             "key": "Satisfied or dissatisfied with the work - Lighting in the streets",
             "type": "DiscretBar",
             "values": [
@@ -246,7 +246,7 @@
         },
         {
             "filename": "work_quality_clean_city_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Service Delivery",
             "key": "Satisfied or dissatisfied with the work - Making the city clean",
             "type": "DiscretBar",
             "values": [
@@ -260,7 +260,7 @@
         },
         {
             "filename": "work_quality_green_city_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Service Delivery",
             "key": "Satisfied or dissatisfied with the work - Making the city green",
             "type": "DiscretBar",
             "values": [
@@ -274,7 +274,7 @@
         },
         {
             "filename": "officials_quality_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Service Delivery",
             "key": "Satisfied or dissatisfied with the services of the city corporation officials?",
             "type": "DiscretBar",
             "values": [
@@ -288,7 +288,7 @@
         },
         {
             "filename": "office_visit_frequency_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Service Delivery",
             "key": "Frequency of visiting councillor/commissioner office to avail services",
             "type": "DiscretBar",
             "values": [
@@ -299,7 +299,7 @@
         },
         {
             "filename": "councillor_satisfactory_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Service Delivery",
             "key": "Satisfaction with ward councillor/commissioner performance",
             "type": "DiscretBar",
             "values": [
@@ -312,7 +312,7 @@
         },
         {
             "filename": "free_fair_election_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/General",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/General",
             "key": "Perceptions whether free and fair elections can be held in the current political situation",
             "type": "DiscretBar",
             "values": [
@@ -326,7 +326,7 @@
         },
         {
             "filename": "candidate_manifestos_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/General",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/General",
             "key": "Issues expected to be included in the (Chittagong) candidate's manifestos",
             "type": "DiscretBar",
             "values": [
@@ -345,7 +345,7 @@
         },
         {
             "filename": "interest_in_cc_election_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/General",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/General",
             "key": "Interest in the 2015 City Corporation election campaign",
             "type": "DiscretBar",
             "values": [
@@ -358,7 +358,7 @@
         },
         {
             "filename": "most_liked_campaign_tool_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Campaign",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Campaign",
             "key": "Most liked election campaign tool",
             "type": "DiscretBar",
             "values": [
@@ -373,7 +373,7 @@
         },
         {
             "filename": "least_liked_campaign_tool_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Campaign",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Campaign",
             "key": "Least liked election campaign",
             "type": "DiscretBar",
             "values": [
@@ -387,7 +387,7 @@
         },
         {
             "filename": "decision_vote_information_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Campaign",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Campaign",
             "key": "Sufficient information to make a decision how to vote",
             "type": "DiscretBar",
             "values": [
@@ -399,7 +399,7 @@
         },
         {
             "filename": "most_important_traits_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Candidates",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Candidates",
             "key": "Traits that are most important when evaluating a candidate running for political office",
             "type": "DiscretBar",
             "values": [
@@ -412,7 +412,7 @@
         },
         {
             "filename": "name_recognition_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Candidates",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Candidates",
             "key": "Name recognition",
             "type": "GroupedMultiBar",
 			"option_group": "Name Recognition",
@@ -427,7 +427,7 @@
         },
         {
             "filename": "candidate_likability_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Candidates",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Candidates",
             "key": "Candidate's likability",
             "type": "GroupedMultiBar",
 			"option_group": "Name Recognition",
@@ -447,7 +447,7 @@
         },
         {
             "filename": "main_issue_determine_winning_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Candidates",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Candidates",
             "key": "Main issue to determine the winning",
             "type": "DiscretBar",
             "values": [
@@ -460,7 +460,7 @@
         },
         {
             "filename": "vote_last_ce_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Voting Behavior",
             "key": "Did you vote in the last city election?",
             "type": "DiscretBar",
             "values": [
@@ -471,7 +471,7 @@
         },
         {
             "filename": "likelihood_vote_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Voting Behavior",
             "key": "Likelihood of voting in the Chittagong CC election",
             "type": "DiscretBar",
             "values": [
@@ -484,7 +484,7 @@
         },
         {
             "filename": "decision_time_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Voting Behavior",
             "key": "Time when voters make a decision whom to vote for",
             "type": "DiscretBar",
             "values": [
@@ -508,7 +508,7 @@
         },
         {
             "filename": "decision_made_alone_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Voting Behavior",
             "key": "Do you decide yourself or somebody else helps you to choose your candidate?",
             "type": "DiscretBar",
             "values": [
@@ -524,7 +524,7 @@
         },
         {
             "related_to": "decision_made_alone_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Voting Behavior",
             "key": "Do you decide yourself or somebody else helps you to choose your candidate by gender",
             "type": "GroupedMultiBar",
 			"option_group": "By Gender",
@@ -553,7 +553,7 @@
         },
         {
             "filename": "decision_party_infulence_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Voting Behavior",
             "key": "Decision whom to vote for: candidate versus party",
             "type": "DiscretBar",
             "values": [
@@ -573,7 +573,7 @@
         },
         {
             "filename": "decision_gender_infulence_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Voting Behavior",
             "key": "Effects of gender on voters? decisions whom to vote for",
             "type": "DiscretBar",
             "values": [
@@ -597,7 +597,7 @@
         },
         {
             "filename": "decision_age_infulence_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Voting Behavior",
             "key": "Effects of age on voters? decisions whom to vote for",
             "type": "DiscretBar",
             "values": [
@@ -621,7 +621,7 @@
         },
         {
             "filename": "decision_religion_infulence_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Voting Behavior",
             "key": "Effects of religion on voters? decisions whom to vote for",
             "type": "DiscretBar",
             "values": [
@@ -641,7 +641,7 @@
         },
         {
             "filename": "legitimacy_2010_election_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Election Commission",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Election Commission",
             "key": "Legitimacy of 2010 Chittagong CC election",
             "type": "DiscretBar",
             "values": [
@@ -677,7 +677,7 @@
         },
         {
             "filename": "neutrality_expectation_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Election Commission",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Election Commission",
             "key": "Expectations for BEC neutrality in 2015 Chittagong CC election",
             "type": "DiscretBar",
             "values": [
@@ -713,7 +713,7 @@
         },
         {
             "filename": "bec_law_order_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Election Commission",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Election Commission",
             "key": "Expectations for BEC ability to keep law and order during 2015 Chittagong CC election",
             "type": "DiscretBar",
             "values": [
@@ -749,7 +749,7 @@
         },
         {
             "filename": "cc_election_political_banner_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Election Commission",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Election Commission",
             "key": "Views whether CC elections should be held under political party banner",
             "type": "DiscretBar",
             "values": [
@@ -785,7 +785,7 @@
         },
         {
             "filename": "first_thing_from_mayor_chittagong",
-            "group": "Poll 2015/Face to face/City Corporation/Chittagong/Election/Election Commission",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Chittagong/Election/Election Commission",
             "key": "First thing you want from your next city mayor",
             "type": "DiscretBar",
             "values": [

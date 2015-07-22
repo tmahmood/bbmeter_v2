@@ -45,7 +45,7 @@ class SurveyRepository implements BaseRepositoryInterface
 			return $surveys->first();
 		}
 
-		$survey_type = SurveyType::where("survey_type_name", $survey_data[5])->firstOrFail();
+		$survey_type = SurveyType::where("survey_type_name", strtolower($survey_data[5]))->firstOrFail();
 
 		return Survey::create([
 			'survey_name' => $survey_data[0],

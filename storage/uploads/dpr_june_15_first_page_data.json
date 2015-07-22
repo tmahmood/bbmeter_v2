@@ -3,8 +3,8 @@
         {
             "date": "",
             "filename": "bangladeshi_confidence_pub_inst",
-            "group": "Opinion Poll 2015/DPR June/Front",
-            "key": "Bangladeshi's confidence in their public institutions",
+            "group": "Opinion Polls 2015/June 2015/DPR/Front",
+            "key": "Confidence in public institutions",
             "option_group": "Institute",
             "type": "VStackedBar",
             "values": {
@@ -40,7 +40,7 @@
         {
             "date": "",
             "filename": "bigger_problem_as_whole",
-            "group": "Opinion Poll 2015/DPR June/Front",
+            "group": "Opinion Polls 2015/June 2015/DPR/Front",
             "key": "The biggest problem facing Bangladeshis as a whole",
             "type": "DiscretBar",
             "values": [
@@ -101,8 +101,8 @@
         {
             "date": "",
             "filename": "political_problem_as_a_whole",
-            "group": "Opinion Poll 2015/DPR June/Front",
-            "key": "The biggest political problem facing Bangladeshis as a whole",
+            "group": "Opinion Polls 2015/June 2015/DPR/Front",
+            "key": "The biggest political problem",
             "type": "DiscretBar",
             "values": [
                 {
@@ -158,7 +158,7 @@
         {
             "date": "",
             "filename": "biggest_problem_for_communities",
-            "group": "Opinion Poll 2015/DPR June/Front",
+            "group": "Opinion Polls 2015/June 2015/DPR/Front",
             "key": "The biggest problem facing respondents' communities",
             "type": "DiscretBar",
             "values": [
@@ -239,7 +239,7 @@
         {
             "date": "",
             "filename": "perceptions_on_modes_of_gevernance",
-            "group": "Opinion Poll 2015/DPR June/Front",
+            "group": "Opinion Polls 2015/June 2015/DPR/Front",
             "key": "Bangladeshis' perceptions on modes of governance",
             "option_group": "By Opinion",
             "type": "HStackedBar",
@@ -276,7 +276,7 @@
         }, {
             "date": "",
             "filename": "women_political_participation",
-            "group": "Opinion Poll 2015/DPR June/Front",
+            "group": "Opinion Polls 2015/June 2015/DPR/Front",
             "key": "Women political participation",
             "option_group": "By Opinion",
             "type": "HStackedBar",

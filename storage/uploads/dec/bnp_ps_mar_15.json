@@ -2,7 +2,7 @@
     "data": [
         {
             "filename": "bangladesh_direction",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/BNP",
             "key": "Direction in which Bangladesh is moving",
             "type": "GroupedMultiBar",
 			"option_group": "Political Parties",
@@ -19,7 +19,7 @@
         },
         {
             "related_to": "bangladesh_direction",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/BNP",
             "key": "Direction in which Bangladesh is moving",
             "type": "GroupedMultiBar",
 			"option_group": "By Division",
@@ -36,7 +36,7 @@
         },
         {
             "filename": "use_of_violence",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/BNP",
             "key": "Use of violence in political protests",
             "type": "DiscretBar",
             "values": [
@@ -48,7 +48,7 @@
         },
         {
             "filename": "responsibity_for_violence",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/BNP",
             "key": "Responsibity for violence in Bangladesh",
             "type": "DiscretBar",
             "values": [
@@ -61,7 +61,7 @@
         },
         {
             "filename": "multi_party_dialogues",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/BNP",
             "key": "Multiparty dialogue on the current crisis",
             "type": "DiscretBar",
             "values": [
@@ -71,7 +71,7 @@
         },
         {
             "filename": "di_organized_multi_party_dialogues",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/BNP",
             "key": "Interest in DI-organized multi-party dialogues",
             "type": "DiscretBar",
             "values": [
@@ -83,7 +83,7 @@
         },
         {
             "filename": "role_leaders_resolving_current_crisis",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/BNP",
             "key": "Role of party leaders in resolving the current crisis",
             "type": "DiscretBar",
             "values": [
@@ -96,7 +96,7 @@
         },
         {
             "filename": "leaders_participation_in_dcc_ccc",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/BNP",
             "key": "BNP leaders participation in the DCC and CCC elections",
             "type": "DiscretBar",
             "values": [
@@ -108,7 +108,7 @@
         },
         {
             "filename": "leaders_participation_in_dcc_cc",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/BNP",
             "key": "BNP leaders participation in the DCC and CCC elections",
             "type": "GroupedMultiBar",
 			"option_group": "By Division",
@@ -124,7 +124,7 @@
         },
         {
             "filename": "women_role_responsibility_in_bnp",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/BNP",
             "key": "Women's role and responsibility in BNP",
             "type": "DiscretBar",
             "values": [
@@ -135,7 +135,7 @@
         },
         {
             "related_to": "women_role_responsibility_in_bnp",
-            "group": "Poll 2015/CATSS/Party Survey March 2015/BNP",
+            "group": "Opinion Polls 2015/March/Party Survey[CATSS]/BNP",
             "key": "Women's role and responsibility in BNP",
             "type": "GroupedMultiBar",
 			"option_group": "By Gender",

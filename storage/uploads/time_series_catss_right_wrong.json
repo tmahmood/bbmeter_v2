@@ -3,7 +3,7 @@
         {
             "filename": "catss_direction_direction_moving",
 			"group": "Time series/Governance",
-            "key": "Direction in which Bangladesh is moving",
+            "key": "Country's direction",
             "type": "SimpleLine",
 			"option_group": "By Months",
             "values": {
@@ -17,7 +17,7 @@
         }, {
             "filename": "catss_direction_likely_vote_for",
 			"group": "Time series/Governance",
-            "key": "If the election were held today which party would you likely vote for?",
+            "key": "Voting behavior",
             "type": "SimpleLine",
 			"option_group": "By Months",
             "values": {
@@ -37,7 +37,7 @@
         "moe": "0.0",
         "participants": "0.0",
         "scope": "Time Series Graphs",
-		"write_path": "time_series_political_views",
+		"write_path": "time_series",
 		"survey_type": "Time series"
     }
 }

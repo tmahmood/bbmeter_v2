@@ -4,10 +4,11 @@ function Home(opts) {
 	this.slide_stop = false;
 
 	this.current_slide = 1;
-	if ($('#slideshow_items') != null) {
+
+	if ($('#slideshow_items') != null || $('#slideshow_items').length() > 0) {
 		var me = this;
 		this.slideshow = setInterval(function() {
-			$('#slideshow_items a').removeClass('active');
+			$('#slideshow_items li').removeClass('active');
 			var cur = $('#slideshow_items a').get(me.current_slide);
 			if (cur.hasAttribute('href') == false) {
 				console.log(cur);
@@ -30,8 +31,10 @@ Home.prototype.onGroupsLinkClick = function() {
 	$(document).on('click', '.groups_link', function(ev){
 		ev.preventDefault();
 		clearInterval(me.slideshow);
-		$('.groups_link').removeClass('active');
-		$(this).addClass('active');
+		$('.groups_link').each(function(idx, elm){
+			$(elm).parent().removeClass('active');
+		});
+		$(this).parent().addClass('active');
 		$.get(this.href, me.makeList);
 	});
 };
@@ -67,8 +70,8 @@ Home.prototype.onQuestionsLinkClick = function() {
 
 Home.prototype.updateGraphView = function(elm) {
 	var me = this;
-	$('.question_link').removeClass('active');
-	$(elm).addClass('active');
+	$('.question_link').parent().removeClass('active');
+	$(elm).parent().addClass('active');
 	$.get(elm.href, function(response) {
 		me.current_response = response;
 		me.drawChart(response, me);
@@ -160,5 +163,12 @@ $(function(){
 	home.onGroupsLinkClick();
 	home.onQuestionsLinkClick();
 	home.onChartDisplayClick();
+
+	$('#primary-navigation').infinitypush({
+		openingspeed: 100,
+		closingspeed: 100,
+		spacing: 40,
+		offcanvas: false
+	});
 });
 

@@ -164,8 +164,7 @@ class QuestionRepository implements BaseRepositoryInterface
 
 	function is_grouped_types($type)
 	{
-		return in_array($type, [ 'GroupedMultiBar',
-				'SimpleLine', 'HStackedBar', 'VStackedBar' ]);
+		return in_array($type, [ 'GroupedMultiBar', 'SimpleLine', 'HStackedBar', 'VStackedBar' ]);
 	}
 
 	function save_question_and_options($survey, $question)
@@ -197,7 +196,10 @@ class QuestionRepository implements BaseRepositoryInterface
 			$q = Question::where('guid', $survey->survey_guid . "_" . $question->related_to)->firstOrFail();
 		}
 
-		$option_group = OptionGroup::where("option_group_name", $question->option_group)->firstOrFail();
+		$option_group = OptionGroup::where("option_group_name", $question->option_group)->first();
+		if ($option_group == null) {
+			$option_group = OptionGroup::create( [ 'option_group_name' => strtolower($question->option_group) ] );
+		}
 
 		foreach ($question->values->data as $data){
 

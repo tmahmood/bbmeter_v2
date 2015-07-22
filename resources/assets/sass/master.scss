@@ -8,6 +8,10 @@ body {
 	font-size: 1.7em;
 }
 
+a {
+	outline: none;
+}
+
 .ma-infinitypush-wrapper {
 	top: 3.8em;
 }
@@ -23,12 +27,13 @@ body {
 	margin-left: .5em;
 }
 
-.questions_link {
-	&.active {
-		background: #747474;
+.active {
+	background: #7B7B7B;
+	a {
 		color: #fff!important;
 	}
 }
+
 
 #questions_list {
 	overflow-y: auto;
@@ -50,13 +55,11 @@ body {
 		padding-bottom: .6em;
 		padding: 1em;
 
-		&.active {
-			background: #E6F7FF;
-			color: #426A7C!important;
+		&:last-child {
+			border-bottom: none;
 		}
 
 		a {
-			outline: none;
 			color: #444;
 			&:hover {
 				color: #1C5B9B;
@@ -67,17 +70,33 @@ body {
 }
 
 #slideshow_items {
-	a {
-		&.active {
-			background: #7B7B7B;
-			color: #fff!important;
+	list-style: none;
+	padding: 0 .5em;
+	margin: 0;
+	height: 100%;
+	overflow-y: scroll;
+
+	li {
+		border-bottom: .1em dotted #ccc;
+		padding: .5em;
+		&:last-child {
+			border-bottom: none;
 		}
 	}
 
+
 }
 
-#graph_content {
-	position: fixed;
+#archive {
+	#graph_content {
+		position: fixed;
+	}
+
+	li {
+		border-bottom: .1em dotted #ccc;
+		padding: .5em;
+	}
+
 }
 
 @media screen and (min-width: 800px) {
@@ -92,13 +111,14 @@ body {
 		padding-right: 1em;
 	}
 
-	#graph_content {
-		left: 34%;
-		width: 100 - 35%;
-
-		&.latest {
-			left: 27%;
-			width: 100 - 34%;
+	#archive {
+		#graph_content {
+			left: 34%;
+			width: 100 - 35%;
+			&.latest {
+				left: 27%;
+				width: 100 - 34%;
+			}
 		}
 	}
 }
@@ -114,9 +134,11 @@ body {
 		padding-right: 1em;
 	}
 
-	#graph_content {
-		left: 350px;
-		width: 390px;
+	#archive {
+		#graph_content {
+			left: 350px;
+			width: 390px;
+		}
 	}
 
 }

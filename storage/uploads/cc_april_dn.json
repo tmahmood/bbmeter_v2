@@ -2,7 +2,7 @@
     "data": [
         {
             "filename": "bangladesh_direction_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Governance",
             "key": "Direction in which Bangladesh is moving",
             "type": "DiscretBar",
             "values": [
@@ -15,7 +15,7 @@
         },
         {
             "filename": "bangladesh_direction_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Governance",
             "key": "Direction in which Bangladesh is moving",
             "type": "GroupedMultiBar",
             "related_to": "bangladesh_direction_dhaka_north",
@@ -34,7 +34,7 @@
         {
             "date": "",
             "filename": "city_corporation_direction_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Governance",
             "key": "Direction in which City Corporation is moving",
             "type": "DiscretBar",
             "values": [
@@ -62,7 +62,7 @@
         },
         {
             "filename": "city_corporation_direction_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Governance",
             "key": "Direction in which City Corporation is moving",
             "type": "GroupedMultiBar",
             "related_to": "city_corporation_direction_dhaka_north",
@@ -81,7 +81,7 @@
         {
             "date": "",
             "filename": "why_right_direction_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Governance",
             "key": "Reasons for stating that Bangladesh is moving in the right direction",
             "type": "DiscretBar",
             "values": [
@@ -130,7 +130,7 @@
         {
             "date": "",
             "filename": "why_wrong_direction_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Governance",
             "key": "Reasons for stating that Bangladesh is moving in the wrong direction",
             "type": "DiscretBar",
             "values": [
@@ -179,7 +179,7 @@
         {
             "date": "",
             "filename": "political_situation_in_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Governance",
             "key": "Political situation in Dhaka North CC",
             "type": "DiscretBar",
             "values": [
@@ -216,7 +216,7 @@
         {
             "date": "",
             "filename": "biggest_achievement_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Governance",
             "key": "The biggest achievement of Dhaka North CC in last 5 years",
             "type": "DiscretBar",
             "values": [
@@ -249,7 +249,7 @@
         {
             "date": "",
             "filename": "major_problem_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Governance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Governance",
             "key": "The major problem faced by Dhaka North CC in last 5 years",
             "type": "DiscretBar",
             "values": [
@@ -301,7 +301,7 @@
         },
         {
             "filename": "service_delivery_waste_management_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Service Delivery",
             "key": "satisfied or dissatisfied with the service - Waste management",
             "type": "DiscretBar",
             "values": [
@@ -334,7 +334,7 @@
         {
             "date": "",
             "filename": "service_quality_sewerage_management_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Service Delivery",
             "key": "Satisfied or dissatisfied with the service -Sewerage management",
             "type": "DiscretBar",
             "values": [
@@ -367,7 +367,7 @@
         {
             "date": "",
             "filename": "service_quality_birth_death_national_cert_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Service Delivery",
             "key": "Satisfied or dissatisfied with the service -Birth/Death/National certificate provision",
             "type": "DiscretBar",
             "values": [
@@ -400,7 +400,7 @@
         {
             "date": "",
             "filename": "service_quality_environment_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Service Delivery",
             "key": "Satisfied or dissatisfied with the service -Environmental management",
             "type": "DiscretBar",
             "values": [
@@ -433,7 +433,7 @@
         {
             "date": "",
             "filename": "work_quality_road_footpath_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Service Delivery",
             "key": "Satisfied or dissatisfied with the work - Road and footpath maintenance",
             "type": "DiscretBar",
             "values": [
@@ -466,7 +466,7 @@
         {
             "date": "",
             "filename": "work_quality_park_recreation_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Service Delivery",
             "key": "Satisfied or dissatisfied with the work - Park and recreation facilities",
             "type": "DiscretBar",
             "values": [
@@ -499,7 +499,7 @@
         {
             "date": "",
             "filename": "work_quality_street_lights_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Service Delivery",
             "key": "Satisfied or dissatisfied with the work - Lighting in the streets",
             "type": "DiscretBar",
             "values": [
@@ -528,7 +528,7 @@
         {
             "date": "",
             "filename": "work_quality_clean_city_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Service Delivery",
             "key": "Satisfied or dissatisfied with the work - Making the city clean",
             "type": "DiscretBar",
             "values": [
@@ -561,7 +561,7 @@
         {
             "date": "",
             "filename": "work_quality_green_city_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Service Delivery",
             "key": "Satisfied or dissatisfied with the work - Making the city green",
             "type": "DiscretBar",
             "values": [
@@ -594,7 +594,7 @@
         {
             "date": "",
             "filename": "officials_quality_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Service Delivery",
             "key": "Satisfied or dissatisfied or with the services of the city corporation officials?",
             "type": "DiscretBar",
             "values": [
@@ -623,7 +623,7 @@
         {
             "date": "",
             "filename": "office_visit_frequency_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Service Delivery",
             "key": "Frequency of visiting councillor/commissioner office to avail services",
             "type": "DiscretBar",
             "values": [
@@ -648,7 +648,7 @@
         {
             "date": "",
             "filename": "councillor_satisfactory_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Service Delivery",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Service Delivery",
             "key": "Satisfaction with ward councillor/commissioner performance",
             "type": "DiscretBar",
             "values": [
@@ -677,7 +677,7 @@
         {
             "date": "",
             "filename": "free_fair_election_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/General",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/General",
             "key": "Perceptions whether free and fair elections can be held in the current political situation",
             "type": "DiscretBar",
             "values": [
@@ -710,7 +710,7 @@
         {
             "date": "",
             "filename": "candidate_manifestos_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/General",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/General",
             "key": "Issues expected to be included in the (Dhaka North) candidate's manifestos",
             "type": "DiscretBar",
             "values": [
@@ -763,7 +763,7 @@
         {
             "date": "",
             "filename": "interest_in_cc_election_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/General",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/General",
             "key": "Interest in the 2015 City Corporation election campaign",
             "type": "DiscretBar",
             "values": [
@@ -792,7 +792,7 @@
         {
             "date": "",
             "filename": "most_liked_campaign_tool_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Campaign",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Campaign",
             "key": "Most liked election campaign tool",
             "type": "DiscretBar",
             "values": [
@@ -833,7 +833,7 @@
         {
             "date": "",
             "filename": "least_liked_campaign_tool_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Campaign",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Campaign",
             "key": "Least liked election campaign",
             "type": "DiscretBar",
             "values": [
@@ -878,7 +878,7 @@
         {
             "date": "",
             "filename": "decision_vote_information_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Campaign",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Campaign",
             "key": "Sufficient information to make a decision how to vote",
             "type": "DiscretBar",
             "values": [
@@ -903,7 +903,7 @@
         {
             "date": "",
             "filename": "most_important_traits_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Candidates",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Candidates",
             "key": "Traits that are most important when evaluating a candidate running for political office",
             "type": "DiscretBar",
             "values": [
@@ -939,7 +939,7 @@
         },
         {
             "filename": "name_recognition_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Candidates",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Candidates",
             "key": "Name recognition",
             "type": "GroupedMultiBar",
 			"option_group": "Name Recognition",
@@ -975,7 +975,7 @@
         },
         {
             "filename": "candidate_likability_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Candidates",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Candidates",
             "key": "Candidates? likability",
             "type": "GroupedMultiBar",
 			"option_group": "Name Recognition",
@@ -995,7 +995,7 @@
         },
         {
             "filename": "main_issue_determine_winning_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Candidates",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Candidates",
             "key": "Main issue to determine the winning",
             "type": "DiscretBar",
             "values": [
@@ -1009,7 +1009,7 @@
         },
         {
             "filename": "vote_last_ce_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Voting Behavior",
             "key": "Did you vote in the last city election?",
             "type": "DiscretBar",
             "values": [
@@ -1021,7 +1021,7 @@
         {
             "date": "",
             "filename": "likelihood_vote_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Voting Behavior",
             "key": "Likelihood of voting in the Dhaka North CC elections",
             "type": "DiscretBar",
             "values": [
@@ -1035,7 +1035,7 @@
         {
             "date": "",
             "filename": "decision_time_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Voting Behavior",
             "key": "Time when voters make a decision whom to vote for",
             "type": "DiscretBar",
             "values": [
@@ -1047,7 +1047,7 @@
         },
         {
             "filename": "decision_made_alone_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Voting Behavior",
             "key": "Do you decide yourself or somebody else helps you to choose your candidate?",
             "type": "DiscretBar",
             "values": [
@@ -1057,7 +1057,7 @@
         },
         {
             "filename": "decision_made_alone_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Voting Behavior",
             "key": "Do you decide yourself or somebody else helps you to choose your candidate?",
             "type": "GroupedMultiBar",
 			"related_to": "decision_made_alone_dhaka_north",
@@ -1075,7 +1075,7 @@
         },
         {
             "filename": "decision_party_infulence_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Voting Behavior",
             "key": "Decision whom to vote for: candidate versus party",
             "type": "DiscretBar",
             "values": [
@@ -1096,7 +1096,7 @@
         {
             "date": "",
             "filename": "decision_gender_infulence_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Voting Behavior",
             "key": "Effects of gender on voters? decisions whom to vote for",
             "type": "DiscretBar",
             "values": [
@@ -1121,7 +1121,7 @@
         {
             "date": "",
             "filename": "decision_age_infulence_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Voting Behavior",
             "key": "Effects of age on voters? decisions whom to vote for",
             "type": "DiscretBar",
             "values": [
@@ -1146,7 +1146,7 @@
         {
             "date": "",
             "filename": "decision_religion_infulence_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Voting Behavior",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Voting Behavior",
             "key": "Effects of religion on voters? decisions whom to vote for",
             "type": "DiscretBar",
             "values": [
@@ -1163,7 +1163,7 @@
         {
             "date": "",
             "filename": "neutrality_expectation_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Election Commission",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Election Commission",
             "key": "Expectations for BEC neutrality in 2015 Dhaka North CC election",
             "type": "DiscretBar",
             "values": [
@@ -1200,7 +1200,7 @@
         {
             "date": "",
             "filename": "bec_law_order_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Election Commission",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Election Commission",
             "key": "Expectations for BEC ability to keep law and order during 2015 Dhaka North CC election",
             "type": "DiscretBar",
             "values": [
@@ -1237,7 +1237,7 @@
         {
             "date": "",
             "filename": "cc_election_political_banner_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Election Commission",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Election Commission",
             "key": "Views whether CC elections should be held under political party banner",
             "type": "DiscretBar",
             "values": [
@@ -1273,7 +1273,7 @@
         },
         {
             "filename": "first_thing_from_mayor_dhaka_north",
-            "group": "Poll 2015/Face to face/City Corporation/Dhaka North/Election/Election Commission",
+            "group": "Opinion Polls 2015/April 2015/City Corporation/Dhaka North/Election/Election Commission",
             "key": "First thing you want from your next city mayor",
             "type": "DiscretBar",
             "values": [
