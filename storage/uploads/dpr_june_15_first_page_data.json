@@ -1,454 +1,330 @@
 {
     "data": [
         {
-            "date": "", 
-            "filename": "bangladeshi_confidence_pub_inst", 
-            "group": "Opinion Poll 2015/DPR June/Front", 
-            "key": "Bangladeshi's confidence in their public institutions", 
-            "option_group": "Institute", 
-            "type": "VStackedBar", 
+            "date": "",
+            "filename": "bangladeshi_confidence_pub_inst",
+            "group": "Opinion Poll 2015/DPR June/Front",
+            "key": "Bangladeshi's confidence in their public institutions",
+            "option_group": "Institute",
+            "type": "VStackedBar",
             "values": {
                 "categories": [
-                    "No confidence", 
-                    "Some confidence", 
-                    "A lot of confidence", 
-                    "Don't know"
-                ], 
+					"The President of Bangladesh",
+					"The Prime Minister of Bangladesh",
+					"Political parties",
+					"Bangladesh Election Commission",
+					"The police",
+					"The army",
+					"Courts"
+                ],
                 "data": [
-                    {
-                        "data": [
-                            18.0, 
-                            45.0, 
-                            35.0, 
-                            2.0
-                        ], 
-                        "name": "The President of Bangladesh"
-                    }, 
-                    {
-                        "data": [
-                            22.0, 
-                            32.0, 
-                            45.0, 
-                            1.0
-                        ], 
-                        "name": "The Prime Minister of Bangladesh"
-                    }, 
-                    {
-                        "data": [
-                            28.0, 
-                            44.0, 
-                            26.0, 
-                            2.0
-                        ], 
-                        "name": "Political parties"
-                    }, 
-                    {
-                        "data": [
-                            29.0, 
-                            42.0, 
-                            23.0, 
-                            5.0
-                        ], 
-                        "name": "Bangladesh Election Commission"
-                    }, 
-                    {
-                        "data": [
-                            41.0, 
-                            31.0, 
-                            27.0, 
-                            1.0
-                        ], 
-                        "name": "The police"
-                    }, 
-                    {
-                        "data": [
-                            9.0, 
-                            32.0, 
-                            58.0, 
-                            1.0
-                        ], 
-                        "name": "The army"
-                    }, 
-                    {
-                        "data": [
-                            15.0, 
-                            41.0, 
-                            39.0, 
-                            5.0
-                        ], 
-                        "name": "Courts"
-                    }
+					{
+						"name": "No confidence",
+						"data": [ 18.0, 22.0, 28.0, 29.0, 41.0, 9.0, 15.0 ]
+					},
+					{
+						"name": "Some confidence",
+						"data": [ 45.0, 32.0, 44.0, 42.0, 31.0, 32.0, 41.0 ]
+					},
+					{
+						"name": "A lot of confidence",
+						"data": [ 35.0, 45.0, 26.0, 23.0, 27.0, 58.0, 39.0 ]
+					},
+					{
+						"name": "Don't know",
+						"data": [ 2.0, 1.0, 2.0, 5.0, 1.0, 1.0, 5.0 ]
+					}
                 ]
             }
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "bigger_problem_as_whole", 
-            "group": "Opinion Poll 2015/DPR June/Front", 
-            "key": "The biggest problem facing Bangladeshis as a whole", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "bigger_problem_as_whole",
+            "group": "Opinion Poll 2015/DPR June/Front",
+            "key": "The biggest problem facing Bangladeshis as a whole",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Political instability", 
+                    "label": "Political instability",
                     "value": 21.0
-                }, 
+                },
                 {
-                    "label": "Unemployment", 
+                    "label": "Unemployment",
                     "value": 13.0
-                }, 
+                },
                 {
-                    "label": "Corruption", 
+                    "label": "Corruption",
                     "value": 10.0
-                }, 
+                },
                 {
-                    "label": "Economic crisis", 
+                    "label": "Economic crisis",
                     "value": 10.0
-                }, 
+                },
                 {
-                    "label": "Poverty", 
+                    "label": "Poverty",
                     "value": 8.0
-                }, 
+                },
                 {
-                    "label": "Increasing population density", 
+                    "label": "Increasing population density",
                     "value": 8.0
-                }, 
+                },
                 {
-                    "label": "Underdeveloped roads", 
+                    "label": "Underdeveloped roads",
                     "value": 6.0
-                }, 
+                },
                 {
-                    "label": "Electricity problem", 
+                    "label": "Electricity problem",
                     "value": 6.0
-                }, 
+                },
                 {
-                    "label": "Violence", 
+                    "label": "Violence",
                     "value": 4.0
-                }, 
+                },
                 {
-                    "label": "Bad governance", 
+                    "label": "Bad governance",
                     "value": 4.0
-                }, 
+                },
                 {
-                    "label": "High price of commodities", 
+                    "label": "High price of commodities",
                     "value": 2.0
-                }, 
+                },
                 {
-                    "label": "Insecurity", 
+                    "label": "Insecurity",
                     "value": 2.0
-                }, 
+                },
                 {
-                    "label": "Don't know", 
+                    "label": "Don't know",
                     "value": 1.0
                 }
             ]
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "political_problem_as_a_whole", 
-            "group": "Opinion Poll 2015/DPR June/Front", 
-            "key": "The biggest political problem facing Bangladeshis as a whole", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "political_problem_as_a_whole",
+            "group": "Opinion Poll 2015/DPR June/Front",
+            "key": "The biggest political problem facing Bangladeshis as a whole",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Hartal/Blockade", 
+                    "label": "Hartal/Blockade",
                     "value": 21.0
-                }, 
+                },
                 {
-                    "label": "Political instability", 
+                    "label": "Political instability",
                     "value": 16.0
-                }, 
+                },
                 {
-                    "label": "Corruption in politics", 
+                    "label": "Corruption in politics",
                     "value": 16.0
-                }, 
+                },
                 {
-                    "label": "Political violence", 
+                    "label": "Political violence",
                     "value": 12.0
-                }, 
+                },
                 {
-                    "label": "Bad governance", 
+                    "label": "Bad governance",
                     "value": 9.0
-                }, 
+                },
                 {
-                    "label": "Insecurity", 
+                    "label": "Insecurity",
                     "value": 8.0
-                }, 
+                },
                 {
-                    "label": "Unfair election", 
+                    "label": "Unfair election",
                     "value": 4.0
-                }, 
+                },
                 {
-                    "label": "Disappearance", 
+                    "label": "Disappearance",
                     "value": 3.0
-                }, 
+                },
                 {
-                    "label": "Lack of trust/sincerity", 
+                    "label": "Lack of trust/sincerity",
                     "value": 1.0
-                }, 
+                },
                 {
-                    "label": "Extra judicial killing", 
+                    "label": "Extra judicial killing",
                     "value": 1.0
-                }, 
+                },
                 {
-                    "label": "Don't know", 
+                    "label": "Don't know",
                     "value": 6.0
-                }, 
+                },
                 {
-                    "label": "Refused to reveal", 
+                    "label": "Refused to reveal",
                     "value": 1.0
                 }
             ]
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "biggest_problem_for_communities", 
-            "group": "Opinion Poll 2015/DPR June/Front", 
-            "key": "The biggest problem facing respondents' communities", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "biggest_problem_for_communities",
+            "group": "Opinion Poll 2015/DPR June/Front",
+            "key": "The biggest problem facing respondents' communities",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Underdeveloped roads", 
+                    "label": "Underdeveloped roads",
                     "value": 19.0
-                }, 
+                },
                 {
-                    "label": "Electricity problem", 
+                    "label": "Electricity problem",
                     "value": 16.0
-                }, 
+                },
                 {
-                    "label": "Unemployment", 
+                    "label": "Unemployment",
                     "value": 11.0
-                }, 
+                },
                 {
-                    "label": "Corruption", 
+                    "label": "Corruption",
                     "value": 6.0
-                }, 
+                },
                 {
-                    "label": "Poor quality of drinking water", 
+                    "label": "Poor quality of drinking water",
                     "value": 6.0
-                }, 
+                },
                 {
-                    "label": "Economic crisis", 
+                    "label": "Economic crisis",
                     "value": 5.0
-                }, 
+                },
                 {
-                    "label": "Poverty", 
+                    "label": "Poverty",
                     "value": 5.0
-                }, 
+                },
                 {
-                    "label": "High price of commodities", 
+                    "label": "High price of commodities",
                     "value": 4.0
-                }, 
+                },
                 {
-                    "label": "Political instability", 
+                    "label": "Political instability",
                     "value": 4.0
-                }, 
+                },
                 {
-                    "label": "Gas Crisis", 
+                    "label": "Gas Crisis",
                     "value": 4.0
-                }, 
+                },
                 {
-                    "label": "Insecurity", 
+                    "label": "Insecurity",
                     "value": 4.0
-                }, 
+                },
                 {
-                    "label": "Drug addiction", 
+                    "label": "Drug addiction",
                     "value": 3.0
-                }, 
+                },
                 {
-                    "label": "Poor sewerage & waste management system", 
+                    "label": "Poor sewerage & waste management system",
                     "value": 3.0
-                }, 
+                },
                 {
-                    "label": "Insufficient education facilities", 
+                    "label": "Insufficient education facilities",
                     "value": 3.0
-                }, 
+                },
                 {
-                    "label": "Bad governance", 
+                    "label": "Bad governance",
                     "value": 2.0
-                }, 
+                },
                 {
-                    "label": "Violence", 
+                    "label": "Violence",
                     "value": 2.0
-                }, 
+                },
                 {
-                    "label": "Increasing population density", 
+                    "label": "Increasing population density",
                     "value": 1.0
-                }, 
+                },
                 {
-                    "label": "Don't know", 
+                    "label": "Don't know",
                     "value": 2.0
                 }
             ]
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "perceptions_on_modes_of_gevernance", 
-            "group": "Opinion Poll 2015/DPR June/Front", 
-            "key": "Bangladeshis' perceptions on modes of governance", 
-            "option_group": "By Opinion", 
-            "type": "HStackedBar", 
+            "date": "",
+            "filename": "perceptions_on_modes_of_gevernance",
+            "group": "Opinion Poll 2015/DPR June/Front",
+            "key": "Bangladeshis' perceptions on modes of governance",
+            "option_group": "By Opinion",
+            "type": "HStackedBar",
             "values": {
                 "categories": [
-                    "Very Bad", 
-                    "Fairly bad", 
-                    "Neither", 
-                    "Fairly good", 
-                    "Very Good", 
-                    "Don't know"
-                ], 
+					"Strong leadership without holding elections",
+					"Having religious leaders rule the country",
+					"Having elections to choose national and local leaders",
+					"Having a caretaker government",
+					"Having military leaders rule"
+                ],
                 "data": [
-                    {
-                        "data": [
-                            53.0, 
-                            20.0, 
-                            5.0, 
-                            10.0, 
-                            10.0, 
-                            2.0
-                        ], 
-                        "name": "Strong leadership without holding elections"
-                    }, 
-                    {
-                        "data": [
-                            26.0, 
-                            17.0, 
-                            5.0, 
-                            31.0, 
-                            20.0, 
-                            2.0
-                        ], 
-                        "name": "Having religious leaders rule the country"
-                    }, 
-                    {
-                        "data": [
-                            4.0, 
-                            4.0, 
-                            4.0, 
-                            35.0, 
-                            52.0, 
-                            1.0
-                        ], 
-                        "name": "Having elections to choose national and local leaders"
-                    }, 
-                    {
-                        "data": [
-                            12.0, 
-                            11.0, 
-                            7.0, 
-                            35.0, 
-                            31.0, 
-                            3.0
-                        ], 
-                        "name": "Having a caretaker government"
-                    }, 
-                    {
-                        "data": [
-                            21.0, 
-                            18.0, 
-                            10.0, 
-                            24.0, 
-                            24.0, 
-                            3.0
-                        ], 
-                        "name": "Having military leaders rule"
-                    }
+					{
+						"name": "Don't know",
+						"data": [ 2.0, 2.0, 1.0, 3.0, 3.0 ]
+					}, {
+						"name": "Very Good",
+						"data": [ 10.0, 20.0, 52.0, 31.0, 24.0 ]
+					}, {
+						"name": "Fairly good",
+						"data": [ 10.0, 31.0, 35.0, 35.0, 24.0 ]
+					}, {
+						"name": "Neither",
+						"data": [ 5.0, 5.0, 4.0, 7.0, 10.0 ]
+					}, {
+						"name": "Fairly bad",
+						"data": [ 20.0, 17.0, 4.0, 11.0, 18.0 ]
+					}, {
+						"name": "Very Bad",
+						"data": [ 53.0, 26.0, 4.0, 12.0, 21.0 ]
+					}
                 ]
             }
-        }, 
-        {
-            "date": "", 
-            "filename": "women_political_participation", 
-            "group": "Opinion Poll 2015/DPR June/Front", 
-            "key": "Women political participation", 
-            "option_group": "By Opinion", 
-            "type": "HStackedBar", 
+        }, {
+            "date": "",
+            "filename": "women_political_participation",
+            "group": "Opinion Poll 2015/DPR June/Front",
+            "key": "Women political participation",
+            "option_group": "By Opinion",
+            "type": "HStackedBar",
             "values": {
-                "categories": [
-                    "Strongly Disagree", 
-                    "Disagree", 
-                    "Neither", 
-                    "Agree", 
-                    "Strongly Agree", 
-                    "Don't know"
-                ], 
-                "data": [
-                    {
-                        "data": [
-                            8.0, 
-                            18.0, 
-                            8.0, 
-                            37.0, 
-                            25.0, 
-                            4.0
-                        ], 
-                        "name": "Including more women will increase the electoral appeal of political parties or groupings."
-                    }, 
-                    {
-                        "data": [
-                            5.0, 
-                            14.0, 
-                            7.0, 
-                            43.0, 
-                            29.0, 
-                            2.0
-                        ], 
-                        "name": "The empowerment of women will lead to the development of society at large."
-                    }, 
-                    {
-                        "data": [
-                            7.0, 
-                            16.0, 
-                            10.0, 
-                            37.0, 
-                            24.0, 
-                            6.0
-                        ], 
-                        "name": "Women bring different views, perspectives and talents to politics."
-                    }, 
-                    {
-                        "data": [
-                            5.0, 
-                            10.0, 
-                            7.0, 
-                            42.0, 
-                            31.0, 
-                            5.0
-                        ], 
-                        "name": "Women should be represented in decision making bodies because this right is enshrined in international instruments and national laws"
-                    }, 
-                    {
-                        "data": [
-                            6.0, 
-                            14.0, 
-                            7.0, 
-                            45.0, 
-                            25.0, 
-                            4.0
-                        ], 
-                        "name": "Women's presence will make parliament more credible"
-                    }, 
-                    {
-                        "data": [
-                            6.0, 
-                            9.0, 
-                            3.0, 
-                            40.0, 
-                            41.0, 
-                            1.0
-                        ], 
-                        "name": "Women are 50 of the population and should be as equally represented as men in decision-making positions"
-                    }
-                ]
+				"categories": [
+						"Including more women will increase the electoral appeal of political parties or groupings.",
+						"The empowerment of women will lead to the development of society at large.",
+						"Women bring different views, perspectives and talents to politics.",
+						"Women should be represented in decision making bodies because this right is enshrined in international instruments and national laws",
+						"Women's presence will make parliament more credible",
+						"Women are 50 of the population and should be as equally represented as men in decision-making positions"
+				],
+				"data": [
+							{
+								"data": [ 4.0, 2.0, 6.0, 5.0, 4.0, 1.0 ],
+								"name": "Don't know"
+							},
+							{
+								"data": [ 25.0, 29.0, 24.0, 31.0, 25.0, 41.0 ],
+								"name": "Strongly Agree"
+							},
+							{
+								"data": [ 37.0, 43.0, 37.0, 42.0, 45.0, 40.0 ],
+								"name": "Agree"
+							},
+							{
+								"data": [ 8.0, 7.0, 10.0, 7.0, 7.0, 3.0 ],
+								"name": "Neither"
+							},
+							{
+								"data": [ 18.0, 14.0, 16.0, 10.0, 14.0, 9.0 ],
+								"name": "Disagree"
+							}, {
+								"data": [ 8.0, 5.0, 7.0, 5.0, 6.0, 6.0 ],
+								"name": "Strongly Disagree"
+							}
+					]
+
             }
         }
-    ], 
+    ],
     "meta": {
-        "date": "June 2015", 
-        "info": "DPR Survey June, 2015", 
-        "moe": "2.8", 
-        "participants": "1200", 
-        "scope": "DPR Survey June", 
-        "survey_type": "Face to Face", 
+        "date": "June 2015",
+        "info": "DPR Survey June, 2015",
+        "moe": "2.8",
+        "participants": "1200",
+        "scope": "DPR Survey June",
+        "survey_type": "Face to Face",
         "write_path": "dpr_june_2015"
     }
 }

@@ -24,6 +24,7 @@ GroupedMultiBar.prototype.draw = function() {
 	var me = this;
 	var d = {
         chart: { type: 'column' },
+		colors: ['#7cb5ec', '#434348', '#90ed7d', '#f7a35c', '#8085e9', '#4C9A55', '#e4d354', '#2b908f', '#f45b5b', '#91e8e1'],
         title: { text: me.info },
 		credits: {
 			enabled: false,

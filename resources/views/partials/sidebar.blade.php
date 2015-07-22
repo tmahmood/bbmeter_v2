@@ -8,10 +8,10 @@
 		</li>
 	    <li>
 	    	<a class="question_link"
-				href="{{ url('question/207') }}">Direction in which Bangladesh is moving</a>
+				href="{{ url('question/243') }}">Direction in which Bangladesh is moving</a>
 	    </li>
 	    <li>
-			<a class="question_link" href="{{ url('question/208') }}">Likely vote for?</a>
+			<a class="question_link" href="{{ url('question/244') }}">Likely vote for?</a>
 	    </li>
 		<li>
 			<a>

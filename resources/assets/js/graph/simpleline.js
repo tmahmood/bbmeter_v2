@@ -33,6 +33,7 @@ SimpleLine.prototype.draw = function() {
 			type: 'datetime',
 			title: { text: me.xtext },
 			gridLineWidth: 1,
+			tickInterval: 30 * 24 * 3600 * 1000,
 			dateTimeLabelFormats: {
                 month: '%b, %Y',
                 year: '%Y'
@@ -43,14 +44,6 @@ SimpleLine.prototype.draw = function() {
 			min: 0,
             gridLineWidth: 1,
 		},
-		plotOptions: {
-            line: {
-                dataLabels: {
-                    enabled: true
-                },
-                enableMouseTracking: false
-            }
-        },
         tooltip: {
             headerFormat: '<b>{series.name}</b><br>',
             pointFormat: '{point.x:%e. %b, %Y}: {point.y:.2f}%'
