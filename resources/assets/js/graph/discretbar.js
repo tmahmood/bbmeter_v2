@@ -27,9 +27,7 @@ DiscretBar.prototype.draw = function() {
         xAxis: { type: 'category' },
         yAxis: { min: 0, title: { text: 'Percent' } },
 		legend: { enabled: false },
-		credits: {
-			enabled: false,
-		},
+		credits: { enabled: false, },
 	    tooltip: {
 			headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
 			pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b><br/>'

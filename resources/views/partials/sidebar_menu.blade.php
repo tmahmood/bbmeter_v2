@@ -7,11 +7,11 @@
 	@else
 	<a class="submenu" href="#">{{ $cgroup->group_name }}</a>
 	<ul>
-		@foreach($cgroup->children as $cg)
-			@if($cg->hide_group == 0)
-				@include ('partials.sidebar_menu', [ 'cgroup'=>  $cg ])
+		@for ($i = count($cgroup->children) - 1; $i>= 0; $i--)
+			@if($cgroup->children[$i]->hide_group == 0)
+				@include ('partials.sidebar_menu', [ 'cgroup'=>  $cgroup->children[$i] ])
 			@endif
-		@endforeach
+		@endfor
 	</ul>
 	@endif
 </li>

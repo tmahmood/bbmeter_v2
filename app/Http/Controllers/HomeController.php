@@ -14,9 +14,9 @@ class HomeController extends Controller {
 		return view('latest')->withQuestions($questions)->withLatest(true);
 	}
 
-	public function archieve()
+	public function archieve(GroupRepository $gr)
 	{
-		$groups = Group::all()->toHierarchy();
+		$groups = $gr->toHierarchy();
 		return view('home')->withGroups($groups);
 	}
 

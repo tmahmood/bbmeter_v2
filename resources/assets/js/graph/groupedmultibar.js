@@ -50,6 +50,12 @@ GroupedMultiBar.prototype.draw = function() {
             column: {
                 pointPadding: 0.2,
                 borderWidth: 0,
+			},
+			series: {
+				dataLabels: {
+					enabled: true,
+					format: '{point.y:.1f}%'
+				}
             }
         },
         series: me.series

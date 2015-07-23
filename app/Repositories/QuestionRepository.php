@@ -43,6 +43,7 @@ class QuestionRepository implements BaseRepositoryInterface
 	{
 		return Question::where('survey_id', $survey_id)
 			->with('survey', 'options', 'group')
+			->orderBy('survey_id', 'desc')
 			->get();
 	}
 
@@ -50,6 +51,7 @@ class QuestionRepository implements BaseRepositoryInterface
 	{
 		return Question::where('group_id', $group_id)
 			->with('survey', 'options')
+			->orderBy('survey_id', 'desc')
 			->get();
 	}
 

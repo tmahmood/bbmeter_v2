@@ -13,11 +13,11 @@
 					<a><strong>LATEST SURVEY</strong></a>
 				</li>
 				<li>
-					<a class="question_link" href="{{ url('question/427') }}">Voting behavior</a>
+					<a class="question_link" href="{{ url('question/4') }}">Voting behavior</a>
 				</li>
 				<li>
 					<a class="question_link"
-						href="{{ url('question/426') }}">Country's Direction</a>
+						href="{{ url('question/3') }}">Country's Direction</a>
 				</li>
 				@foreach ($questions as $question)
 				<li>

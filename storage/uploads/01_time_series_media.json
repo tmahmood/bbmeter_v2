@@ -2,8 +2,8 @@
     "data": [
         {
             "filename": "media_habit_most_watched_bd_channel",
-			"group": "Time series/Media Habits",
-            "key": "Which Bangladeshi channel you watch the most?",
+			"group": "General/Media Habits",
+            "key": "Most watched Bangladeshi TV channel",
             "type": "GroupedMultiBar",
 			"option_group": "By Months",
             "values": {
@@ -22,8 +22,8 @@
             }
         }, {
             "filename": "media_habit_kind_of_program",
-			"group": "Time series/Media Habits",
-            "key": "What kind of program do you watch most on TV",
+			"group": "General/Media Habits",
+            "key": "Most watched TV Programs",
             "type": "GroupedMultiBar",
 			"option_group": "By Months",
             "values": {
@@ -43,11 +43,11 @@
 	],
     "meta": {
         "date": "May 2015",
-        "info": "Time Series",
+        "info": "General",
         "moe": "0.0",
         "participants": "0.0",
-        "scope": "Time Series Graphs",
+        "scope": "General",
 		"write_path": "time_series",
-		"survey_type": "Time series"
+		"survey_type": "General "
     }
 }

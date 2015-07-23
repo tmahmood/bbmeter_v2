@@ -2,7 +2,7 @@
     "data": [
         {
             "filename": "catss_direction_direction_moving",
-			"group": "Time series/Governance",
+			"group": "General/Governance",
             "key": "Country's direction",
             "type": "SimpleLine",
 			"option_group": "By Months",
@@ -16,7 +16,7 @@
             }
         }, {
             "filename": "catss_direction_likely_vote_for",
-			"group": "Time series/Governance",
+			"group": "General/Governance",
             "key": "Voting behavior",
             "type": "SimpleLine",
 			"option_group": "By Months",
@@ -36,8 +36,8 @@
         "info": "Political Views",
         "moe": "0.0",
         "participants": "0.0",
-        "scope": "Time Series Graphs",
+        "scope": "General",
 		"write_path": "time_series",
-		"survey_type": "Time series"
+		"survey_type": "General"
     }
 }

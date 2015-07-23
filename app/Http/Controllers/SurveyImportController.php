@@ -64,6 +64,25 @@ class SurveyImportController extends Controller {
 		}
 	}
 
-
+	function listAllUploadedSources()
+	{
+		$files = [];
+		$full_path = storage_path() . '/uploads/';
+		if ($handle = opendir($full_path)) {
+			while (false !== ($entry = readdir($handle))) {
+				if ($entry != "." && $entry != "..") {
+					if (!is_dir($full_path . $entry)) {
+						$files[] = str_replace('.json', '', $entry);
+					}
+				}
+			}
+			closedir($handle);
+		}
+		sort($files);
+		foreach ($files as $file){
+			$this->importSurveyFromJSON($file);
+		}
+		return $files;
+	}
 }
 

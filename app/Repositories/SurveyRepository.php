@@ -13,7 +13,7 @@ class SurveyRepository implements BaseRepositoryInterface
 {
 	public function all()
 	{
-		return Survey::all();
+		return Survey::all()->orderBy('id', 'desc');
 	}
 
 
