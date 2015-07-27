@@ -3,7 +3,7 @@ function Home(opts) {
 	this.current_response = null;
 	this.slide_stop = false;
 
-	this.current_slide = 1;
+	this.current_slide = 0;
 
 	if ($('#slideshow_items') != null || $('#slideshow_items').length() > 0) {
 		var me = this;
@@ -20,8 +20,9 @@ function Home(opts) {
 			me.current_slide++;
 
 			if (me.current_slide >= $('#slideshow_items a').length) {
-				me.current_slide = 1;
+				me.current_slide = 0;
 			}
+
 		}, 3000);
 	}
 }
