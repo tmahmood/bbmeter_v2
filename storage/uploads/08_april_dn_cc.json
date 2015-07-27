@@ -675,6 +675,58 @@
             ]
         },
         {
+            "filename": "first_thing_from_mayor_dhaka_north",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/General",
+            "key": "First thing you want from your next city mayor",
+            "type": "DiscretBar",
+            "values": [
+                {
+                    "label": "Road development",
+                    "value": 20.0
+                },
+                {
+                    "label": "Clean environment",
+                    "value": 9.0
+                },
+                {
+                    "label": "Traffic free city",
+                    "value": 8.0
+                },
+                {
+                    "label": "Ensure safe water supply",
+                    "value": 7.0
+                },
+                {
+                    "label": "Crime free Bangladesh",
+                    "value": 7.0
+                },
+                {
+                    "label": "Ensure citizen security",
+                    "value": 6.0
+                },
+                {
+                    "label": "Increase gas supply",
+                    "value": 5.0
+                },
+                {
+                    "label": "Don't know/ Refused",
+                    "value": 5.0
+                },
+                {
+                    "label": "Remove unemployment",
+                    "value": 3.0
+                },
+                {
+                    "label": "Improve educational system",
+                    "value": 3.0
+                },
+                {
+                    "label": "Improve law and order",
+                    "value": 3.0
+                }
+            ]
+        },
+        {
             "date": "",
             "filename": "free_fair_election_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/General",
@@ -1270,58 +1322,6 @@
                     "value": 12.0
                 }
             ]
-        },
-        {
-            "filename": "first_thing_from_mayor_dhaka_north",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/General",
-            "key": "First thing you want from your next city mayor",
-            "type": "DiscretBar",
-            "values": [
-                {
-                    "label": "Road development",
-                    "value": 20.0
-                },
-                {
-                    "label": "Clean environment",
-                    "value": 9.0
-                },
-                {
-                    "label": "Traffic free city",
-                    "value": 8.0
-                },
-                {
-                    "label": "Ensure safe water supply",
-                    "value": 7.0
-                },
-                {
-                    "label": "Crime free Bangladesh",
-                    "value": 7.0
-                },
-                {
-                    "label": "Ensure citizen security",
-                    "value": 6.0
-                },
-                {
-                    "label": "Increase gas supply",
-                    "value": 5.0
-                },
-                {
-                    "label": "Don't know/ Refused",
-                    "value": 5.0
-                },
-                {
-                    "label": "Remove unemployment",
-                    "value": 3.0
-                },
-                {
-                    "label": "Improve educational system",
-                    "value": 3.0
-                },
-                {
-                    "label": "Improve law and order",
-                    "value": 3.0
-                }
-            ]
         }
     ],
     "meta": {
@@ -1331,6 +1331,7 @@
         "participants": "1500",
         "scope": "City Poll Survey",
         "write_path": "city_poll_apr_1",
-		"survey_type": "Face to face"
+		"survey_type": "Face to face",
+		"reverse_order": true
     }
 }

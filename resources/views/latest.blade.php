@@ -9,16 +9,6 @@
 	<div class="row">
 		<div class="col-md-3">
 			<ul id="slideshow_items" >
-				<li>
-					<a><strong>LATEST SURVEY</strong></a>
-				</li>
-				<li>
-					<a class="question_link" href="{{ url('question/4') }}">Voting behavior</a>
-				</li>
-				<li>
-					<a class="question_link"
-						href="{{ url('question/3') }}">Country's Direction</a>
-				</li>
 				@foreach ($questions as $question)
 				<li>
 					<a class="question_link" href="{{ url('question/' . $question->id) }}">{{ $question->key }}</a>

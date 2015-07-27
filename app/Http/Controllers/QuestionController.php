@@ -2,71 +2,60 @@
 
 use Request;
 use Storage;
-use BBMeter\Group;
-use BBMeter\Survey;
 use BBMeter\Repositories\GroupRepository;
 use BBMeter\Repositories\QuestionRepository;
+use BBMeter\Repositories\SurveyRepository;
+use BBMeter\Repositories\SitevarRepository;
 
 class QuestionController extends Controller {
 
 	public function __construct()
 	{
 		$this->middleware('auth');
+		$this->qr = new QuestionRepository;
+		$this->gr = new GroupRepository;
+		$this->sr = new SitevarRepository;
 	}
 
-	public function create(GroupRepository $gr)
+	function list_questions($survey_id)
 	{
-		$groups = $gr->toHierarchy();
-		$tree = $gr->make_nice_tree($groups, "");
+		$questions = $this->qr->get_by_survey($survey_id);
+		return view('questions.list')->withQuestions($questions);
+	}
+
+	function list_selected_questions()
+	{
+		$questions = $this->qr->get_selected_question();
+		$sitevar = $this->sr->find_or_create_by_name('FRONTPAGE_SELECTION');
+		return view('questions.list')->withQuestions($questions)->with('frontpage_questions', $sitevar);
+	}
+
+	function list_latest_questions()
+	{
+		$questions = $this->qr->get_latest_few();
+		$sitevar = $this->sr->find_or_create_by_name('FRONTPAGE_SELECTION');
+		return view('questions.list')->withQuestions($questions)->with('frontpage_questions', $sitevar);
+	}
+
+	function save_frontpage_content()
+	{
+		$sitevar = $this->sr->find_or_create_by_name('FRONTPAGE_SELECTION');
+		if ($sitevar->update(Request::except('_token')) != null) {
+			return redirect(url('/admin/questions/latest'))
+				->withMessage("Update frontpage questions");
+		}
+
+		return redirect(url('/admin/questions/latest'))
+			->withError("Failed to update frontpage questions");
+	}
+
+
+	///////////////////////////////////////////////////////////////////////////////
+	public function create()
+	{
+		$groups = $this->gr->toHierarchy();
+		$tree = $this->gr->make_nice_tree($groups, "");
 		return view('questions.form')->withGroups($tree);
 	}
-
-
-	function save(GroupRepository $gr, QuestionRepository $qr)
-	{
-		$fields = Request::except([ '_token', 'graph_data' ]);
-
-		$graph_data = explode("\n", trim(Request::input('graph_data')));
-		$lines = [];
-		$survey = Survey::find($fields['survey_id']);
-		$fields['guid'] = $survey['survey_guid'] . '_' . $fields['guid'];
-
-
-		foreach ($graph_data as $line){
-			$_line = trim($line);
-			$_line = trim($_line, ",");
-			$lines[] = str_getcsv($_line);
-		}
-
-		//$qr->save($fields);
-
-		$fields['values'] = [];
-
-		if ($qr->is_grouped_types($fields['graph_type'])) {
-
-			$fields['values']['categories'] = array_shift($lines);
-
-			foreach ($lines as $line){
-				$d = array_shift($line);
-				$_l = array_map(function($v) {
-					return trim($v, '%');
-				}, $line);
-				$fields['values']['data'][] = [ 'name'=> $d, 'data'=> $_l ];
-			}
-		}
-
-		dd ($fields);
-
-		if (Question::create($fields) !== null) {
-			redirect(url('/admin/survey/create'))
-				->withMessage("New Survey Created");
-		}
-	}
-
-	function parse_category_data($data)
-	{
-		$categories = array_shift ($data);
-	}
-
 }
 

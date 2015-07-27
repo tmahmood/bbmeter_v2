@@ -7,6 +7,7 @@ use BBMeter\Group;
 use BBMeter\OptionGroup;
 use BBMeter\Response;
 use BBMeter\Repositories\GroupRepository;
+use BBMeter\Repositories\SitevarRepository;
 
 /**
  * Class QuestionRepository
@@ -17,11 +18,27 @@ class QuestionRepository implements BaseRepositoryInterface
 	function __construct()
 	{
 		$this->gr = new GroupRepository;
+		$this->svr = new SitevarRepository;
 	}
 
 	public function all()
 	{
 		return Question::all();
+	}
+
+	function get_selected_question()
+	{
+		$fp_selection = $this->svr->find_by_name('FRONTPAGE_SELECTION');
+		if ($fp_selection != null) {
+			$ids = explode(',', $fp_selection);
+			return Question::whereIn('id', $ids)->get();
+		}
+		throw new Exception("No frontpage selection made");
+	}
+
+	function get_latest_few($how_many = 50)
+	{
+		return Question::limit($how_many)->orderBy('id', 'desc')->get();
 	}
 
 	function find($id)
@@ -125,7 +142,7 @@ class QuestionRepository implements BaseRepositoryInterface
 	{
 		$timestamp = strtotime($q->survey->survey_date);
 		$survey_date = strftime("%b %Y", $timestamp);
-		$moe = $q->survey->margin_or_error ;
+		$moe = $q->survey->margin_of_error ;
 		$sample_size = $q->survey->participants;
 
 		$info_text = [

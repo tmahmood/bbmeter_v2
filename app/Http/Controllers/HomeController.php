@@ -2,16 +2,28 @@
 
 use BBMeter\Group;
 use BBMeter\Repositories\QuestionRepository;
-use BBMeter\Repositories\SurveyRepository;
 use BBMeter\Repositories\GroupRepository;
+use BBMeter\Repositories\SitevarRepository;
+use BBMeter\Repositories\SurveyRepository;
 
 class HomeController extends Controller {
+	function __construct()
+	{
+		$this->qr = new QuestionRepository;
+	}
 
-	function index(SurveyRepository $sr, GroupRepository $gr, QuestionRepository $qr)
+	function index()
+	{
+		$questions = $this->qr->get_selected_question();
+		return view('latest')->withQuestions($questions)->withLatest(true);
+	}
+
+	function latest(SurveyRepository $sr, GroupRepository $gr)
 	{
 		$survey = $sr->latest();
-		$questions = $qr->get_by_survey($survey->id);
-		return view('latest')->withQuestions($questions)->withLatest(true);
+		$questions = $this->returnSurveyQuestionsAsJSON($survey->id, true);
+		$groups  = $gr->get_child_groups($questions);
+		return view('latest')->withGroups($groups)->withLatest(true)->withQuestions($questions);
 	}
 
 	public function archieve(GroupRepository $gr)
@@ -30,19 +42,19 @@ class HomeController extends Controller {
 		return view('methodology');
 	}
 
-	function returnQuestionsAsJSON(QuestionRepository $qr, $group_id)
+	function returnQuestionsAsJSON($group_id)
 	{
-		return $qr->get_by_group($group_id);
+		return $this->qr->get_by_group($group_id);
 	}
 
-	function returnSurveyQuestionsAsJSON(QuestionRepository $qr, $survey_id, $with_group=false)
+	function returnSurveyQuestionsAsJSON( $survey_id, $with_group=false)
 	{
-		return $qr->get_by_survey($survey_id, $with_group);
+		return $this->qr->get_by_survey($survey_id, $with_group);
 	}
 
-	function questionData(QuestionRepository $qr, $question_id)
+	function questionData($question_id)
 	{
-		return $qr->get_question_data($question_id);
+		return $this->qr->get_question_data($question_id);
 	}
 
 }

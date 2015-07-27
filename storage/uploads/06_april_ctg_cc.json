@@ -311,6 +311,62 @@
             ]
         },
         {
+            "filename": "first_thing_from_mayor_chittagong",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/General",
+            "key": "First thing you want from your next city mayor",
+            "type": "DiscretBar",
+            "values": [
+                {
+                    "label": "Solve water logging",
+                    "value": 26.0
+                },
+                {
+                    "label": "Ensure safe water supply",
+                    "value": 13.0
+                },
+                {
+                    "label": "Clean environment",
+                    "value": 9.0
+                },
+                {
+                    "label": "Develop roads",
+                    "value": 8.0
+                },
+                {
+                    "label": "Good sewerage & waste management system",
+                    "value": 8.0
+                },
+                {
+                    "label": "Improve educational system",
+                    "value": 7.0
+                },
+                {
+                    "label": "Crime and corruption free city",
+                    "value": 7.0
+                },
+                {
+                    "label": "Reduce unemployment",
+                    "value": 4.0
+                },
+                {
+                    "label": "Increase gas & electricity supply",
+                    "value": 4.0
+                },
+                {
+                    "label": "Traffic free city",
+                    "value": 2.0
+                },
+                {
+                    "label": "Peaceful country",
+                    "value": 2.0
+                },
+                {
+                    "label": "Don't know/ Refused",
+                    "value": 6.0
+                }
+            ]
+        },
+        {
             "filename": "free_fair_election_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/General",
             "key": "Perceptions whether free and fair elections can be held in the current political situation",
@@ -782,62 +838,6 @@
                     "value": 22.0
                 }
             ]
-        },
-        {
-            "filename": "first_thing_from_mayor_chittagong",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/General",
-            "key": "First thing you want from your next city mayor",
-            "type": "DiscretBar",
-            "values": [
-                {
-                    "label": "Solve water logging",
-                    "value": 26.0
-                },
-                {
-                    "label": "Ensure safe water supply",
-                    "value": 13.0
-                },
-                {
-                    "label": "Clean environment",
-                    "value": 9.0
-                },
-                {
-                    "label": "Develop roads",
-                    "value": 8.0
-                },
-                {
-                    "label": "Good sewerage & waste management system",
-                    "value": 8.0
-                },
-                {
-                    "label": "Improve educational system",
-                    "value": 7.0
-                },
-                {
-                    "label": "Crime and corruption free city",
-                    "value": 7.0
-                },
-                {
-                    "label": "Reduce unemployment",
-                    "value": 4.0
-                },
-                {
-                    "label": "Increase gas & electricity supply",
-                    "value": 4.0
-                },
-                {
-                    "label": "Traffic free city",
-                    "value": 2.0
-                },
-                {
-                    "label": "Peaceful country",
-                    "value": 2.0
-                },
-                {
-                    "label": "Don't know/ Refused",
-                    "value": 6.0
-                }
-            ]
         }
     ],
     "meta": {
@@ -847,6 +847,7 @@
         "participants": "1500",
         "scope": "City Poll Survey",
         "write_path": "city_poll_apr_1",
-		"survey_type": "Face to face"
+		"survey_type": "Face to face",
+		"reverse_order": true
     }
 }

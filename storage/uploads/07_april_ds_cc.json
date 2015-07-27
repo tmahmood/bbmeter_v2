@@ -703,6 +703,63 @@
         },
         {
             "date": "",
+            "filename": "first_thing_from_mayor_dhaka_south",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Election/General",
+            "key": "First thing you want from your next city mayor",
+            "type": "DiscretBar",
+            "values": [
+                {
+                    "label": "Road development",
+                    "value": 24.0
+                },
+                {
+                    "label": "Clean environment",
+                    "value": 15.0
+                },
+                {
+                    "label": "Good sewerage & waste management system",
+                    "value": 11.0
+                },
+                {
+                    "label": "Traffic free city",
+                    "value": 9.0
+                },
+                {
+                    "label": "Corruption, crime & violence free city",
+                    "value": 6.0
+                },
+                {
+                    "label": "Ensure safe water supply",
+                    "value": 5.0
+                },
+                {
+                    "label": "Reduce unemployment",
+                    "value": 4.0
+                },
+                {
+                    "label": "Planned city corporation",
+                    "value": 4.0
+                },
+                {
+                    "label": "Ensure citizen security",
+                    "value": 3.0
+                },
+                {
+                    "label": "Don't know/ Refused",
+                    "value": 3.0
+                },
+                {
+                    "label": "Improve law and order",
+                    "value": 2.0
+                },
+                {
+                    "label": "Peaceful country",
+                    "value": 2.0
+                }
+            ]
+        },
+        {
+            "date": "",
             "filename": "free_fair_election_dhaka_south",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Election/General",
             "key": "Perceptions whether free and fair elections can be held in the current political situation",
@@ -1394,63 +1451,6 @@
                     "value": 10.0
                 }
             ]
-        },
-        {
-            "date": "",
-            "filename": "first_thing_from_mayor_dhaka_south",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Election/General",
-            "key": "First thing you want from your next city mayor",
-            "type": "DiscretBar",
-            "values": [
-                {
-                    "label": "Road development",
-                    "value": 24.0
-                },
-                {
-                    "label": "Clean environment",
-                    "value": 15.0
-                },
-                {
-                    "label": "Good sewerage & waste management system",
-                    "value": 11.0
-                },
-                {
-                    "label": "Traffic free city",
-                    "value": 9.0
-                },
-                {
-                    "label": "Corruption, crime & violence free city",
-                    "value": 6.0
-                },
-                {
-                    "label": "Ensure safe water supply",
-                    "value": 5.0
-                },
-                {
-                    "label": "Reduce unemployment",
-                    "value": 4.0
-                },
-                {
-                    "label": "Planned city corporation",
-                    "value": 4.0
-                },
-                {
-                    "label": "Ensure citizen security",
-                    "value": 3.0
-                },
-                {
-                    "label": "Don't know/ Refused",
-                    "value": 3.0
-                },
-                {
-                    "label": "Improve law and order",
-                    "value": 2.0
-                },
-                {
-                    "label": "Peaceful country",
-                    "value": 2.0
-                }
-            ]
         }
     ],
     "meta": {
@@ -1460,6 +1460,7 @@
         "participants": "1500",
         "scope": "City Poll Survey",
         "write_path": "city_poll_apr_1",
-		"survey_type": "Face to face"
+		"survey_type": "Face to face",
+		"reverse_order": true
     }
 }

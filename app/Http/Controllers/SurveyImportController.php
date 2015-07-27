@@ -59,8 +59,24 @@ class SurveyImportController extends Controller {
 			$survey_data->write_path
 		]);
 
-		foreach ($jobj->data as $question){
-			$this->qr->save_question_and_options($survey, $question);
+		if (property_exists($survey_data, 'reverse_order')) {
+			$data = array_reverse($jobj->data);
+			$later = [];
+			foreach ($data as $question){
+				if (array_key_exists('related_to', $question)) {
+					$later[] = $question;
+					continue;
+				}
+				$this->qr->save_question_and_options($survey, $question);
+			}
+
+			foreach ($later as $q){
+				$this->qr->save_question_and_options($survey, $q);
+			}
+		} else {
+			foreach ($jobj->data as $question){
+				$this->qr->save_question_and_options($survey, $question);
+			}
 		}
 	}
 

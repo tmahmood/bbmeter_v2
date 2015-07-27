@@ -34,7 +34,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="{{ url('/') }}">
+				<a class="navbar-brand" href="{{ url('/home') }}">
 					<img src="{{ asset('assets/imgs/logo.svg')}}">
 				</a>
 			</div>
@@ -42,13 +42,14 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 				<ul class="nav navbar-nav">
-					<li><a href="{{ url('/home') }}">LATEST SURVEY</a></li>
+					<li><a href="{{ url('/latest') }}">LATEST SURVEY</a></li>
 					<li><a href="{{ url('/archieve') }}">ARCHIVE</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="{{ url('/aboutdi') }}">ABOUT DI</a></li>
 					<li><a href="{{ url('/methodology') }}">METHODOLOGY</a></li>
+					<li><a href="{{ url('auth/logout') }}">Logout</a></li>
 				</ul>
 			</div>
 		</div>

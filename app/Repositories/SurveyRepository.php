@@ -13,7 +13,7 @@ class SurveyRepository implements BaseRepositoryInterface
 {
 	public function all()
 	{
-		return Survey::all()->orderBy('id', 'desc');
+		return Survey::orderBy('id', 'desc')->get();
 	}
 
 
@@ -27,9 +27,12 @@ class SurveyRepository implements BaseRepositoryInterface
 		return Survey::find($id);
 	}
 
-	function save($data)
+	function save($data, $id=null)
 	{
-		return Survey::create($data);
+		if ($id == null) {
+			return Survey::create($data);
+		}
+		return Survey::find($id)->update($data);
 	}
 
 	public function get_by($by, $val)
@@ -45,12 +48,13 @@ class SurveyRepository implements BaseRepositoryInterface
 			return $surveys->first();
 		}
 
-		$survey_type = SurveyType::where("survey_type_name", strtolower($survey_data[5]))->firstOrFail();
+		$survey_type = SurveyType::where("survey_type_name",
+				strtolower($survey_data[5]))->firstOrFail();
 
 		return Survey::create([
 			'survey_name' => $survey_data[0],
 			'participants' => $survey_data[1],
-			'margin_or_error' => $survey_data[3],
+			'margin_of_error' => $survey_data[3],
 			'survey_date' => $survey_data[4],
 			'survey_type_id'=> $survey_type->id,
 			'survey_guid'=> $survey_data[6]
