@@ -134,7 +134,7 @@ class QuestionRepository implements BaseRepositoryInterface
 				$response_data[$response->option_group->option_group_name]['data'][$i]['data'][] = (float) $response->value;
 			}
 		}
-		return $response_data;
+		return (array)$response_data;
 	}
 
 

@@ -1,7 +1,17 @@
-$(function() {
+function Main(opts) {
+	this.opts = opts == null ?  opts : {};
+}
 
-	// if (page_graph_data != undefined) {
-	// 	graphcore.drawChart(page_graph_data());
-	// }
+Main.prototype.objectToArray = function(obj) {
+	return $.map(obj, function(value, index) {
+		return [value];
+	});
+};
+
+
+var main = new Main();
+
+$(function(){
+
 });
 

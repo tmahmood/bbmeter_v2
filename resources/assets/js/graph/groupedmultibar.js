@@ -15,8 +15,17 @@ GroupedMultiBar.prototype.set = function(field, val) {
 
 GroupedMultiBar.prototype.addData = function(d) {
 
-	this.categories = d.categories;
-	this.series = d.data;
+	if ( typeof d.categories == 'object' ) {
+		this.categories = main.objectToArray(d.categories);
+	} else {
+		this.categories = d.categories;
+	}
+	if (typeof d.data == 'object') {
+		this.series = main.objectToArray(d.data);
+	} else {
+		this.series = d.data;
+	}
+
 };
 
 GroupedMultiBar.prototype.draw = function() {
@@ -69,7 +78,6 @@ GroupedMultiBar.prototype.draw = function() {
 			d.chart.type = 'bar';
 		}
 	}
-	console.log(d);
     $(me.container).highcharts(d);
 };
 
