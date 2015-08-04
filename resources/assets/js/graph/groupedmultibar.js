@@ -39,19 +39,38 @@ GroupedMultiBar.prototype.draw = function() {
 			enabled: false,
 		},
         xAxis: {
-            categories: me.categories
+            categories: me.categories,
+			labels: { }
         },
         yAxis: {
             min: 0,
             title: {
                 text: 'Percentage'
-            }
+            },
         },
         tooltip: {
-            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
-            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-                '<td style="padding:0"><b>{point.y:.1f}%</b></td></tr>',
-            footerFormat: '</table>',
+			formatter: function() {
+				var l = []
+				$.each(this.points, function(idx, val)  {
+					l.push(
+							'<tr>' +
+								'<td>' + val.series.name  + '</td>' +
+								'<td>' + this.y  + '</td>' +
+							'</tr>');
+				});
+				l.push ();
+
+
+				var html = [
+ 					'<table class="table table-bordered table-striped">' ,
+						'<thead><tr><th colspan="2">' ,  this.x ,  '</th></tr><thead>',
+						'<tbody>' + l.join(''), '</tbody>',
+					'</table>'
+				];
+
+				return html.join("");
+
+			},
             shared: true,
             useHTML: true
         },

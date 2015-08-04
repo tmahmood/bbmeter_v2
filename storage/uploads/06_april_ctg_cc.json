@@ -63,7 +63,7 @@
         {
             "filename": "why_right_direction_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Governance",
-            "key": "Reasons for Bangladesh is moving in the right direction",
+            "key": "Reasons Bangladesh is moving in the right direction",
             "type": "DiscretBar",
             "values": [
                 { "label": "Good roads", "value": 25.0 },
@@ -81,7 +81,7 @@
         {
             "filename": "why_wrong_direction_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Governance",
-            "key": "Reasons for Bangladesh is moving in the wrong direction",
+            "key": "Reasons Bangladesh is moving in the wrong direction",
             "type": "DiscretBar",
             "values": [
                 { "label": "Poor waste management system", "value": 24.0 },

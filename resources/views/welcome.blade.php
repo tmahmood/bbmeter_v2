@@ -15,7 +15,7 @@
 				<div class="title"><img src="{{ asset('assets/imgs/logo.svg')}}" class="img-responsive"></div>
 			</div>
 
-			<div class="col-md-7">
+			<div class="col-md-offset-3 col-md-4">
 				<div class="logobar">
 					<img src="{{ asset('assets/imgs/logo_bar.png') }}" class="img-responsive">
 				</div>

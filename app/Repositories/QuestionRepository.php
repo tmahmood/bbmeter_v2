@@ -147,7 +147,7 @@ class QuestionRepository implements BaseRepositoryInterface
 
 		$info_text = [
 						$survey_date != "Nov -1" ? "Survey Date: " . $survey_date : '',
-						$moe != 0 ? "MoE: " . $moe : "",
+						$moe != 0 ? "Margin of Error: " . $moe : "",
 						$sample_size != 0 ? "Sample size: ". $sample_size : ""
 					];
 
