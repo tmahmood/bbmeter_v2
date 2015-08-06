@@ -16,7 +16,6 @@ class SurveyRepository implements BaseRepositoryInterface
 		return Survey::orderBy('id', 'desc')->get();
 	}
 
-
 	function latest()
 	{
 		return Survey::orderBy('id', 'desc')->firstOrFail();

@@ -15,7 +15,7 @@ class CreateResponseTable extends Migration {
 		Schema::create('responses', function(Blueprint $table)
 		{
 			$table->increments('id');
-			$table->string("label", 120);
+			$table->text("label");
 			$table->decimal("value", 11, 2);
 
 			$table->unsignedInteger('option_id');

@@ -8,6 +8,9 @@ Main.prototype.objectToArray = function(obj) {
 	});
 };
 
+Main.prototype.spliceSlice = function(str, index, count, add) {
+  return str.slice(0, index) + (add || "") + str.slice(index + count);
+}
 
 var main = new Main();
 

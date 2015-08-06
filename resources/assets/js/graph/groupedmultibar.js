@@ -60,10 +60,14 @@ GroupedMultiBar.prototype.draw = function() {
 				});
 				l.push ();
 
+				var header = this.x;
+				if (this.x.length > 80) {
+					header = main.spliceSlice(this.x, this.x.length / 2, this.x.length, "<br>");
+				}
 
 				var html = [
  					'<table class="table table-bordered table-striped">' ,
-						'<thead><tr><th colspan="2">' ,  this.x ,  '</th></tr><thead>',
+						'<thead><tr><th colspan="2">' ,  header ,  '</th></tr><thead>',
 						'<tbody>' + l.join(''), '</tbody>',
 					'</table>'
 				];

@@ -12,7 +12,7 @@
 		{
 			"key": "Credibility of current government",
 			"filename": "credibility_of_current_government",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Governance",
+			"group": "Opinion Polls 2014/December 2014/Governance",
 			"type": "DiscretBar",
 			"values": [
 				{ "label": "Highly credible", "value": "37.6" },
@@ -25,7 +25,7 @@
 		}, {
 			"related_to": "credibility_of_current_government",
 			"option_group": "By Division",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Governance",
+			"group": "Opinion Polls 2014/December 2014/Governance",
             "filename": "credibility_divisionwise",
             "key": "Credibility of current government",
             "type": "GroupedMultiBar",
@@ -61,7 +61,7 @@
         }, {
 			"key": "Credibility of January 5 Election",
 			"filename": "credibility_of_jan_5_election",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Jan 5 Election",
+			"group": "Opinion Polls 2014/December 2014/Jan 5 Election",
 			"type": "DiscretBar",
 			"values": [
 				{ "label": "The January 5 election was not credible", "value": "57.0" },
@@ -73,7 +73,7 @@
 		},{
 			"related_to": "credibility_of_jan_5_election",
 			"option_group": "By Division",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Jan 5 Election",
+			"group": "Opinion Polls 2014/December 2014/Jan 5 Election",
             "filename": "jan5_credibility_division_wise",
             "key": "Credibility of January 5 Election",
             "type": "GroupedMultiBar",
@@ -105,7 +105,7 @@
 		}, {
 				"key": "View on BNP boycott of the January 5 Election",
 				"filename": "bnp_boycott_jan_5_election",
-				"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Jan 5 Election",
+				"group": "Opinion Polls 2014/December 2014/Jan 5 Election",
 				"type": "DiscretBar",
 				"values": [
 					{ "label": "BNP was wrong to boycott the election", "value": "52.7" },
@@ -118,7 +118,7 @@
 			"related_to": "bnp_boycott_jan_5_election",
 			"key": "View on BNP boycott of the January 5 Election",
 			"filename": "bnp_boycott_jan_5_election",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Jan 5 Election",
+			"group": "Opinion Polls 2014/December 2014/Jan 5 Election",
 			"option_group": "By Division",
 			"type": "GroupedMultiBar",
 			"values": {
@@ -146,7 +146,7 @@
 		"key": "If the election were held today, which party would you likely vote for?",
 		"filename": "today_vote_for",
 		"type": "DiscretBar",
-		"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Political Participation",
+		"group": "Opinion Polls 2014/December 2014/Political Participation",
 		"values": [
 			{ "label": "Awami League", "value": "37.6" },
 			{ "label": "BNP", "value": "34.5" },
@@ -165,7 +165,7 @@
 	},{
 			"key": "Perception on parties ability to solve issues Bangladesh faceing",
 			"type": "GroupedMultiBar",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Political Parties",
+			"group": "Opinion Polls 2014/December 2014/Political Parties",
 			"filename": "parties_ability_solving_most_important_issue",
 			"option_group": "Political Parties",
 			"values": {
@@ -200,7 +200,7 @@
 		}, {
 			"key": "Parties solving other minor problems",
 			"type": "GroupedMultiBar",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Political Parties",
+			"group": "Opinion Polls 2014/December 2014/Political Parties",
 			"filename": "parties_ability_solving_minor_problems",
 			"option_group": "Political Parties",
 			"values": { "categories": [ "Awami League", "BNP", "Jatiya Party" ],
@@ -215,7 +215,7 @@
 		}, {
 			"key": "Likability of major party leaders",
 			"type": "GroupedMultiBar",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Political Leadership",
+			"group": "Opinion Polls 2014/December 2014/Political Leadership",
 			"filename": "leaders_likability",
 			"option_group": "Political Leaders",
 			"values": { "categories": [ "Sheikh Hasina", "Begum Khaleda Zia",
@@ -231,7 +231,7 @@
 		}, {
 			"key": "Satisfaction with key institutions",
 			"type": "GroupedMultiBar",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Governance",
+			"group": "Opinion Polls 2014/December 2014/Governance",
 			"filename": "satisfied_with_key_institute",
 			"option_group": "Institute",
 			"values": { "categories": [ "Bangladesh Military", "Rapid Action Battalion (RAB)",
@@ -245,7 +245,7 @@
 				]
 			}
 		},  {
-		"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Political Parties",
+		"group": "Opinion Polls 2014/December 2014/Political Parties",
 		"filename": "voting_preference",
 		"key": "Voting Preference",
 		"type": "DiscretBar",
@@ -269,7 +269,7 @@
             "filename": "voting_preference_area_wise",
 			"option_group": "By Area",
             "key": "Voting Preference",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Political Parties",
+			"group": "Opinion Polls 2014/December 2014/Political Parties",
             "type": "GroupedMultiBar",
             "values": {
                 "categories": [ "Urban", "Rural" ],
@@ -294,7 +294,7 @@
             "filename": "voting_preference_gender_wise",
 			"option_group": "By Gender",
             "key": "Voting Preference",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Political Parties",
+			"group": "Opinion Polls 2014/December 2014/Political Parties",
             "type": "GroupedMultiBar",
             "values": {
 				"categories": [ "Male", "Female" ],
@@ -319,7 +319,7 @@
 			"option_group": "By Age Group",
             "filename": "voting_preference_age_wise",
             "key": "Voting Preference",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Political Parties",
+			"group": "Opinion Polls 2014/December 2014/Political Parties",
             "type": "GroupedMultiBar",
             "values": {
                 "categories": [
@@ -349,7 +349,7 @@
         }, {
 			"key": "Political Issues on which parties and leaders should focus",
 			"type": "DiscretBar",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Political Parties",
+			"group": "Opinion Polls 2014/December 2014/Political Parties",
             "filename": "most_important_issue",
 			"values": [
 				{ "label": "Reduce unemployment", "value": "20.0" },
@@ -360,7 +360,7 @@
 				{ "label": "Development of education system", "value": "7" }
 			]
 		}, {
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Political Participation",
+			"group": "Opinion Polls 2014/December 2014/Political Participation",
             "filename": "democracy_meaning",
             "key": "Ability to provide a definition of democracy",
             "type": "DiscretBar",
@@ -371,7 +371,7 @@
         }, {
             "filename": "understanding_democracy",
             "key": "People's understanding of democracy",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Political Participation",
+			"group": "Opinion Polls 2014/December 2014/Political Participation",
             "type": "DiscretBar",
             "values": [
                 { "label": "Giving importance to the opinion of common people", "value": 27 },
@@ -381,7 +381,7 @@
                 { "label": "Rule of law", "value": 5 }
             ]
         }, {
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Political Participation",
+			"group": "Opinion Polls 2014/December 2014/Political Participation",
 			"key": "Importance of women's involvement in politics",
 			"filename": "women_involvement_politics",
 			"type": "DiscretBar",
@@ -396,7 +396,7 @@
 		}, {
 			"related_to": "women_involvement_politics",
 			"option_group": "By Gender",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Political Participation",
+			"group": "Opinion Polls 2014/December 2014/Political Participation",
             "filename": "importance_of_women_in_politics",
             "key": "Importance of women's involvement in politics",
             "type": "GroupedMultiBar",
@@ -411,7 +411,7 @@
                 ]
             }
         }, {
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Political Participation",
+			"group": "Opinion Polls 2014/December 2014/Political Participation",
             "filename": "women_leadership",
             "key": "Women in party leadership",
             "type": "DiscretBar",
@@ -421,7 +421,7 @@
                 { "label": "Don't know/Can't say/Refused", "value": 1 }
             ]
         }, {
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Political Participation",
+			"group": "Opinion Polls 2014/December 2014/Political Participation",
             "filename": "involving_women_in_leadership",
             "key": "Work to involve women in party leadership position",
             "type": "DiscretBar",
@@ -433,7 +433,7 @@
                 { "label": "Jammat-e-Islami", "value": 1 }
             ]
         },  {
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Political Participation",
+			"group": "Opinion Polls 2014/December 2014/Political Participation",
             "filename": "youth_paricipantion",
             "key": "Youth participation in politics",
             "type": "DiscretBar",
@@ -444,7 +444,7 @@
         },        {
             "filename": "highest_potential",
             "key": "Views on econoic area that have the greatest potential",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Economy",
+			"group": "Opinion Polls 2014/December 2014/Economy",
             "type": "DiscretBar",
             "values": [
                 { "label": "Agriculture", "value": 24 },
@@ -457,7 +457,7 @@
         }, {
 			"related_to": "highest_potential",
             "filename": "highest_potential",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Economy",
+			"group": "Opinion Polls 2014/December 2014/Economy",
 			"option_group": "By Area",
             "key": "Views on highest potential by area",
             "type": "GroupedMultiBar",
@@ -476,7 +476,7 @@
             "filename": "highest_potential_division_wise",
             "key": "Agriculture viewed as the highest potential by divisions",
             "type": "DiscretBar",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Economy",
+			"group": "Opinion Polls 2014/December 2014/Economy",
             "values": [
                 { "label": "Sylhet", "value": 41 },
                 { "label": "Rangpur", "value": 40 },
@@ -487,7 +487,7 @@
                 { "label": "Chittagong", "value": 13 }
             ]
         }, {
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Governance",
+			"group": "Opinion Polls 2014/December 2014/Governance",
             "filename": "main_problem",
             "key": "Problems Bangladeshis are concerned about",
             "type": "DiscretBar",
@@ -504,7 +504,7 @@
         }, {
             "filename": "main_problem_division_wise",
             "key": "Politics is the main problem seen by Divisions",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Governance",
+			"group": "Opinion Polls 2014/December 2014/Governance",
             "type": "DiscretBar",
             "values": [
                 { "label": "Barisal", "value": 37 },
@@ -518,7 +518,7 @@
         }, {
 			"related_to": "main_problem",
 			"option_group": "By Area",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Governance",
+			"group": "Opinion Polls 2014/December 2014/Governance",
             "filename": "main_problem_area_wise",
             "key": "Problems Bangladeshis are concerned about Areawise",
             "type": "GroupedMultiBar",
@@ -552,7 +552,7 @@
         },{
 		"key": "Economy under current government",
 		"filename": "economic_situation_now",
-		"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Economy",
+		"group": "Opinion Polls 2014/December 2014/Economy",
 		"type": "DiscretBar",
 		"values": [
 			{
@@ -579,7 +579,7 @@
 	}, {
 		"related_to": "economic_situation_now",
 		"option_group": "By Division",
-		"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Economy",
+		"group": "Opinion Polls 2014/December 2014/Economy",
 		"filename": "economic_situation_now_divisionwise",
 		"key": "Economy under current government",
 		"type": "GroupedMultiBar",
@@ -611,7 +611,7 @@
 	}, {
 		"related_to": "economic_situation_now",
 		"option_group": "By Area",
-		"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Economy",
+		"group": "Opinion Polls 2014/December 2014/Economy",
 		"filename": "economic_situation_now_areawise",
 		"key": "By Area - Economy under current government",
 		"type": "GroupedMultiBar",
@@ -643,7 +643,7 @@
 	}, {
 		"related_to": "economic_situation_now",
 		"option_group": "By Gender",
-		"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Economy",
+		"group": "Opinion Polls 2014/December 2014/Economy",
 		"filename": "economic_situation_now_genderwise",
 		"key": "By Area - Economy under current government",
 		"type": "GroupedMultiBar",
@@ -676,7 +676,7 @@
 		"key": "Economic situation compared to the same five years back",
 		"filename": "economic_situation_past",
 		"type": "DiscretBar",
-		"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Economy",
+		"group": "Opinion Polls 2014/December 2014/Economy",
 		"values": [
 			{
 				"label": "Better off",
@@ -702,7 +702,7 @@
 	}, {
             "related_to": "economic_situation_past",
 			"option_group": "By Division",
-			"group": "Opinion Polls 2014/December 2014/DPR [CATSS]/Economy",
+			"group": "Opinion Polls 2014/December 2014/Economy",
             "filename": "economic_situation_past_ct",
             "key": "Economic situation compared to the same five years back",
             "type": "GroupedMultiBar",

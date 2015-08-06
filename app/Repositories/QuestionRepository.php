@@ -177,6 +177,7 @@ class QuestionRepository implements BaseRepositoryInterface
 				'group_id' => $group->id,
 				'graph_type' => $question->type,
 				'guid' => $survey->survey_guid . '_' . $question->filename,
+				'extra_info' => array_key_exists('extra_info', $question) ? $question->extra_info : '',
 		]);
 		return $q;
 	}

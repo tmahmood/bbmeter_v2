@@ -19,6 +19,7 @@
 			"group": "General/Governance",
             "key": "Voting behavior",
             "type": "SimpleLine",
+			"extra_info": "If the national elections were held today, which party would you likely vote for?",
 			"option_group": "By Months",
             "values": {
                 "categories": [ "June 2012", "April 2013", "July 2013", "January 2014", "January 2015", "June 2015" ],
