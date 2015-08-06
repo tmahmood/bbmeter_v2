@@ -12,9 +12,9 @@
 	"data": [{
 		"key": "Effects of blockades & hartals on forcing AL to agree to BNP’s demands",
 		"filename" : "statement_bnp_demand",
-		"group": "Opinion Polls 2015/February 2015/Party Survey [CATSS]",
+		"group": "Opinion Polls 2015/February 2015/Party Survey",
 		"type": "DiscretBar",
-		"group": "Opinion Polls 2015/February 2015/Party Survey [CATSS]",
+		"group": "Opinion Polls 2015/February 2015/Party Survey",
 		"values": [
 			{ "label": "BNP calling blockades and hartals will force AL to agree to BNPs demands", "value": "17.3" },
 			{ "label": "BNP calling blockades and hartals will not force AL to agree to BNP's demands", "value": "67.8" },
@@ -26,7 +26,7 @@
 		"key": "Paths that BNP can take to have their demands met",
 		"filename" : "statement_bnp_demand_met",
 		"type": "DiscretBar",
-		"group": "Opinion Polls 2015/February 2015/Party Survey [CATSS]",
+		"group": "Opinion Polls 2015/February 2015/Party Survey",
 		"values": [
 			{ "label": "Continue hartals and blockade", "value": "11.7" },
 			{ "label": "Don't know /Unsure", "value": "1.6" },
@@ -37,7 +37,7 @@
 	},{
 		"key": "Paths that the government can take to stop violence",
 		"filename" : "govt_stop_violence",
-		"group": "Opinion Polls 2015/February 2015/Party Survey [CATSS]",
+		"group": "Opinion Polls 2015/February 2015/Party Survey",
 		"type": "DiscretBar",
 		"values": [
 			{ "label": "Begin dialogue with BNP", "value": "69.4" },
@@ -49,7 +49,7 @@
 	},{
 		"key": "Support for use of violence in political protests",
 		"filename" : "violence_in_protests",
-		"group": "Opinion Polls 2015/February 2015/Party Survey [CATSS]",
+		"group": "Opinion Polls 2015/February 2015/Party Survey",
 		"type": "DiscretBar",
 		"values": [
 			{ "label": "Don't know /Unsure", "value": "1" },
@@ -63,7 +63,7 @@
 		"key": "Enacting a law to restrict hartals",
 		"type": "DiscretBar",
 		"filename" : "law_for_hartal",
-		"group": "Opinion Polls 2015/February 2015/Party Survey [CATSS]",
+		"group": "Opinion Polls 2015/February 2015/Party Survey",
 		"values": [
 			{ "label": "Don't know/Unsure", "value": "2" },
 			{ "label": "Neither agree nor disagree", "value": "1.8" },

@@ -36,6 +36,8 @@ Home.prototype.onGroupsLinkClick = function() {
 			$(elm).parent().removeClass('active');
 		});
 		$(this).parent().addClass('active');
+
+		$('.questions_list').empty().append('<li><img src="assets/imgs/ajax-loader.gif" alt="loading ..."></li>');
 		$.get(this.href, me.makeList);
 	});
 };

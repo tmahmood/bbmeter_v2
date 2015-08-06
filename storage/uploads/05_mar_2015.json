@@ -12,7 +12,7 @@
 		{
 			"key": "Political parties responsible for the current violence in Bangladesh?",
 			"filename": "responsible_party_violence",
-			"group": "Opinion Polls 2015/March 2015/Party Survey [CATSS]",
+			"group": "Opinion Polls 2015/March 2015/Party Survey",
 			"type": "DiscretBar",
 			"values": [
 				{ "label": "AL", "value": "18.9" },
@@ -30,7 +30,7 @@
 		},{
 			"key": "Likelihood of respondents to vote for BNP in the next election if BNP backs down from calling hartals & blockades",
 			"filename": "likely_to_vote_bnp",
-			"group": "Opinion Polls 2015/March 2015/Party Survey [CATSS]",
+			"group": "Opinion Polls 2015/March 2015/Party Survey",
 			"type": "DiscretBar",
 			"values": [
 				{ "label": "", "value": "85.7" },
@@ -42,7 +42,7 @@
 		},{
 			"key": "Likelihood of respondents to vote for AL if AL agrees to enter a dialogue with the BNP to stop violence",
 			"filename": "likely_to_vote_al",
-			"group": "Opinion Polls 2015/March 2015/Party Survey [CATSS]",
+			"group": "Opinion Polls 2015/March 2015/Party Survey",
 			"type": "DiscretBar",
 			"values": [
 				{ "label": "", "value": "72.9" },
@@ -55,7 +55,7 @@
 		},{
 			"key": "Year in which next national election should take place",
 			"filename": "next_national_election",
-			"group": "Opinion Polls 2015/March 2015/Party Survey [CATSS]",
+			"group": "Opinion Polls 2015/March 2015/Party Survey",
 			"type": "DiscretBar",
 			"values": [
 				{ "label": "2015", "value": "48.0" },
@@ -69,7 +69,7 @@
 		},{
 			"key": "Potential fair mediators to help end the current political crisis",
 			"filename": "fair_mediator",
-			"group": "Opinion Polls 2015/March 2015/Party Survey [CATSS]",
+			"group": "Opinion Polls 2015/March 2015/Party Survey",
 			"type": "DiscretBar",
 			"values": [
 				{ "label": "Business community", "value": "9.0" },
@@ -82,7 +82,7 @@
 		},{
 			"key": "Do most people in the area where you live feel free to express their opinions about the current political situation or not?",
 			"filename": "express_opinion",
-			"group": "Opinion Polls 2015/March 2015/Party Survey [CATSS]",
+			"group": "Opinion Polls 2015/March 2015/Party Survey",
 			"type": "Pie",
 			"values": [
 				{ "label": "Don't know /Unsure", "value": "6.4" },
@@ -93,7 +93,7 @@
 		},{
 			"key": "Would you say that you are mostly OPTIMISTIC or PESSIMISTIC about the future of Bangladesh?",
 			"filename": "future_bangladesh",
-			"group": "Opinion Polls 2015/March 2015/Party Survey [CATSS]",
+			"group": "Opinion Polls 2015/March 2015/Party Survey",
 			"type": "Pie",
 			"values": [
 				{ "label": "Don't know /Unsure", "value": "1.1" },
@@ -104,7 +104,7 @@
 		}, {
             "filename": "responsible_for_violence_by_division",
 			"related_to": "responsible_party_violence",
-			"group": "Opinion Polls 2015/March 2015/Party Survey [CATSS]",
+			"group": "Opinion Polls 2015/March 2015/Party Survey",
             "key": "In your opinion, which political party is most responsible for the current violence in Bangladesh?",
             "type": "GroupedMultiBar",
 			"option_group": "By Division",
@@ -129,7 +129,7 @@
             "filename": "feel_free_to_by_area",
             "key": "Do most people in the area where you live feel free to express their opinions about the current political situation or not?",
 			"related_to": "express_opinion",
-			"group": "Opinion Polls 2015/March 2015/Party Survey [CATSS]",
+			"group": "Opinion Polls 2015/March 2015/Party Survey",
             "type": "GroupedMultiBar",
 			"option_group": "By Area",
             "values": {
@@ -146,7 +146,7 @@
             "key": "Would you say that you are mostly OPTIMISTIC or PESSIMISTIC about the future of Bangladesh?",
             "type": "GroupedMultiBar",
 			"related_to": "future_bangladesh",
-			"group": "Opinion Polls 2015/March 2015/Party Survey [CATSS]",
+			"group": "Opinion Polls 2015/March 2015/Party Survey",
 			"option_group": "By Division",
             "values": {
                 "categories": [ "Barisal", "Chittagong", "Dhaka", "Khulna", "Rajshahi", "Rangpur", "Sylhet" ],
@@ -162,7 +162,7 @@
             "key": "Would you say that you are mostly OPTIMISTIC or PESSIMISTIC about the future of Bangladesh?",
             "type": "GroupedMultiBar",
 			"related_to": "future_bangladesh",
-			"group": "Opinion Polls 2015/March 2015/Party Survey [CATSS]",
+			"group": "Opinion Polls 2015/March 2015/Party Survey",
 			"option_group": "By Area",
             "values": {
                 "categories": [ "Urban", "Rural" ],
