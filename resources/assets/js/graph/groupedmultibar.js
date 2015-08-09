@@ -40,7 +40,13 @@ GroupedMultiBar.prototype.draw = function() {
 		},
         xAxis: {
             categories: me.categories,
-			labels: { }
+			labels: {
+				style: {
+					"width": "95px",
+						"font-size": '9px',
+						"color": "#000"
+				}
+			}
         },
         yAxis: {
             min: 0,
@@ -62,7 +68,13 @@ GroupedMultiBar.prototype.draw = function() {
 
 				var header = this.x;
 				if (this.x.length > 80) {
-					header = main.spliceSlice(this.x, this.x.length / 2, this.x.length, "<br>");
+					var no_of_lines = this.x.length / 80;
+					var lines = [];
+					for (var i = 0 ; i < this.x.length; i+= 80) {
+						lines.push(this.x.substring(i, i + 80));
+					}
+					console.log(lines);
+					header = lines.join('<br>');
 				}
 
 				var html = [
@@ -92,6 +104,7 @@ GroupedMultiBar.prototype.draw = function() {
         },
         series: me.series
 	};
+
 	if (this.stacked == true) {
 		if (this.direction == "V") {
 			d.plotOptions.column.stacking = 'percent';
@@ -101,6 +114,7 @@ GroupedMultiBar.prototype.draw = function() {
 			d.chart.type = 'bar';
 		}
 	}
+
     $(me.container).highcharts(d);
 };
 

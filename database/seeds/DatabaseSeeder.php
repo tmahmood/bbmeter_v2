@@ -159,6 +159,7 @@ class DefaultSeeds extends Seeder {
 
 		SurveyType::create([ "survey_type_name" => "face to face" ]);
 		SurveyType::create([ "survey_type_name" => "catss" ]);
+		SurveyType::create([ "survey_type_name" => "general" ]);
 
 		$usr_admin = User::create([
 			'name' => 'admin',
