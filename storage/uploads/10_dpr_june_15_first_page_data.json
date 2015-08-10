@@ -3,7 +3,7 @@
         {
             "date": "",
             "filename": "bangladeshi_confidence_pub_inst",
-            "group": "Opinion Polls 2015/June 2015/DPR/Front",
+            "group": "Opinion Polls 2015/June 2015",
             "key": "Confidence in public institutions",
             "option_group": "Institute",
             "type": "VStackedBar",
@@ -40,7 +40,7 @@
         {
             "date": "",
             "filename": "political_problem_as_a_whole",
-            "group": "Opinion Polls 2015/June 2015/DPR/Front",
+            "group": "Opinion Polls 2015/June 2015",
             "key": "The biggest political problem",
             "type": "DiscretBar",
             "values": [
@@ -96,7 +96,7 @@
         }, {
             "date": "",
             "filename": "perceptions_on_modes_of_gevernance",
-            "group": "Opinion Polls 2015/June 2015/DPR/Front",
+            "group": "Opinion Polls 2015/June 2015",
             "key": "Bangladeshis' perceptions on modes of governance",
             "option_group": "By Opinion",
             "type": "HStackedBar",
@@ -133,7 +133,7 @@
         }, {
             "date": "",
             "filename": "women_political_participation",
-            "group": "Opinion Polls 2015/June 2015/DPR/Front",
+            "group": "Opinion Polls 2015/June 2015",
             "key": "Women political participation",
             "option_group": "By Opinion",
             "type": "HStackedBar",
