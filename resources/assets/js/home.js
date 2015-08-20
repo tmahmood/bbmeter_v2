@@ -23,7 +23,7 @@ function Home(opts) {
 				me.current_slide = 0;
 			}
 
-		}, 3000);
+		}, 6000);
 	}
 }
 

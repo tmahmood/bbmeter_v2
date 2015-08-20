@@ -6,6 +6,7 @@ function GroupedMultiBar() {
 	this.series = [];
 	this.stacked = false;
 	this.direction = "";
+	this.colors = ['#7cb5ec', '#434348', '#90ed7d', '#f7a35c', '#8085e9', '#4C9A55', '#e4d354', '#2b908f', '#f45b5b', '#91e8e1'];
 }
 
 GroupedMultiBar.prototype.set = function(field, val) {
@@ -28,12 +29,12 @@ GroupedMultiBar.prototype.addData = function(d) {
 
 };
 
-GroupedMultiBar.prototype.draw = function() {
+GroupedMultiBar.prototype.draw = function(colors=undefined) {
 
 	var me = this;
 	var d = {
-        chart: { type: 'column' },
-		colors: ['#7cb5ec', '#434348', '#90ed7d', '#f7a35c', '#8085e9', '#4C9A55', '#e4d354', '#2b908f', '#f45b5b', '#91e8e1'],
+        chart: { type: 'column', backgroundColor: me.background },
+		colors: me.colors,
         title: { text: me.info },
 		credits: {
 			enabled: false,

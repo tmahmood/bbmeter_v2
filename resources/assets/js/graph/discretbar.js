@@ -22,7 +22,8 @@ DiscretBar.prototype.draw = function() {
 	var me = this;
 
     $(me.container).highcharts({
-        chart: { type: 'column' },
+        chart: { type: 'column', backgroundColor: me.background },
+		colors: me.colors,
         title: { text: me.info },
         xAxis: { type: 'category' },
         yAxis: { min: 0, title: { text: 'Percent' } },

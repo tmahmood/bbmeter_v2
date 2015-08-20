@@ -24,8 +24,10 @@ Pie.prototype.draw = function() {
         chart: {
             plotBackgroundColor: null,
             plotBorderWidth: null,
-            plotShadow: false
+            plotShadow: false,
+			backgroundColor: me.background,
         },
+		colors: me.colors,
         title: { text: me.info },
 		credits: {
 			enabled: false,

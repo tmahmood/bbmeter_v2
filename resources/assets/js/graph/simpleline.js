@@ -26,6 +26,8 @@ SimpleLine.prototype.draw = function() {
 	var d = {
 		title: { text: me.info },
 		subtitle: { text: me.subtitle },
+		chart: { backgroundColor: me.background, },
+		colors: me.colors,
 		credits: {
 			enabled: false,
 		},
