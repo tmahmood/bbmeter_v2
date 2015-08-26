@@ -205,3 +205,12 @@ a {
 .groups_link {
 	text-transform: uppercase;
 }
+
+.popover {
+	max-width: 800px !important;
+	z-index: 100000000000000;
+}
+
+.makeitsmall {
+	width: 100px;
+}

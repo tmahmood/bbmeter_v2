@@ -15,6 +15,15 @@ Main.prototype.spliceSlice = function(str, index, count, add) {
 var main = new Main();
 
 $(function(){
+	$('#popover_link_aboutdi').popover({
+		placement: 'auto',
+		html: true,
+	})
+
+	$('#popover_link_methodology').popover({
+		placement: 'auto',
+		html: true,
+	})
 
 });
 
