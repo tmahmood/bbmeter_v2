@@ -29,7 +29,7 @@ GroupedMultiBar.prototype.addData = function(d) {
 
 };
 
-GroupedMultiBar.prototype.draw = function(colors=undefined) {
+GroupedMultiBar.prototype.draw = function(colors) {
 
 	var me = this;
 	var d = {

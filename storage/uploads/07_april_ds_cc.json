@@ -37,14 +37,14 @@
             "date": "",
             "filename": "city_corporation_direction_dhaka_south",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Governance",
-            "key": "Direction in which City Corporation is moving",
+            "key": "Direction in which Dhaka South City Corporation is moving",
             "type": "DiscretBar",
             "values": [
                 { "label": "Wrong direction", "value": 32.0 },
                 { "label": "Neither", "value": 9.0 },
                 { "label": "Right direction", "value": 40.0 },
-                { "label": "Refused", "value": 2.0 },
-                { "label": "Don't know", "value": 5.0 }
+                { "label": "Don't know", "value": 5.0 },
+                { "label": "Refused", "value": 2.0 }
             ]
         },
         {
@@ -182,7 +182,7 @@
             "date": "",
             "filename": "political_situation_in_dhaka_south",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Governance",
-            "key": "Political situation in Dhaka South CC",
+            "key": "Perceptions of political situation in Dhaka South CC",
             "type": "DiscretBar",
             "values": [
                 {
@@ -206,11 +206,11 @@
                     "value": 23.0
                 },
                 {
-                    "label": "Refused",
+                    "label": "Don't know",
                     "value": 4.0
                 },
                 {
-                    "label": "Don't know",
+                    "label": "Refused",
                     "value": 4.0
                 }
             ]
@@ -219,11 +219,11 @@
             "date": "",
             "filename": "biggest_achievement_dhaka_south",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Governance",
-            "key": "The biggest achievement of Dhaka South CC in last 5 years",
+            "key": "The biggest achievement of Dhaka South CC in the last 5 years",
             "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Flyover",
+                    "label": "Flyovers",
                     "value": 24.0
                 },
                 {
@@ -264,7 +264,7 @@
             "date": "",
             "filename": "major_problem_dhaka_south",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Governance",
-            "key": "The major problem faced by Dhaka South CC in last 5 years",
+            "key": "The major problem faced by Dhaka South CC in the last 5 years",
             "type": "DiscretBar",
             "values": [
                 {
@@ -320,8 +320,8 @@
         {
             "date": "",
             "filename": "service_delivery_waste_management_dhaka_south",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Service Delivery",
-            "key": " Waste management",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/City Corporation Service Delivery",
+            "key": "Satisfaction with Waste management",
             "type": "DiscretBar",
             "values": [
                 {
@@ -353,8 +353,8 @@
         {
             "date": "",
             "filename": "service_quality_sewerage_management_dhaka_south",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Service Delivery",
-            "key": "Sewerage management",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/City Corporation Service Delivery",
+            "key": "Satisfaction with sewerage management",
             "type": "DiscretBar",
             "values": [
                 {
@@ -386,8 +386,8 @@
         {
             "date": "",
             "filename": "service_quality_birth_death_national_cert_dhaka_south",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Service Delivery",
-            "key": "Birth/Death/National certificate provision",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/City Corporation Service Delivery",
+            "key": "Satisfaction with birth/death/national certificate provision",
             "type": "DiscretBar",
             "values": [
                 {
@@ -419,8 +419,8 @@
         {
             "date": "",
             "filename": "service_quality_environment_dhaka_south",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Service Delivery",
-            "key": "Environmental management",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/City Corporation Service Delivery",
+            "key": "Satisfaction with environmental management",
             "type": "DiscretBar",
             "values": [
                 {
@@ -452,8 +452,8 @@
         {
             "date": "",
             "filename": "work_quality_road_footpath_dhaka_south",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Service Delivery",
-            "key": " Road and footpath maintenance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/City Corporation Service Delivery",
+            "key": "Satisfaction with road and footpath maintenance",
             "type": "DiscretBar",
             "values": [
                 {
@@ -485,8 +485,8 @@
         {
             "date": "",
             "filename": "work_quality_park_recreation_dhaka_south",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Service Delivery",
-            "key": " Park and recreation facilities",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/City Corporation Service Delivery",
+            "key": "Satisfaction with park and recreation facilities",
             "type": "DiscretBar",
             "values": [
                 {
@@ -518,8 +518,8 @@
         {
             "date": "",
             "filename": "work_quality_street_lights_dhaka_south",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Service Delivery",
-            "key": " Lighting in the streets",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/City Corporation Service Delivery",
+            "key": "Satisfaction with lighting in the streets",
             "type": "DiscretBar",
             "values": [
                 {
@@ -551,8 +551,8 @@
         {
             "date": "",
             "filename": "work_quality_clean_city_dhaka_south",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Service Delivery",
-            "key": " Making the city clean",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/City Corporation Service Delivery",
+            "key": "Satisfaction with city cleanness",
             "type": "DiscretBar",
             "values": [
                 {
@@ -584,8 +584,8 @@
         {
             "date": "",
             "filename": "work_quality_green_city_dhaka_south",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Service Delivery",
-            "key": " Making the city green",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/City Corporation Service Delivery",
+            "key": "Satisfaction with making the city green",
             "type": "DiscretBar",
             "values": [
                 {
@@ -617,8 +617,8 @@
         {
             "date": "",
             "filename": "officials_quality_dhaka_south",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Service Delivery",
-            "key": "City corporation officials?",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/City Corporation Service Delivery",
+            "key": "Satisfaction with city corporation officials",
             "type": "DiscretBar",
             "values": [
                 {
@@ -650,8 +650,8 @@
         {
             "date": "",
             "filename": "office_visit_frequency_dhaka_south",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Service Delivery",
-            "key": "Frequency of visiting councillor/commissioner office to avail services",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/City Corporation Service Delivery",
+            "key": "Frequency of visiting councillor/commissioner's office to avail services",
             "type": "DiscretBar",
             "values": [
                 {
@@ -675,8 +675,8 @@
         {
             "date": "",
             "filename": "councillor_satisfactory_dhaka_south",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Service Delivery",
-            "key": "Ward councillor/commissioner performance",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/City Corporation Service Delivery",
+            "key": "Satisfaction with ward councillor/commissioner's performance",
             "type": "DiscretBar",
             "values": [
                 {
@@ -705,7 +705,7 @@
             "date": "",
             "filename": "first_thing_from_mayor_dhaka_south",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Election/General",
-            "key": "First thing you want from your next city mayor",
+            "key": "First thing respondents want done from the next city mayor",
             "type": "DiscretBar",
             "values": [
                 {
@@ -745,16 +745,16 @@
                     "value": 3.0
                 },
                 {
-                    "label": "Don't know/ Refused",
-                    "value": 3.0
-                },
-                {
                     "label": "Improve law and order",
                     "value": 2.0
                 },
                 {
                     "label": "Peaceful country",
                     "value": 2.0
+                },
+                {
+                    "label": "Don't know/ Refused",
+                    "value": 3.0
                 }
             ]
         },
@@ -942,7 +942,7 @@
                     "value": 3.0
                 },
                 {
-                    "label": "Door to door visit",
+                    "label": "Door to door canvassing",
                     "value": 2.0
                 },
                 {
@@ -950,16 +950,12 @@
                     "value": 2.0
                 },
                 {
-                    "label": "Don't know",
-                    "value": 1.0
-                },
-                {
                     "label": "Meeting/gathering",
                     "value": 1.0
                 },
                 {
                     "label": "Don't know",
-                    "value": 8.0
+                    "value": 1.0
                 }
             ]
         },
@@ -971,15 +967,15 @@
             "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Yes, I received sufficient information",
+                    "label": "Yes, I received sufficient information to make a decision",
                     "value": 22.0
                 },
                 {
-                    "label": "No, I did not receive sufficient information",
+                    "label": "No, I did not receive sufficient information to make a decision",
                     "value": 47.0
                 },
                 {
-                    "label": "Received no information",
+                    "label": "Received no information to make a decision",
                     "value": 31.0
                 },
                 {
@@ -1064,58 +1060,9 @@
         },
         {
             "date": "",
-            "filename": "candidate_likability_dhaka_south",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Election/Candidates",
-            "key": "Candidate's likability",
-            "type": "GroupedMultiBar",
-			"option_group": "Name Recognition",
-            "values": {
-                "categories": [
-                    "Mohammad Sayed Khokan",
-                    " Mirza Abbas Uddin Ahmed",
-                    "Mohammad Saifuddin"
-                ],
-                "data": [
-                    {
-                        "data": [
-                            70.0,
-                            59.0,
-                            40.0
-                        ],
-                        "name": "Like"
-                    },
-                    {
-                        "data": [
-                            11.0,
-                            16.0,
-                            32.0
-                        ],
-                        "name": "Neither"
-                    },
-                    {
-                        "data": [
-                            7.0,
-                            11.0,
-                            12.0
-                        ],
-                        "name": "Dislike"
-                    },
-                    {
-                        "data": [
-                            12.0,
-                            15.0,
-                            16.0
-                        ],
-                        "name": "Don't know/ Refused"
-                    }
-                ]
-            }
-        },
-        {
-            "date": "",
             "filename": "main_issue_determine_winning_dhaka_south",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Election/Candidates",
-            "key": "Issues determining the election outcome",
+            "key": "Elections outcome determinants",
             "type": "DiscretBar",
             "values": [
                 { "label": "Qualifications of the candidate", "value": 82.0 },
@@ -1129,7 +1076,7 @@
             "date": "",
             "filename": "vote_last_ce_dhaka_south",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Election/Voting Behavior",
-            "key": "Did you vote in the last city election?",
+            "key": "Did you vote in the last city elections?",
             "type": "DiscretBar",
             "values": [
                 {
@@ -1179,11 +1126,11 @@
             "date": "",
             "filename": "decision_time_dhaka_south",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Election/Voting Behavior",
-            "key": "Time when voters make a decision whom to vote for",
+            "key": "Time when respondents make their voting decision",
             "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Election day",
+                    "label": "On election day",
                     "value": 18.0
                 },
                 {
@@ -1257,11 +1204,11 @@
             "values": [
 				{
 
-					"label":  "I will cast vote for the best candidate<br> It does not matter whether he/she<br>belongs to my party or not",
+					"label":  "I will cast a vote for the best candidate.<br> It does not matter whether s/he<br>belongs to my party or not.",
 					"value": 89
 				},
                 {
-                    "label": "I will cast vote for my party candidate,<br< it does not matter whether he/she<br> is the best candidate or not",
+                    "label": "I will cast a vote for my party candidate.<br> It does not matter whether s/he<br> is the best candidate or not.",
                     "value": 10.0
                 },
                 {
@@ -1274,19 +1221,19 @@
             "date": "",
             "filename": "decision_gender_infulence_dhaka_south",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Election/Voting Behavior",
-            "key": "Effects of gender on voter's decisions whom to vote for",
+            "key": "Effects of gender on respondent's voting decisions",
             "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Male",
+                    "label": "I will vote for a male candidate.",
                     "value": 32.0
                 },
                 {
-                    "label": "Female",
+                    "label": "I will vote for a female candidate.",
                     "value": 7.0
                 },
                 {
-                    "label": "Gender will make no difference",
+                    "label": "Gender will make no difference in my voting decision.",
                     "value": 60.0
                 },
                 {
@@ -1299,19 +1246,19 @@
             "date": "",
             "filename": "decision_age_infulence_dhaka_south",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Election/Voting Behavior",
-            "key": "Effects of age on voter's decisions whom to vote for",
+            "key": "Effects of age on respondent's voting decisions",
             "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Younger",
+                    "label": "I will vote for a younger candidate.",
                     "value": 12.0
                 },
                 {
-                    "label": "Elder",
+                    "label": "I will vote for an older candidate.",
                     "value": 15.0
                 },
                 {
-                    "label": "Age will make no difference",
+                    "label": "Age will make no difference in my voting decision.",
                     "value": 72.0
                 },
                 {
@@ -1324,15 +1271,15 @@
             "date": "",
             "filename": "decision_religion_infulence_dhaka_south",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Election/Voting Behavior",
-            "key": "Effects of religion on voter's decisions whom to vote for",
+            "key": "Effects of religion on respondent's voting decisions",
             "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Candidate belongs to my religion",
+                    "label": "I will vote for the candidate that belongs to my religion",
                     "value": 37.0
                 },
                 {
-                    "label": "Religion will make no difference",
+                    "label": "Religion will make no difference in my voting decision",
                     "value": 62.0
                 },
                 {
@@ -1345,7 +1292,7 @@
             "date": "",
             "filename": "neutrality_expectation_dhaka_south",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Election/Election Commission",
-            "key": "Expectations for BEC neutrality in 2015 Dhaka South CC election",
+            "key": "Expectations for BEC neutrality in 2015 Dhaka South CC elections",
             "type": "DiscretBar",
             "values": [
                 {
@@ -1369,12 +1316,12 @@
                     "value": 10.0
                 },
                 {
-                    "label": "Refused",
-                    "value": 4.0
+                    "label": "Don't know",
+                    "value": 8.0
                 },
                 {
-                    "label": "Don? t Know",
-                    "value": 8.0
+                    "label": "Refused",
+                    "value": 4.0
                 }
             ]
         },
@@ -1382,7 +1329,7 @@
             "date": "",
             "filename": "bec_law_order_dhaka_south",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/Election/Election Commission",
-            "key": "Expectations for BEC ability to keep law and order during 2015 Dhaka South CC election",
+            "key": "Expectations for BEC ability to keep law and order during 2015 Dhaka South CC elections",
             "type": "DiscretBar",
             "values": [
                 {
@@ -1406,12 +1353,12 @@
                     "value": 10.0
                 },
                 {
-                    "label": "Refused",
-                    "value": 2.0
+                    "label": "Don't know",
+                    "value": 9.0
                 },
                 {
-                    "label": "Don? t Know",
-                    "value": 9.0
+                    "label": "Refused",
+                    "value": 2.0
                 }
             ]
         },
@@ -1443,12 +1390,12 @@
                     "value": 16.0
                 },
                 {
-                    "label": "Refused",
-                    "value": 2.0
+                    "label": "Don't know",
+                    "value": 10.0
                 },
                 {
-                    "label": "Don? t Know",
-                    "value": 10.0
+                    "label": "Refused",
+                    "value": 2.0
                 }
             ]
         }
@@ -1456,8 +1403,8 @@
     "meta": {
         "date": "April 2015",
         "info": "City Poll Survey April 2015",
-        "moe": "2.5",
-        "participants": "1500",
+        "moe": "4.0",
+        "participants": "600",
         "scope": "City Poll Survey",
         "write_path": "city_poll_apr_1",
 		"survey_type": "Face to face",

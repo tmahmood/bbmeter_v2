@@ -89,7 +89,7 @@
                     "value": 6.0
                 },
                 {
-                    "label": "Refused to reveal",
+                    "label": "Refused",
                     "value": 1.0
                 }
             ]
@@ -97,7 +97,7 @@
             "date": "",
             "filename": "perceptions_on_modes_of_gevernance",
             "group": "Opinion Polls 2015/June 2015",
-            "key": "Bangladeshis' perceptions on modes of governance",
+            "key": "Perceptions of people of Bangladesh about types of governance",
             "option_group": "By Opinion",
             "type": "HStackedBar",
             "values": {
@@ -142,9 +142,9 @@
 						"Including more women will increase the electoral appeal of political parties or groupings.",
 						"The empowerment of women will lead to the development of society at large.",
 						"Women bring different views, perspectives and talents to politics.",
-						"Women should be represented in decision making bodies because this right is enshrined in international instruments and national laws",
-						"Women's presence will make parliament more credible",
-						"Women are 50 of the population and should be as equally represented as men in decision-making positions"
+						"Women should be represented in decision making bodies because this right is enshrined in international instruments and national laws.",
+						"Women's presence will make the institution of parliament more credible.",
+						"Women are 50% of the population and should be as equally represented as men in decision-making positions."
 				],
 				"data": [
 							{

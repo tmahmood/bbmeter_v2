@@ -1,0 +1,32 @@
+{
+    "meta": {
+        "date": "May 2015",
+        "info": "General",
+        "moe": "0.0",
+        "participants": "0.0",
+        "scope": "General",
+		"write_path": "time_series",
+		"survey_type": "General"
+    },
+	"data" : [
+		{
+			"filename": "face_to_face_problem_facing",
+			"group": "General/Governance",
+			"key": "Biggest problems in Bangladesh",
+			"type": "SimpleLine",
+			"option_group": "By Months",
+			"values" : {
+				"categories" : [ "november 2012", "january 2013", "april 2013", "july 2013", "october 2013", "january 2014", "january 2015", "june 2015" ],
+				"data" : [
+					{ "name" : "Political conflict/ instability",	"data" : [ 5,  7, 51, 45, 56, 72, 22,	21 ] },
+					{ "name" : "Unemployment",						"data" : [22, 35, 26, 23, 21, 25, 13,	13 ] },
+					{ "name" : "Corruption",						"data" : [10, 12, 22, 27, 58, 43,  5,	10 ] },
+					{ "name" : "Economic crisis",					"data" : [ 6, 11, 17, 16, 18, 27,  0,   10 ] },
+					{ "name" : "Increasing population density",		"data" : [ 7, 15, 12,  8, 14, 14,  8,	 8 ] },
+					{ "name" : "Underdeveloped roads",				"data" : [25,  8, 41, 36, 20, 32,  0,    6 ] },
+					{ "name" : "Electricity", 						"data" : [28, 14, 54, 38, 28, 22,  6,	 6 ] }
+				]
+			}
+		}
+	]
+}
