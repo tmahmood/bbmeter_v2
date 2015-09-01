@@ -59,9 +59,9 @@
                 ]
             }
         }, {
-			"key": "Credibility of January 5 Election",
-			"filename": "credibility_of_jan_5_election",
-			"group": "Opinion Polls 2014/December 2014/January 5 Election",
+			"key": "Credibility of January 5 Elections",
+			"filename": "credibility_of_jan_5_elections",
+			"group": "Opinion Polls 2014/December 2014/January 5 Elections",
 			"type": "DiscretBar",
 			"values": [
 				{ "label": "The January 5 election was not credible", "value": "57.0" },
@@ -71,9 +71,9 @@
 				{ "label": "Refused", "value": "1.1" }
 			]
 		},{
-			"related_to": "credibility_of_jan_5_election",
+			"related_to": "credibility_of_jan_5_elections",
 			"option_group": "By Division",
-			"group": "Opinion Polls 2014/December 2014/January 5 Election",
+			"group": "Opinion Polls 2014/December 2014/January 5 Elections",
             "filename": "jan5_credibility_division_wise",
             "key": "Credibility of January 5 Election",
             "type": "GroupedMultiBar",
@@ -134,35 +134,15 @@
 						"data": [ 0.6, 2.1, 0.8, 0.0, 0.0, 0.0, 2.3 ],
 						"name": "Neither"
 					}, {
-						"data": [ 1.2, 1.0, 0.4, 2.3, 0.9, 0.0, 1.4 ],
-						"name": "Refused"
-					}, {
 						"data": [ 3.5, 1.3, 3.1, 2.7, 1.8, 0.7, 4.5 ],
 						"name": "Don't know/Can't say"
+					}, {
+						"data": [ 1.2, 1.0, 0.4, 2.3, 0.9, 0.0, 1.4 ],
+						"name": "Refused"
 					}
 				]
 			}
 		}, {
-		"key": "If the elections were held today, which party would you likely vote for?",
-		"filename": "today_vote_for",
-		"type": "DiscretBar",
-		"group": "Opinion Polls 2014/December 2014/Political Participation",
-		"values": [
-			{ "label": "Awami League", "value": "37.6" },
-			{ "label": "BNP", "value": "34.5" },
-			{ "label": "Jatiyo Party", "value": "3.8" },
-			{ "label": "Jamaat-e-Islami", "value": "2.9" },
-			{ "label": "Mohajote", "value": ".1" },
-			{ "label": "21 party alliance", "value": ".5" },
-			{ "label": "Yet to take any decision", "value": "12.3" },
-			{ "label": "None", "value": ".1" },
-			{ "label": "Will cast No Vote", "value": "2.2" },
-			{ "label": "Will not vote", "value": ".4" },
-			{ "label": "Khelafath Majlish", "value": ".2" },
-			{ "label": "Don't know/Can't say", "value": ".7" },
-			{ "label": "Refused", "value": "5.0" }
-		]
-	},{
 			"key": "Perceptions of parties' ability to solve issues Bangladesh faces - 1",
 			"type": "GroupedMultiBar",
 			"group": "Opinion Polls 2014/December 2014/Political Parties",
@@ -247,7 +227,7 @@
 		},  {
 		"group": "Opinion Polls 2014/December 2014/Political Parties",
 		"filename": "voting_preference",
-		"key": "Voting preference",
+		"key": "Voting preferences",
 		"type": "DiscretBar",
 		"values": [
 				{ "label": "Awami League", "value": "37.6" },
@@ -493,7 +473,7 @@
             ]
         }, {
             "filename": "main_problem_division_wise",
-            "key": "Perceptions of politics is the main problem facing Bangladesh, by division",
+            "key": "Perceptions of politics as the main problem facing Bangladesh, by division",
 			"group": "Opinion Polls 2014/December 2014/Governance",
             "type": "DiscretBar",
             "values": [

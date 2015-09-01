@@ -11,7 +11,7 @@
                 { "label": "Online news portal", "value": 9.0 },
                 { "label": "Friends, family or neighbors", "value": 8.0 },
                 { "label": "Radio", "value": 5.0 },
-                { "label": "Don't know/can't say", "value": 1.0 }
+                { "label": "Don't know/Can't say", "value": 1.0 }
             ]
         },
         {
@@ -28,7 +28,7 @@
                     { "data": [ 15.0, 2.0 ], "name": "Online news portal" },
                     { "data": [ 5.0, 11.0 ], "name": "Friends, family or neighbors" },
                     { "data": [ 5.0, 5.0 ], "name": "Radio" },
-                    { "data": [ 0.0, 1.0 ], "name": "Don't know/can't say" }
+                    { "data": [ 0.0, 1.0 ], "name": "Don't know/Can't say" }
                 ]
             }
         },
@@ -46,7 +46,7 @@
                     { "data": [ 11.0, 10.0, 7.0, 2.0, 0.0, 0.0 ], "name": "Online news portal" },
                     { "data": [ 8.0, 8.0, 6.0, 12.0, 15.0, 9.0 ], "name": "Friends, family or neighbors" },
                     { "data": [ 6.0, 4.0, 3.0, 5.0, 7.0, 0.0 ], "name": "Radio" },
-                    { "data": [ 0.0, 0.0, 1.0, 3.0, 2.0, 9.0 ], "name": "Don't know/can't say" }
+                    { "data": [ 0.0, 0.0, 1.0, 3.0, 2.0, 9.0 ], "name": "Don't know/Can't say" }
                 ]
             }
         },
@@ -64,7 +64,7 @@
                     { "data": [ 1.0, 6.0, 14.0, 17.0, 21.0 ], "name": "Online news portal" },
                     { "data": [ 19.0, 7.0, 5.0, 3.0, 3.0 ], "name": "Friends, family or neighbors" },
                     { "data": [ 7.0, 4.0, 7.0, 3.0, 0.0 ], "name": "Radio" },
-                    { "data": [ 2.0, 1.0, 0.0, 0.0, 0.0 ], "name": "Don't know/can't say" }
+                    { "data": [ 2.0, 1.0, 0.0, 0.0, 0.0 ], "name": "Don't know/Can't say" }
                 ]
             }
         },
@@ -75,21 +75,21 @@
             "type": "GroupedMultiBar",
 			"option_group": "By Party",
             "values": {
-                "categories": [ "AL", "BNP", "JP", "Jamaat", "Don't support any party", "Don't know/can't say", "Refused" ],
+                "categories": [ "AL", "BNP", "JP", "Jamaat", "Don't support any party", "Don't know/Can't say", "Refused" ],
                 "data": [
                     { "data": [ 67.0, 72.0, 53.0, 63.0, 61.0, 53.0, 63.0 ], "name": "TV" },
                     { "data": [ 11.0, 15.0, 18.0, 8.0, 16.0, 7.0, 14.0 ], "name": "Newspaper" },
                     { "data": [ 7.0, 5.0, 18.0, 11.0, 11.0, 12.0, 9.0 ], "name": "Online news portal" },
                     { "data": [ 8.0, 5.0, 0.0, 8.0, 9.0, 16.0, 9.0 ], "name": "Friends, family or neighbors" },
                     { "data": [ 6.0, 3.0, 12.0, 11.0, 4.0, 3.0, 4.0 ], "name": "Radio" },
-                    { "data": [ 1.0, 0.0, 0.0, 0.0, 0.0, 9.0, 1.0 ], "name": "Don't know/can't say" }
+                    { "data": [ 1.0, 0.0, 0.0, 0.0, 0.0, 9.0, 1.0 ], "name": "Don't know/Can't say" }
                 ]
             }
         },
         {
             "filename": "viewership_of_bd_tv_channels",
             "group": "Opinion Polls 2015/May 2015/Media Habits/TV/General",
-            "key": "Viewership of Bangladeshi TV channels",
+            "key": "Viewership of TV channels in Bangladesh",
             "type": "DiscretBar",
             "values": [
                 { "label": "Watch", "value": 87.0 },
@@ -99,7 +99,7 @@
         {
             "related_to": "viewership_of_bd_tv_channels",
             "group": "Opinion Polls 2015/May 2015/Media Habits/TV/General",
-            "key": "Viewership of Bangladeshi TV channels - By Area",
+            "key": "Viewership of TV channels in Bangladesh - By Area",
             "type": "GroupedMultiBar",
 			"option_group": "By area",
             "values": {
@@ -113,7 +113,7 @@
         {
             "filename": "viewership_of_bd_tv_channels_list",
             "group": "Opinion Polls 2015/May 2015/Media Habits/TV/General",
-            "key": "Viewership of Bangladeshi TV channels - TV channels",
+            "key": "Viewership of TV channels in Bangladesh - TV channels",
             "type": "DiscretBar",
             "values": [
                 { "label": "BTV", "value": 21.0 },
@@ -123,12 +123,12 @@
                 { "label": "ATN Bangla", "value": 9.0 },
                 { "label": "RTV", "value": 8.0 },
                 { "label": "Banglavision", "value": 7.0 },
-                { "label": "Don't know/can't say", "value": 5.0 },
                 { "label": "ATN News", "value": 3.0 },
                 { "label": "Ekushey Television", "value": 2.0 },
                 { "label": "Channel 24", "value": 2.0 },
                 { "label": "Independent TV", "value": 2.0 },
-                { "label": "Ekattor TV", "value": 2.0 }
+                { "label": "Ekattor TV", "value": 2.0 },
+                { "label": "Don't know/Can't say", "value": 5.0 }
             ]
         },
         {
@@ -156,9 +156,9 @@
                 { "label": "Sports", "value": 5.0 },
                 { "label": "Music", "value": 4.0 },
                 { "label": "Talk show on politics", "value": 3.0 },
-                { "label": "Issue based Programs", "value": 4.0 },
+                { "label": "Issue based programs", "value": 4.0 },
                 { "label": "Magazine program", "value": 2.0 },
-                { "label": "Don't know/can't say", "value": 1.0 }
+                { "label": "Don't know/Can't say", "value": 1.0 }
             ]
         },
         {
@@ -178,7 +178,7 @@
                     { "data": [ 5.0, 1.0 ], "name": "Talk show on politics" },
                     { "data": [ 4.0, 3.0 ], "name": "Issue based Programs" },
                     { "data": [ 2.0, 3.0 ], "name": "Magazine program" },
-                    { "data": [ 1.0, 1.0 ], "name": "Don't know/can't say" }
+                    { "data": [ 1.0, 1.0 ], "name": "Don't know/Can't say" }
                 ]
             }
         },
@@ -224,8 +224,8 @@
                 { "label": "Ekushey Raat", "value": 1.0 },
                 { "label": "Ekattor Mancho", "value": 1.0 },
                 { "label": "News Hour Extra", "value": 1.0 },
-                { "label": "Don't know/can't say", "value": 29.0 },
-                { "label": "Don't watch talk show", "value": 49.0 }
+                { "label": "Don't watch talk show", "value": 49.0 },
+                { "label": "Don't know/Can't say", "value": 29.0 }
             ]
         },
         {
@@ -238,7 +238,7 @@
                 { "label": "Afternoon (12:00pm to 5:59pm)", "value": 11.0 },
                 { "label": "Evening (6:00pm to 8:59pm)", "value": 31.0 },
                 { "label": "Late night (9:00pm to 11:59pm)", "value": 51.0 },
-                { "label": "Don't know/can't say", "value": 2.0 }
+                { "label": "Don't know/Can't say", "value": 2.0 }
             ]
         },
         {
@@ -255,7 +255,7 @@
                     { "data": [ 17.0, 5.0 ], "name": "1-2 times a week" },
                     { "data": [ 12.0, 3.0 ], "name": "Less than once a week" },
                     { "data": [ 40.0, 74.0 ], "name": "Never" },
-                    { "data": [ 0.0, 3.0 ], "name": "Don't know/can't say" }
+                    { "data": [ 0.0, 3.0 ], "name": "Don't know/Can't say" }
                 ]
             }
         },
@@ -268,14 +268,14 @@
                 { "label": "Prothom Alo", "value": 16.0 },
                 { "label": "Bangladesh Protidin", "value": 8.0 },
                 { "label": "Jugantor", "value": 5.0 },
-                { "label": "Don't know/can't say", "value": 4.0 },
-                { "label": "No fixed newspaper/as available", "value": 4.0 },
                 { "label": "Ittefaq", "value": 3.0 },
                 { "label": "Naya Diganta", "value": 2.0 },
                 { "label": "Janakantha", "value": 2.0 },
                 { "label": "Samakal", "value": 2.0 },
                 { "label": "Amar Desh", "value": 2.0 },
-                { "label": "Don't read newspaper", "value": 40.0 }
+                { "label": "No fixed newspaper/as available", "value": 4.0 },
+                { "label": "Don't read newspaper", "value": 40.0 },
+                { "label": "Don't know/Can't say", "value": 4.0 }
             ]
         },
         {
@@ -290,7 +290,7 @@
                 { "label": "Bd24live.com", "value": 2.0 },
                 { "label": "Priyo.com", "value": 1.0 },
                 { "label": "Don't read online news", "value": 76.0 },
-                { "label": "Don't know/can't say", "value": 8.0 }
+                { "label": "Don't know/Can't say", "value": 8.0 }
             ]
         }
     ],

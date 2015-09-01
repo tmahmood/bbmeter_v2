@@ -9,8 +9,8 @@
                 { "label": "Wrong direction", "value": 41.0 },
                 { "label": "Neither", "value": 17.0 },
                 { "label": "Right direction", "value": 34.0 },
-                { "label": "Refused", "value": 2.0 },
-                { "label": "Don't know", "value": 6.0 }
+                { "label": "Don't know", "value": 6.0 },
+                { "label": "Refused", "value": 2.0 }
             ]
         },
         {
@@ -25,7 +25,7 @@
                     { "data": [ 41.0, 42.0 ], "name": "Wrong direction" },
                     { "data": [ 37.0, 31.0 ], "name": "Right direction" },
                     { "data": [ 15.0, 19.0 ], "name": "Neither" },
-                    { "data": [  5.0,  7.0 ], "name": "Don't Know" },
+                    { "data": [  5.0,  7.0 ], "name": "Don't know" },
                     { "data": [  2.0,  2.0 ], "name": "Refused" }
                 ]
             }
@@ -33,14 +33,14 @@
         {
             "filename": "city_corporation_direction_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Governance",
-            "key": "Direction in which City Corporation is moving",
+            "key": "Direction in which Chittagong City Corporation is moving",
             "type": "DiscretBar",
             "values": [
                 { "label": "Wrong direction", "value": 33.0 },
                 { "label": "Neither", "value": 16.0 },
                 { "label": "Right direction", "value": 43.0 },
-                { "label": "Refused", "value": 2.0 },
-                { "label": "Don't know", "value": 6.0 }
+                { "label": "Don't know", "value": 6.0 },
+                { "label": "Refused", "value": 2.0 }
             ]
         },
         {
@@ -55,7 +55,7 @@
                     { "data": [ 34.0, 33.0 ], "name": "Wrong direction" },
                     { "data": [ 46.0, 40.0 ], "name": "Right direction" },
                     { "data": [ 15.0, 16.0 ], "name": "Neither" },
-                    { "data": [  2.0, 10.0 ], "name": "Don't Know" },
+                    { "data": [  2.0, 10.0 ], "name": "Don't know" },
                     { "data": [  3.0,  1.0 ], "name": "Refused" }
                 ]
             }
@@ -101,7 +101,7 @@
         {
             "filename": "political_situation_in_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Governance",
-            "key": "Political situation in Chittagong CC",
+            "key": "Perceptions of political situation in Chittagong CC",
             "type": "DiscretBar",
             "values": [
                 { "label": "Very good", "value": 12.0 },
@@ -109,18 +109,18 @@
                 { "label": "Neither", "value": 12.0 },
                 { "label": "Fairly bad", "value": 9.0 },
                 { "label": "Very bad", "value": 14.0 },
-                { "label": "Refused", "value": 4.0 },
-                { "label": "Don't know", "value": 8.0 }
+                { "label": "Don't know", "value": 8.0 },
+                { "label": "Refused", "value": 4.0 }
             ]
         },
         {
             "filename": "biggest_achievement_chitagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Governance",
-            "key": "The biggest achievement of Chittagong CC in last 5 years",
+            "key": "The biggest achievement of Chittagong CC in the last 5 years",
             "type": "DiscretBar",
             "values": [
                 { "label": "Developed roads and highway", "value": 40.0 },
-                { "label": "Flyover", "value": 10.0 },
+                { "label": "Flyovers", "value": 10.0 },
                 { "label": "Improved education system", "value": 6.0 },
                 { "label": "Clean environment", "value": 3.0 },
                 { "label": "No achievement", "value": 23.0 },
@@ -130,7 +130,7 @@
         {
             "filename": "major_problem_chitagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Governance",
-            "key": "The major problem faced by Chittagong CC in last 5 years",
+            "key": "The major problem faced by Chittagong CC in the last 5 years",
             "type": "DiscretBar",
             "values": [
                 { "label": "Water logging", "value": 32.0 },
@@ -149,7 +149,7 @@
         {
             "filename": "service_delivery_waste_management_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Service Delivery",
-            "key": "Waste management",
+            "key": "Satisfaction with waste management",
             "type": "DiscretBar",
             "values": [
                 { "label": "Highly satisfied", "value": 7.0 },
@@ -157,13 +157,13 @@
                 { "label": "Neither", "value": 7.0 },
                 { "label": "Somewhat dissatisfied", "value": 27.0 },
                 { "label": "Highly dissatisfied", "value": 34.0 },
-                { "label": "Don't know/Refused", "value": 2.0 }
+                { "label": "Don't know/ Refused", "value": 2.0 }
             ]
         },
         {
             "filename": "service_quality_sewerage_management_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Service Delivery",
-            "key": "Sewerage management",
+            "key": "Satisfaction with sewerage management",
             "type": "DiscretBar",
             "values": [
                 { "label": "Highly satisfied", "value": 5.0 },
@@ -177,7 +177,7 @@
         {
             "filename": "service_quality_birth_death_national_cert_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Service Delivery",
-            "key": "Birth/Death/National certificate provision",
+            "key": "Satisfaction with birth/death/national certificate provision",
             "type": "DiscretBar",
             "values": [
                 { "label": "Highly satisfied", "value": 34.0 },
@@ -191,7 +191,7 @@
         {
             "filename": "service_quality_environment_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Service Delivery",
-            "key": "Environmental management",
+            "key": "Satisfaction with environmental management",
             "type": "DiscretBar",
             "values": [
                 { "label": "Highly satisfied", "value": 5.0 },
@@ -205,7 +205,7 @@
         {
             "filename": "work_quality_road_footpath_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Service Delivery",
-            "key": "Road and footpath maintenance",
+            "key": "Satisfaction with road and footpath maintenance",
             "type": "DiscretBar",
             "values": [
                 { "label": "Highly satisfied", "value": 9.0 },
@@ -219,7 +219,7 @@
         {
             "filename": "work_quality_park_recreation_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Service Delivery",
-            "key": "Park and recreation facilities",
+            "key": "Satisfaction with park and recreation facilities",
             "type": "DiscretBar",
             "values": [
                 { "label": "Highly satisfied", "value": 9.0 },
@@ -233,7 +233,7 @@
         {
             "filename": "work_quality_street_lights_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Service Delivery",
-            "key": "Lighting in the streets",
+            "key": "Satisfaction with lighting in the streets",
             "type": "DiscretBar",
             "values": [
                 { "label": "Highly satisfied", "value": 17.0 },
@@ -247,7 +247,7 @@
         {
             "filename": "work_quality_clean_city_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Service Delivery",
-            "key": "Making the city clean",
+            "key": "Satisfaction with city cleanness",
             "type": "DiscretBar",
             "values": [
                 { "label": "Highly satisfied", "value": 5.0 },
@@ -261,7 +261,7 @@
         {
             "filename": "work_quality_green_city_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Service Delivery",
-            "key": "Making the city green",
+            "key": "Satisfaction with making the city green",
             "type": "DiscretBar",
             "values": [
                 { "label": "Highly satisfied", "value": 3.0 },
@@ -275,7 +275,7 @@
         {
             "filename": "officials_quality_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Service Delivery",
-            "key": "City corporation officials?",
+            "key": "Satisfaction with city corporation officials",
             "type": "DiscretBar",
             "values": [
                 { "label": "Highly dissatisfied", "value": 12.0 },
@@ -289,7 +289,7 @@
         {
             "filename": "office_visit_frequency_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Service Delivery",
-            "key": "Frequency of visiting councillor/commissioner office to avail services",
+            "key": "Frequency of visiting councillor/commissioner's office to avail services",
             "type": "DiscretBar",
             "values": [
                 { "label": "Often", "value": 8.0 },
@@ -300,7 +300,7 @@
         {
             "filename": "councillor_satisfactory_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Service Delivery",
-            "key": "Ward councillor/commissioner performance",
+            "key": "Satisfaction with ward councillor/commissioner's performance",
             "type": "DiscretBar",
             "values": [
                 { "label": "Highly satisfied", "value": 25.0 },
@@ -313,7 +313,7 @@
         {
             "filename": "first_thing_from_mayor_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/General",
-            "key": "First thing you want from your next city mayor",
+            "key": "First thing respondents want done from the next city mayor",
             "type": "DiscretBar",
             "values": [
                 {
@@ -435,10 +435,10 @@
             "values": [
                 { "label": "Loud speaker", "value": 74.0 },
                 { "label": "Big showdown", "value": 11.0 },
-                { "label": "Don't know/ Refused", "value": 6.0 },
                 { "label": "Established campaign office on the footpath", "value": 3.0 },
                 { "label": "Posting posters on the wall", "value": 2.0 },
-                { "label": "Door to door visit", "value": 2.0 }
+                { "label": "Door to door canvassing", "value": 2.0 },
+                { "label": "Don't know/ Refused", "value": 6.0 }
             ]
         },
         {
@@ -447,9 +447,9 @@
             "key": "Information and voting decision",
             "type": "DiscretBar",
             "values": [
-                { "label": "Yes, I received sufficient information", "value": 30.0 },
-                { "label": "No, I did not receive sufficient information", "value": 34.0 },
-                { "label": "Received no information", "value": 35.0 },
+                { "label": "Yes, I received sufficient information to make a decision", "value": 30.0 },
+                { "label": "No, I did not receive sufficient information to make a decision", "value": 34.0 },
+                { "label": "Received no information to make a decision", "value": 35.0 },
                 { "label": "Don't know/ Refused", "value": 1.0 }
             ]
         },
@@ -482,29 +482,9 @@
             }
         },
         {
-            "filename": "candidate_likability_chittagong",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/Candidates",
-            "key": "Candidate's likability",
-            "type": "GroupedMultiBar",
-			"option_group": "Name Recognition",
-            "values": {
-                "categories": [
-                    "A.Z.M. Nasir Uddin",
-                    "MD. Monjur Alam",
-                    "MD. Solaiman Alam Sheth"
-                ],
-                "data": [
-                    { "data": [ 59.0, 75.0, 42.0 ], "name": "Like" },
-                    { "data": [ 15.0, 7.0, 19.0 ], "name": "Neither" },
-                    { "data": [ 9.0, 10.0, 15.0 ], "name": "Dislike" },
-                    { "data": [ 18.0, 3.0, 25.0 ], "name": "Don't know/ Refused" }
-                ]
-            }
-        },
-        {
             "filename": "main_issue_determine_winning_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/Candidates",
-            "key": "Issues determining the election outcome ",
+            "key": "Elections outcome determinants",
             "type": "DiscretBar",
             "values": [
                 { "label": "Qualification of the candidate", "value": 76.0 },
@@ -517,7 +497,7 @@
         {
             "filename": "vote_last_ce_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/Voting Behavior",
-            "key": "Did you vote in the last city election?",
+            "key": "Did you vote in the last city elections?",
             "type": "DiscretBar",
             "values": [
                 { "label": "Yes", "value": 73.0 },
@@ -541,11 +521,11 @@
         {
             "filename": "decision_time_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/Voting Behavior",
-            "key": "Time when voters make a decision whom to vote for",
+            "key": "Time when respondents make their voting decision",
             "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Election day",
+                    "label": "On election day",
                     "value": 18.0
                 },
                 {
@@ -614,11 +594,11 @@
             "type": "DiscretBar",
             "values": [
                 {
-                    "label": "I will cast vote for the best candidate. <br>It does not matter whether <br>he/she belongs to my party or not",
+                    "label": "I will cast a vote for the best candidate. <br>It does not matter whether <br>s/he belongs to my party or not.",
                     "value": 95.0
                 },
                 {
-                    "label": "I will cast vote for my party candidate, <br>it does not matter whether <br>he/she is the best candidate or not",
+                    "label": "I will cast a vote for my party candidate. <br>It does not matter whether <br>s/he is the best candidate or not.",
                     "value": 4.0
                 },
                 {
@@ -630,19 +610,19 @@
         {
             "filename": "decision_gender_infulence_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/Voting Behavior",
-            "key": "Effects of gender on voter's decisions whom to vote for",
+            "key": "Effects of gender on respondent's voting decisions",
             "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Male",
+                    "label": "I will vote for a male candidate.",
                     "value": 20.0
                 },
                 {
-                    "label": "Female",
+                    "label": "I will vote for a female candidate.",
                     "value": 8.0
                 },
                 {
-                    "label": "Gender will make no difference",
+                    "label": "Gender will make no difference in my voting decision.",
                     "value": 70.0
                 },
                 {
@@ -654,19 +634,19 @@
         {
             "filename": "decision_age_infulence_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/Voting Behavior",
-            "key": "Effects of age on voter's decisions whom to vote for",
+            "key": "Effects of age on respondent's voting decisions",
             "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Younger",
+                    "label": "I will vote for a younger candidate.",
                     "value": 11.0
                 },
                 {
-                    "label": "Elder",
+                    "label": "I will vote for an older candidate.",
                     "value": 17.0
                 },
                 {
-                    "label": "Age will make no difference",
+                    "label": "Age will make no difference in my voting decision.",
                     "value": 71.0
                 },
                 {
@@ -678,15 +658,15 @@
         {
             "filename": "decision_religion_infulence_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/Voting Behavior",
-            "key": "Effects of religion on voter's decisions whom to vote for",
+            "key": "Effects of religion on respondent's voting decisions",
             "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Candidate belongs to my religion",
+                    "label": "I will vote for the candidate that belongs to my religion",
                     "value": 26.0
                 },
                 {
-                    "label": "Religion will make no difference",
+                    "label": "Religion will make no difference in my voting decision",
                     "value": 72.0
                 },
                 {
@@ -734,7 +714,7 @@
         {
             "filename": "neutrality_expectation_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/Election Commission",
-            "key": "Expectations for BEC neutrality in 2015 Chittagong CC election",
+            "key": "Expectations for BEC neutrality in 2015 Chittagong CC elections",
             "type": "DiscretBar",
             "values": [
                 {
@@ -758,19 +738,19 @@
                     "value": 7.0
                 },
                 {
-                    "label": "Refused",
-                    "value": 2.0
+                    "label": "Don't know",
+                    "value": 11.0
                 },
                 {
-                    "label": "Don't Know",
-                    "value": 11.0
+                    "label": "Refused",
+                    "value": 2.0
                 }
             ]
         },
         {
             "filename": "bec_law_order_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/Election Commission",
-            "key": "Expectations for BEC ability to keep law and order during 2015 Chittagong CC election",
+            "key": "Expectations for BEC ability to keep law and order during 2015 Chittagong CC elections",
             "type": "DiscretBar",
             "values": [
                 {
@@ -794,12 +774,12 @@
                     "value": 7.0
                 },
                 {
-                    "label": "Refused",
-                    "value": 1.0
+                    "label": "Don't know",
+                    "value": 12.0
                 },
                 {
-                    "label": "Don't Know",
-                    "value": 12.0
+                    "label": "Refused",
+                    "value": 1.0
                 }
             ]
         },
@@ -830,12 +810,12 @@
                     "value": 17.0
                 },
                 {
-                    "label": "Refused",
-                    "value": 2.0
+                    "label": "Don't know",
+                    "value": 22.0
                 },
                 {
-                    "label": "Don't Know",
-                    "value": 22.0
+                    "label": "Refused",
+                    "value": 2.0
                 }
             ]
         }
@@ -843,8 +823,8 @@
     "meta": {
         "date": "April 2015",
         "info": "City Poll Survey April 2015",
-        "moe": "2.5",
-        "participants": "1500",
+        "moe": "4.0",
+        "participants": "600",
         "scope": "City Poll Survey",
         "write_path": "city_poll_apr_1",
 		"survey_type": "Face to face",

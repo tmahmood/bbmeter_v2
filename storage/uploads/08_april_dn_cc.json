@@ -35,7 +35,7 @@
             "date": "",
             "filename": "city_corporation_direction_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Governance",
-            "key": "Direction in which City Corporation is moving",
+            "key": "Direction in which Dhaka North City Corporation is moving",
             "type": "DiscretBar",
             "values": [
                 {
@@ -51,12 +51,12 @@
                     "value": 40.0
                 },
                 {
-                    "label": "Refused",
-                    "value": 3.0
-                },
-                {
                     "label": "Don't know",
                     "value": 12.0
+                },
+                {
+                    "label": "Refused",
+                    "value": 3.0
                 }
             ]
         },
@@ -114,16 +114,16 @@
                     "value": 7.0
                 },
                 {
-                    "label": "Don't know/ Refused",
-                    "value": 6.0
-                },
-                {
                     "label": "Less violence and political conflict",
                     "value": 6.0
                 },
                 {
                     "label": "Less crime",
                     "value": 5.0
+                },
+                {
+                    "label": "Don't know/ Refused",
+                    "value": 6.0
                 }
             ]
         },
@@ -180,7 +180,7 @@
             "date": "",
             "filename": "political_situation_in_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Governance",
-            "key": "Political situation in Dhaka North CC",
+            "key": "Perceptions of political situation in Dhaka North CC",
             "type": "DiscretBar",
             "values": [
                 {
@@ -204,12 +204,12 @@
                     "value": 14.0
                 },
                 {
-                    "label": "Refused",
-                    "value": 3.0
-                },
-                {
                     "label": "Don't know",
                     "value": 7.0
+                },
+                {
+                    "label": "Refused",
+                    "value": 3.0
                 }
             ]
         },
@@ -217,7 +217,7 @@
             "date": "",
             "filename": "biggest_achievement_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Governance",
-            "key": "The biggest achievement of Dhaka North CC in last 5 years",
+            "key": "The biggest achievement of Dhaka North CC in the last 5 years",
             "type": "DiscretBar",
             "values": [
                 {
@@ -225,7 +225,7 @@
                     "value": 25.0
                 },
                 {
-                    "label": "Flyover",
+                    "label": "Flyovers",
                     "value": 14.0
                 },
                 {
@@ -250,7 +250,7 @@
             "date": "",
             "filename": "major_problem_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Governance",
-            "key": "The major problem faced by Dhaka North CC in last 5 years",
+            "key": "The major problem faced by Dhaka North CC in the last 5 years",
             "type": "DiscretBar",
             "values": [
                 {
@@ -302,7 +302,7 @@
         {
             "filename": "service_delivery_waste_management_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Service Delivery",
-            "key": "Waste management",
+            "key": "Satisfaction with waste management",
             "type": "DiscretBar",
             "values": [
                 {
@@ -335,7 +335,7 @@
             "date": "",
             "filename": "service_quality_sewerage_management_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Service Delivery",
-            "key": "Sewerage management",
+            "key": "Satisfaction with sewerage management",
             "type": "DiscretBar",
             "values": [
                 {
@@ -368,7 +368,7 @@
             "date": "",
             "filename": "service_quality_birth_death_national_cert_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Service Delivery",
-            "key": "Birth/Death/National certificate provision",
+            "key": "Satisfaction with birth/death/national certificate provision",
             "type": "DiscretBar",
             "values": [
                 {
@@ -401,7 +401,7 @@
             "date": "",
             "filename": "service_quality_environment_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Service Delivery",
-            "key": "Environmental management",
+            "key": "Satisfaction with environmental management",
             "type": "DiscretBar",
             "values": [
                 {
@@ -434,7 +434,7 @@
             "date": "",
             "filename": "work_quality_road_footpath_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Service Delivery",
-            "key": "Road and footpath maintenance",
+            "key": "Satisfaction with road and footpath maintenance",
             "type": "DiscretBar",
             "values": [
                 {
@@ -467,7 +467,7 @@
             "date": "",
             "filename": "work_quality_park_recreation_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Service Delivery",
-            "key": "Park and recreation facilities",
+            "key": "Satisfaction with park and recreation facilities",
             "type": "DiscretBar",
             "values": [
                 {
@@ -500,7 +500,7 @@
             "date": "",
             "filename": "work_quality_street_lights_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Service Delivery",
-            "key": "Lighting in the streets",
+            "key": "Satisfaction with lighting in the streets",
             "type": "DiscretBar",
             "values": [
                 {
@@ -529,7 +529,7 @@
             "date": "",
             "filename": "work_quality_clean_city_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Service Delivery",
-            "key": "Making the city clean",
+            "key": "Satisfaction with city cleanness",
             "type": "DiscretBar",
             "values": [
                 {
@@ -562,7 +562,7 @@
             "date": "",
             "filename": "work_quality_green_city_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Service Delivery",
-            "key": "Making the city green",
+            "key": "Satisfaction with making the city green",
             "type": "DiscretBar",
             "values": [
                 {
@@ -595,7 +595,7 @@
             "date": "",
             "filename": "officials_quality_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Service Delivery",
-            "key": "City corporation officials?",
+            "key": "Satisfaction with city corporation officials",
             "type": "DiscretBar",
             "values": [
                 {
@@ -624,7 +624,7 @@
             "date": "",
             "filename": "office_visit_frequency_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Service Delivery",
-            "key": "Frequency of visiting councillor/commissioner office to avail services",
+            "key": "Frequency of visiting councillor/commissioner's office to avail services",
             "type": "DiscretBar",
             "values": [
                 {
@@ -649,7 +649,7 @@
             "date": "",
             "filename": "councillor_satisfactory_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Service Delivery",
-            "key": "Ward councillor/commissioner performance",
+            "key": "Ward councillor/commissioner's performance",
             "type": "DiscretBar",
             "values": [
                 {
@@ -677,7 +677,7 @@
         {
             "filename": "first_thing_from_mayor_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/General",
-            "key": "First thing you want from your next city mayor",
+            "key": "First thing respondents want done from the next city mayor",
             "type": "DiscretBar",
             "values": [
                 {
@@ -709,10 +709,6 @@
                     "value": 5.0
                 },
                 {
-                    "label": "Don't know/ Refused",
-                    "value": 5.0
-                },
-                {
                     "label": "Remove unemployment",
                     "value": 3.0
                 },
@@ -723,6 +719,10 @@
                 {
                     "label": "Improve law and order",
                     "value": 3.0
+                },
+                {
+                    "label": "Don't know/ Refused",
+                    "value": 5.0
                 }
             ]
         },
@@ -906,7 +906,7 @@
                     "value": 3.0
                 },
                 {
-                    "label": "Door to door visit",
+                    "label": "Door to door canvassing",
                     "value": 3.0
                 },
                 {
@@ -918,12 +918,12 @@
                     "value": 1.0
                 },
                 {
-                    "label": "Refused",
-                    "value": 1.0
-                },
-                {
                     "label": "Don't know",
                     "value": 8.0
+                },
+                {
+                    "label": "Refused",
+                    "value": 1.0
                 }
             ]
         },
@@ -935,19 +935,19 @@
             "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Yes, I received sufficient information",
+                    "label": "Yes, I received sufficient information to make a decision.",
                     "value": 15.0
                 },
                 {
-                    "label": "No, I did not receive sufficient information",
+                    "label": "No, I did not receive sufficient information to make a decision.",
                     "value": 46.0
                 },
                 {
-                    "label": "Received no information",
+                    "label": "Received no information to make a decision.",
                     "value": 38.0
                 },
                 {
-                    "label": "Don't know/ Refused",
+                    "label": "Don't know/ Refused.",
                     "value": 2.0
                 }
             ]
@@ -1026,29 +1026,9 @@
             }
         },
         {
-            "filename": "candidate_likability_dhaka_north",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/Candidates",
-            "key": "Candidate's likability",
-            "type": "GroupedMultiBar",
-			"option_group": "Name Recognition",
-            "values": {
-                "categories": [
-                    "Anisul Huq",
-                    "Tabith Awal",
-                    "Bahauddin Ahmed"
-                ],
-                "data": [
-                    { "data": [ 74.0, 57.0, 50.0 ], "name": "Like" },
-                    { "data": [ 5.0, 11.0, 9.0 ], "name": "Neither" },
-                    { "data": [ 6.0, 6.0, 16.0 ], "name": "Dislike" },
-                    { "data": [ 15.0, 26.0, 26.0 ], "name": "Don't know/ Refused" }
-                ]
-            }
-        },
-        {
             "filename": "main_issue_determine_winning_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/Candidates",
-            "key": "Issues determining the election outcome",
+            "key": "Elections outcome determinants",
             "type": "DiscretBar",
             "values": [
                 { "label": "Qualification of the candidate", "value": 73.0 },
@@ -1062,7 +1042,7 @@
         {
             "filename": "vote_last_ce_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/Voting Behavior",
-            "key": "Did you vote in the last city election?",
+            "key": "Did you vote in the last city elections?",
             "type": "DiscretBar",
             "values": [
                 { "label": "Yes", "value": 45.0 },
@@ -1088,10 +1068,10 @@
             "date": "",
             "filename": "decision_time_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/Voting Behavior",
-            "key": "Time when voters make a decision whom to vote for",
+            "key": "Time when respondents make their voting decision",
             "type": "DiscretBar",
             "values": [
-                { "label": "Election day", "value": 22.0 },
+                { "label": "On election day", "value": 22.0 },
                 { "label": "The day before election day", "value": 26.0 },
                 { "label": "Any other earlier day 'before the election day'", "value": 49.0 },
                 { "label": "Don't know/ Refused", "value": 3.0 }
@@ -1132,11 +1112,11 @@
             "type": "DiscretBar",
             "values": [
                 {
-                    "label": "I will cast vote for the best candidate.<br> It does not matter whether he/she <br>belongs to my party or not",
+                    "label": "I will cast a vote for the best candidate.<br> It does not matter whether s/he <br>belongs to my party or not",
                     "value": 91.0
                 },
                 {
-                    "label": "I will cast vote for my party candidate, <br>it does not matter whether he/she <br>is the best candidate or not",
+                    "label": "I will cast a vote for my party candidate, <br>it does not matter whether s/he <br>is the best candidate or not",
                     "value": 7.0
                 },
                 {
@@ -1149,19 +1129,19 @@
             "date": "",
             "filename": "decision_gender_infulence_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/Voting Behavior",
-            "key": "Effects of gender on voter's decisions whom to vote for",
+            "key": "Effects of gender on respondent's voting decisions",
             "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Male",
+                    "label": "I will vote for a male candidate.",
                     "value": 43.0
                 },
                 {
-                    "label": "Female",
+                    "label": "I will vote for a female candidate.",
                     "value": 7.0
                 },
                 {
-                    "label": "Gender will make no difference",
+                    "label": "Gender will make no difference in my voting decision.",
                     "value": 48.0
                 },
                 {
@@ -1174,19 +1154,19 @@
             "date": "",
             "filename": "decision_age_infulence_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/Voting Behavior",
-            "key": "Effects of age on voter's decisions whom to vote for",
+            "key": "Effects of age on respondent's voting decisions",
             "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Younger",
+                    "label": "I will vote for a younger candidate.",
                     "value": 20.0
                 },
                 {
-                    "label": "Elder",
+                    "label": "I will vote for an older candidate.",
                     "value": 23.0
                 },
                 {
-                    "label": "Age will make no difference",
+                    "label": "Age will make no difference in my voting decision.",
                     "value": 56.0
                 },
                 {
@@ -1199,11 +1179,11 @@
             "date": "",
             "filename": "decision_religion_infulence_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/Voting Behavior",
-            "key": "Effects of religion on voter's decisions whom to vote for",
+            "key": "Effects of religion on respondent's voting decisions",
             "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Candidate belongs to my religion",
+                    "label": "I will vote for the candidate that belongs to my religion",
                     "value": 41.0
                 },
                 {
@@ -1216,7 +1196,7 @@
             "date": "",
             "filename": "neutrality_expectation_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/Election Commission",
-            "key": "Expectations for BEC neutrality in 2015 Dhaka North CC election",
+            "key": "Expectations for BEC neutrality in 2015 Dhaka North CC elections",
             "type": "DiscretBar",
             "values": [
                 {
@@ -1240,12 +1220,12 @@
                     "value": 7.0
                 },
                 {
-                    "label": "Refused",
-                    "value": 2.0
+                    "label": "Don't know",
+                    "value": 6.0
                 },
                 {
-                    "label": "Don't Know",
-                    "value": 6.0
+                    "label": "Refused",
+                    "value": 2.0
                 }
             ]
         },
@@ -1253,7 +1233,7 @@
             "date": "",
             "filename": "bec_law_order_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/Election Commission",
-            "key": "Expectations for BEC ability to keep law and order during 2015 Dhaka North CC election",
+            "key": "Expectations for BEC ability to keep law and order during 2015 Dhaka North CC elections",
             "type": "DiscretBar",
             "values": [
                 {
@@ -1277,12 +1257,12 @@
                     "value": 7.0
                 },
                 {
-                    "label": "Refused",
-                    "value": 2.0
+                    "label": "Don't know",
+                    "value": 8.0
                 },
                 {
-                    "label": "Don't Know",
-                    "value": 8.0
+                    "label": "Refused",
+                    "value": 2.0
                 }
             ]
         },
@@ -1314,12 +1294,12 @@
                     "value": 20.0
                 },
                 {
-                    "label": "Refused",
-                    "value": 2.0
+                    "label": "Don't know",
+                    "value": 12.0
                 },
                 {
-                    "label": "Don't Know",
-                    "value": 12.0
+                    "label": "Refused",
+                    "value": 2.0
                 }
             ]
         }
@@ -1327,8 +1307,8 @@
     "meta": {
         "date": "April 2015",
         "info": "City Poll Survey April 2015",
-        "moe": "2.5",
-        "participants": "1500",
+        "moe": "4.0",
+        "participants": "600",
         "scope": "City Poll Survey",
         "write_path": "city_poll_apr_1",
 		"survey_type": "Face to face",
