@@ -10,7 +10,7 @@
     },
 	"data": [
 		{
-			"key": "Credibility of current government",
+			"key": "Credibility of the current government",
 			"filename": "credibility_of_current_government",
 			"group": "Opinion Polls 2014/December 2014/Governance",
 			"type": "DiscretBar",
@@ -19,15 +19,15 @@
 				{ "label": "Credible", "value": "23.5" },
 				{ "label": "Less credible", "value": "16.3" },
 				{ "label": "Not credible", "value": "20.1" },
-				{ "label": "Refused", "value": "1.6" },
-				{ "label": "Don't know/Can't say", "value": "1.0" }
+				{ "label": "Don't know/Can't say", "value": "1.0" },
+				{ "label": "Refused", "value": "1.6" }
 			]
 		}, {
 			"related_to": "credibility_of_current_government",
 			"option_group": "By Division",
 			"group": "Opinion Polls 2014/December 2014/Governance",
             "filename": "credibility_divisionwise",
-            "key": "Credibility of current government",
+            "key": "Credibility of the current government",
             "type": "GroupedMultiBar",
             "values": {
                 "categories": [ "Dhaka", "Chittagong", "Rajshahi", "Khulna", "Barisal", "Sylhet", "Rangpur" ],
@@ -49,31 +49,31 @@
                         "name": "Not credible"
                     },
                     {
-                        "data": [ 2.0, 0.8, 1.2, 2.7, 0.0, 1.4, 1.8 ],
-                        "name": "Refused"
-                    },
-                    {
                         "data": [ 1.5, 0.3, 0.4, 0.9, 0.0, 0.7, 1.8 ],
                         "name": "Don't know/Can't say"
+                    },
+                    {
+                        "data": [ 2.0, 0.8, 1.2, 2.7, 0.0, 1.4, 1.8 ],
+                        "name": "Refused"
                     }
                 ]
             }
         }, {
 			"key": "Credibility of January 5 Election",
 			"filename": "credibility_of_jan_5_election",
-			"group": "Opinion Polls 2014/December 2014/Jan 5 Election",
+			"group": "Opinion Polls 2014/December 2014/January 5 Election",
 			"type": "DiscretBar",
 			"values": [
 				{ "label": "The January 5 election was not credible", "value": "57.0" },
 				{ "label": "The January 5 election was credible", "value": "39.7" },
 				{ "label": "Neither", "value": ".8" },
-				{ "label": "Refused", "value": "1.1" },
-				{ "label": "Don't Know/Can't Say", "value": "1.5" }
+				{ "label": "Don't know/Can't say", "value": "1.5" },
+				{ "label": "Refused", "value": "1.1" }
 			]
 		},{
 			"related_to": "credibility_of_jan_5_election",
 			"option_group": "By Division",
-			"group": "Opinion Polls 2014/December 2014/Jan 5 Election",
+			"group": "Opinion Polls 2014/December 2014/January 5 Election",
             "filename": "jan5_credibility_division_wise",
             "key": "Credibility of January 5 Election",
             "type": "GroupedMultiBar",
@@ -93,32 +93,32 @@
                         "name": "Neither"
                     },
                     {
-                        "data": [ 0.6, 0.5, 1.2, 1.8, 4.5, 0.0, 1.8 ],
-                        "name": "Refused"
+                        "data": [ 2.7, 0.0, 1.9, 1.4, 0.9, 0.7, 0.9 ],
+                        "name": "Don't know/Can't say"
                     },
                     {
-                        "data": [ 2.7, 0.0, 1.9, 1.4, 0.9, 0.7, 0.9 ],
-                        "name": "Don't Know/Can't Say"
+                        "data": [ 0.6, 0.5, 1.2, 1.8, 4.5, 0.0, 1.8 ],
+                        "name": "Refused"
                     }
                 ]
             }
 		}, {
-				"key": "View on BNP boycott of the January 5 Election",
+				"key": "Perceptions of BNP's boycott of the January 5th, 2014 elections",
 				"filename": "bnp_boycott_jan_5_election",
-				"group": "Opinion Polls 2014/December 2014/Jan 5 Election",
+				"group": "Opinion Polls 2014/December 2014/January 5 Elections",
 				"type": "DiscretBar",
 				"values": [
 					{ "label": "BNP was wrong to boycott the election", "value": "52.7" },
 					{ "label": "BNP was right to boycott the election", "value": "42.6" },
-					{ "label": "Don't Know/Can't Say", "value": "2.8" },
+					{ "label": "Don't know/Can't say", "value": "2.8" },
 					{ "label": "Neither", "value": "1.0" },
 					{ "label": "Refused", "value": "1.1" }
 				]
 		}, {
 			"related_to": "bnp_boycott_jan_5_election",
-			"key": "View on BNP boycott of the January 5 Election",
+			"key": "Perceptions of BNP's boycott of the January 5th, 2014 elections",
 			"filename": "bnp_boycott_jan_5_election",
-			"group": "Opinion Polls 2014/December 2014/Jan 5 Election",
+			"group": "Opinion Polls 2014/December 2014/January 5 Elections",
 			"option_group": "By Division",
 			"type": "GroupedMultiBar",
 			"values": {
@@ -138,12 +138,12 @@
 						"name": "Refused"
 					}, {
 						"data": [ 3.5, 1.3, 3.1, 2.7, 1.8, 0.7, 4.5 ],
-						"name": "Don't Know/Can't Say"
+						"name": "Don't know/Can't say"
 					}
 				]
 			}
 		}, {
-		"key": "If the election were held today, which party would you likely vote for?",
+		"key": "If the elections were held today, which party would you likely vote for?",
 		"filename": "today_vote_for",
 		"type": "DiscretBar",
 		"group": "Opinion Polls 2014/December 2014/Political Participation",
@@ -157,13 +157,13 @@
 			{ "label": "Yet to take any decision", "value": "12.3" },
 			{ "label": "None", "value": ".1" },
 			{ "label": "Will cast No Vote", "value": "2.2" },
-			{ "label": "will not vote", "value": ".4" },
+			{ "label": "Will not vote", "value": ".4" },
 			{ "label": "Khelafath Majlish", "value": ".2" },
-			{ "label": "Do not want to reveal", "value": "5.0" },
-			{ "label": "Can not say", "value": ".7" }
+			{ "label": "Don't know/Can't say", "value": ".7" },
+			{ "label": "Refused", "value": "5.0" }
 		]
 	},{
-			"key": "Perception on parties ability to solve issues Bangladesh faceing",
+			"key": "Perceptions of parties' ability to solve issues Bangladesh faces - 1",
 			"type": "GroupedMultiBar",
 			"group": "Opinion Polls 2014/December 2014/Political Parties",
 			"filename": "parties_ability_solving_most_important_issue",
@@ -198,7 +198,7 @@
 				]
 			}
 		}, {
-			"key": "Parties solving other minor problems",
+			"key": "Perceptions of parties' ability to solve issues Bangladesh faces - 2",
 			"type": "GroupedMultiBar",
 			"group": "Opinion Polls 2014/December 2014/Political Parties",
 			"filename": "parties_ability_solving_minor_problems",
@@ -247,7 +247,7 @@
 		},  {
 		"group": "Opinion Polls 2014/December 2014/Political Parties",
 		"filename": "voting_preference",
-		"key": "Voting Preference",
+		"key": "Voting preference",
 		"type": "DiscretBar",
 		"values": [
 				{ "label": "Awami League", "value": "37.6" },
@@ -268,7 +268,7 @@
 			"related_to": "voting_preference",
             "filename": "voting_preference_area_wise",
 			"option_group": "By Area",
-            "key": "Voting Preference",
+            "key": "Voting preference",
 			"group": "Opinion Polls 2014/December 2014/Political Parties",
             "type": "GroupedMultiBar",
             "values": {
@@ -293,7 +293,7 @@
 			"related_to": "voting_preference",
             "filename": "voting_preference_gender_wise",
 			"option_group": "By Gender",
-            "key": "Voting Preference",
+            "key": "Voting preference",
 			"group": "Opinion Polls 2014/December 2014/Political Parties",
             "type": "GroupedMultiBar",
             "values": {
@@ -318,7 +318,7 @@
 			"related_to": "voting_preference",
 			"option_group": "By Age Group",
             "filename": "voting_preference_age_wise",
-            "key": "Voting Preference",
+            "key": "Voting preference",
 			"group": "Opinion Polls 2014/December 2014/Political Parties",
             "type": "GroupedMultiBar",
             "values": {
@@ -347,7 +347,7 @@
                 ]
             }
         }, {
-			"key": "Political Issues on which parties and leaders should focus",
+			"key": "Political issues on which parties and leaders should focus",
 			"type": "DiscretBar",
 			"group": "Opinion Polls 2014/December 2014/Political Parties",
             "filename": "most_important_issue",
@@ -391,7 +391,7 @@
 				{ "label": "Not too important", "value": "11.8" },
 				{ "label": "Not important at all", "value": "19.1" },
 				{ "label": "Refused", "value": ".4" },
-				{ "label": "Don't Know/Can't Say", "value": ".7" }
+				{ "label": "Don't know/Can't say", "value": ".7" }
 			]
 		}, {
 			"related_to": "women_involvement_politics",
@@ -412,30 +412,20 @@
             }
         }, {
 			"group": "Opinion Polls 2014/December 2014/Political Participation",
-            "filename": "women_leadership",
-            "key": "Women in party leadership",
-            "type": "DiscretBar",
-            "values": [
-                { "label": "Important", "value": 69 },
-                { "label": "Not Important", "value": 30 },
-                { "label": "Don't know/Can't say/Refused", "value": 1 }
-            ]
-        }, {
-			"group": "Opinion Polls 2014/December 2014/Political Participation",
             "filename": "involving_women_in_leadership",
-            "key": "Work to involve women in party leadership position",
+            "key": "Perceptions of political parties' effort to involve women in party leadership position",
             "type": "DiscretBar",
             "values": [
                 { "label": "AL", "value": 61 },
                 { "label": "BNP", "value": 27 },
-                { "label": "Don't know/Cant't say/Refused", "value": 8 },
                 { "label": "JP", "value": 2 },
-                { "label": "Jammat-e-Islami", "value": 1 }
+                { "label": "Jammat-e-Islami", "value": 1 },
+                { "label": "Don't know/Can't say/Refused", "value": 8 }
             ]
         },  {
 			"group": "Opinion Polls 2014/December 2014/Political Participation",
             "filename": "youth_paricipantion",
-            "key": "Youth participation in politics",
+            "key": "Importance of youth participation in politics",
             "type": "DiscretBar",
             "values": [
                 { "label": "Net Important", "value": 90 },
@@ -443,13 +433,13 @@
             ]
         },        {
             "filename": "highest_potential",
-            "key": "Views on econoic area that have the greatest potential",
+            "key": "Identification of economic areas that have the greatest potential",
 			"group": "Opinion Polls 2014/December 2014/Economy",
             "type": "DiscretBar",
             "values": [
                 { "label": "Agriculture", "value": 24 },
                 { "label": "Education", "value": 21 },
-                { "label": "Don't Know/Not Sure", "value": 15 },
+                { "label": "Don't know/Not Sure", "value": 15 },
                 { "label": "Ready Made Garments (RMG)", "value": 9 },
                 { "label": "Infrastructure", "value": 5 },
                 { "label": "Manufacturing Industry", "value": 4 }
@@ -459,7 +449,7 @@
             "filename": "highest_potential",
 			"group": "Opinion Polls 2014/December 2014/Economy",
 			"option_group": "By Area",
-            "key": "Views on highest potential by area",
+            "key": "Identification of economic areas that have the greatest potential",
             "type": "GroupedMultiBar",
             "values": {
                 "categories": [ "Urban", "Rural" ],
@@ -469,12 +459,12 @@
                     { "data": [ 12.0, 8.0 ], "name": "Ready Made Garments (RMG)" },
                     { "data": [ 7.0, 5.0 ], "name": "Infrastructure" },
                     { "data": [ 6.0, 4.0 ], "name": "Manufacturing Industry" },
-                    { "data": [ 0, 0 ], "name": "Don't Know/Not Sure" }
+                    { "data": [ 0, 0 ], "name": "Don't know/Not Sure" }
                 ]
             }
         }, {
             "filename": "highest_potential_division_wise",
-            "key": "Agriculture viewed as the highest potential by divisions",
+            "key": "Agriculture identified as the highest potential economic area, by division",
             "type": "DiscretBar",
 			"group": "Opinion Polls 2014/December 2014/Economy",
             "values": [
@@ -489,7 +479,7 @@
         }, {
 			"group": "Opinion Polls 2014/December 2014/Governance",
             "filename": "main_problem",
-            "key": "Problems Bangladeshis are concerned about",
+            "key": "Problems people of Bangladesh are concerned about",
             "type": "DiscretBar",
             "values": [
                 { "label": "Political", "value": 22 },
@@ -499,11 +489,11 @@
                 { "label": "Electricity", "value": 6 },
                 { "label": "Corruption", "value": 5 },
                 { "label": "No problem", "value": 5 },
-                { "label": "Don't Know/ Not Sure", "value": 4 }
+                { "label": "Don't know/ Not Sure", "value": 4 }
             ]
         }, {
             "filename": "main_problem_division_wise",
-            "key": "Politics is the main problem seen by Divisions",
+            "key": "Perceptions of politics is the main problem facing Bangladesh, by division",
 			"group": "Opinion Polls 2014/December 2014/Governance",
             "type": "DiscretBar",
             "values": [
@@ -550,7 +540,7 @@
                 ]
             }
         },{
-		"key": "Economy under current government",
+		"key": "Economy under the current government",
 		"filename": "economic_situation_now",
 		"group": "Opinion Polls 2014/December 2014/Economy",
 		"type": "DiscretBar",
@@ -560,20 +550,20 @@
 				"value": "56.3"
 			},
 			{
-				"label": "Worse off",
-				"value": "27.4"
-			},
-			{
 				"label": "Stayed the same",
 				"value": "14.6"
 			},
 			{
-				"label": "Refused",
-				"value": ".6"
+				"label": "Worse off",
+				"value": "27.4"
 			},
 			{
-				"label": "Don't Know/Can't Say",
+				"label": "Don't know/Can't say",
 				"value": "1.2"
+			},
+			{
+				"label": "Refused",
+				"value": ".6"
 			}
 		]
 	}, {
@@ -591,20 +581,20 @@
 					"name": "Better off"
 				},
 				{
-					"data": [ 23.2, 32.3, 31.2, 18.2, 14.5, 23.6, 45.0 ],
-					"name": "Worse off"
-				},
-				{
 					"data": [ 10.3, 14.9, 17.7, 21.8, 17.3, 2.1, 22.7 ],
 					"name": "Stayed the same"
 				},
 				{
-					"data": [ 0.6, 0.3, 1.2, 0.9, 0.0, 0.7, 0.0 ],
-					"name": "Refused"
+					"data": [ 23.2, 32.3, 31.2, 18.2, 14.5, 23.6, 45.0 ],
+					"name": "Worse off"
 				},
 				{
 					"data": [ 1.5, 0.5, 1.5, 2.7, 0.0, 1.4, 0.0 ],
-					"name": "Don't Know/Can't Say"
+					"name": "Don't know/Can't say"
+				},
+				{
+					"data": [ 0.6, 0.3, 1.2, 0.9, 0.0, 0.7, 0.0 ],
+					"name": "Refused"
 				}
 			]
 		}
@@ -623,20 +613,20 @@
 					"name": "Better off"
 				},
 				{
-					"data": [ 31.1, 26.3 ],
-					"name": "Worse off"
-				},
-				{
 					"data": [ 15.7, 14.2 ],
 					"name": "Stayed the same"
 				},
 				{
-					"data": [ 0.6, 0.5 ],
-					"name": "Refused"
+					"data": [ 31.1, 26.3 ],
+					"name": "Worse off"
 				},
 				{
 					"data": [ 1.9, 1.0 ],
-					"name": "Don't Know/Can't Say"
+					"name": "Don't know/Can't say"
+				},
+				{
+					"data": [ 0.6, 0.5 ],
+					"name": "Refused"
 				}
 			]
 		}
@@ -655,25 +645,25 @@
 					"name": "Better off"
 				},
 				{
-					"data": [ 31.8, 23.0 ],
-					"name": "Worse off"
-				},
-				{
 					"data": [ 10.0, 19.2 ],
 					"name": "Stayed the same"
 				},
 				{
-					"data": [ 0.6, 0.5 ],
-					"name": "Refused"
+					"data": [ 31.8, 23.0 ],
+					"name": "Worse off"
 				},
 				{
 					"data": [ 1.2, 1.2 ],
-					"name": "Don't Know/Can't Say"
+					"name": "Don't know/Can't say"
+				},
+				{
+					"data": [ 0.6, 0.5 ],
+					"name": "Refused"
 				}
 			]
 		}
 	}, {
-		"key": "Economic situation compared to the same five years back",
+		"key": "Economic situation compared to five years ago",
 		"filename": "economic_situation_past",
 		"type": "DiscretBar",
 		"group": "Opinion Polls 2014/December 2014/Economy",
@@ -683,19 +673,19 @@
 				"value": "50.2"
 			},
 			{
-				"label": "Worse off",
-				"value": "31.9"
-			},
-			{
 				"label": "Stayed the same",
 				"value": "17.8"
 			},
 			{
-				"label": "Refused",
+				"label": "Worse off",
+				"value": "31.9"
+			},
+			{
+				"label": "Don't know/Can't say",
 				"value": ".1"
 			},
 			{
-				"label": "Don't Know/Can't Say",
+				"label": "Refused",
 				"value": ".1"
 			}
 		]
@@ -704,7 +694,7 @@
 			"option_group": "By Division",
 			"group": "Opinion Polls 2014/December 2014/Economy",
             "filename": "economic_situation_past_ct",
-            "key": "Economic situation compared to the same five years back",
+            "key": "Economic situation compared to five years ago",
             "type": "GroupedMultiBar",
             "values": {
                 "categories": [
@@ -722,20 +712,20 @@
                         "name": "Better off"
                     },
                     {
-                        "data": [ 29.7, 34.1, 29.2, 27.7, 17.3, 42.1, 42.7 ],
-                        "name": "Worse off"
-                    },
-                    {
                         "data": [ 15.6, 17.7, 21.5, 18.6, 21.8, 8.6, 22.7 ],
                         "name": "Stayed the same"
                     },
                     {
-                        "data": [ 0.2, 0.0, 0.4, 0, 0, 0, 0 ],
-                        "name": "Refused"
+                        "data": [ 29.7, 34.1, 29.2, 27.7, 17.3, 42.1, 42.7 ],
+                        "name": "Worse off"
                     },
                     {
                         "data": [ 0.0, 0.3, 0.0, 0.5, 0, 0, 0 ],
-                        "name": "Don't Know/Can't Say"
+                        "name": "Don't know/Can't say"
+                    },
+                    {
+                        "data": [ 0.2, 0.0, 0.4, 0, 0, 0, 0 ],
+                        "name": "Refused"
                     }
                 ]
             }

@@ -59,7 +59,7 @@ class QuestionRepository implements BaseRepositoryInterface
 	function get_by_survey($survey_id, $with_group=false)
 	{
 		return Question::where('survey_id', $survey_id)
-			->orderBy('id', 'desc')
+			->orderBy('ordering', 'asc')
 			->with('survey', 'options', 'group')
 			->get();
 	}
@@ -67,7 +67,7 @@ class QuestionRepository implements BaseRepositoryInterface
 	public function get_by_group($group_id)
 	{
 		return Question::where('group_id', $group_id)
-			->orderBy('id', 'desc')
+			->orderBy('ordering', 'asc')
 			->with('survey', 'options')
 			->get();
 	}
