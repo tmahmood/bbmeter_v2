@@ -5,12 +5,12 @@ function Home(opts) {
 
 	this.current_slide = 0;
 
-	if ($('#slideshow_items') != null || $('#slideshow_items').length() > 0) {
+	if ($('#slideshow_items').length > 0) {
 		var me = this;
 		this.slideshow = setInterval(function() {
 			$('#slideshow_items li').removeClass('active');
 			var cur = $('#slideshow_items a').get(me.current_slide);
-			if (cur.hasAttribute('href') == false) {
+			if (cur != undefined && cur.hasAttribute('href') == false) {
 				console.log(cur);
 				console.log(me.current_slide);
 				me.current_slide++;
@@ -167,11 +167,15 @@ $(function(){
 	home.onQuestionsLinkClick();
 	home.onChartDisplayClick();
 
-	$('#primary-navigation').infinitypush({
-		openingspeed: 100,
-		closingspeed: 100,
-		spacing: 40,
-		offcanvas: false
-	});
+	try {
+		$('#primary-navigation').infinitypush({
+			openingspeed: 100,
+			closingspeed: 100,
+			spacing: 40,
+			offcanvas: false
+		});
+	} catch(err) {
+
+	}
 });
 

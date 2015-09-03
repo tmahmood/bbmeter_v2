@@ -15,6 +15,9 @@ Pie.prototype.addData = function(values) {
 	for (var i in values) {
 		var val = values[i]
 		this.series.push([ val.label, val.value * 1 ]);
+		if (val.label.toLowerCase() in this.parent.colormap) {
+			this.colors[i] = this.parent.colormap[val.label.toLowerCase()];
+		}
 	}
 };
 

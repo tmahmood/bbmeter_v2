@@ -6,8 +6,8 @@ function GroupedMultiBar() {
 	this.series = [];
 	this.stacked = false;
 	this.direction = "";
-	this.colors = ['#7cb5ec', '#434348', '#90ed7d', '#f7a35c', '#8085e9', '#4C9A55', '#e4d354', '#2b908f', '#f45b5b', '#91e8e1'];
-}
+	this.colors = ['#7cb5ec', '#434348', '#90ed7d', '#f7a35c', '#8085e9',
+	'#4C9A55', '#e4d354', '#2b908f', '#f45b5b', '#91e8e1']; }
 
 GroupedMultiBar.prototype.set = function(field, val) {
 	this[field] = val;
@@ -27,6 +27,12 @@ GroupedMultiBar.prototype.addData = function(d) {
 		this.series = d.data;
 	}
 
+	for (var i = this.series.length - 1; i >= 0; i --) {
+		var v = this.series[i];
+		if (v.name.toLowerCase() in this.parent.colormap) {
+			this.colors[i] = this.parent.colormap[v.name.toLowerCase()];
+		}
+	}
 };
 
 GroupedMultiBar.prototype.draw = function(colors) {
@@ -42,11 +48,7 @@ GroupedMultiBar.prototype.draw = function(colors) {
         xAxis: {
             categories: me.categories,
 			labels: {
-				style: {
-					"width": "95px",
-						"font-size": '9px',
-						"color": "#000"
-				}
+				style: { "width": "95px", "font-size": '9px', "color": "#000" }
 			}
         },
         yAxis: {
@@ -80,8 +82,9 @@ GroupedMultiBar.prototype.draw = function(colors) {
 
 				var html = [
  					'<table class="table table-bordered table-striped">' ,
-						'<thead><tr><th colspan="2">' ,  header ,  '</th></tr><thead>',
-						'<tbody>' + l.join(''), '</tbody>',
+						'<thead><tr><th colspan="2">' ,  header
+						,  '</th></tr><thead>', '<tbody>' + l.join(''),
+						'</tbody>',
 					'</table>'
 				];
 

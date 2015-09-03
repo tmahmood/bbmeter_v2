@@ -18,6 +18,9 @@ SimpleLine.prototype.addData = function(values) {
 	for (var i in values) {
 		var val = values[i]
 		this.series.push({ name: val.key, data:  val.values });
+		if (val.key.toLowerCase() in this.parent.colormap) {
+			this.colors[i] = this.parent.colormap[val.key.toLowerCase()];
+		}
 	}
 };
 
