@@ -333,11 +333,11 @@
             "filename": "most_important_issue",
 			"values": [
 				{ "label": "Reduce unemployment", "value": "20.0" },
-				{ "label": "Don't know/can't say", "value": "17" },
 				{ "label": "Controlling terrorism/establish law and order", "value": "16" },
 				{ "label": "Giving importance to common people", "value": "10" },
 				{ "label": "Consensus among political parties", "value": "8" },
-				{ "label": "Development of education system", "value": "7" }
+				{ "label": "Development of education system", "value": "7" },
+				{ "label": "Don't know/can't say", "value": "17" }
 			]
 		}, {
 			"group": "Opinion Polls 2014/December 2014/Political Participation",

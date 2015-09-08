@@ -6,8 +6,7 @@ function GroupedMultiBar() {
 	this.series = [];
 	this.stacked = false;
 	this.direction = "";
-	this.colors = ['#7cb5ec', '#434348', '#90ed7d', '#f7a35c', '#8085e9',
-	'#4C9A55', '#e4d354', '#2b908f', '#f45b5b', '#91e8e1']; }
+}
 
 GroupedMultiBar.prototype.set = function(field, val) {
 	this[field] = val;

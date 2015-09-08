@@ -11,7 +11,8 @@
 			<ul id="slideshow_items" >
 				@foreach ($questions as $question)
 				<li>
-					<a class="question_link" href="{{ url('question/' . $question->id) }}">{{ $question->key }}</a>
+					<a class="question_link" href="{{ url('question/' . $question->id) }}"
+						>{{ $question->key }}</a>
 				</li>
 				@endforeach
 			</ul>

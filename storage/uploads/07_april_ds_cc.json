@@ -321,7 +321,7 @@
             "date": "",
             "filename": "service_delivery_waste_management_dhaka_south",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka South/City Corporation Service Delivery",
-            "key": "Satisfaction with Waste management",
+            "key": "Satisfaction with waste management",
             "type": "DiscretBar",
             "values": [
                 {
@@ -975,7 +975,7 @@
                     "value": 47.0
                 },
                 {
-                    "label": "Received no information to make a decision",
+                    "label": "I received no information to make a decision",
                     "value": 31.0
                 },
                 {

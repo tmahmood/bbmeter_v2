@@ -449,7 +449,7 @@
             "values": [
                 { "label": "Yes, I received sufficient information to make a decision", "value": 30.0 },
                 { "label": "No, I did not receive sufficient information to make a decision", "value": 34.0 },
-                { "label": "Received no information to make a decision", "value": 35.0 },
+                { "label": "I received no information to make a decision", "value": 35.0 },
                 { "label": "Don't know/ Refused", "value": 1.0 }
             ]
         },

@@ -943,11 +943,11 @@
                     "value": 46.0
                 },
                 {
-                    "label": "Received no information to make a decision.",
+                    "label": "I received no information to make a decision.",
                     "value": 38.0
                 },
                 {
-                    "label": "Don't know/ Refused.",
+                    "label": "Don't know/ Refused",
                     "value": 2.0
                 }
             ]

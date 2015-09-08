@@ -60,13 +60,13 @@
 			"group": "Opinion Polls 2015/March 2015/Political Violence and Parties",
 			"type": "Pie",
 			"values": [
-				{ "label": "Yes, feel free", "value": "39.0" },
-				{ "label": "No, do not feel free", "value": "53.8" },
+				{ "label": "Yes, they feel free", "value": "39.0" },
+				{ "label": "No, they do not feel free", "value": "53.8" },
 				{ "label": "Refused", "value": ".8" },
 				{ "label": "Don't know", "value": "6.4" }
 			]
 		},{
-			"key": "Would you say that you are mostly OPTIMISTIC or PESSIMISTIC about the future of Bangladesh?",
+			"key": "Would you say that you are mostly optimistic or pessimistic about the future of Bangladesh?",
 			"filename": "future_bangladesh",
 			"group": "Opinion Polls 2015/March 2015/Political Violence and Parties",
 			"type": "Pie",

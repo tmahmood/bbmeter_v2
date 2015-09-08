@@ -3,6 +3,7 @@ function DiscretBar() {
 	this.container = null;
 	this.title = null;
 	this.subtitle = null;
+	this.changecolor = false;
 	this.series = [];
 }
 
@@ -12,12 +13,18 @@ DiscretBar.prototype.set = function(field, val) {
 };
 
 DiscretBar.prototype.addData = function(values) {
+	var k = 0;
 	for (var i in values) {
 		var val = values[i]
 		this.series.push({ name: val.label, y: val.value * 1 });
-		if (val.label.toLowerCase() in this.parent.colormap) {
-			this.colors[i] = this.parent.colormap[val.label.toLowerCase()];
+		var lbl = val.label.toLowerCase();
+		if (lbl in this.parent.colormap && typeof(this.parent.colormap[lbl]) != 'function' ) {
+			this.colors[i] = this.parent.colormap[lbl];
+			k++;
 		}
+	}
+	if (k >= 4) {
+		this.changecolor = true;
 	}
 };
 
@@ -47,7 +54,7 @@ DiscretBar.prototype.draw = function() {
 		},
         series: [{
 			name: me.title,
-            colorByPoint: true,
+            colorByPoint: me.changecolor,
 			data: me.series
 		}]
     });
