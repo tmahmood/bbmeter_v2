@@ -60,16 +60,18 @@ class QuestionRepository implements BaseRepositoryInterface
 	{
 		return Question::where('survey_id', $survey_id)
 			->orderBy('ordering', 'asc')
+			->orderBy('id', 'asc')
 			->with('survey', 'options', 'group')
 			->get();
 	}
 
 	public function get_by_group($group_id)
 	{
-		return Question::where('group_id', $group_id)
+		$s = Question::where('group_id', $group_id)
 			->orderBy('ordering', 'asc')
-			->with('survey', 'options')
-			->get();
+			->orderBy('id', 'asc')
+			->with('survey', 'options');
+		return $s->get();
 	}
 
 	function get_question_data($question_id)

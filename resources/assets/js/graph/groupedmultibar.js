@@ -28,8 +28,9 @@ GroupedMultiBar.prototype.addData = function(d) {
 
 	for (var i = this.series.length - 1; i >= 0; i --) {
 		var v = this.series[i];
-		if (v.name.toLowerCase() in this.parent.colormap) {
-			this.colors[i] = this.parent.colormap[v.name.toLowerCase()];
+		var vn = v.name.toLowerCase();
+		if (vn in this.parent.colormap && typeof(this.parent.colormap[vn]) != 'function') {
+			this.colors[i] = this.parent.colormap[vn];
 		}
 	}
 };

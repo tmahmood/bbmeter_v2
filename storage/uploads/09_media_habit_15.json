@@ -1,6 +1,38 @@
 {
     "data": [
         {
+            "filename": "online_news_portal_readership",
+            "group": "Opinion Polls 2015/May 2015/Media Habits/Print and online media",
+            "key": "Online news portal readership",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Bdnews24.com", "value": 7.0 },
+                { "label": "Prothom Alo", "value": 2.0 },
+                { "label": "Banglanews24.com", "value": 2.0 },
+                { "label": "Bd24live.com", "value": 2.0 },
+                { "label": "Priyo.com", "value": 1.0 },
+                { "label": "Don't read online news", "value": 76.0 },
+                { "label": "Don't know/Can't say", "value": 8.0 }
+            ]
+        },
+        {
+            "filename": "tv_genres",
+            "group": "Opinion Polls 2015/May 2015/Media Habits/TV/TV habits",
+            "key": "TV Genres",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "News", "value": 37.0 },
+                { "label": "Drama serials", "value": 34.0 },
+                { "label": "Movie", "value": 8.0 },
+                { "label": "Sports", "value": 5.0 },
+                { "label": "Music", "value": 4.0 },
+                { "label": "Talk show on politics", "value": 3.0 },
+                { "label": "Issue based programs", "value": 4.0 },
+                { "label": "Magazine program", "value": 2.0 },
+                { "label": "Don't know/Can't say", "value": 1.0 }
+            ]
+        },
+        {
             "filename": "news_consumption_habits",
             "group": "Opinion Polls 2015/May 2015/Media Habits/News consumption habits",
             "key": "News consumption habits",
@@ -69,6 +101,16 @@
             }
         },
         {
+            "filename": "viewership_of_bd_tv_channels",
+            "group": "Opinion Polls 2015/May 2015/Media Habits/TV/General",
+            "key": "TV viewership",
+            "type": "DiscretBar",
+            "values": [
+                { "label": "Watch", "value": 87.0 },
+                { "label": "Don't watch", "value": 13.0 }
+            ]
+        },
+        {
             "related_to": "news_consumption_habits",
             "group": "Opinion Polls 2015/May 2015/Media Habits/News consumption habits",
             "key": "News consumption habits - By Party",
@@ -87,19 +129,9 @@
             }
         },
         {
-            "filename": "viewership_of_bd_tv_channels",
-            "group": "Opinion Polls 2015/May 2015/Media Habits/TV/General",
-            "key": "Viewership of TV channels in Bangladesh",
-            "type": "DiscretBar",
-            "values": [
-                { "label": "Watch", "value": 87.0 },
-                { "label": "Don't watch", "value": 13.0 }
-            ]
-        },
-        {
             "related_to": "viewership_of_bd_tv_channels",
             "group": "Opinion Polls 2015/May 2015/Media Habits/TV/General",
-            "key": "Viewership of TV channels in Bangladesh - By Area",
+            "key": "TV viewership - By Area",
             "type": "GroupedMultiBar",
 			"option_group": "By area",
             "values": {
@@ -113,7 +145,7 @@
         {
             "filename": "viewership_of_bd_tv_channels_list",
             "group": "Opinion Polls 2015/May 2015/Media Habits/TV/General",
-            "key": "Viewership of TV channels in Bangladesh - TV channels",
+            "key": "Viewership of TV channels in Bangladesh",
             "type": "DiscretBar",
             "values": [
                 { "label": "BTV", "value": 21.0 },
@@ -142,23 +174,6 @@
                 { "label": "1-2 times a week", "value": 18.0 },
                 { "label": "Less than once a week", "value": 4.0 },
                 { "label": "Never", "value": 1.0 }
-            ]
-        },
-        {
-            "filename": "tv_genres",
-            "group": "Opinion Polls 2015/May 2015/Media Habits/TV/TV habits",
-            "key": "TV Genres",
-            "type": "DiscretBar",
-            "values": [
-                { "label": "News", "value": 37.0 },
-                { "label": "Drama serials", "value": 34.0 },
-                { "label": "Movie", "value": 8.0 },
-                { "label": "Sports", "value": 5.0 },
-                { "label": "Music", "value": 4.0 },
-                { "label": "Talk show on politics", "value": 3.0 },
-                { "label": "Issue based programs", "value": 4.0 },
-                { "label": "Magazine program", "value": 2.0 },
-                { "label": "Don't know/Can't say", "value": 1.0 }
             ]
         },
         {
@@ -277,23 +292,8 @@
                 { "label": "Don't read newspaper", "value": 40.0 },
                 { "label": "Don't know/Can't say", "value": 4.0 }
             ]
-        },
-        {
-            "filename": "online_news_portal_readership",
-            "group": "Opinion Polls 2015/May 2015/Media Habits/Print and online media",
-            "key": "Online news portal readership",
-            "type": "DiscretBar",
-            "values": [
-                { "label": "Bdnews24.com", "value": 7.0 },
-                { "label": "Prothom Alo", "value": 2.0 },
-                { "label": "Banglanews24.com", "value": 2.0 },
-                { "label": "Bd24live.com", "value": 2.0 },
-                { "label": "Priyo.com", "value": 1.0 },
-                { "label": "Don't read online news", "value": 76.0 },
-                { "label": "Don't know/Can't say", "value": 8.0 }
-            ]
         }
-    ],
+	],
     "meta": {
         "date": "May 17 to 22 2015",
         "info": "Media Habits Survey May 2015",
