@@ -9,7 +9,7 @@
 	<div class="row">
 		<div class="col-md-3">
 			@if (isset($survey))
-			<h3>{{$survey->survey_name}}</h3>
+			<h4>{{$survey->survey_name}}</h4>
 			@endif
 			<ul id="slideshow_items" >
 				@foreach ($questions as $question)
