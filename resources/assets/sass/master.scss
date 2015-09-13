@@ -156,7 +156,9 @@ a {
 	padding-left: 10%;
 
 	a {
-		text-transform: capitalize;
+		&:first-letter {
+			text-transform: capitalize;
+		}
 	}
 }
 

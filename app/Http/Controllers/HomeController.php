@@ -23,7 +23,8 @@ class HomeController extends Controller {
 		$survey = $sr->latest();
 		$questions = $this->returnSurveyQuestionsAsJSON($survey->id, true);
 		$groups  = $gr->get_child_groups($questions);
-		return view('latest')->withGroups($groups)->withLatest(true)->withQuestions($questions);
+		return view('latest')->withGroups($groups)->withLatest(true)
+					->withQuestions($questions)->withSurvey($survey);
 	}
 
 	public function archieve(GroupRepository $gr)

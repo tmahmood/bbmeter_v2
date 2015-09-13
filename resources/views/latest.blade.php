@@ -8,6 +8,9 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-3">
+			@if (isset($survey))
+			<h3>{{$survey->survey_name}}</h3>
+			@endif
 			<ul id="slideshow_items" >
 				@foreach ($questions as $question)
 				<li>
@@ -21,10 +24,9 @@
 			<h1 id="page-header"></h1>
 			<div id="chart">
 				<div class="pushdown">
-					<h4>Opinion expressed in this portal do not necessarily
-					reflect the views of the United States Agency for International Development
-					or the United States Government.
-					</h4>
+					<h4>Bangladesh Barometer is made possible by the support of the American people through the United States Agency for International
+					Development (USAID). The contents are the sole responsibility of Democracy International and do not necessarily reflect the views of USAID or the
+					United States Government.</h4>
 				</div>
 			</div>
 			<div id="optionGroups">
