@@ -313,7 +313,7 @@
         {
             "filename": "first_thing_from_mayor_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/General",
-            "key": "First thing respondents want done from the next city mayor",
+            "key": "First thing respondents want done by the next city mayor",
             "type": "DiscretBar",
             "values": [
                 {
@@ -430,7 +430,7 @@
         {
             "filename": "least_liked_campaign_tool_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/Campaign",
-            "key": "Least liked election campaign",
+            "key": "Least liked election campaign tool",
             "type": "DiscretBar",
             "values": [
                 { "label": "Loud speaker", "value": 74.0 },
@@ -533,7 +533,7 @@
                     "value": 23.0
                 },
                 {
-                    "label": "Any other earlier day 'before the election day'",
+                    "label": "Earlier than the day before election day",
                     "value": 54.0
                 },
                 {
@@ -714,7 +714,7 @@
         {
             "filename": "neutrality_expectation_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/Election Commission",
-            "key": "Expectations for BEC neutrality in 2015 Chittagong CC elections",
+            "key": "Expectations of BEC neutrality in 2015 Chittagong CC elections",
             "type": "DiscretBar",
             "values": [
                 {
@@ -750,7 +750,7 @@
         {
             "filename": "bec_law_order_chittagong",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/Election Commission",
-            "key": "Expectations for BEC ability to keep law and order during 2015 Chittagong CC elections",
+            "key": "Expectations of BEC ability to keep law and order during 2015 Chittagong CC elections",
             "type": "DiscretBar",
             "values": [
                 {
@@ -785,7 +785,7 @@
         },
         {
             "filename": "cc_election_political_banner_chittagong",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/Election Commission",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Chittagong/Election/General",
             "key": "Views whether CC elections should be held under political party banner",
             "type": "DiscretBar",
             "values": [

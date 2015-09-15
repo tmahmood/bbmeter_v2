@@ -2,29 +2,27 @@ function Home(opts) {
 	this.opts = opts == null ?  opts : {};
 	this.current_response = null;
 	this.slide_stop = false;
-
 	this.current_slide = 0;
+	// if ($('#slideshow_items').length > 0) {
+	// 	var me = this;
+	// 	this.slideshow = setInterval(function() {
+	// 		$('#slideshow_items li').removeClass('active');
+	// 		var cur = $('#slideshow_items a').get(me.current_slide);
+	// 		if (cur != undefined && cur.hasAttribute('href') == false) {
+	// 			console.log(cur);
+	// 			console.log(me.current_slide);
+	// 			me.current_slide++;
+	// 			cur = $('#slideshow_items a').get(me.current_slide);
+	// 		}
+	// 		me.updateGraphView(cur);
+	// 		me.current_slide++;
 
-	if ($('#slideshow_items').length > 0) {
-		var me = this;
-		this.slideshow = setInterval(function() {
-			$('#slideshow_items li').removeClass('active');
-			var cur = $('#slideshow_items a').get(me.current_slide);
-			if (cur != undefined && cur.hasAttribute('href') == false) {
-				console.log(cur);
-				console.log(me.current_slide);
-				me.current_slide++;
-				cur = $('#slideshow_items a').get(me.current_slide);
-			}
-			me.updateGraphView(cur);
-			me.current_slide++;
+	// 		if (me.current_slide >= $('#slideshow_items a').length) {
+	// 			me.current_slide = 0;
+	// 		}
 
-			if (me.current_slide >= $('#slideshow_items a').length) {
-				me.current_slide = 0;
-			}
-
-		}, 6000);
-	}
+	// 	}, 6000);
+	// }
 }
 
 Home.prototype.onGroupsLinkClick = function() {

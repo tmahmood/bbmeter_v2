@@ -677,7 +677,7 @@
         {
             "filename": "first_thing_from_mayor_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/General",
-            "key": "First thing respondents want done from the next city mayor",
+            "key": "First thing respondents want done by the next city mayor",
             "type": "DiscretBar",
             "values": [
                 {
@@ -886,7 +886,7 @@
             "date": "",
             "filename": "least_liked_campaign_tool_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/Campaign",
-            "key": "Least liked election campaign",
+            "key": "Least liked election campaign tool",
             "type": "DiscretBar",
             "values": [
                 {
@@ -1073,7 +1073,7 @@
             "values": [
                 { "label": "On election day", "value": 22.0 },
                 { "label": "The day before election day", "value": 26.0 },
-                { "label": "Any other earlier day 'before the election day'", "value": 49.0 },
+                { "label": "Earlier than the day before election day", "value": 49.0 },
                 { "label": "Don't know/ Refused", "value": 3.0 }
             ]
         },
@@ -1196,7 +1196,7 @@
             "date": "",
             "filename": "neutrality_expectation_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/Election Commission",
-            "key": "Expectations for BEC neutrality in 2015 Dhaka North CC elections",
+            "key": "Expectations of BEC neutrality in 2015 Dhaka North CC elections",
             "type": "DiscretBar",
             "values": [
                 {
@@ -1233,7 +1233,7 @@
             "date": "",
             "filename": "bec_law_order_dhaka_north",
             "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/Election Commission",
-            "key": "Expectations for BEC ability to keep law and order during 2015 Dhaka North CC elections",
+            "key": "Expectations of BEC ability to keep law and order during 2015 Dhaka North CC elections",
             "type": "DiscretBar",
             "values": [
                 {
@@ -1269,7 +1269,7 @@
         {
             "date": "",
             "filename": "cc_election_political_banner_dhaka_north",
-            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/Election Commission",
+            "group": "Opinion Polls 2015/April 2015/City Corporation Elections/Dhaka North/Election/General",
             "key": "Views whether CC elections should be held under political party banner",
             "type": "DiscretBar",
             "values": [

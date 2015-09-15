@@ -26,7 +26,10 @@
 				<div class="pushdown">
 					<h4>Bangladesh Barometer is made possible by the support of the American people through the United States Agency for International
 					Development (USAID). The contents are the sole responsibility of Democracy International and do not necessarily reflect the views of USAID or the
-					United States Government.</h4>
+					United States Government.
+					<hr>
+					This website has been funded by UK aid from the UK government; however the views expressed do not necessarily reflect the UK government’s official policies.
+					</h4>
 				</div>
 			</div>
 			<div id="optionGroups">
