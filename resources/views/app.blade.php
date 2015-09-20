@@ -59,7 +59,7 @@
 	<div class="col-md-12">
 		<b>Democratic Participation and Reform</b>
 		<p>Project Duration: April, 2011 - April, 2016</p>
-		<p>In Bangladesh, Democracy International is implementing the Democratic Participation and Reform Program, a USAID-funded political party development program designed to</p>
+		<p>In Bangladesh, Democracy International is implementing the Democratic Participation and Reform Program, a USAID and UKaid funded political party development program designed to</p>
 	</div>
 
 	<div class="col-md-4">
