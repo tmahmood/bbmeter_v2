@@ -15,6 +15,8 @@
 			<h1 id="page-header">
 			</h1>
 			<div id="chart">
+				<div class="pushdown">
+				</div>
 			</div>
 			<div id="optionGroups">
 			</div>
