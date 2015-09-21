@@ -30,7 +30,6 @@
 		</div>
 
 		<hr>
-
 		<div class="row">
 			<div class="col-md-12 col-md-offset-5">
 				<a href="{{url('/home')}}" class="btn btn-lg btn-primary">
@@ -38,6 +37,13 @@
 				</a>
 			</div>
 		</div>
+
+		<hr>
+
+		<div class="smallstrong">
+						The Bangladesh Barometer website is made possible by support from the United States Agency for International Development (USAID) and the UK Department for International Development (UKaid). The contents are the sole responsibility of Democracy International and do not necessarily reflect the views of USAID, the United States Government, UKaid, or the UK Government’s official policies
+		</div>
+
 	</div>
 </body>
 </html>
