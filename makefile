@@ -6,6 +6,10 @@ options=--delete -r -t $(include) --no-perms --exclude=.htaccess
 main:
 	rsync --progress --delete -r -t -avz --no-perms --exclude storage/framework --exclude storage/logs/ --exclude .htaccess app public resources storage vendor mahmood@106.187.49.19:/opt/webapp/bbmeter
 
+prod:
+	rsync --progress --delete -r -t -avz --no-perms --exclude storage/framework --exclude storage/logs/ --exclude .htaccess app public resources storage vendor dibangladesh@106.187.49.19:/home/dibangladesh/public/bangladeshbarometer.org
+
+
 migrate:
 	cp .env .env.o
 	cp .env.prod .env
