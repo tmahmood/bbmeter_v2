@@ -34,6 +34,9 @@ SimpleLine.prototype.draw = function() {
 		credits: {
 			enabled: false,
 		},
+		exporting: {
+			type: 'svg'
+		},
 		xAxis: {
 			type: 'datetime',
 			title: { text: me.xtext },

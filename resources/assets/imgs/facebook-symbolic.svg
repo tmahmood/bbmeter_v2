@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="16"
+   height="16"
+   id="svg7384"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="facebook-symbolic.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1132"
+     inkscape:window-height="693"
+     id="namedview7"
+     showgrid="false"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="10.582414"
+     inkscape:cy="16.01792"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg7384" />
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs11" />
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="m 2.3888638,0.33600932 c -1.1322218,0 -2.05285448,0.92063268 -2.05285448,2.05285448 l 0,11.2222712 c 0,1.132222 0.92063268,2.052856 2.05285448,2.052856 l 11.2222712,0 c 1.132222,0 2.052856,-0.920634 2.052856,-2.052856 l 0,-11.2222712 c 0,-1.1322218 -0.920634,-2.05285448 -2.052856,-2.05285448 l -11.2222712,0 z M 11.352995,2.559935 c 0.314088,0.016863 0.663547,0.07038 1.026428,0.1026438 l 0,2.0528545 c -1.094856,-0.3258106 -1.659845,-0.2818994 -1.881784,-1e-6 -0.221937,0.2818984 -0.307931,0.5545837 -0.307928,1.0948559 l 2.189712,0 0,2.1897115 -2.189712,0 0,5.4742783 -2.1897113,0 0,-5.4742783 -2.1897115,0 0,-2.1897115 2.1897115,0 0,-0.5474278 C 7.9999987,4.222703 8.3073294,3.8327427 8.8895699,3.3126485 9.6738595,2.622951 10.410731,2.5093718 11.352995,2.559935 Z"
+     inkscape:connector-curvature="0"
+     id="rect5505-3"
+     style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate" />
+</svg>

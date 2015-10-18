@@ -51,6 +51,9 @@
 						<img src="{{ asset('assets/imgs/di_logo_t.png') }}"
 							class="makeitsmall">
 					</a></li>
+					<li><a href="http://facebook.com/BangladeshBarometer" target="_blank">
+						<img src="{{ asset('assets/imgs/facebook-symbolic.svg') }}">
+					</a></li>
 					<li class="wrap">
 
 					<a tabindex="0" data-toggle="popover" id="popover_link_aboutdi"

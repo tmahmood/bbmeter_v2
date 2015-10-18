@@ -25,7 +25,7 @@
 
 		<div class="row content">
 			<div class="col-md-12">
-		Bangladesh Barometer is the website for Public Opinion Analysis in Bangladesh. Bangladesh Barometer was established in 2014, and since then it has been monitoring the evolution of public opinion in Bangladesh on a range of politically- and policy-relevant issues. Our surveys address major topics concerning Bangladeshi politics such as: political and economic change, elections, citizens’ democratic participation with a focus on women and youth, political parties’ role in aggregating and representing citizens’ interests, etc.
+		Bangladesh Barometer is the website for public opinion analysis in Bangladesh. Bangladesh Barometer was established in 2014, and since then it has been monitoring the evolution of public opinion in Bangladesh on a range of politically- and policy-relevant issues. Our surveys address major topics concerning Bangladeshi politics such as: political and economic change, elections, citizens’ democratic participation with a focus on women and youth, political parties’ role in aggregating and representing citizens’ interests, etc.
 			</div>
 		</div>
 
