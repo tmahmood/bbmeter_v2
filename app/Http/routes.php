@@ -25,6 +25,7 @@ Route::controllers([
 Route::get('questions/group/{group_id}', 'HomeController@returnQuestionsAsJSON');
 Route::get('questions/survey/{survey_id}', 'HomeController@returnQuestionsAsJSON');
 Route::get('question/{question_id}', 'HomeController@questionData');
+Route::post('search', 'HomeController@search');
 
 Route::get('admin/import/json/{filename}', 'SurveyImportController@importSurveyFromJSON');
 Route::get('admin/import/sources', 'SurveyImportController@listAllUploadedSources');

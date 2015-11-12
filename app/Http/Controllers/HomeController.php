@@ -1,6 +1,7 @@
 <?php namespace BBMeter\Http\Controllers;
 
 use BBMeter\Group;
+use Request;
 use BBMeter\Repositories\QuestionRepository;
 use BBMeter\Repositories\GroupRepository;
 use BBMeter\Repositories\SitevarRepository;
@@ -26,6 +27,14 @@ class HomeController extends Controller {
 		return view('latest')->withGroups($groups)->withLatest(true)
 					->withQuestions($questions)->withSurvey($survey);
 	}
+
+	function search(QuestionRepository $qr)
+	{
+		$questions = $this->qr->get_by_keyword(Request::input('searchby'));
+		return view('latest')->withLatest(true)
+					->withQuestions($questions);
+	}
+
 
 	public function archieve(GroupRepository $gr)
 	{

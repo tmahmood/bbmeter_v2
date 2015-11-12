@@ -74,6 +74,16 @@ class QuestionRepository implements BaseRepositoryInterface
 		return $s->get();
 	}
 
+
+	function get_by_keyword($kward)
+	{
+		return Question::where('key', 'like', "%$kward%")
+			->orderBy('ordering', 'asc')
+			->orderBy('id', 'asc')
+			->with('survey', 'options', 'group')
+			->get();
+	}
+
 	function get_question_data($question_id)
 	{
 		$q = $this->find($question_id);

@@ -46,6 +46,14 @@
 					<li><a href="{{ url('/archieve') }}">ARCHIVE</a></li>
 				</ul>
 
+
+				<form class="navbar-form navbar-left" role="search" action="{{ url('search') }}" method="post">
+					<div class="form-group">
+					  <input type="text" class="form-control input-sm" placeholder="Search" name="searchby">
+					</div>
+						<input id="" class="form-control" type="hidden" name="_token" value="{{ csrf_token() }}">
+					<button type="submit" class="btn btn-default btn-sm">Submit</button>
+			  </form>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="http://democracyinternational.com/" target="_blank">
 						<img src="{{ asset('assets/imgs/di_logo_t.png') }}"
