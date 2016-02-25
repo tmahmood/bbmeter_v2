@@ -197,7 +197,7 @@ class QuestionRepository implements BaseRepositoryInterface
 
 	function is_grouped_types($type)
 	{
-		return in_array($type, [ 'GroupedMultiBar', 'SimpleLine', 'HStackedBar', 'VStackedBar' ]);
+		return in_array($type, [ 'GroupedMultiBar', 'SimpleLine', 'HStackedBar', 'VStackedBar', 'HGStackedBar' ]);
 	}
 
 	function save_question_and_options($survey, $question)

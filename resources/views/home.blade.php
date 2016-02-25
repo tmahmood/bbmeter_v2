@@ -28,6 +28,7 @@
 @section('scripts')
 <script src="http://code.highcharts.com/highcharts.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript" src="http://code.highcharts.com/modules/exporting.js"></script>
+<script type="text/javascript" src="assets/js/grouped-categories"></script>
 
 <script src="{{ asset('assets/libs/infinitypush/jquery.ma.infinitypush.js') }}"></script>
 <script src="{{ asset('assets/js/graph.js') }}"></script>
