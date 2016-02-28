@@ -1,799 +1,806 @@
 {
     "data": [
         {
-            "date": "",
-            "filename": "living_conditions",
-            "group": "Opinion Polls 2015/City Corporation/General situation",
-            "key": "Living conditions",
-            "type": "GroupedMultiBar",
-			"option_group": "By City Corporation",
+            "date": "", 
+            "filename": "living_conditions", 
+            "group": "Opinion Polls 2015/DPR June/General situation", 
+            "key": "Living conditions", 
+            "option_group": "By City Corporation", 
+            "type": "GroupedMultiBar", 
             "values": {
                 "categories": [
-                    "Dhaka North",
+                    "Dhaka North", 
                     "Dhaka South"
-                ],
+                ], 
                 "data": [
                     {
                         "data": [
-                            12.0,
+                            12.0, 
                             19.0
-                        ],
+                        ], 
                         "name": "Very good"
-                    },
+                    }, 
                     {
                         "data": [
-                            47.0,
+                            47.0, 
                             40.0
-                        ],
+                        ], 
                         "name": "Fairly good"
-                    },
+                    }, 
                     {
                         "data": [
-                            15.0,
+                            15.0, 
                             19.0
-                        ],
+                        ], 
                         "name": "Neither"
-                    },
+                    }, 
                     {
                         "data": [
-                            12.0,
+                            12.0, 
                             12.0
-                        ],
+                        ], 
                         "name": "Fairly bad"
-                    },
+                    }, 
                     {
                         "data": [
-                            8.0,
+                            8.0, 
                             6.0
-                        ],
+                        ], 
                         "name": "Very bad"
-                    },
+                    }, 
                     {
                         "data": [
-                            5.0,
+                            5.0, 
                             4.0
-                        ],
+                        ], 
                         "name": "Don't know"
-                    },
+                    }, 
                     {
                         "data": [
-                            2.0,
+                            2.0, 
                             1.0
-                        ],
+                        ], 
                         "name": "Refused"
                     }
                 ]
             }
-        },
+        }, 
         {
-            "date": "",
-            "filename": "personal_situation_compared_to_one_year_ago",
-            "group": "Opinion Polls 2015/City Corporation/General situation",
-            "key": "Personal situation compared to one year ago",
-            "type": "GroupedMultiBar",
-			"option_group": "By City Corporation",
+            "date": "", 
+            "filename": "personal_situation_compared_to_one_year_ago", 
+            "group": "Opinion Polls 2015/DPR June/General situation", 
+            "key": "Personal situation compared to one year ago", 
+            "option_group": "By City Corporation", 
+            "type": "GroupedMultiBar", 
             "values": {
                 "categories": [
-                    "Dhaka North",
+                    "Dhaka North", 
                     "Dhaka South"
-                ],
+                ], 
                 "data": [
                     {
                         "data": [
-                            37.0,
+                            37.0, 
                             33.0
-                        ],
+                        ], 
                         "name": "Worse off"
-                    },
+                    }, 
                     {
                         "data": [
-                            30.0,
+                            30.0, 
                             35.0
-                        ],
+                        ], 
                         "name": "About the same"
-                    },
+                    }, 
                     {
                         "data": [
-                            32.0,
+                            32.0, 
                             32.0
-                        ],
+                        ], 
                         "name": "Better off"
-                    },
+                    }, 
                     {
                         "data": [
-                            1.0,
+                            1.0, 
                             0.0
-                        ],
+                        ], 
                         "name": "Don't know"
                     }
                 ]
             }
-        },
+        }, 
         {
-            "date": "",
-            "filename": "direction_of_bangladesh",
-            "group": "Opinion Polls 2015/City Corporation/General situation",
-            "key": "Direction of Bangladesh",
-            "type": "GroupedMultiBar",
-			"option_group": "By City Corporation",
+            "date": "", 
+            "filename": "direction_of_bangladesh", 
+            "group": "Opinion Polls 2015/DPR June/General situation", 
+            "key": "Direction of Bangladesh", 
+            "option_group": "By City Corporation", 
+            "type": "GroupedMultiBar", 
             "values": {
                 "categories": [
-                    "Dhaka North",
+                    "Dhaka North", 
                     "Dhaka South"
-                ],
+                ], 
                 "data": [
                     {
                         "data": [
-                            34.0,
+                            34.0, 
                             41.0
-                        ],
+                        ], 
                         "name": "Right direction"
-                    },
+                    }, 
                     {
                         "data": [
-                            21.0,
+                            21.0, 
                             14.0
-                        ],
+                        ], 
                         "name": "Neither"
-                    },
+                    }, 
                     {
                         "data": [
-                            30.0,
+                            30.0, 
                             36.0
-                        ],
+                        ], 
                         "name": "Wrong direction"
-                    },
+                    }, 
                     {
                         "data": [
-                            12.0,
+                            12.0, 
                             8.0
-                        ],
+                        ], 
                         "name": "Don't know"
-                    },
+                    }, 
                     {
                         "data": [
-                            4.0,
+                            4.0, 
                             2.0
-                        ],
+                        ], 
                         "name": "Refused"
                     }
                 ]
             }
-        },
+        }, 
         {
-            "date": "",
-            "filename": "party_feeling_closest_to",
-            "group": "Opinion Polls 2015/City Corporation/Political Parties",
-            "key": "Party feeling closest to",
-            "type": "GroupedMultiBar",
-			"option_group": "By City Corporation",
+            "date": "", 
+            "filename": "party_feeling_closest_to", 
+            "group": "Opinion Polls 2015/DPR June/Political Parties", 
+            "key": "Party feeling closest to", 
+            "option_group": "By City Corporation", 
+            "type": "GroupedMultiBar", 
             "values": {
                 "categories": [
-                    "Dhaka North",
+                    "Dhaka North", 
                     "Dhaka South"
-                ],
+                ], 
                 "data": [
                     {
                         "data": [
-                            52.0,
+                            52.0, 
                             47.0
-                        ],
+                        ], 
                         "name": "AL"
-                    },
+                    }, 
                     {
                         "data": [
-                            29.0,
+                            29.0, 
                             39.0
-                        ],
+                        ], 
                         "name": "BNP"
-                    },
+                    }, 
                     {
                         "data": [
-                            0.0,
+                            0.0, 
                             2.0
-                        ],
+                        ], 
                         "name": "JIB"
-                    },
+                    }, 
                     {
                         "data": [
-                            2.0,
+                            2.0, 
                             0.0
-                        ],
+                        ], 
                         "name": "JP"
-                    },
+                    }, 
                     {
                         "data": [
-                            3.0,
+                            3.0, 
                             1.0
-                        ],
+                        ], 
                         "name": "No political party"
-                    },
+                    }, 
                     {
                         "data": [
-                            3.0,
+                            3.0, 
                             5.0
-                        ],
+                        ], 
                         "name": "Don't know"
-                    },
+                    }, 
                     {
                         "data": [
-                            10.0,
+                            10.0, 
                             5.0
-                        ],
+                        ], 
                         "name": "Refused"
                     }
                 ]
             }
-        },
+        }, 
         {
-            "date": "",
-            "filename": "_dhaka_north_dhaka_south",
-            "group": "Opinion Polls 2015/Horse race/voting preferences",
-            "key": " Dhaka North Dhaka South",
-            "type": "GroupedMultiBar",
-			"option_group": "By City Corporation",
+            "date": "", 
+            "filename": "horse_race/voting_preferences", 
+            "group": "Opinion Polls 2015/DPR June/Political Parties", 
+            "key": "Horse race/voting preferences", 
+            "option_group": "By City Corporation", 
+            "type": "GroupedMultiBar", 
             "values": {
                 "categories": [
-                    "29",
-                    "35"
-                ],
-                "data": [
-                    {
-                        "data": [
-                            24.0,
-                            29.0
-                        ],
-                        "name": "BNP"
-                    },
-                    {
-                        "data": [
-                            1.0,
-                            2.0
-                        ],
-                        "name": "JP"
-                    },
-                    {
-                        "data": [
-                            0.0,
-                            0.0
-                        ],
-                        "name": "JIB"
-                    },
-                    {
-                        "data": [
-                            17.0,
-                            12.0
-                        ],
-                        "name": "A new party"
-                    },
-                    {
-                        "data": [
-                            13.0,
-                            14.0
-                        ],
-                        "name": "Not taken any decision yet "
-                    },
-                    {
-                        "data": [
-                            5.0,
-                            4.0
-                        ],
-                        "name": "Don't know"
-                    },
-                    {
-                        "data": [
-                            9.0,
-                            4.0
-                        ],
-                        "name": "Refused"
-                    }
-                ]
-            }
-        },
-        {
-            "date": "",
-            "filename": "political_parties_and_citizens'_opinions",
-            "group": "Opinion Polls 2015/Horse race/voting preferences",
-            "key": "Political parties and citizens' opinions",
-            "type": "GroupedMultiBar",
-			"option_group": "By City Corporation",
-            "values": {
-                "categories": [
-                    "Dhaka North",
+                    "Dhaka North", 
                     "Dhaka South"
-                ],
+                ], 
                 "data": [
                     {
                         "data": [
-                            35.0,
+                            29.0, 
                             35.0
-                        ],
-                        "name": "Political parties in Bangladesh care  what ordinary people think"
-                    },
+                        ], 
+                        "name": "AL"
+                    }, 
                     {
                         "data": [
-                            65.0,
+                            24.0, 
+                            29.0
+                        ], 
+                        "name": "BNP"
+                    }, 
+                    {
+                        "data": [
+                            1.0, 
+                            2.0
+                        ], 
+                        "name": "JP"
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "JIB"
+                    }, 
+                    {
+                        "data": [
+                            17.0, 
+                            12.0
+                        ], 
+                        "name": "A new party"
+                    }, 
+                    {
+                        "data": [
+                            13.0, 
+                            14.0
+                        ], 
+                        "name": "Not taken any decision yet "
+                    }, 
+                    {
+                        "data": [
+                            5.0, 
+                            4.0
+                        ], 
+                        "name": "Don't know"
+                    }, 
+                    {
+                        "data": [
+                            9.0, 
+                            4.0
+                        ], 
+                        "name": "Refused"
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "political_parties_and_citizens'_opinions", 
+            "group": "Opinion Polls 2015/DPR June/Political Parties", 
+            "key": "Political parties and citizens' opinions", 
+            "option_group": "By City Corporation", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "Dhaka North", 
+                    "Dhaka South"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            35.0, 
+                            35.0
+                        ], 
+                        "name": "Political parties in Bangladesh care  what ordinary people think"
+                    }, 
+                    {
+                        "data": [
+                            65.0, 
                             65.0
-                        ],
+                        ], 
                         "name": "Political parties in Bangladesh don't care what ordinary people think"
                     }
                 ]
             }
-        },
+        }, 
         {
-            "date": "",
-            "filename": "perceptions_of_political_parties_as_governance_instruments",
-            "group": "Opinion Polls 2015/Horse race/voting preferences",
-            "key": "Perceptions of political parties as governance instruments",
-            "type": "GroupedMultiBar",
-			"option_group": "By City Corporation",
+            "date": "", 
+            "filename": "perceptions_of_political_parties_as_governance_instruments", 
+            "group": "Opinion Polls 2015/DPR June/Political Parties", 
+            "key": "Perceptions of political parties as governance instruments", 
+            "option_group": "By City Corporation", 
+            "type": "GroupedMultiBar", 
             "values": {
                 "categories": [
-                    "Dhaka North",
+                    "Dhaka North", 
                     "Dhaka South"
-                ],
+                ], 
                 "data": [
                     {
                         "data": [
-                            94.0,
+                            94.0, 
                             95.0
-                        ],
+                        ], 
                         "name": "Political parties are necessary to govern the country"
-                    },
+                    }, 
                     {
                         "data": [
-                            6.0,
+                            6.0, 
                             5.0
-                        ],
+                        ], 
                         "name": "Political parties are not necessary to govern the country"
                     }
                 ]
             }
-        },
+        }, 
         {
-            "date": "",
-            "filename": "perceptions_of_political_parties_effects_to_what_happens",
-            "group": "Opinion Polls 2015/Horse race/voting preferences",
-            "key": "Perceptions of political parties effects to what happens",
-            "type": "GroupedMultiBar",
-			"option_group": "By City Corporation",
+            "date": "", 
+            "filename": "perceptions_of_political_parties_effects_to_what_happens", 
+            "group": "Opinion Polls 2015/DPR June/Political Parties", 
+            "key": "Perceptions of political parties effects to what happens", 
+            "option_group": "By City Corporation", 
+            "type": "GroupedMultiBar", 
             "values": {
                 "categories": [
-                    "Dhaka North",
+                    "Dhaka North", 
                     "Dhaka South"
-                ],
+                ], 
                 "data": [
                     {
                         "data": [
-                            74.0,
+                            74.0, 
                             79.0
-                        ],
+                        ], 
                         "name": "What party people vote for can make a big difference to what happens."
-                    },
+                    }, 
                     {
                         "data": [
-                            22.0,
+                            22.0, 
                             19.0
-                        ],
+                        ], 
                         "name": "No matter what party people vote for, it won't make any difference to what happens."
                     }
                 ]
             }
-        },
+        }, 
         {
-            "date": "",
-            "filename": "most_important_political_problem_facing_bangladesh_today",
-            "group": "Opinion Polls 2015/Horse race/voting preferences",
-            "key": "Most important political problem facing Bangladesh today",
-            "type": "GroupedMultiBar",
-			"option_group": "By City Corporation",
+            "date": "", 
+            "filename": "most_important_political_problem_facing_bangladesh_today", 
+            "group": "Opinion Polls 2015/DPR June/Political Parties", 
+            "key": "Most important political problem facing Bangladesh today", 
+            "option_group": "By City Corporation", 
+            "type": "GroupedMultiBar", 
             "values": {
                 "categories": [
-                    "Dhaka North",
+                    "Dhaka North", 
                     "Dhaka South"
-                ],
+                ], 
                 "data": [
                     {
                         "data": [
-                            21.0,
+                            21.0, 
                             14.0
-                        ],
+                        ], 
                         "name": "Political instability"
-                    },
+                    }, 
                     {
                         "data": [
-                            19.0,
+                            19.0, 
                             18.0
-                        ],
+                        ], 
                         "name": "Corruption in politics"
-                    },
+                    }, 
                     {
                         "data": [
-                            14.0,
+                            14.0, 
                             16.0
-                        ],
+                        ], 
                         "name": "Hartal/Blockade"
-                    },
+                    }, 
                     {
                         "data": [
-                            10.0,
+                            10.0, 
                             15.0
-                        ],
+                        ], 
                         "name": "Insecurity"
-                    },
+                    }, 
                     {
                         "data": [
-                            12.0,
+                            12.0, 
                             12.0
-                        ],
+                        ], 
                         "name": "Political violence"
-                    },
+                    }, 
                     {
                         "data": [
-                            9.0,
+                            9.0, 
                             7.0
-                        ],
+                        ], 
                         "name": "Disappearance"
-                    },
+                    }, 
                     {
                         "data": [
-                            7.0,
+                            7.0, 
                             7.0
-                        ],
+                        ], 
                         "name": "Bad governance"
-                    },
+                    }, 
                     {
                         "data": [
-                            3.0,
+                            3.0, 
                             4.0
-                        ],
+                        ], 
                         "name": "Extra judicial killing"
-                    },
+                    }, 
                     {
                         "data": [
-                            2.0,
+                            2.0, 
                             2.0
-                        ],
+                        ], 
                         "name": "Unfair election"
-                    },
+                    }, 
                     {
                         "data": [
-                            3.0,
+                            3.0, 
                             3.0
-                        ],
+                        ], 
                         "name": "Don't know/ Refused"
                     }
                 ]
             }
-        },
+        }, 
         {
-            "date": "",
-            "filename": "support_for_women's_reserved_seats",
-            "group": "Opinion Polls 2015/Horse race/voting preferences/Gender and politics",
-            "key": "Support for women's reserved seats",
-            "type": "GroupedMultiBar",
-			"option_group": "By City Corporation",
+            "date": "", 
+            "filename": "support_for_women's_reserved_seats", 
+            "group": "Opinion Polls 2015/DPR June/Gender and politics", 
+            "key": "Support for women's reserved seats", 
+            "option_group": "By City Corporation", 
+            "type": "GroupedMultiBar", 
             "values": {
                 "categories": [
-                    "Dhaka North",
+                    "Dhaka North", 
                     "Dhaka South"
-                ],
+                ], 
                 "data": [
                     {
                         "data": [
-                            59.0,
+                            59.0, 
                             73.0
-                        ],
+                        ], 
                         "name": "Women should compete in both reserved seats and general seats."
-                    },
+                    }, 
                     {
                         "data": [
-                            28.0,
+                            28.0, 
                             18.0
-                        ],
+                        ], 
                         "name": "Women should compete within reserved seats only."
-                    },
+                    }, 
                     {
                         "data": [
-                            8.0,
+                            8.0, 
                             5.0
-                        ],
+                        ], 
                         "name": "Women should not compete for elected positions."
-                    },
+                    }, 
                     {
                         "data": [
-                            6.0,
+                            6.0, 
                             5.0
-                        ],
+                        ], 
                         "name": "Women should compete in general seats only."
                     }
                 ]
             }
-        },
+        }, 
         {
-            "date": "",
-            "filename": "perceptions_of_women's_reserve_seats_as_tools_of_increasing_women's_political_participation",
-            "group": "Opinion Polls 2015/Horse race/voting preferences/Gender and politics",
-            "key": "Perceptions of women's reserve seats as tools of increasing women's political participation",
-            "type": "GroupedMultiBar",
-			"option_group": "By City Corporation",
+            "date": "", 
+            "filename": "perceptions_of_women's_reserve_seats_as_tools_of_increasing_women's_political_participation", 
+            "group": "Opinion Polls 2015/DPR June/Gender and politics", 
+            "key": "Perceptions of women's reserve seats as tools of increasing women's political participation", 
+            "option_group": "By City Corporation", 
+            "type": "GroupedMultiBar", 
             "values": {
                 "categories": [
-                    "Dhaka North",
+                    "Dhaka North", 
                     "Dhaka South"
-                ],
+                ], 
                 "data": [
                     {
                         "data": [
-                            50.0,
+                            50.0, 
                             52.0
-                        ],
+                        ], 
                         "name": "women's reserve seats are necessary to increase women's participation in politics."
-                    },
+                    }, 
                     {
                         "data": [
-                            25.0,
+                            25.0, 
                             19.0
-                        ],
+                        ], 
                         "name": "women's reserved seats that are legislated must be accompanied by enforcement provisions."
-                    },
+                    }, 
                     {
                         "data": [
-                            14.0,
+                            14.0, 
                             22.0
-                        ],
+                        ], 
                         "name": "women's researved seats should not be legislated but political parties should decide themselves."
-                    },
+                    }, 
                     {
                         "data": [
-                            7.0,
+                            7.0, 
                             5.0
-                        ],
+                        ], 
                         "name": "women's reserved seats are not necessary. Women should be elected on merit."
-                    },
+                    }, 
                     {
                         "data": [
-                            4.0,
+                            4.0, 
                             2.0
-                        ],
+                        ], 
                         "name": "women's reserved seats are discriminatory."
                     }
                 ]
             }
-        },
+        }, 
         {
-            "date": "",
-            "filename": "direction_of_city_corporation",
-            "group": "Opinion Polls 2015/Horse race/voting preferences/City Corporation Elections",
-            "key": "Direction of City Corporation",
-            "type": "GroupedMultiBar",
-			"option_group": "By City Corporation",
+            "date": "", 
+            "filename": "direction_of_city_corporation", 
+            "group": "Opinion Polls 2015/DPR June/City Corporation Elections", 
+            "key": "Direction of City Corporation", 
+            "option_group": "By City Corporation", 
+            "type": "GroupedMultiBar", 
             "values": {
                 "categories": [
-                    "Dhaka North",
+                    "Dhaka North", 
                     "Dhaka South"
-                ],
+                ], 
                 "data": [
                     {
                         "data": [
-                            33.0,
+                            33.0, 
                             37.0
-                        ],
+                        ], 
                         "name": "Right direction"
-                    },
+                    }, 
                     {
                         "data": [
-                            27.0,
+                            27.0, 
                             30.0
-                        ],
+                        ], 
                         "name": "Neither"
-                    },
+                    }, 
                     {
                         "data": [
-                            20.0,
+                            20.0, 
                             23.0
-                        ],
+                        ], 
                         "name": "Wrong direction"
-                    },
+                    }, 
                     {
                         "data": [
-                            15.0,
+                            15.0, 
                             9.0
-                        ],
+                        ], 
                         "name": "Don't know"
-                    },
+                    }, 
                     {
                         "data": [
-                            4.0,
+                            4.0, 
                             1.0
-                        ],
+                        ], 
                         "name": "Refused "
                     }
                 ]
             }
-        },
+        }, 
         {
-            "date": "",
-            "filename": "main_reason_behind_winning_of_al_backed_candidates",
-            "group": "Opinion Polls 2015/Horse race/voting preferences/City Corporation Elections",
-            "key": "Main reason behind winning of AL backed candidates",
-            "type": "GroupedMultiBar",
-			"option_group": "By City Corporation",
+            "date": "", 
+            "filename": "main_reason_behind_winning_of_al_backed_candidates", 
+            "group": "Opinion Polls 2015/DPR June/City Corporation Elections", 
+            "key": "Main reason behind winning of AL backed candidates", 
+            "option_group": "By City Corporation", 
+            "type": "GroupedMultiBar", 
             "values": {
                 "categories": [
-                    "Dhaka North",
+                    "Dhaka North", 
                     "Dhaka South"
-                ],
+                ], 
                 "data": [
                     {
                         "data": [
-                            28.0,
+                            28.0, 
                             31.0
-                        ],
+                        ], 
                         "name": "BNP's boycott of election"
-                    },
+                    }, 
                     {
                         "data": [
-                            16.0,
+                            16.0, 
                             32.0
-                        ],
+                        ], 
                         "name": "Vote rigging"
-                    },
+                    }, 
                     {
                         "data": [
-                            26.0,
+                            26.0, 
                             15.0
-                        ],
+                        ], 
                         "name": "Candidate?s qualifications"
-                    },
+                    }, 
                     {
                         "data": [
-                            5.0,
+                            5.0, 
                             10.0
-                        ],
+                        ], 
                         "name": "AL candidates were more qualified"
-                    },
+                    }, 
                     {
                         "data": [
-                            5.0,
+                            5.0, 
                             7.0
-                        ],
+                        ], 
                         "name": "AL worked for the development of the country"
-                    },
+                    }, 
                     {
                         "data": [
-                            10.0,
+                            10.0, 
                             2.0
-                        ],
+                        ], 
                         "name": "Don't know"
-                    },
+                    }, 
                     {
                         "data": [
-                            6.0,
+                            6.0, 
                             1.0
-                        ],
+                        ], 
                         "name": "Refused"
                     }
                 ]
             }
-        },
+        }, 
         {
-            "date": "",
-            "filename": "main_reason_behind_defeating_of_bnp_backed_candidates",
-            "group": "Opinion Polls 2015/Horse race/voting preferences/City Corporation Elections",
-            "key": "Main reason behind defeating of BNP backed candidates",
-            "type": "GroupedMultiBar",
-			"option_group": "By City Corporation",
+            "date": "", 
+            "filename": "main_reason_behind_defeating_of_bnp_backed_candidates", 
+            "group": "Opinion Polls 2015/DPR June/City Corporation Elections", 
+            "key": "Main reason behind defeating of BNP backed candidates", 
+            "option_group": "By City Corporation", 
+            "type": "GroupedMultiBar", 
             "values": {
                 "categories": [
-                    "Dhaka North",
+                    "Dhaka North", 
                     "Dhaka South"
-                ],
+                ], 
                 "data": [
                     {
                         "data": [
-                            42.0,
+                            42.0, 
                             45.0
-                        ],
+                        ], 
                         "name": "BNP's boycott of election"
-                    },
+                    }, 
                     {
                         "data": [
-                            24.0,
+                            24.0, 
                             31.0
-                        ],
+                        ], 
                         "name": "Vote rigging"
-                    },
+                    }, 
                     {
                         "data": [
-                            3.0,
+                            3.0, 
                             11.0
-                        ],
+                        ], 
                         "name": "Candidate's qualifications"
-                    },
+                    }, 
                     {
                         "data": [
-                            4.0,
+                            4.0, 
                             3.0
-                        ],
+                        ], 
                         "name": "Intimidation by Govt."
-                    },
+                    }, 
                     {
                         "data": [
-                            2.0,
+                            2.0, 
                             0.0
-                        ],
+                        ], 
                         "name": "Due to violence by BNP"
-                    },
+                    }, 
                     {
                         "data": [
-                            15.0,
+                            15.0, 
                             8.0
-                        ],
+                        ], 
                         "name": "Don't know"
-                    },
+                    }, 
                     {
                         "data": [
-                            8.0,
+                            8.0, 
                             1.0
-                        ],
+                        ], 
                         "name": "Refused"
                     }
                 ]
             }
-        },
+        }, 
         {
-            "date": "",
-            "filename": "did_a_candidate_or_a_party_to_persuade_the_respondent_to_vote_for_them?",
-            "group": "Opinion Polls 2015/Horse race/voting preferences/City Corporation Elections",
-            "key": "Did a candidate or a party to persuade the respondent to vote for them?",
-            "type": "GroupedMultiBar",
-			"option_group": "By City Corporation",
+            "date": "", 
+            "filename": "did_a_candidate_or_a_party_to_persuade_the_respondent_to_vote_for_them?", 
+            "group": "Opinion Polls 2015/DPR June/City Corporation Elections", 
+            "key": "Did a candidate or a party to persuade the respondent to vote for them?", 
+            "option_group": "By City Corporation", 
+            "type": "GroupedMultiBar", 
             "values": {
                 "categories": [
-                    "Dhaka North",
+                    "Dhaka North", 
                     "Dhaka South"
-                ],
+                ], 
                 "data": [
                     {
                         "data": [
-                            63.0,
+                            63.0, 
                             75.0
-                        ],
+                        ], 
                         "name": "Yes"
-                    },
+                    }, 
                     {
                         "data": [
-                            32.0,
+                            32.0, 
                             22.0
-                        ],
+                        ], 
                         "name": "No"
-                    },
+                    }, 
                     {
                         "data": [
-                            4.0,
+                            4.0, 
                             2.0
-                        ],
+                        ], 
                         "name": "Don't know"
-                    },
+                    }, 
                     {
                         "data": [
-                            1.0,
+                            1.0, 
                             1.0
-                        ],
+                        ], 
                         "name": "Refused"
                     }
                 ]
             }
         }
-    ],
+    ], 
     "meta": {
-        "date": "May 2015",
-        "info": "Post election survey Dhaka North-South May-June 2015",
-        "moe": "2.8",
-        "participants": "1200",
-        "scope": "Post election survey Dhaka North-South May-June 2015",
-        "survey_type": "CATSS",
+        "date": "May 2015", 
+        "info": "Post election survey Dhaka North-South May-June 2015", 
+        "moe": "2.8", 
+        "participants": "1200", 
+        "scope": "Post election survey Dhaka North-South May-June 2015", 
+        "survey_type": "CATSS", 
         "write_path": " dcc_may_june_2015"
     }
 }

@@ -11,42 +11,44 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::group(['middleware' => ['web']], function () {
 
-Route::get('/latest', 'HomeController@latest');
-Route::get('home', 'HomeController@index');
-Route::get('archieve', 'HomeController@archieve');
+    Route::auth();
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+	Route::get('/', 'WelcomeController@index');
 
-Route::get('questions/group/{group_id}', 'HomeController@returnQuestionsAsJSON');
-Route::get('questions/survey/{survey_id}', 'HomeController@returnQuestionsAsJSON');
-Route::get('question/{question_id}', 'HomeController@questionData');
-Route::post('search', 'HomeController@search');
+	Route::get('/latest', 'HomeController@latest');
+	Route::get('home', 'HomeController@index');
+	Route::get('archieve', 'HomeController@archieve');
 
-Route::get('admin/import/json/{filename}', 'SurveyImportController@importSurveyFromJSON');
-Route::get('admin/import/sources', 'SurveyImportController@listAllUploadedSources');
+	Route::get('questions/group/{group_id}', 'HomeController@returnQuestionsAsJSON');
+	Route::get('questions/survey/{survey_id}', 'HomeController@returnQuestionsAsJSON');
+	Route::get('question/{question_id}', 'HomeController@questionData');
+	Route::post('search', 'HomeController@search');
 
-Route::get('admin/questions/create', 'QuestionController@create');
-Route::post('admin/questions/save', 'QuestionController@save');
-Route::get('admin/questions/list_by_survey/{survey_id}', 'QuestionController@list_questions');
-Route::get('admin/questions/latest', 'QuestionController@list_latest_questions');
-Route::get('admin/questions/selection', 'QuestionController@list_selected_questions');
-Route::get('admin/questions/', 'QuestionController@list_latest_questions');
-Route::post('admin/questions/', 'QuestionController@save_frontpage_content');
+	Route::get('admin/import/json/{filename}', 'SurveyImportController@importSurveyFromJSON');
+	Route::get('admin/import/sources', 'SurveyImportController@listAllUploadedSources');
 
-Route::get('admin/surveys/create', 'SurveyController@create');
-Route::get('admin/surveys/', 'SurveyController@list_surveys');
-Route::get('admin/surveys/edit/{id}', 'SurveyController@edit');
-Route::post('admin/surveys/save', 'SurveyController@save');
-Route::post('admin/surveys/save/{id}', 'SurveyController@update');
+	Route::get('admin/questions/create', 'QuestionController@create');
+	Route::post('admin/questions/save', 'QuestionController@save');
+	Route::get('admin/questions/list_by_survey/{survey_id}', 'QuestionController@list_questions');
+	Route::get('admin/questions/latest', 'QuestionController@list_latest_questions');
+	Route::get('admin/questions/selection', 'QuestionController@list_selected_questions');
+	Route::get('admin/questions/', 'QuestionController@list_latest_questions');
+	Route::post('admin/questions/', 'QuestionController@save_frontpage_content');
 
-Route::get('admin/groups/create', 'GroupController@create');
-Route::post('admin/groups/save', 'GroupController@save');
+	Route::get('admin/surveys/create', 'SurveyController@create');
+	Route::get('admin/surveys/', 'SurveyController@list_surveys');
+	Route::get('admin/surveys/edit/{id}', 'SurveyController@edit');
+	Route::post('admin/surveys/save', 'SurveyController@save');
+	Route::post('admin/surveys/save/{id}', 'SurveyController@update');
+	Route::get('/admin/surveys/refresh', 'SurveyImportController@refresh');
+
+	Route::get('admin/groups/create', 'GroupController@create');
+	Route::post('admin/groups/save', 'GroupController@save');
 
 
-Route::get('aboutdi', 'HomeController@aboutpage');
-Route::get('methodology', 'HomeController@methodology');
+
+	Route::get('aboutdi', 'HomeController@aboutpage');
+	Route::get('methodology', 'HomeController@methodology');
+});

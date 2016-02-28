@@ -100,23 +100,7 @@
                     { "data": [ 8.6, 9.0, 6.3, 6.4, 6.2, 14.7, 2.9 ], "name": "Refused" }
                 ]
             }
-        }, {
-            "filename": "feel_free_to_by_area",
-            "key": "Do most people in the area where you live feel free to express their opinions about the current political situation or not?",
-			"related_to": "express_opinion",
-			"group": "Opinion Polls 2015/March 2015/Political Violence and Parties",
-            "type": "GroupedMultiBar",
-			"option_group": "By Area",
-            "values": {
-                "categories": [ "Rural", "Urban" ],
-                "data": [
-                    { "data": [ 42.6, 27.2 ], "name": "Yes, feel free" },
-                    { "data": [ 50.6, 64.3 ], "name": "No, do not feel free" },
-                    { "data": [ 5.9, 8.1 ], "name": "Don't know" },
-                    { "data": [ 0.9, 0.4 ], "name": "Refused" }
-                ]
-            }
-        }, {
+        },  {
             "filename": "future_bangladesh_by_division",
             "key": "Would you say that you are mostly OPTIMISTIC or PESSIMISTIC about the future of Bangladesh?",
             "type": "GroupedMultiBar",
@@ -126,8 +110,7 @@
             "values": {
                 "categories": [ "Barisal", "Chittagong", "Dhaka", "Khulna", "Rajshahi", "Rangpur", "Sylhet" ],
                 "data": [
-                    { "data": [ 0.0, 1.0, 1.5, 3.6, 0.8, 0.0, 0.0 ], "name": "Don't know" },
-                    { "data": [ 3.4, 3.0, 1.5, 1.8, 4.6, 6.3, 2.9 ], "name": "Neither optimistic nor pessimistic" },
+                    { "data": [ 0.0, 1.0, 1.5, 3.6, 0.8, 0.0, 0.0 ], "name": "Don't know" }, { "data": [ 3.4, 3.0, 1.5, 1.8, 4.6, 6.3, 2.9 ], "name": "Neither optimistic nor pessimistic" },
                     { "data": [ 55.2, 63.8, 58.9, 58.2, 51.9, 59.5, 58.6 ], "name": "Optimistic" },
                     { "data": [ 41.4, 32.2, 38.1, 36.4, 42.7, 34.2, 38.6 ], "name": "Pessimistic" }
                 ]

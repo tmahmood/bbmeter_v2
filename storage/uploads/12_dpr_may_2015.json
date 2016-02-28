@@ -1,945 +1,961 @@
 {
     "data": [
         {
-            "date": "", 
-            "filename": "the_biggest_problem_facing_bangladesh_as_a_whole", 
-            "group": "Opinion Polls 2015/DPR May/General situation", 
-            "key": "The biggest problem facing Bangladesh as a whole", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "the_biggest_problem_facing_bangladesh_as_a_whole",
+            "group": "Opinion Polls 2015/DPR June/General situation",
+            "key": "The biggest problem facing Bangladesh as a whole",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Political instability", 
+                    "label": "Political instability",
                     "value": 21.0
-                }, 
+                },
                 {
-                    "label": "Unemployment", 
+                    "label": "Unemployment",
                     "value": 13.0
-                }, 
+                },
                 {
-                    "label": "Corruption", 
+                    "label": "Corruption",
                     "value": 10.0
-                }, 
+                },
                 {
-                    "label": "Economic crisis", 
+                    "label": "Economic crisis",
                     "value": 10.0
-                }, 
+                },
                 {
-                    "label": "Poverty", 
+                    "label": "Poverty",
                     "value": 8.0
-                }, 
+                },
                 {
-                    "label": "Increasing population density", 
+                    "label": "Increasing population density",
                     "value": 8.0
-                }, 
+                },
                 {
-                    "label": "Underdeveloped roads", 
+                    "label": "Underdeveloped roads",
                     "value": 6.0
-                }, 
+                },
                 {
-                    "label": "Electricity", 
+                    "label": "Electricity",
                     "value": 6.0
-                }, 
+                },
                 {
-                    "label": "Violence", 
+                    "label": "Violence",
                     "value": 4.0
-                }, 
+                },
                 {
-                    "label": "Bad governance", 
+                    "label": "Bad governance",
                     "value": 4.0
-                }, 
+                },
                 {
-                    "label": "High price of commodities", 
+                    "label": "High price of commodities",
                     "value": 2.0
-                }, 
+                },
                 {
-                    "label": "Insecurity", 
+                    "label": "Insecurity",
                     "value": 2.0
-                }, 
+                },
                 {
-                    "label": "Don\u2019t know", 
+                    "label": "Don't know",
                     "value": 1.0
                 }
             ]
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "the_biggest_problem_facing_your_community", 
-            "group": "Opinion Polls 2015/DPR May/General situation", 
-            "key": "The biggest problem facing your community", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "the_biggest_problem_facing_your_community",
+            "group": "Opinion Polls 2015/DPR June/General situation",
+            "key": "The biggest problem facing your community",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Underdeveloped roads", 
+                    "label": "Underdeveloped roads",
                     "value": 19.0
-                }, 
+                },
                 {
-                    "label": "Electricity ", 
+                    "label": "Electricity ",
                     "value": 16.0
-                }, 
+                },
                 {
-                    "label": "Unemployment", 
+                    "label": "Unemployment",
                     "value": 11.0
-                }, 
+                },
                 {
-                    "label": "Corruption", 
+                    "label": "Corruption",
                     "value": 6.0
-                }, 
+                },
                 {
-                    "label": "Poor quality of drinking water", 
+                    "label": "Poor quality of drinking water",
                     "value": 6.0
-                }, 
+                },
                 {
-                    "label": "Economic crisis", 
+                    "label": "Economic crisis",
                     "value": 5.0
-                }, 
+                },
                 {
-                    "label": "Poverty", 
+                    "label": "Poverty",
                     "value": 5.0
-                }, 
+                },
                 {
-                    "label": "High price of commodities", 
+                    "label": "High price of commodities",
                     "value": 4.0
-                }, 
+                },
                 {
-                    "label": "Political instability", 
+                    "label": "Political instability",
                     "value": 4.0
-                }, 
+                },
                 {
-                    "label": "Gas crisis", 
+                    "label": "Gas crisis",
                     "value": 4.0
-                }, 
+                },
                 {
-                    "label": "Insecurity", 
+                    "label": "Insecurity",
                     "value": 4.0
-                }, 
+                },
                 {
-                    "label": "Drug addiction", 
+                    "label": "Drug addiction",
                     "value": 3.0
-                }, 
+                },
                 {
-                    "label": "Poor sewerage & waste management system", 
+                    "label": "Poor sewerage & waste management system",
                     "value": 3.0
-                }, 
+                },
                 {
-                    "label": "Insufficient education facilities", 
+                    "label": "Insufficient education facilities",
                     "value": 3.0
-                }, 
+                },
                 {
-                    "label": "Bad governance", 
+                    "label": "Bad governance",
                     "value": 2.0
-                }, 
+                },
                 {
-                    "label": "Violence", 
+                    "label": "Violence",
                     "value": 2.0
-                }, 
+                },
                 {
-                    "label": "Increasing population density", 
+                    "label": "Increasing population density",
                     "value": 1.0
-                }, 
+                },
                 {
-                    "label": "Don\u2019t know", 
+                    "label": "Don't know",
                     "value": 2.0
                 }
             ]
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "living_conditions", 
-            "group": "Opinion Polls 2015/DPR May/General situation", 
-            "key": "Living conditions", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "living_conditions",
+            "group": "Opinion Polls 2015/DPR June/General situation",
+            "key": "Living conditions",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Very good", 
+                    "label": "Very good",
                     "value": 14.0
-                }, 
+                },
                 {
-                    "label": "Fairly good", 
+                    "label": "Fairly good",
                     "value": 54.0
-                }, 
+                },
                 {
-                    "label": "Neither", 
+                    "label": "Neither",
                     "value": 9.0
-                }, 
+                },
                 {
-                    "label": "Fairly bad", 
+                    "label": "Fairly bad",
                     "value": 13.0
-                }, 
+                },
                 {
-                    "label": "Very bad", 
+                    "label": "Very bad",
                     "value": 11.0
                 }
             ]
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "personal_situation_compared_to_one_year_ago", 
-            "group": "Opinion Polls 2015/DPR May/General situation", 
-            "key": "Personal situation compared to one year ago", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "personal_situation_compared_to_one_year_ago",
+            "group": "Opinion Polls 2015/DPR June/General situation",
+            "key": "Personal situation compared to one year ago",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Worse off", 
+                    "label": "Worse off",
                     "value": 29.0
-                }, 
+                },
                 {
-                    "label": "About the same", 
+                    "label": "About the same",
                     "value": 25.0
-                }, 
+                },
                 {
-                    "label": "Better off", 
+                    "label": "Better off",
                     "value": 46.0
                 }
             ]
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "direction_of_bangladesh", 
-            "group": "Opinion Polls 2015/DPR May/General situation", 
-            "key": "Direction of Bangladesh", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "direction_of_bangladesh",
+            "group": "Opinion Polls 2015/DPR June/General situation",
+            "key": "Direction of Bangladesh",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Right direction", 
+                    "label": "Right direction",
                     "value": 58.0
-                }, 
+                },
                 {
-                    "label": "Neither", 
+                    "label": "Neither",
                     "value": 8.0
-                }, 
+                },
                 {
-                    "label": "Wrong direction", 
+                    "label": "Wrong direction",
                     "value": 29.0
-                }, 
+                },
                 {
-                    "label": "Don\u2019t know", 
+                    "label": "Don't know",
                     "value": 4.0
-                }, 
+                },
                 {
-                    "label": "Refused", 
+                    "label": "Refused",
                     "value": 1.0
                 }
             ]
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "modes_of_selecting_government", 
-            "group": "Opinion Polls 2015/DPR May/General situation", 
-            "key": "Modes of selecting government", 
-            "option_group": "By Opinion", 
-            "type": "HStackedBar", 
+            "date": "",
+            "filename": "modes_of_selecting_government",
+            "group": "Opinion Polls 2015/DPR June/General situation",
+            "key": "Modes of selecting government",
+            "option_group": "By Opinion",
+            "type": "VStackedBar",
             "values": {
                 "categories": [
-                    "Having elections to choose national and local leaders", 
-                    " Having a caretaker government", 
-                    "Having religious leaders rule the country", 
-                    "Having military leaders rule the country", 
+                    "Having elections to choose national and local leaders",
+                    " Having a caretaker government",
+                    "Having religious leaders rule the country",
+                    "Having military leaders rule the country",
                     "Having a strong leadership without holding elections"
-                ], 
+                ],
                 "data": [
                     {
                         "data": [
-                            4.0, 
-                            12.0, 
-                            26.0, 
-                            21.0, 
+                            4.0,
+                            12.0,
+                            26.0,
+                            21.0,
                             53.0
-                        ], 
+                        ],
                         "name": "Very Bad"
-                    }, 
+                    },
                     {
                         "data": [
-                            4.0, 
-                            11.0, 
-                            17.0, 
-                            18.0, 
+                            4.0,
+                            11.0,
+                            17.0,
+                            18.0,
                             20.0
-                        ], 
+                        ],
                         "name": "Fairly bad"
-                    }, 
+                    },
                     {
                         "data": [
-                            4.0, 
-                            7.0, 
-                            5.0, 
-                            10.0, 
+                            4.0,
+                            7.0,
+                            5.0,
+                            10.0,
                             5.0
-                        ], 
+                        ],
                         "name": "Neither"
-                    }, 
+                    },
                     {
                         "data": [
-                            35.0, 
-                            35.0, 
-                            31.0, 
-                            24.0, 
+                            35.0,
+                            35.0,
+                            31.0,
+                            24.0,
                             10.0
-                        ], 
+                        ],
                         "name": "Fairly good"
-                    }, 
+                    },
                     {
                         "data": [
-                            52.0, 
-                            31.0, 
-                            20.0, 
-                            24.0, 
+                            52.0,
+                            31.0,
+                            20.0,
+                            24.0,
                             10.0
-                        ], 
+                        ],
                         "name": "Very Good"
-                    }, 
+                    },
                     {
                         "data": [
-                            1.0, 
-                            3.0, 
-                            2.0, 
-                            3.0, 
+                            1.0,
+                            3.0,
+                            2.0,
+                            3.0,
                             2.0
-                        ], 
-                        "name": "Don\u2019t know"
+                        ],
+                        "name": "Don't know"
                     }
                 ]
             }
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "confidence_in_institutions", 
-            "group": "Opinion Polls 2015/DPR May/General situation", 
-            "key": "Confidence in institutions", 
-            "option_group": "By Opinion", 
-            "type": "HStackedBar", 
+            "date": "",
+            "filename": "confidence_in_institutions",
+            "group": "Opinion Polls 2015/DPR June/General situation",
+            "key": "Confidence in institutions",
+            "option_group": "By Opinion",
+            "type": "VStackedBar",
             "values": {
                 "categories": [
-                    "Army", 
-                    "Prime Minister of Bangladesh", 
-                    "Local elected representatives", 
-                    "Civil societies", 
-                    "Media", 
-                    "Courts", 
-                    "President of Bangladesh", 
-                    "NGOs", 
-                    "Upazila Nirbahi Officer (UNO)", 
-                    "District Commissioner (DC)", 
-                    "Police", 
-                    "Political parties", 
+                    "Army",
+                    "Prime Minister of Bangladesh",
+                    "Local elected representatives",
+                    "Civil societies",
+                    "Media",
+                    "Courts",
+                    "President of Bangladesh",
+                    "NGOs",
+                    "Upazila Nirbahi Officer (UNO)",
+                    "District Commissioner (DC)",
+                    "Police",
+                    "Political parties",
                     "Bangladesh Election Commission"
-                ], 
+                ],
                 "data": [
                     {
                         "data": [
-                            58.0, 
-                            45.0, 
-                            42.0, 
-                            41.0, 
-                            39.0, 
-                            39.0, 
-                            35.0, 
-                            35.0, 
-                            31.0, 
-                            31.0, 
-                            27.0, 
-                            26.0, 
+                            58.0,
+                            45.0,
+                            42.0,
+                            41.0,
+                            39.0,
+                            39.0,
+                            35.0,
+                            35.0,
+                            31.0,
+                            31.0,
+                            27.0,
+                            26.0,
                             23.0
-                        ], 
+                        ],
                         "name": "A lot of confidence"
-                    }, 
+                    },
                     {
                         "data": [
-                            32.0, 
-                            32.0, 
-                            40.0, 
-                            44.0, 
-                            44.0, 
-                            41.0, 
-                            45.0, 
-                            41.0, 
-                            46.0, 
-                            46.0, 
-                            31.0, 
-                            44.0, 
+                            32.0,
+                            32.0,
+                            40.0,
+                            44.0,
+                            44.0,
+                            41.0,
+                            45.0,
+                            41.0,
+                            46.0,
+                            46.0,
+                            31.0,
+                            44.0,
                             42.0
-                        ], 
+                        ],
                         "name": "Some confidence"
-                    }, 
+                    },
                     {
                         "data": [
-                            9.0, 
-                            22.0, 
-                            16.0, 
-                            12.0, 
-                            14.0, 
-                            15.0, 
-                            18.0, 
-                            20.0, 
-                            13.0, 
-                            12.0, 
-                            41.0, 
-                            28.0, 
+                            9.0,
+                            22.0,
+                            16.0,
+                            12.0,
+                            14.0,
+                            15.0,
+                            18.0,
+                            20.0,
+                            13.0,
+                            12.0,
+                            41.0,
+                            28.0,
                             29.0
-                        ], 
+                        ],
                         "name": "No confidence"
-                    }, 
+                    },
                     {
                         "data": [
-                            1.0, 
-                            1.0, 
-                            2.0, 
-                            4.0, 
-                            3.0, 
-                            5.0, 
-                            2.0, 
-                            3.0, 
-                            11.0, 
-                            11.0, 
-                            1.0, 
-                            2.0, 
+                            1.0,
+                            1.0,
+                            2.0,
+                            4.0,
+                            3.0,
+                            5.0,
+                            2.0,
+                            3.0,
+                            11.0,
+                            11.0,
+                            1.0,
+                            2.0,
                             5.0
-                        ], 
-                        "name": "Don\u2019t know"
+                        ],
+                        "name": "Don't know"
                     }
                 ]
             }
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "individual_support_for_a_specific_political_party", 
-            "group": "Opinion Polls 2015/DPR May/Political Parties", 
-            "key": "Individual support for a specific political party", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "individual_support_for_a_specific_political_party",
+            "group": "Opinion Polls 2015/DPR June/Political Parties",
+            "key": "Individual support for a specific political party",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Yes", 
+                    "label": "Yes",
                     "value": 66.0
-                }, 
+                },
                 {
-                    "label": "No", 
+                    "label": "No",
                     "value": 29.0
-                }, 
+                },
                 {
-                    "label": "Refused", 
+                    "label": "Refused",
                     "value": 5.0
                 }
             ]
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "party_feeling_closest_to", 
-            "group": "Opinion Polls 2015/DPR May/Political Parties", 
-            "key": "Party feeling closest to", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "party_feeling_closest_to",
+            "group": "Opinion Polls 2015/DPR June/Political Parties",
+            "key": "Party feeling closest to",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "AL", 
+                    "label": "AL",
                     "value": 58.0
-                }, 
+                },
                 {
-                    "label": "BNP", 
+                    "label": "BNP",
                     "value": 30.0
-                }, 
+                },
                 {
-                    "label": "JIB", 
+                    "label": "JIB",
                     "value": 4.0
-                }, 
+                },
                 {
-                    "label": "JP", 
+                    "label": "JP",
                     "value": 3.0
-                }, 
+                },
                 {
-                    "label": "Bikolpo Dhara", 
+                    "label": "Bikolpo Dhara",
                     "value": 1.0
-                }, 
+                },
                 {
-                    "label": "No political party", 
+                    "label": "No political party",
                     "value": 1.0
-                }, 
+                },
                 {
-                    "label": "Don\u2019t know", 
+                    "label": "Don't know",
                     "value": 1.0
-                }, 
+                },
                 {
-                    "label": "Refused", 
+                    "label": "Refused",
                     "value": 4.0
                 }
             ]
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "horserace/voting_preferences", 
-            "group": "Opinion Polls 2015/DPR May/Political Parties", 
-            "key": "Horserace/voting preferences", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "voting_preferences",
+            "group": "Opinion Polls 2015/DPR June/Political Parties",
+            "key": "Voting preferences",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "AL", 
+                    "label": "AL",
                     "value": 40.0
-                }, 
+                },
                 {
-                    "label": "BNP", 
+                    "label": "BNP",
                     "value": 30.0
-                }, 
+                },
                 {
-                    "label": "JP", 
+                    "label": "JP",
                     "value": 3.0
-                }, 
+                },
                 {
-                    "label": "JIB", 
+                    "label": "JIB",
                     "value": 3.0
-                }, 
+                },
                 {
-                    "label": "A new party", 
+                    "label": "A new party",
                     "value": 5.0
-                }, 
+                },
                 {
-                    "label": "Not taken any decision yet ", 
+                    "label": "Not taken any decision yet ",
                     "value": 12.0
-                }, 
+                },
                 {
-                    "label": "Don\u2019t know", 
+                    "label": "Don't know",
                     "value": 3.0
-                }, 
+                },
                 {
-                    "label": "Refused", 
+                    "label": "Refused",
                     "value": 5.0
                 }
             ]
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "the_most_important_political_problem_facing_bangladesh_today", 
-            "group": "Opinion Polls 2015/DPR May/Political Parties", 
-            "key": "The most important political problem facing Bangladesh today", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "the_most_important_political_problem_facing_bangladesh_today",
+            "group": "Opinion Polls 2015/DPR June/Political Parties",
+            "key": "The most important political problem facing Bangladesh today",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Hartal/blockade", 
+                    "label": "Hartal/blockade",
                     "value": 21.0
-                }, 
+                },
                 {
-                    "label": "Political instability", 
+                    "label": "Political instability",
                     "value": 16.0
-                }, 
+                },
                 {
-                    "label": "Political corruption", 
+                    "label": "Political corruption",
                     "value": 16.0
-                }, 
+                },
                 {
-                    "label": "Political violence", 
+                    "label": "Political violence",
                     "value": 12.0
-                }, 
+                },
                 {
-                    "label": "Bad governance", 
+                    "label": "Bad governance",
                     "value": 9.0
-                }, 
+                },
                 {
-                    "label": "Insecurity", 
+                    "label": "Insecurity",
                     "value": 8.0
-                }, 
+                },
                 {
-                    "label": "Unfair elections", 
+                    "label": "Unfair elections",
                     "value": 4.0
-                }, 
+                },
                 {
-                    "label": "Disappearances", 
+                    "label": "Disappearances",
                     "value": 3.0
-                }, 
+                },
                 {
-                    "label": "Extra judicial killings", 
+                    "label": "Extra judicial killings",
                     "value": 1.0
-                }, 
+                },
                 {
-                    "label": "Lack of trust", 
+                    "label": "Lack of trust",
                     "value": 1.0
-                }, 
+                },
                 {
-                    "label": "Don\u2019t know", 
+                    "label": "Don't know",
                     "value": 6.0
-                }, 
+                },
                 {
-                    "label": "Refused", 
+                    "label": "Refused",
                     "value": 1.0
                 }
             ]
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "political_parties_and_citizen\u2019s_opinions", 
-            "group": "Opinion Polls 2015/DPR May/Political Parties", 
-            "key": "Political parties and citizen\u2019s opinions", 
-            "option_group": "By Opinion", 
-            "type": "HStackedBar", 
+            "date": "",
+            "filename": "political_parties_and_citizen's_opinions",
+            "group": "Opinion Polls 2015/DPR June/Political Parties",
+            "key": "Political parties and citizen's opinions",
+            "option_group": "By Opinion",
+            "type": "GroupedMultiBar",
             "values": {
                 "categories": [
-                    "Very Closest", 
-                    "Closest"
-                ], 
+                    "Political parties in Bangladesh care  what ordinary people think",
+                    "Political parties in Bangladesh don't care what ordinary people think"
+                ],
                 "data": [
                     {
                         "data": [
-                            13.0, 
+                            13.0,
                             35.0
-                        ], 
-                        "name": "Political parties in Bangladesh care  what ordinary people think"
-                    }, 
+                        ],
+                        "name": "Very Closest"
+                    },
                     {
                         "data": [
-                            25.0, 
+                            25.0,
                             25.0
-                        ], 
-                        "name": "Political parties in Bangladesh don't care what ordinary people think"
+                        ],
+                        "name": "Closest"
                     }
                 ]
             }
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "perceptions_of_political_parties_as_governance_instruments", 
-            "group": "Opinion Polls 2015/DPR May/Political Parties", 
-            "key": "Perceptions of political parties as governance instruments", 
-            "option_group": "By Opinion", 
-            "type": "HStackedBar", 
+            "date": "",
+            "filename": "perceptions_of_political_parties_as_governance_instruments",
+            "group": "Opinion Polls 2015/DPR June/Political Parties",
+            "key": "Perceptions of political parties as governance instruments",
+            "option_group": "By Opinion",
+            "type": "GroupedMultiBar",
             "values": {
                 "categories": [
-                    "Very Closest", 
-                    "Closest"
-                ], 
+                    "Political parties are necessary to govern the country",
+                    "Political parties are not necessary to govern the country"
+                ],
                 "data": [
                     {
                         "data": [
-                            35.0, 
+                            35.0,
                             50.0
-                        ], 
-                        "name": "Political parties are necessary to govern the country"
-                    }, 
+                        ],
+                        "name": "Very Closest"
+                    },
                     {
                         "data": [
-                            4.0, 
+                            4.0,
                             10.0
-                        ], 
-                        "name": "Political parties are not necessary to govern the country"
+                        ],
+                        "name": "Closest"
                     }
                 ]
             }
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "perceptions_of_political_parties_effects_to_what_happens", 
-            "group": "Opinion Polls 2015/DPR May/Political Parties", 
-            "key": "Perceptions of political parties effects to what happens", 
-            "option_group": "By Opinion", 
-            "type": "HStackedBar", 
+            "date": "",
+            "filename": "political_parties_and_power",
+            "group": "Opinion Polls 2015/DPR June/Political Parties",
+            "key": "Political parties and power",
+            "option_group": "By Opinion",
+            "type": "GroupedMultiBar",
             "values": {
                 "categories": [
-                    "Very Closest", 
-                    "Closest"
-                ], 
+                    "It doesn't make any difference what party is in power.",
+                    "It makes a big difference what party is in power."
+                ],
                 "data": [
                     {
                         "data": [
-                            11.0, 
+                            11.0,
                             22.0
-                        ], 
-                        "name": "It doesn't make any difference what party is in power."
-                    }, 
+                        ],
+                        "name": "Very Closest"
+                    },
                     {
                         "data": [
-                            17.0, 
+                            17.0,
                             44.0
-                        ], 
-                        "name": "It makes a big difference what party is in power."
-                    }, 
+                        ],
+                        "name": "Closest"
+                    }
+                ]
+            }
+        },
+        {
+            "date": "",
+            "filename": "effects_of_voting_for_a_specific_political_party",
+            "group": "Opinion Polls 2015/DPR June/Political Parties",
+            "key": "Effects of voting for a specific political party",
+            "option_group": "By Opinion",
+            "type": "GroupedMultiBar",
+            "values": {
+                "categories": [
+                    "No matter what party people vote for, it won't make any difference to what happens.",
+                    "What party people vote for can make a big difference to what happens."
+                ],
+                "data": [
                     {
                         "data": [
-                            7.0, 
+                            7.0,
                             18.0
-                        ], 
-                        "name": "No matter what party people vote for, it won't make any difference to what happens."
-                    }, 
+                        ],
+                        "name": "Very Closest"
+                    },
                     {
                         "data": [
-                            22.0, 
+                            22.0,
                             46.0
-                        ], 
-                        "name": "What party people vote for can make a big difference to what happens. "
+                        ],
+                        "name": "Closest"
                     }
                 ]
             }
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "perceptions_of_individual_candidate's_effects_to_what_it_happens", 
-            "group": "Opinion Polls 2015/DPR May/Political Parties", 
-            "key": "Perceptions of individual candidate's effects to what it happens", 
-            "option_group": "By Opinion", 
-            "type": "HStackedBar", 
+            "date": "",
+            "filename": "perceptions_of_individual_candidate's_effects_to_what_it_happens",
+            "group": "Opinion Polls 2015/DPR June/Political Parties",
+            "key": "Perceptions of individual candidate's effects to what it happens",
+            "option_group": "By Opinion",
+            "type": "GroupedMultiBar",
             "values": {
                 "categories": [
-                    "Very Closest", 
-                    "Closest"
-                ], 
+                    "No matter what candidate people vote for, it won't make any difference to what happens.",
+                    "What candidate people vote for can make a big difference to what happens ."
+                ],
                 "data": [
                     {
                         "data": [
-                            6.0, 
+                            6.0,
                             16.0
-                        ], 
-                        "name": "No matter what candidate people vote for, it won't make any difference to what happens."
-                    }, 
+                        ],
+                        "name": "Very Closest"
+                    },
                     {
                         "data": [
-                            29.0, 
+                            29.0,
                             41.0
-                        ], 
-                        "name": "What candidate people vote for can make a big difference to what happens ."
+                        ],
+                        "name": "Closest"
                     }
                 ]
             }
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "perceptions_of_women's_representations_in_decision-making_positions", 
-            "group": "Opinion Polls 2015/DPR May/Gender and politics", 
-            "key": "Perceptions of women's representations in decision-making positions", 
-            "option_group": "By Opinion", 
-            "type": "HStackedBar", 
+            "date": "",
+            "filename": "perceptions_of_women's_representations_in_decision-making_positions",
+            "group": "Opinion Polls 2015/DPR June/Gender and politics",
+            "key": "Perceptions of women's representations in decision-making positions",
+            "option_group": "By Opinion",
+            "type": "VStackedBar",
             "values": {
                 "categories": [
-                    "Women are 50 of the population and should be as equally represented as men in decision-making positions", 
-                    "Women should be represented in decision making bodies because this right is enshrined in international instruments and national laws.", 
-                    "The empowerment of women will lead to the development of society at large.", 
-                    "Women\u2019s presence will make parliament more credible.", 
-                    " Women bring different views, perspectives and talents to politics.", 
+                    "Women are 50 of the population and should be as equally represented as men in decision-making positions",
+                    "Women should be represented in decision making bodies because this right is enshrined in international instruments and national laws.",
+                    "The empowerment of women will lead to the development of society at large.",
+                    "Women's presence will make parliament more credible.",
+                    " Women bring different views, perspectives and talents to politics.",
                     " Including more women will increase the electoral appeal of political parties or groupings."
-                ], 
+                ],
                 "data": [
                     {
                         "data": [
-                            41.0, 
-                            31.0, 
-                            29.0, 
-                            25.0, 
-                            24.0, 
+                            41.0,
+                            31.0,
+                            29.0,
+                            25.0,
+                            24.0,
                             25.0
-                        ], 
+                        ],
                         "name": "Strongly Agree"
-                    }, 
+                    },
                     {
                         "data": [
-                            40.0, 
-                            42.0, 
-                            43.0, 
-                            45.0, 
-                            37.0, 
+                            40.0,
+                            42.0,
+                            43.0,
+                            45.0,
+                            37.0,
                             37.0
-                        ], 
+                        ],
                         "name": "Agree"
-                    }, 
+                    },
                     {
                         "data": [
-                            3.0, 
-                            7.0, 
-                            7.0, 
-                            7.0, 
-                            10.0, 
+                            3.0,
+                            7.0,
+                            7.0,
+                            7.0,
+                            10.0,
                             8.0
-                        ], 
+                        ],
                         "name": "Neither"
-                    }, 
+                    },
                     {
                         "data": [
-                            9.0, 
-                            10.0, 
-                            14.0, 
-                            14.0, 
-                            16.0, 
+                            9.0,
+                            10.0,
+                            14.0,
+                            14.0,
+                            16.0,
                             18.0
-                        ], 
+                        ],
                         "name": "Disagree"
-                    }, 
+                    },
                     {
                         "data": [
-                            6.0, 
-                            5.0, 
-                            5.0, 
-                            6.0, 
-                            7.0, 
+                            6.0,
+                            5.0,
+                            5.0,
+                            6.0,
+                            7.0,
                             8.0
-                        ], 
+                        ],
                         "name": "Strongly Disagree"
-                    }, 
+                    },
                     {
                         "data": [
-                            1.0, 
-                            5.0, 
-                            2.0, 
-                            4.0, 
-                            6.0, 
+                            1.0,
+                            5.0,
+                            2.0,
+                            4.0,
+                            6.0,
                             4.0
-                        ], 
-                        "name": "Don\u2019t know"
+                        ],
+                        "name": "Don't know"
                     }
                 ]
             }
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "support_for_women\u2019s_reserved_seats", 
-            "group": "Opinion Polls 2015/DPR May/Gender and politics", 
-            "key": "Support for women\u2019s reserved seats", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "support_for_women's_reserved_seats",
+            "group": "Opinion Polls 2015/DPR June/Gender and politics",
+            "key": "Support for women's reserved seats",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Women should compete in both reserved seats and general seats.", 
+                    "label": "Women should compete in both reserved seats and general seats.",
                     "value": 56.0
-                }, 
+                },
                 {
-                    "label": "Women should compete within reserved seats only.", 
+                    "label": "Women should compete within reserved seats only.",
                     "value": 21.0
-                }, 
+                },
                 {
-                    "label": "Women should not compete for elected positions.", 
+                    "label": "Women should not compete for elected positions.",
                     "value": 13.0
-                }, 
+                },
                 {
-                    "label": "Women should compete in general seats only.", 
+                    "label": "Women should compete in general seats only.",
                     "value": 10.0
                 }
             ]
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "perceptions_of_women's_reserve_seats_as_tools_of_increasing_women's_political_participation", 
-            "group": "Opinion Polls 2015/DPR May/Gender and politics", 
-            "key": "Perceptions of women's reserve seats as tools of increasing women's political participation", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "perceptions_of_women's_reserve_seats_as_tools_of_increasing_women's_political_participation",
+            "group": "Opinion Polls 2015/DPR June/Gender and politics",
+            "key": "Perceptions of women's reserve seats as tools of increasing women's political participation",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Women's reserve seats are necessary to increase women\u2019s participation in politics.", 
+                    "label": "Women's reserve seats are necessary to increase women's participation in politics.",
                     "value": 47.0
-                }, 
+                },
                 {
-                    "label": "Women's researved seats should not be legislated but political parties should decide themselves.", 
+                    "label": "Women's researved seats should not be legislated but political parties should decide themselves.",
                     "value": 20.0
-                }, 
+                },
                 {
-                    "label": "Women's reserved seats that are legislated must be accompanied by enforcement provisions.", 
+                    "label": "Women's reserved seats that are legislated must be accompanied by enforcement provisions.",
                     "value": 18.0
-                }, 
+                },
                 {
-                    "label": "Women's reserved seats are not necessary. Women should be elected on merit.", 
+                    "label": "Women's reserved seats are not necessary. Women should be elected on merit.",
                     "value": 11.0
-                }, 
+                },
                 {
-                    "label": "Women's reserved seats are discriminatory.", 
+                    "label": "Women's reserved seats are discriminatory.",
                     "value": 4.0
                 }
             ]
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "fairess", 
-            "group": "Opinion Polls 2015/DPR May/City Corporation Elections", 
-            "key": "Fairess", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "fairess(cce__april__2015)",
+            "group": "Opinion Polls 2015/DPR June/City Corporation Elections",
+            "key": "Fairess(CCE  April  2015)",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Highly fair", 
+                    "label": "Highly fair",
                     "value": 8.0
-                }, 
+                },
                 {
-                    "label": "Fair", 
+                    "label": "Fair",
                     "value": 15.0
-                }, 
+                },
                 {
-                    "label": "Less fair", 
+                    "label": "Less fair",
                     "value": 19.0
-                }, 
+                },
                 {
-                    "label": "Not fair", 
+                    "label": "Not fair",
                     "value": 39.0
-                }, 
+                },
                 {
-                    "label": "Don\u2019t know", 
+                    "label": "Don't know",
                     "value": 18.0
-                }, 
+                },
                 {
-                    "label": "Refused", 
+                    "label": "Refused",
                     "value": 1.0
                 }
             ]
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "credibility", 
-            "group": "Opinion Polls 2015/DPR May/City Corporation Elections", 
-            "key": "Credibility", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "credibility(cce__april__2015)",
+            "group": "Opinion Polls 2015/DPR June/City Corporation Elections",
+            "key": "Credibility(CCE  April  2015)",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Highly credible", 
+                    "label": "Highly credible",
                     "value": 7.0
-                }, 
+                },
                 {
-                    "label": "Credible", 
+                    "label": "Credible",
                     "value": 17.0
-                }, 
+                },
                 {
-                    "label": "Less credible", 
+                    "label": "Less credible",
                     "value": 17.0
-                }, 
+                },
                 {
-                    "label": "Not credible", 
+                    "label": "Not credible",
                     "value": 40.0
-                }, 
+                },
                 {
-                    "label": "Don\u2019t know", 
+                    "label": "Don't know",
                     "value": 18.0
-                }, 
+                },
                 {
-                    "label": "Refused", 
+                    "label": "Refused",
                     "value": 1.0
                 }
             ]
-        }, 
+        },
         {
-            "date": "", 
-            "filename": "acceptability", 
-            "group": "Opinion Polls 2015/DPR May/City Corporation Elections", 
-            "key": "Acceptability", 
-            "type": "DiscretBar", 
+            "date": "",
+            "filename": "acceptability(cce__april__2015)",
+            "group": "Opinion Polls 2015/DPR June/City Corporation Elections",
+            "key": "Acceptability(CCE  April  2015)",
+            "type": "DiscretBar",
             "values": [
                 {
-                    "label": "Highly acceptable", 
+                    "label": "Highly acceptable",
                     "value": 7.0
-                }, 
+                },
                 {
-                    "label": "Acceptable", 
+                    "label": "Acceptable",
                     "value": 15.0
-                }, 
+                },
                 {
-                    "label": "Less acceptable", 
+                    "label": "Less acceptable",
                     "value": 17.0
-                }, 
+                },
                 {
-                    "label": "Not acceptable", 
+                    "label": "Not acceptable",
                     "value": 41.0
-                }, 
+                },
                 {
-                    "label": "Don\u2019t know", 
+                    "label": "Don't know",
                     "value": 19.0
-                }, 
+                },
                 {
-                    "label": "Refused", 
+                    "label": "Refused",
                     "value": 1.0
                 }
             ]
         }
-    ], 
+    ],
     "meta": {
-        "date": "May 2015", 
-        "info": "DPR Survey May, 2015 - June, 2015", 
-        "moe": "2.5", 
-        "participants": "1500", 
-        "scope": "Political Party & Governance Opinion Survey conducted at May 2015", 
-        "survey_type": "CATSS", 
+        "date": "May 2015",
+        "info": "DPR Survey May, 2015 - June, 2015",
+        "moe": "2.8",
+        "participants": "1200",
+        "scope": "Political Party & Governance Opinion Survey conducted at May 2015",
+        "survey_type": "CATSS",
         "write_path": " dpr_may_2015"
     }
 }

@@ -1,7 +1,7 @@
 <?php namespace BBMeter\Http\Controllers;
 
 use BBMeter\Group;
-use Request;
+use Illuminate\Http\Request;
 use BBMeter\Repositories\QuestionRepository;
 use BBMeter\Repositories\GroupRepository;
 use BBMeter\Repositories\SitevarRepository;

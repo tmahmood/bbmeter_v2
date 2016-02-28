@@ -33,7 +33,7 @@ class QuestionRepository implements BaseRepositoryInterface
 			$ids = explode(',', $fp_selection);
 			return Question::whereIn('id', $ids)->get();
 		}
-		throw new Exception("No frontpage selection made");
+		throw new \Exception("No frontpage selection made");
 	}
 
 	function get_latest_few($how_many = 50)

@@ -1,13 +1,10 @@
-include=app bootstrap config public vendor .env.example resources
-options=--delete -r -t $(include) --no-perms --exclude=.htaccess
-
-#--exclude=storage/logs/*.log --exclude=storage/app/* --exclude=storage/files/* --exclude=storage/framework/sessions/*
+include=app public resources storage database composer.json artisan tests bootstrap config
 
 main:
-	rsync --progress --delete -r -t -avz --no-perms --exclude storage/framework --exclude storage/logs/ --exclude .htaccess app public resources storage vendor mahmood@106.187.49.19:/opt/webapp/bbmeter
+	rsync --progress -r -t -avz --no-perms --exclude storage/framework --exclude storage/logs/ --exclude .htaccess $(include) mahmood@106.187.49.19:/opt/webapp/bbmeter
 
 prod:
-	rsync --progress --delete -r -t -avz --no-perms --exclude storage/framework --exclude storage/logs/ --exclude .htaccess app public resources storage vendor dibangladesh@106.187.49.19:/home/dibangladesh/public/bangladeshbarometer.org
+	rsync --progress -r -t -avz --no-perms --exclude storage/framework --exclude storage/logs/ --exclude .htaccess $(include) dibangladesh@106.187.49.19:public/bangladeshbarometer.org
 
 
 migrate:

@@ -17,9 +17,9 @@ class SurveyImportController extends Controller {
 
 	public function __construct()
 	{
+		$this->middleware('auth');
 		$this->qr = new QuestionRepository;
 		$this->sr = new SurveyRepository;
-		$this->middleware('auth');
 	}
 
 	public function importSurveyFromCSV($filename)
@@ -100,5 +100,14 @@ class SurveyImportController extends Controller {
 		}
 		return $files;
 	}
+
+	function refresh()
+	{
+		OptionGroup::where('id', '>', 0)->delete();
+		Survey::where('id', '>', 0)->delete();
+		Group::where('id', '>', 0)->delete();
+		$this->listAllUploadedSources();
+	}
+
 }
 

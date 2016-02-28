@@ -95,7 +95,25 @@
 			<span class="glyphicon glyphicon-book"></span></a>
 
 					</li>
-					<li><a href="{{ url('auth/logout') }}">Logout</a></li>
+					@if (Auth::guest())
+						<li><a href="{{ url('login') }}">Login</a></li>
+					@else
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"
+									role="button" aria-expanded="false">Hello
+									<strong>{{ Auth::user()->name }}</strong>
+								<span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li>
+									<a href="{{ url('admin/') }}">Admin panel</a>
+								</li>
+								<li class="{{ Request::is('users') ? 'active': '' }}">
+									<a href="{{ url('users') }}">Users</a>
+								</li>
+								<li><a href="{{ url('logout') }}">Logout</a></li>
+							</ul>
+						</li>
+					@endif
 				</ul>
 			</div>
 		</div>

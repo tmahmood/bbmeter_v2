@@ -113,12 +113,10 @@ return [
 		/*
 		 * Laravel Framework Service Providers...
 		 */
-		'Illuminate\Foundation\Providers\ArtisanServiceProvider',
 		'Illuminate\Auth\AuthServiceProvider',
-		'Illuminate\Bus\BusServiceProvider',
+		'Illuminate\Broadcasting\BroadcastServiceProvider',
 		'Illuminate\Cache\CacheServiceProvider',
 		'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider',
-		'Illuminate\Routing\ControllerServiceProvider',
 		'Illuminate\Cookie\CookieServiceProvider',
 		'Illuminate\Database\DatabaseServiceProvider',
 		'Illuminate\Encryption\EncryptionServiceProvider',
@@ -140,8 +138,6 @@ return [
 		 * Application Service Providers...
 		 */
 		'BBMeter\Providers\AppServiceProvider',
-		'BBMeter\Providers\BusServiceProvider',
-		'BBMeter\Providers\ConfigServiceProvider',
 		'BBMeter\Providers\EventServiceProvider',
 		'BBMeter\Providers\RouteServiceProvider',
 
