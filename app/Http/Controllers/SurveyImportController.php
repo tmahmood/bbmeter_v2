@@ -2,6 +2,7 @@
 
 use Request;
 use Storage;
+use DB;
 
 use BBMeter\Survey;
 use BBMeter\SurveyType;
@@ -106,6 +107,14 @@ class SurveyImportController extends Controller {
 		OptionGroup::where('id', '>', 0)->delete();
 		Survey::where('id', '>', 0)->delete();
 		Group::where('id', '>', 0)->delete();
+		DB::statement('set foreign_key_checks=0');
+		DB::statement('truncate option_groups');
+		DB::statement('truncate options');
+		DB::statement('truncate questions');
+		DB::statement('truncate surveys');
+		DB::statement('truncate groups');
+		DB::statement('truncate responses');
+		DB::statement('set foreign_key_checks=1');
 		$this->listAllUploadedSources();
 	}
 
