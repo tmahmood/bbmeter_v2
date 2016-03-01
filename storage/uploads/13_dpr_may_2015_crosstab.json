@@ -1,0 +1,1271 @@
+{
+    "data": [
+        {
+            "date": "", 
+            "filename": "living_conditions", 
+            "group": "Opinion Polls 2015/DPR May/General situation", 
+            "key": "Living conditions", 
+            "option_group": "By Area type", 
+            "related_to": "living_conditions", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "Urban", 
+                    "Rural"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            71.0, 
+                            67.0
+                        ], 
+                        "name": "Net good"
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "Neither"
+                    }, 
+                    {
+                        "data": [
+                            21.0, 
+                            24.0
+                        ], 
+                        "name": "Net bad"
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "living_conditions", 
+            "group": "Opinion Polls 2015/DPR May/General situation", 
+            "key": "Living conditions", 
+            "option_group": "By Gender", 
+            "related_to": "living_conditions", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "Male", 
+                    "Female"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            67.0, 
+                            69.0
+                        ], 
+                        "name": "Net good"
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "Neither"
+                    }, 
+                    {
+                        "data": [
+                            24.0, 
+                            24.0
+                        ], 
+                        "name": "Net bad"
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "living_conditions", 
+            "group": "Opinion Polls 2015/DPR May/General situation", 
+            "key": "Living conditions", 
+            "option_group": "By Division", 
+            "related_to": "living_conditions", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "Rangpur", 
+                    "Barisal", 
+                    "Sylhet", 
+                    "Rajshahi", 
+                    "Khulna", 
+                    "Chittagong", 
+                    "Dhaka"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            71.0, 
+                            73.0, 
+                            49.0, 
+                            69.0, 
+                            61.0, 
+                            75.0, 
+                            68.0
+                        ], 
+                        "name": "Net good"
+                    }, 
+                    {
+                        "data": [
+                            5.0, 
+                            9.0, 
+                            11.0, 
+                            11.0, 
+                            10.0, 
+                            8.0, 
+                            8.0
+                        ], 
+                        "name": "Neither"
+                    }, 
+                    {
+                        "data": [
+                            23.0, 
+                            19.0, 
+                            40.0, 
+                            21.0, 
+                            29.0, 
+                            18.0, 
+                            24.0
+                        ], 
+                        "name": "Net bad"
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "personal_situation_compared_to_one_year_ago", 
+            "group": "Opinion Polls 2015/DPR May/General situation", 
+            "key": "Personal situation compared to one year ago", 
+            "option_group": "By Area type", 
+            "related_to": "personal_situation_compared_to_one_year_ago", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "Urban", 
+                    "Rural"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            45.0, 
+                            47.0
+                        ], 
+                        "name": "Better off "
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "About the same"
+                    }, 
+                    {
+                        "data": [
+                            24.0, 
+                            31.0
+                        ], 
+                        "name": "Worse off "
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "personal_situation_compared_to_one_year_ago", 
+            "group": "Opinion Polls 2015/DPR May/General situation", 
+            "key": "Personal situation compared to one year ago", 
+            "option_group": "By Gender", 
+            "related_to": "personal_situation_compared_to_one_year_ago", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "Male", 
+                    "Female"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            46.0, 
+                            47.0
+                        ], 
+                        "name": "Better off "
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "About the same"
+                    }, 
+                    {
+                        "data": [
+                            31.0, 
+                            28.0
+                        ], 
+                        "name": "Worse off "
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "personal_situation_compared_to_one_year_ago", 
+            "group": "Opinion Polls 2015/DPR May/General situation", 
+            "key": "Personal situation compared to one year ago", 
+            "option_group": "By Division", 
+            "related_to": "personal_situation_compared_to_one_year_ago", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "Rangpur", 
+                    "Barisal", 
+                    "Sylhet", 
+                    "Rajshahi", 
+                    "Khulna", 
+                    "Chittagong", 
+                    "Dhaka"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            50.0, 
+                            41.0, 
+                            41.0, 
+                            46.0, 
+                            55.0, 
+                            53.0, 
+                            40.0
+                        ], 
+                        "name": "Better off"
+                    }, 
+                    {
+                        "data": [
+                            12.0, 
+                            39.0, 
+                            20.0, 
+                            30.0, 
+                            9.0, 
+                            18.0, 
+                            34.0
+                        ], 
+                        "name": "About the same"
+                    }, 
+                    {
+                        "data": [
+                            38.0, 
+                            20.0, 
+                            39.0, 
+                            24.0, 
+                            36.0, 
+                            29.0, 
+                            26.0
+                        ], 
+                        "name": "Worse off "
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "direction_of_bangladesh", 
+            "group": "Opinion Polls 2015/DPR May/General situation", 
+            "key": "Direction of Bangladesh", 
+            "option_group": "By Area type", 
+            "related_to": "direction_of_bangladesh", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "Urban", 
+                    "Rural"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            53.0, 
+                            60.0
+                        ], 
+                        "name": "Right direction"
+                    }, 
+                    {
+                        "data": [
+                            5.0, 
+                            9.0
+                        ], 
+                        "name": "Neither"
+                    }, 
+                    {
+                        "data": [
+                            35.0, 
+                            27.0
+                        ], 
+                        "name": "Wrong direction"
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "Don't know"
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "Refused"
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "direction_of_bangladesh", 
+            "group": "Opinion Polls 2015/DPR May/General situation", 
+            "key": "Direction of Bangladesh", 
+            "option_group": "By Gender", 
+            "related_to": "direction_of_bangladesh", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "Male", 
+                    "Female"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            59.0, 
+                            57.0
+                        ], 
+                        "name": "Right direction"
+                    }, 
+                    {
+                        "data": [
+                            9.0, 
+                            7.0
+                        ], 
+                        "name": "Neither"
+                    }, 
+                    {
+                        "data": [
+                            26.0, 
+                            31.0
+                        ], 
+                        "name": "Wrong direction"
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "Don't know"
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "Refused"
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "direction_of_bangladesh", 
+            "group": "Opinion Polls 2015/DPR May/General situation", 
+            "key": "Direction of Bangladesh", 
+            "option_group": "By Division", 
+            "related_to": "direction_of_bangladesh", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "Dhaka", 
+                    "Chittagong", 
+                    "Khulna", 
+                    "Rajshahi", 
+                    "Sylhet", 
+                    "Barisal", 
+                    "Rangpur"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            56.0, 
+                            62.0, 
+                            53.0, 
+                            54.0, 
+                            50.0, 
+                            54.0, 
+                            75.0
+                        ], 
+                        "name": "Right direction"
+                    }, 
+                    {
+                        "data": [
+                            9.0, 
+                            10.0, 
+                            6.0, 
+                            8.0, 
+                            4.0, 
+                            14.0, 
+                            3.0
+                        ], 
+                        "name": "Neither"
+                    }, 
+                    {
+                        "data": [
+                            27.0, 
+                            25.0, 
+                            36.0, 
+                            32.0, 
+                            46.0, 
+                            29.0, 
+                            16.0
+                        ], 
+                        "name": "Wrong direction"
+                    }, 
+                    {
+                        "data": [
+                            6.0, 
+                            2.0, 
+                            5.0, 
+                            3.0, 
+                            0.0, 
+                            1.0, 
+                            5.0
+                        ], 
+                        "name": "Don't know"
+                    }, 
+                    {
+                        "data": [
+                            2.0, 
+                            0.0, 
+                            0.0, 
+                            3.0, 
+                            0.0, 
+                            1.0, 
+                            1.0
+                        ], 
+                        "name": "Refused"
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "direction_of_bangladesh", 
+            "group": "Opinion Polls 2015/DPR May/General situation", 
+            "key": "Direction of Bangladesh", 
+            "option_group": "By Age", 
+            "related_to": "direction_of_bangladesh", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "18-25 years", 
+                    "26-35 years", 
+                    "36-45 years", 
+                    "46-55 years", 
+                    "56-65 years", 
+                    "65+ years"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            57.0, 
+                            58.0, 
+                            57.0, 
+                            58.0, 
+                            73.0, 
+                            54.0
+                        ], 
+                        "name": "Right direction"
+                    }, 
+                    {
+                        "data": [
+                            7.0, 
+                            7.0, 
+                            9.0, 
+                            8.0, 
+                            10.0, 
+                            15.0
+                        ], 
+                        "name": "Neither"
+                    }, 
+                    {
+                        "data": [
+                            31.0, 
+                            29.0, 
+                            29.0, 
+                            30.0, 
+                            14.0, 
+                            23.0
+                        ], 
+                        "name": "Wrong direction"
+                    }, 
+                    {
+                        "data": [
+                            3.0, 
+                            5.0, 
+                            5.0, 
+                            2.0, 
+                            3.0, 
+                            8.0
+                        ], 
+                        "name": "Don't know"
+                    }, 
+                    {
+                        "data": [
+                            2.0, 
+                            2.0, 
+                            0.0, 
+                            2.0, 
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "Refused"
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "direction_of_bangladesh", 
+            "group": "Opinion Polls 2015/DPR May/General situation", 
+            "key": "Direction of Bangladesh", 
+            "option_group": "By Party", 
+            "related_to": "direction_of_bangladesh", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "AL", 
+                    "BNP", 
+                    "JP", 
+                    "JIB", 
+                    "No political party", 
+                    "Don't know", 
+                    "Refused"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            80.0, 
+                            38.0, 
+                            45.0, 
+                            43.0, 
+                            33.0, 
+                            40.0, 
+                            31.0
+                        ], 
+                        "name": "Right direction"
+                    }, 
+                    {
+                        "data": [
+                            5.0, 
+                            8.0, 
+                            20.0, 
+                            7.0, 
+                            33.0, 
+                            0.0, 
+                            14.0
+                        ], 
+                        "name": "Neither "
+                    }, 
+                    {
+                        "data": [
+                            13.0, 
+                            50.0, 
+                            20.0, 
+                            50.0, 
+                            33.0, 
+                            40.0, 
+                            41.0
+                        ], 
+                        "name": "Wrong direction"
+                    }, 
+                    {
+                        "data": [
+                            2.0, 
+                            4.0, 
+                            15.0, 
+                            0.0, 
+                            0.0, 
+                            20.0, 
+                            14.0
+                        ], 
+                        "name": "Don't know"
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0, 
+                            0.0, 
+                            0.0, 
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "Refused"
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "voting_preferences", 
+            "group": "Opinion Polls 2015/DPR June/Political Parties", 
+            "key": "Voting preferences", 
+            "option_group": "By Area type", 
+            "related_to": "voting_preferences", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "Urban", 
+                    "Rural"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            35.0, 
+                            41.0
+                        ], 
+                        "name": "AL"
+                    }, 
+                    {
+                        "data": [
+                            30.0, 
+                            30.0
+                        ], 
+                        "name": "BNP"
+                    }, 
+                    {
+                        "data": [
+                            1.0, 
+                            3.0
+                        ], 
+                        "name": "JP"
+                    }, 
+                    {
+                        "data": [
+                            1.0, 
+                            4.0
+                        ], 
+                        "name": "JIB"
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "A new party"
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "Not taken any decision yet "
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "Don't know"
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "Refused"
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "voting_preferences", 
+            "group": "Opinion Polls 2015/DPR June/Political Parties", 
+            "key": "Voting preferences", 
+            "option_group": "By Gender", 
+            "related_to": "voting_preferences", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "Male", 
+                    "Female"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            38.0, 
+                            41.0
+                        ], 
+                        "name": "AL"
+                    }, 
+                    {
+                        "data": [
+                            29.0, 
+                            30.0
+                        ], 
+                        "name": "BNP"
+                    }, 
+                    {
+                        "data": [
+                            3.0, 
+                            2.0
+                        ], 
+                        "name": "JP"
+                    }, 
+                    {
+                        "data": [
+                            4.0, 
+                            3.0
+                        ], 
+                        "name": "JIB"
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "A new party"
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "Not taken any decision yet"
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "Don't know"
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "Refused"
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "voting_preferences", 
+            "group": "Opinion Polls 2015/DPR June/Political Parties", 
+            "key": "Voting preferences", 
+            "option_group": "By Division", 
+            "related_to": "voting_preferences", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "Dhaka", 
+                    "Chittagong", 
+                    "Khulna", 
+                    "Rajshahi", 
+                    "Sylhet", 
+                    "Barisal", 
+                    "Rangpur"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            41.0, 
+                            45.0, 
+                            29.0, 
+                            30.0, 
+                            45.0, 
+                            41.0, 
+                            42.0
+                        ], 
+                        "name": "AL"
+                    }, 
+                    {
+                        "data": [
+                            27.0, 
+                            35.0, 
+                            26.0, 
+                            27.0, 
+                            36.0, 
+                            34.0, 
+                            27.0
+                        ], 
+                        "name": "BNP"
+                    }, 
+                    {
+                        "data": [
+                            2.0, 
+                            1.0, 
+                            3.0, 
+                            2.0, 
+                            6.0, 
+                            9.0, 
+                            3.0
+                        ], 
+                        "name": "JP"
+                    }, 
+                    {
+                        "data": [
+                            1.0, 
+                            1.0, 
+                            6.0, 
+                            7.0, 
+                            3.0, 
+                            3.0, 
+                            9.0
+                        ], 
+                        "name": "JIB"
+                    }, 
+                    {
+                        "data": [
+                            6.0, 
+                            8.0, 
+                            3.0, 
+                            3.0, 
+                            8.0, 
+                            0.0, 
+                            4.0
+                        ], 
+                        "name": "A new party"
+                    }, 
+                    {
+                        "data": [
+                            16.0, 
+                            5.0, 
+                            26.0, 
+                            11.0, 
+                            3.0, 
+                            6.0, 
+                            10.0
+                        ], 
+                        "name": "Not taken any decision yet"
+                    }, 
+                    {
+                        "data": [
+                            3.0, 
+                            3.0, 
+                            2.0, 
+                            5.0, 
+                            0.0, 
+                            1.0, 
+                            2.0
+                        ], 
+                        "name": "Don't know"
+                    }, 
+                    {
+                        "data": [
+                            4.0, 
+                            2.0, 
+                            4.0, 
+                            15.0, 
+                            0.0, 
+                            6.0, 
+                            3.0
+                        ], 
+                        "name": "Refused"
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "voting_preferences", 
+            "group": "Opinion Polls 2015/DPR June/Political Parties", 
+            "key": "Voting preferences", 
+            "option_group": "By Age", 
+            "related_to": "voting_preferences", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "18-25 years", 
+                    "26-35 years", 
+                    "36-45 years", 
+                    "46-55 years", 
+                    "56-65 years", 
+                    "65+ years"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            35.0, 
+                            40.0, 
+                            42.0, 
+                            38.0, 
+                            47.0, 
+                            50.0
+                        ], 
+                        "name": "AL"
+                    }, 
+                    {
+                        "data": [
+                            33.0, 
+                            29.0, 
+                            26.0, 
+                            32.0, 
+                            30.0, 
+                            15.0
+                        ], 
+                        "name": "BNP"
+                    }, 
+                    {
+                        "data": [
+                            2.0, 
+                            3.0, 
+                            2.0, 
+                            3.0, 
+                            3.0, 
+                            4.0
+                        ], 
+                        "name": "JP"
+                    }, 
+                    {
+                        "data": [
+                            3.0, 
+                            3.0, 
+                            5.0, 
+                            3.0, 
+                            4.0, 
+                            0.0
+                        ], 
+                        "name": "JIB"
+                    }, 
+                    {
+                        "data": [
+                            6.0, 
+                            6.0, 
+                            4.0, 
+                            6.0, 
+                            4.0, 
+                            4.0
+                        ], 
+                        "name": "A new party"
+                    }, 
+                    {
+                        "data": [
+                            12.0, 
+                            12.0, 
+                            14.0, 
+                            11.0, 
+                            7.0, 
+                            15.0
+                        ], 
+                        "name": "Not taken any decision yet"
+                    }, 
+                    {
+                        "data": [
+                            4.0, 
+                            2.0, 
+                            2.0, 
+                            4.0, 
+                            3.0, 
+                            8.0
+                        ], 
+                        "name": "Don't know"
+                    }, 
+                    {
+                        "data": [
+                            4.0, 
+                            5.0, 
+                            6.0, 
+                            3.0, 
+                            1.0, 
+                            4.0
+                        ], 
+                        "name": "Refused"
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "voting_preferences", 
+            "group": "Opinion Polls 2015/DPR June/Political Parties", 
+            "key": "Voting preferences", 
+            "option_group": "By years of schooling", 
+            "related_to": "voting_preferences", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "0 year", 
+                    "1 to 5 years", 
+                    "6 to 8 years", 
+                    "9 to 10 years", 
+                    "11 to 12 years", 
+                    "13 years and above"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            44.0, 
+                            37.0, 
+                            34.0, 
+                            41.0, 
+                            46.0, 
+                            39.0
+                        ], 
+                        "name": "AL"
+                    }, 
+                    {
+                        "data": [
+                            27.0, 
+                            33.0, 
+                            33.0, 
+                            27.0, 
+                            27.0, 
+                            24.0
+                        ], 
+                        "name": "BNP"
+                    }, 
+                    {
+                        "data": [
+                            4.0, 
+                            3.0, 
+                            3.0, 
+                            2.0, 
+                            3.0, 
+                            0.0
+                        ], 
+                        "name": "JP"
+                    }, 
+                    {
+                        "data": [
+                            6.0, 
+                            3.0, 
+                            3.0, 
+                            2.0, 
+                            3.0, 
+                            4.0
+                        ], 
+                        "name": "JIB"
+                    }, 
+                    {
+                        "data": [
+                            5.0, 
+                            4.0, 
+                            6.0, 
+                            5.0, 
+                            4.0, 
+                            11.0
+                        ], 
+                        "name": "A new party"
+                    }, 
+                    {
+                        "data": [
+                            8.0, 
+                            13.0, 
+                            14.0, 
+                            12.0, 
+                            12.0, 
+                            11.0
+                        ], 
+                        "name": "Not taken any decision yet"
+                    }, 
+                    {
+                        "data": [
+                            6.0, 
+                            7.0, 
+                            5.0, 
+                            10.0, 
+                            5.0, 
+                            11.0
+                        ], 
+                        "name": "Don't know"
+                    }, 
+                    {
+                        "data": [
+                            0.0, 
+                            0.0, 
+                            0.0, 
+                            0.0, 
+                            0.0, 
+                            0.0
+                        ], 
+                        "name": "Refused"
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "political_parties_and_citizen's_opinions", 
+            "group": "Opinion Polls 2015/DPR June/Political Parties", 
+            "key": "Political parties and citizen's opinions", 
+            "option_group": "By Area type", 
+            "related_to": "political_parties_and_citizen's_opinions", 
+            "type": "HGStackedBar", 
+            "values": {
+                "categories": [
+                    "Urban", 
+                    "Rural"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            8.0, 
+                            14.0
+                        ], 
+                        "extra": "Political parties in Bangladesh care  what ordinary people think", 
+                        "name": "Very Closest"
+                    }, 
+                    {
+                        "data": [
+                            35.0, 
+                            22.0
+                        ], 
+                        "extra": "Political parties in Bangladesh don't care what ordinary people think", 
+                        "name": "Closest"
+                    }, 
+                    {
+                        "data": [
+                            32.0, 
+                            23.0
+                        ], 
+                        "extra": "Political parties in Bangladesh don't care what ordinary people think", 
+                        "name": "Very Closest"
+                    }, 
+                    {
+                        "data": [
+                            23.0, 
+                            39.0
+                        ], 
+                        "extra": "Political parties in Bangladesh care  what ordinary people think", 
+                        "name": "Closest"
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "support_for_women's_reserved_seats", 
+            "group": "Opinion Polls 2015/DPR June/Gender and politics", 
+            "key": "Support for women's reserved seats", 
+            "option_group": "By area type", 
+            "related_to": "support_for_women's_reserved_seats", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "Urban", 
+                    "Rural"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            63.0, 
+                            54.0
+                        ], 
+                        "name": "Women should compete in both reserved seats and general seats."
+                    }, 
+                    {
+                        "data": [
+                            20.0, 
+                            21.0
+                        ], 
+                        "name": "Women should compete within reserved seats only."
+                    }, 
+                    {
+                        "data": [
+                            11.0, 
+                            10.0
+                        ], 
+                        "name": "Women should compete in general seats only."
+                    }, 
+                    {
+                        "data": [
+                            7.0, 
+                            14.0
+                        ], 
+                        "name": "Women should not compete for elected positions."
+                    }
+                ]
+            }
+        }, 
+        {
+            "date": "", 
+            "filename": "support_for_women's_reserved_seats", 
+            "group": "Opinion Polls 2015/DPR June/Gender and politics", 
+            "key": "Support for women's reserved seats", 
+            "option_group": "By Division", 
+            "related_to": "support_for_women's_reserved_seats", 
+            "type": "GroupedMultiBar", 
+            "values": {
+                "categories": [
+                    "Dhaka", 
+                    "Chittagong", 
+                    "Khulna", 
+                    "Rajshahi", 
+                    "Sylhet", 
+                    "Barisal", 
+                    "Rangpur"
+                ], 
+                "data": [
+                    {
+                        "data": [
+                            62.0, 
+                            57.0, 
+                            58.0, 
+                            61.0, 
+                            28.0, 
+                            59.0, 
+                            48.0
+                        ], 
+                        "name": "Women should compete in both reserved seats and general seats."
+                    }, 
+                    {
+                        "data": [
+                            23.0, 
+                            24.0, 
+                            22.0, 
+                            18.0, 
+                            20.0, 
+                            3.0, 
+                            18.0
+                        ], 
+                        "name": "Women should compete within reserved seats only."
+                    }, 
+                    {
+                        "data": [
+                            7.0, 
+                            10.0, 
+                            8.0, 
+                            9.0, 
+                            34.0, 
+                            23.0, 
+                            6.0
+                        ], 
+                        "name": "Women should compete in general seats only."
+                    }, 
+                    {
+                        "data": [
+                            9.0, 
+                            9.0, 
+                            12.0, 
+                            11.0, 
+                            19.0, 
+                            16.0, 
+                            27.0
+                        ], 
+                        "name": "Women should not compete for elected positions."
+                    }
+                ]
+            }
+        }
+    ], 
+    "meta": {
+        "date": "May 2015", 
+        "info": "DPR Survey May, 2015 - June, 2015", 
+        "moe": "2.8", 
+        "participants": "1200", 
+        "scope": "Political Party & Governance Opinion Survey conducted at May 2015", 
+        "survey_type": "CATSS", 
+        "write_path": " dpr_may_2015"
+    }
+}

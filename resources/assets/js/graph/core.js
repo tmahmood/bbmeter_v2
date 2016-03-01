@@ -67,6 +67,14 @@ function GraphCore() {
 			"somewhat support":		this.colors['medium_pos'],
 			"somewhat oppose":		this.colors['medium_neg'],
 			"strongly oppose":		this.colors['very_neg'],
+			"highly acceptable":	this.colors['very_pos'],
+			"acceptable":	  		this.colors['medium_pos'],
+			"less acceptable": 		this.colors['medium_neg'],
+			"not acceptable":		this.colors['very_neg'],
+			"highly fair":		    this.colors['very_pos'],
+			"fair":			  		this.colors['medium_pos'],
+			"less fair": 			this.colors['medium_neg'],
+			"not fair":				this.colors['very_neg'],
 			/////////////////////////////////////////////////////
 			// unique
 			'neither agree nor disagree': this.colors['neutral'],
