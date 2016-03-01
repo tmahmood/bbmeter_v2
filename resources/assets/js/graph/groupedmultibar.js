@@ -117,6 +117,7 @@ GroupedMultiBar.prototype.draw = function(colors) {
 			d.plotOptions.series.stacking = 'percent';
 			d.chart.type = 'bar';
 		}
+		d.yAxis.reversed = true;
 	}
 
     $(me.container).highcharts(d);

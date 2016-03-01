@@ -14,16 +14,18 @@ DiscretBar.prototype.set = function(field, val) {
 
 DiscretBar.prototype.addData = function(values) {
 	var k = 0;
+	var colors = this.colors.slice();
 	for (var i in values) {
 		var val = values[i]
 		this.series.push({ name: val.label, y: val.value * 1 });
 		var lbl = val.label.toLowerCase();
 		if (lbl in this.parent.colormap && typeof(this.parent.colormap[lbl]) != 'function' ) {
-			this.colors[i] = this.parent.colormap[lbl];
+			colors[i] = this.parent.colormap[lbl];
 			k++;
 		}
 	}
 	if (k >= 4) {
+		this.colors = colors;
 		this.changecolor = true;
 	}
 };

@@ -238,7 +238,11 @@ class QuestionRepository implements BaseRepositoryInterface
 
 			$option = Option::where('question_id', $q->id)
 								->where('label', $data->name)
-								->firstOrFail();
+								->first();
+			if ($option == null) {
+				var_dump($data);
+				throw new \Exception("Option not found");
+			}
 			$responses = [];
 			foreach ($question->values->categories as $idx => $category){
 					$responses[] = new Response([
