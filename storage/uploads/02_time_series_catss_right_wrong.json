@@ -7,11 +7,11 @@
             "type": "SimpleLine",
 			"option_group": "By Months",
             "values": {
-                "categories": [ "April 2013", "July 2013", "January 2014", "January 2015", "June 2015" ],
+                "categories": [ "April 2013", "July 2013", "January 2014", "January 2015", "June 2015", "October 2016" ],
                 "data": [
-					{ "name": "Right", 		"data": [ 14,37,29,53,58 ] },
-					{ "name": "Wrong", 		"data": [ 84,58,69,40,29 ] },
-					{ "name": "Don't Know", "data": [  1, 5, 2, 1, 5 ] }
+					{ "name": "Right", 		"data": [ 14, 37, 29, 53, 58, 70 ] },
+					{ "name": "Wrong", 		"data": [ 84, 58, 69, 40, 29, 19 ] },
+					{ "name": "Don't Know", "data": [  1,  5,  2,  1,  5,  3 ] }
                 ]
             }
         }, {

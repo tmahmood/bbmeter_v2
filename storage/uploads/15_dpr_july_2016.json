@@ -1,368 +1,325 @@
 {
     "data": [
         {
-            "date": "",
-            "filename": "has_the_relationship_between_al_and_bnp_improved,_declined,_or_stayed_the_same_over_the_past_year?",
-            "group": "Opinion Poll 2016/CATSS/DPR July",
-            "key": "Has the relationship between AL and BNP improved, declined, or stayed the same over the past year?",
-            "type": "DiscretBar",
+            "date": "", 
+            "filename": "has_the_relationship_between_al_and_bnp_improved,_declined,_or_stayed_the_same_over_the_past_year?", 
+            "group": "Opinion Poll 2016/July", 
+            "key": "Has the relationship between AL and BNP improved, declined, or stayed the same over the past year?", 
+            "type": "DiscretBar", 
             "values": [
                 {
-                    "label": "Improved",
+                    "label": "Improved", 
                     "value": 0.27
-                },
+                }, 
                 {
-                    "label": "Stayed the same",
+                    "label": "Stayed the same", 
                     "value": 0.32
-                },
+                }, 
                 {
-                    "label": "Declined",
+                    "label": "Declined", 
                     "value": 0.33
-                },
+                }, 
                 {
-                    "label": "Don't know / Not sure",
+                    "label": "Don't know / Not sure", 
                     "value": 0.08
                 }
             ]
-        },
+        }, 
         {
-            "date": "",
-            "filename": "has_the_relationship_between_al_and_bnp_improved,_declined,_or_stayed_the_same_over_the_past_year?",
-			"group": "Opinion Poll 2016/CATSS/DPR July",
-            "key": "Has the relationship between AL and BNP improved, declined, or stayed the same over the past year?",
-            "related_to": "has_the_relationship_between_al_and_bnp_improved,_declined,_or_stayed_the_same_over_the_past_year?",
-            "type": "GroupedMultiBar",
+            "date": "", 
+            "filename": "has_the_relationship_between_al_and_bnp_improved,_declined,_or_stayed_the_same_over_the_past_year?", 
+            "group": "Opinion Poll 2016/July", 
+            "key": "Has the relationship between AL and BNP improved, declined, or stayed the same over the past year?", 
+            "option_group": "By Gender", 
+            "related_to": "has_the_relationship_between_al_and_bnp_improved,_declined,_or_stayed_the_same_over_the_past_year?", 
+            "type": "GroupedMultiBar", 
             "values": {
                 "categories": [
-                    "Male",
+                    "Male", 
                     "Female"
-                ],
+                ], 
                 "data": [
                     {
                         "data": [
-                            32.8657314629,
+                            32.8657314629, 
                             21.2851405622
-                        ],
+                        ], 
                         "name": "Improved"
-                    },
+                    }, 
                     {
                         "data": [
-                            26.25250501,
+                            26.25250501, 
                             37.1485943775
-                        ],
+                        ], 
                         "name": "Stayed the same"
-                    },
+                    }, 
                     {
                         "data": [
-                            34.6693386774,
+                            34.6693386774, 
                             31.9277108434
-                        ],
+                        ], 
                         "name": "Declined"
-                    },
+                    }, 
                     {
                         "data": [
-                            6.2124248497,
+                            6.2124248497, 
                             9.6385542169
-                        ],
+                        ], 
                         "name": "Don't know / Not sure"
                     }
                 ]
             }
-        },
+        }, 
         {
-            "date": "",
-            "filename": "has_political/_election_violence_increased,_decreased_or_stayed_the_same_in_the_past_year_during_the_local_elections?",
-			"group": "Opinion Poll 2016/CATSS/DPR July",
-            "key": "Has political/ election violence increased, decreased or stayed the same in the past year during the local elections?",
-            "type": "GroupedMultiBar",
+            "date": "", 
+            "filename": "has_political/_election_violence_increased,_decreased_or_stayed_the_same_in_the_past_year_during_the_local_elections?", 
+            "group": "Opinion Poll 2016/July", 
+            "key": "Has political/ election violence increased, decreased or stayed the same in the past year during the local elections?", 
+            "option_group": "Violance", 
+            "type": "HStackedBar", 
             "values": {
                 "categories": [
-                    "Political violence",
+                    "Political violence", 
                     " Election violence"
-                ],
+                ], 
                 "data": [
                     {
                         "data": [
-                            42.0,
+                            42.0, 
                             38.0
-                        ],
+                        ], 
                         "name": "Increased"
-                    },
+                    }, 
                     {
                         "data": [
-                            26.0,
+                            26.0, 
                             28.0
-                        ],
+                        ], 
                         "name": "Stayed the same"
-                    },
+                    }, 
                     {
                         "data": [
-                            27.0,
+                            27.0, 
                             29.0
-                        ],
+                        ], 
                         "name": "Decreased"
-                    },
+                    }, 
                     {
                         "data": [
-                            5.0,
+                            5.0, 
                             4.0
-                        ],
+                        ], 
                         "name": "Don't know / Not sure"
                     }
                 ]
             }
-        },
+        }, 
         {
-            "date": "",
-            "filename": "do_you_strongly_agree,_agree,_oppose_or_strongly_oppose_with_the_following_statements?",
-			"group": "Opinion Poll 2016/CATSS/DPR July",
-            "key": "Do you strongly agree, agree, oppose or strongly oppose with the following statements?",
-            "related_to": "do_you_strongly_agree,_agree,_oppose_or_strongly_oppose_with_the_following_statements?",
-            "type": "GroupedMultiBar",
+            "date": "", 
+            "filename": "do_you_strongly_agree,_agree,_oppose_or_strongly_oppose_with_the_following_statements?", 
+            "group": "Opinion Poll 2016/July", 
+            "key": "Do you strongly agree, agree, oppose or strongly oppose with the following statements?", 
+            "option_group": " Opinion", 
+            "type": "HStackedBar", 
             "values": {
                 "categories": [
-                    " Having multiple parties actually makes Bangladesh stronger",
-                    " People from different parties in Bangladesh are one as Bengali brothers and sisters"
-                ],
+                    "Bangladeshis should not vote for parties that resort to violence", 
+                    "Having multiple parties actually makes Bangladesh stronger", 
+                    "People from different parties in Bangladesh are one as Bengali brothers and sisters"
+                ], 
                 "data": [
                     {
                         "data": [
-                            82.0,
-                            51.0
-                        ],
+                            82.0, 
+                            51.0, 
+                            30.0
+                        ], 
                         "name": "Strongly agree"
-                    },
+                    }, 
                     {
                         "data": [
-                            4.0,
-                            14.0
-                        ],
+                            4.0, 
+                            14.0, 
+                            17.0
+                        ], 
                         "name": "Somewhat agree"
-                    },
+                    }, 
                     {
                         "data": [
-                            4.0,
-                            8.0
-                        ],
+                            4.0, 
+                            8.0, 
+                            10.0
+                        ], 
                         "name": "Somewhat oppose"
-                    },
+                    }, 
                     {
                         "data": [
-                            9.0,
-                            21.0
-                        ],
+                            9.0, 
+                            21.0, 
+                            39.0
+                        ], 
                         "name": "Strongly oppose"
-                    },
+                    }, 
                     {
                         "data": [
-                            1.0,
-                            6.0
-                        ],
+                            1.0, 
+                            6.0, 
+                            4.0
+                        ], 
                         "name": "Don't know / Not sure"
                     }
                 ]
             }
-        },
+        }, 
         {
-            "date": "",
-            "filename": "what_types_of_violence_most_affects_you_as_an_individual?",
-			"group": "Opinion Poll 2016/CATSS/DPR July",
-            "key": "What types of violence most affects you as an individual?",
-            "related_to": "what_types_of_violence_most_affects_you_as_an_individual?",
-            "type": "DiscretBar",
+            "date": "", 
+            "filename": "how_likely_do_you_think_it_is_that_begum_khaleda_zia_and_prime_minister_sheikh_hasina_would_be_willing_to_engage_in_a_dialogue_over_tea_together?", 
+            "group": "Opinion Poll 2016/July", 
+            "key": "How likely do you think it is that Begum Khaleda Zia and Prime minister Sheikh Hasina would be willing to engage in a dialogue over tea together?", 
+            "type": "DiscretBar", 
             "values": [
                 {
-                    "label": "Political conflict",
-                    "value": 53.0
-                },
-                {
-                    "label": "Terrorism",
-                    "value": 31.0
-                },
-                {
-                    "label": "Crime",
-                    "value": 9.0
-                },
-                {
-                    "label": "Refused",
-                    "value": 7.0
-                }
-            ]
-        },
-        {
-            "date": "",
-            "filename": "how_likely_do_you_think_it_is_that_begum_khaleda_zia_and_prime_minister_sheikh_hasina_would_be_willing_to_engage_in_a_dialogue_over_tea_together?",
-            "group": "",
-			"group": "Opinion Poll 2016/CATSS/DPR July",
-            "key": "How likely do you think it is that Begum Khaleda Zia and Prime minister Sheikh Hasina would be willing to engage in a dialogue over tea together?",
-            "related_to": "how_likely_do_you_think_it_is_that_begum_khaleda_zia_and_prime_minister_sheikh_hasina_would_be_willing_to_engage_in_a_dialogue_over_tea_together?",
-            "type": "DiscretBar",
-            "values": [
-                {
-                    "label": "Very likely",
+                    "label": "Very likely", 
                     "value": 3.0
-                },
+                }, 
                 {
-                    "label": "Likely",
+                    "label": "Likely", 
                     "value": 12.0
-                },
+                }, 
                 {
-                    "label": "Somewhat likely",
+                    "label": "Somewhat likely", 
                     "value": 22.0
-                },
+                }, 
                 {
-                    "label": "Not likely at all",
+                    "label": "Not likely at all", 
                     "value": 49.0
-                },
+                }, 
                 {
-                    "label": "Don't know/Not sure",
+                    "label": "Don't know/Not sure", 
                     "value": 14.0
                 }
             ]
-        },
+        }, 
         {
-            "date": "",
-            "filename": "how_would_your_opinion_of_the_political_system_change_if_this_happened?",
-            "group": "",
-			"group": "Opinion Poll 2016/CATSS/DPR July",
-            "key": "How would your opinion of the political system change if this happened?",
-            "related_to": "how_would_your_opinion_of_the_political_system_change_if_this_happened?",
-            "type": "DiscretBar",
+            "date": "", 
+            "filename": "how_would_your_opinion_of_the_political_system_change_if_this_happened?", 
+            "group": "Opinion Poll 2016/July", 
+            "key": "How would your opinion of the political system change if this happened?", 
+            "type": "DiscretBar", 
             "values": [
                 {
-                    "label": "I would have more faith in the political system",
+                    "label": "I would have more faith in the political system", 
                     "value": 58.0
-                },
+                }, 
                 {
-                    "label": "I would be indifferent if this happened",
+                    "label": "I would be indifferent if this happened", 
                     "value": 25.0
-                },
+                }, 
                 {
-                    "label": "It would make me lose faith in the political system",
+                    "label": "It would make me lose faith in the political system", 
                     "value": 6.0
-                },
+                }, 
                 {
-                    "label": "Don't know / Not sure",
+                    "label": "Don't know / Not sure", 
                     "value": 11.0
                 }
             ]
-        },
+        }, 
         {
-            "date": "",
-            "filename": "demographics_-_area",
-			"group": "Opinion Poll 2016/CATSS/DPR July",
-            "key": "Demographics - Area",
-            "related_to": "demographics_-_area",
-            "type": "Pie",
+            "date": "", 
+            "filename": "by_area", 
+            "group": "Opinion Poll 2016/July", 
+            "key": "By Area", 
+            "type": "Pie", 
             "values": [
                 {
-                    "label": "Male",
-                    "value": 50.0
-                },
-                {
-                    "label": "Female",
-                    "value": 50.0
-                }
-            ]
-        },
-        {
-            "date": "",
-            "filename": "demographics_-_gender",
-			"group": "Opinion Poll 2016/CATSS/DPR July",
-            "key": "Demographics - Gender",
-            "related_to": "demographics_-_gender",
-            "type": "Pie",
-            "values": [
-                {
-                    "label": "Urban",
+                    "label": "Urban", 
                     "value": 23.0
-                },
+                }, 
                 {
-                    "label": "Rural",
+                    "label": "Rural", 
                     "value": 77.0
                 }
             ]
-        },
+        }, 
         {
-            "date": "",
-            "filename": "demographics_-_division",
-			"group": "Opinion Poll 2016/CATSS/DPR July",
-            "key": "Demographics - Division",
-            "related_to": "demographics_-_division",
-            "type": "DiscretBar",
+            "date": "", 
+            "filename": "by_division", 
+            "group": "Opinion Poll 2016/July", 
+            "key": "By Division", 
+            "type": "DiscretBar", 
             "values": [
                 {
-                    "label": "Barisal",
+                    "label": "Barisal", 
                     "value": 6.0
-                },
+                }, 
                 {
-                    "label": "Chittagong",
+                    "label": "Chittagong", 
                     "value": 19.0
-                },
+                }, 
                 {
-                    "label": "Dhaka",
+                    "label": "Dhaka", 
                     "value": 33.0
-                },
+                }, 
                 {
-                    "label": "Khulna",
+                    "label": "Khulna", 
                     "value": 11.0
-                },
+                }, 
                 {
-                    "label": "Rajshahi",
+                    "label": "Rajshahi", 
                     "value": 13.0
-                },
+                }, 
                 {
-                    "label": "Rangpur",
+                    "label": "Rangpur", 
                     "value": 11.0
-                },
+                }, 
                 {
-                    "label": "Sylhet",
+                    "label": "Sylhet", 
                     "value": 8.0
                 }
             ]
-        },
+        }, 
         {
-            "date": "",
-            "filename": "demographics_-_age",
-			"group": "Opinion Poll 2016/CATSS/DPR July",
-            "key": "Demographics - Age",
-            "related_to": "demographics_-_age",
-            "type": "DiscretBar",
+            "date": "", 
+            "filename": "by_age", 
+            "group": "Opinion Poll 2016/July", 
+            "key": "By Age", 
+            "type": "DiscretBar", 
             "values": [
                 {
-                    "label": "18-25 years",
+                    "label": "18-25 years", 
                     "value": 36.0
-                },
+                }, 
                 {
-                    "label": "26-35 years",
+                    "label": "26-35 years", 
                     "value": 35.0
-                },
+                }, 
                 {
-                    "label": "36-45 years",
+                    "label": "36-45 years", 
                     "value": 15.0
-                },
+                }, 
                 {
-                    "label": "46-55 years",
+                    "label": "46-55 years", 
                     "value": 6.0
-                },
+                }, 
                 {
-                    "label": "56-65 years",
+                    "label": "56-65 years", 
                     "value": 4.0
-                },
+                }, 
                 {
-                    "label": "66 years and above",
+                    "label": "66 years and above", 
                     "value": 5.0
                 }
             ]
         }
-    ],
+    ], 
     "meta": {
-        "date": "July 2016",
-        "info": "DPR Survey July-Aug, 2016",
-        "moe": "3.1",
-        "participants": "1200",
-        "scope": "DPR Survey conducted at July 2016",
-        "survey_type": "CATSS",
+        "date": "July 2016", 
+        "info": "DPR Survey July-Aug, 2016", 
+        "moe": "3.1", 
+        "participants": "1200", 
+        "scope": "DPR Survey conducted at July 2016", 
+        "survey_type": "CATSS", 
         "write_path": " dpr_jul_2016"
     }
 }
